@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
 
 const footerLinks = {
@@ -28,12 +29,13 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block">
-              <span className="text-xl font-extrabold tracking-tight text-white">
-                ONLY
-              </span>
-              <span className="text-xl font-medium tracking-tight text-slate-400">
-                PLUMBINGSITES
-              </span>
+              <Image
+                src="/logo.jpeg"
+                alt="Only Plumbing Sites"
+                width={160}
+                height={42}
+                className="h-9 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
               Plumbing websites built by a licensed plumber. 250+ sites built for

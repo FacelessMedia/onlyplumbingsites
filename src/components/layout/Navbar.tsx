@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -20,18 +21,15 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex items-center">
-            <span className="text-xl font-extrabold tracking-tight text-navy">
-              ONLY
-            </span>
-            <span className="text-xl font-medium tracking-tight text-slate-500">
-              PLUMBING
-            </span>
-            <span className="text-xl font-medium tracking-tight text-slate-500">
-              SITES
-            </span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.jpeg"
+            alt="Only Plumbing Sites"
+            width={180}
+            height={48}
+            className="h-10 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

@@ -1,0 +1,1280 @@
+{
+  "domain": "rankmetop.net",
+  "label": "RankMeTop",
+  "total_keywords": 141,
+  "top3": 3,
+  "top10": 17,
+  "top20": 38,
+  "estimated_traffic": 177,
+  "keywords": [
+    {
+      "keyword": "baker brothers plumbing & air",
+      "search_volume": 3600,
+      "cpc": 9.850000381469727,
+      "competition": 0.6299999952316284,
+      "position": 24,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 7.559999942779541
+    },
+    {
+      "keyword": "jacksonville fl plumbers",
+      "search_volume": 3600,
+      "cpc": 37.279998779296875,
+      "competition": 0.5299999713897705,
+      "position": 27,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 7.559999942779541
+    },
+    {
+      "keyword": "jacksonville florida plumbers",
+      "search_volume": 3600,
+      "cpc": 37.279998779296875,
+      "competition": 0.5299999713897705,
+      "position": 42,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 7.559999942779541
+    },
+    {
+      "keyword": "dallas tx plumber",
+      "search_volume": 2400,
+      "cpc": 19.56999969482422,
+      "competition": 0.3799999952316284,
+      "position": 11,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 21.84000015258789
+    },
+    {
+      "keyword": "perfect plumbers",
+      "search_volume": 1600,
+      "cpc": 21.549999237060547,
+      "competition": 0.44999998807907104,
+      "position": 20,
+      "url": "/best-companies/plumber-hialeah/",
+      "etv": 3.8399999141693115
+    },
+    {
+      "keyword": "hvac marketing agencies",
+      "search_volume": 1000,
+      "cpc": 117.61000061035156,
+      "competition": 0.05000000074505806,
+      "position": 89,
+      "url": "/hvac/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "seo for plumbing",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 59,
+      "url": "/blog/seo-for-plumbers/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "seo plumbing",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 99,
+      "url": "/services/local-seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "best plumbers dallas",
+      "search_volume": 720,
+      "cpc": 20.709999084472656,
+      "competition": 0.9399999976158142,
+      "position": 19,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 1.944000005722046
+    },
+    {
+      "keyword": "plumbing company seo",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 89,
+      "url": "/services/seo/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "seo company for plumbers",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 13,
+      "url": "/services/seo/",
+      "etv": 4.248000144958496
+    },
+    {
+      "keyword": "plumbing hvac seo",
+      "search_volume": 590,
+      "cpc": 25.979999542236328,
+      "competition": 0.11999999731779099,
+      "position": 96,
+      "url": "/comparison/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "internet marketing plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 44,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "thumbtack home services",
+      "search_volume": 480,
+      "cpc": 8.09000015258789,
+      "competition": 0.05000000074505806,
+      "position": 11,
+      "url": "/news/thumbtack-partners-with-openai-to-bring-home-services-in-chatgpt/",
+      "etv": 4.368000030517578
+    },
+    {
+      "keyword": "cost of website advertising",
+      "search_volume": 390,
+      "cpc": 28.860000610351562,
+      "competition": 0.30000001192092896,
+      "position": 58,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "digital marketing agency costs",
+      "search_volume": 390,
+      "cpc": 7.309999942779541,
+      "competition": 0.07000000029802322,
+      "position": 20,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.9359999895095825
+    },
+    {
+      "keyword": "digital marketing for plumber",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 98,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "digital marketing for plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 69,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "online advertising cost",
+      "search_volume": 390,
+      "cpc": 28.860000610351562,
+      "competition": 0.30000001192092896,
+      "position": 36,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumber seo companies",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 13,
+      "url": "/services/seo/",
+      "etv": 2.3010001182556152
+    },
+    {
+      "keyword": "plumbing hialeah",
+      "search_volume": 390,
+      "cpc": 29.65999984741211,
+      "competition": 0.3199999928474426,
+      "position": 12,
+      "url": "/best-companies/plumber-hialeah/",
+      "etv": 2.924999952316284
+    },
+    {
+      "keyword": "plumbing seo company",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 14,
+      "url": "/services/seo/",
+      "etv": 2.184000015258789
+    },
+    {
+      "keyword": "plumbing service jacksonville fl",
+      "search_volume": 390,
+      "cpc": 16.770000457763672,
+      "competition": 0.2800000011920929,
+      "position": 55,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "price of online advertising",
+      "search_volume": 390,
+      "cpc": 28.860000610351562,
+      "competition": 0.30000001192092896,
+      "position": 57,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumbers in fernandina beach fl",
+      "search_volume": 320,
+      "cpc": 15.75,
+      "competition": 0.9900000095367432,
+      "position": 62,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "plumbers leads",
+      "search_volume": 320,
+      "cpc": 17.780000686645508,
+      "competition": 0.23999999463558197,
+      "position": 36,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "hvac digital marketing agency",
+      "search_volume": 210,
+      "cpc": 137.3699951171875,
+      "competition": 0.44999998807907104,
+      "position": 69,
+      "url": "/hvac/",
+      "etv": 0.41453999280929565
+    },
+    {
+      "keyword": "plumber digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 82,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumber seo agency",
+      "search_volume": 210,
+      "cpc": 36.619998931884766,
+      "competition": 0.05000000074505806,
+      "position": 84,
+      "url": "/services/seo/",
+      "etv": 0.41453999280929565
+    },
+    {
+      "keyword": "rank on top",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 5,
+      "url": "/",
+      "etv": 9.848999977111816
+    },
+    {
+      "keyword": "seo services for plumber",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 85,
+      "url": "/services/seo/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "seo services for plumbers",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 65,
+      "url": "/services/seo/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "best dallas plumbers",
+      "search_volume": 170,
+      "cpc": 28.40999984741211,
+      "competition": 0.7900000214576721,
+      "position": 16,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.7310000061988831
+    },
+    {
+      "keyword": "digital marketing cost",
+      "search_volume": 170,
+      "cpc": 11.850000381469727,
+      "competition": 0.4000000059604645,
+      "position": 2,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 27.540000915527344
+    },
+    {
+      "keyword": "digital marketing costs",
+      "search_volume": 170,
+      "cpc": 11.850000381469727,
+      "competition": 0.4000000059604645,
+      "position": 7,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 4.3520002365112305
+    },
+    {
+      "keyword": "email marketing agency prices",
+      "search_volume": 170,
+      "cpc": 24.559999465942383,
+      "competition": 0.15000000596046448,
+      "position": 92,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "marketing ideas for plumbers",
+      "search_volume": 170,
+      "cpc": 86.0999984741211,
+      "competition": 0.09000000357627869,
+      "position": 76,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber ppc agency",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 21,
+      "url": "/services/ppc/",
+      "etv": 0.39100000262260437
+    },
+    {
+      "keyword": "best seo for plumbers",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 67,
+      "url": "/blog/seo-for-plumbers/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "hvac digital marketing company",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 90,
+      "url": "/hvac/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "hvac digital marketing services",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 99,
+      "url": "/hvac/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "keywords for plumbing",
+      "search_volume": 140,
+      "cpc": 11.989999771118164,
+      "competition": 0.23999999463558197,
+      "position": 10,
+      "url": "/blog/plumbing-seo-keywords/",
+      "etv": 1.5820000171661377
+    },
+    {
+      "keyword": "plumber local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 21,
+      "url": "/services/local-seo/",
+      "etv": 0.32199999690055847
+    },
+    {
+      "keyword": "plumbers addison tx",
+      "search_volume": 140,
+      "cpc": 33.91999816894531,
+      "competition": 0.28999999165534973,
+      "position": 80,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumbing local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 18,
+      "url": "/services/local-seo/",
+      "etv": 0.4620000123977661
+    },
+    {
+      "keyword": "ppc for plumbers",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 17,
+      "url": "/services/ppc/",
+      "etv": 0.6019999980926514
+    },
+    {
+      "keyword": "rank me",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 18,
+      "url": "/",
+      "etv": 0.4620000123977661
+    },
+    {
+      "keyword": "rankme",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 30,
+      "url": "/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "advertising for plumbing business",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 64,
+      "url": "/plumbing-marketing-tips/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "how much does it cost to advertise online",
+      "search_volume": 110,
+      "cpc": 32.66999816894531,
+      "competition": 0.1899999976158142,
+      "position": 14,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.6159999966621399
+    },
+    {
+      "keyword": "how much does online advertising cost",
+      "search_volume": 110,
+      "cpc": 32.66999816894531,
+      "competition": 0.1899999976158142,
+      "position": 33,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "how to get more plumbing leads",
+      "search_volume": 110,
+      "cpc": 56.43000030517578,
+      "competition": 0.09000000357627869,
+      "position": 43,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local plumber seo agency",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 12,
+      "url": "/services/local-seo/",
+      "etv": 0.824999988079071
+    },
+    {
+      "keyword": "online marketing for plumbers",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 73,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumber ppc company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 9,
+      "url": "/services/ppc/",
+      "etv": 1.649999976158142
+    },
+    {
+      "keyword": "plumbing contractor marketing",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 65,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "ranked.ai review",
+      "search_volume": 110,
+      "cpc": 16.709999084472656,
+      "competition": 0.5099999904632568,
+      "position": 75,
+      "url": "/case-studies/ranked-in-google-ai-overview-within-6-hours/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "snyder plumbing vero beach fl",
+      "search_volume": 110,
+      "cpc": 29.399999618530273,
+      "competition": 0.6800000071525574,
+      "position": 36,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "best seo for hvac companies",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 45,
+      "url": "/hvac/seo/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "how much does digital marketing cost",
+      "search_volume": 90,
+      "cpc": 3.069999933242798,
+      "competition": 0.3400000035762787,
+      "position": 43,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "how to grow a plumbing business",
+      "search_volume": 90,
+      "cpc": 8.880000114440918,
+      "competition": 0.44999998807907104,
+      "position": 52,
+      "url": "/blog/grow-plumbing-business/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "justin the plumber reviews",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 42,
+      "url": "/best-companies/plumber-jacksonville/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "legacy plumbing plano tx",
+      "search_volume": 90,
+      "cpc": 24.389999389648438,
+      "competition": 0.7400000095367432,
+      "position": 21,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.2070000022649765
+    },
+    {
+      "keyword": "plumbing keywords list",
+      "search_volume": 90,
+      "cpc": 2.0399999618530273,
+      "competition": 0.14000000059604645,
+      "position": 7,
+      "url": "/blog/plumbing-seo-keywords/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "top plumbing keywords",
+      "search_volume": 90,
+      "cpc": 6.199999809265137,
+      "competition": 0.20999999344348907,
+      "position": 9,
+      "url": "/blog/plumbing-seo-keywords/",
+      "etv": 1.350000023841858
+    },
+    {
+      "keyword": "baker brothers plumbing review",
+      "search_volume": 70,
+      "cpc": 5.510000228881836,
+      "competition": 0.3199999928474426,
+      "position": 18,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "cost of online marketing",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 71,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "digital marketing agency for hvac contractors",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 78,
+      "url": "/hvac/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "digital marketing services prices",
+      "search_volume": 70,
+      "cpc": 15.619999885559082,
+      "competition": 0.30000001192092896,
+      "position": 17,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.3009999990463257
+    },
+    {
+      "keyword": "how to generate plumbing leads",
+      "search_volume": 70,
+      "cpc": 48.91999816894531,
+      "competition": 0.8500000238418579,
+      "position": 69,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "internet marketing cost",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 66,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "internet marketing costs",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 5,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "lead generation for plumbers",
+      "search_volume": 70,
+      "cpc": 76.94999694824219,
+      "competition": 0.36000001430511475,
+      "position": 18,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "online marketing cost",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 56,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "online marketing costs",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 6,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "plumbing leads free",
+      "search_volume": 70,
+      "cpc": 50.709999084472656,
+      "competition": 0.7699999809265137,
+      "position": 3,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "plumbing ppc services",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 10,
+      "url": "/services/ppc/",
+      "etv": 0.7910000085830688
+    },
+    {
+      "keyword": "plumbing seo keywords",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 10,
+      "url": "/blog/plumbing-seo-keywords/",
+      "etv": 0.7910000085830688
+    },
+    {
+      "keyword": "plumbing service leads",
+      "search_volume": 70,
+      "cpc": 78.52999877929688,
+      "competition": 0.5099999904632568,
+      "position": 35,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "riddell plumbing reviews",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 43,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "website marketing cost",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 12,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.5249999761581421
+    },
+    {
+      "keyword": "website marketing costs",
+      "search_volume": 70,
+      "cpc": 13,
+      "competition": 0.4099999964237213,
+      "position": 4,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 4.61299991607666
+    },
+    {
+      "keyword": "bee prestigious plumbing",
+      "search_volume": 50,
+      "cpc": 73.81999969482422,
+      "competition": 0.4399999976158142,
+      "position": 31,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "dallas plumbers reviews",
+      "search_volume": 50,
+      "cpc": 2.049999952316284,
+      "competition": 0.9800000190734863,
+      "position": 27,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "dallas plumbing reviews",
+      "search_volume": 50,
+      "cpc": 2.049999952316284,
+      "competition": 0.9800000190734863,
+      "position": 32,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital ad prices",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 42,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital ad pricing",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 31,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital advertising price",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 26,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital advertising prices",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 37,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital advertising pricing",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 26,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital advertising rates",
+      "search_volume": 50,
+      "cpc": 15.829999923706055,
+      "competition": 0.4300000071525574,
+      "position": 90,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital marketing agency for hvac companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 68,
+      "url": "/hvac/",
+      "etv": 0.09870000183582306
+    },
+    {
+      "keyword": "hvac google ads",
+      "search_volume": 50,
+      "cpc": 40.7599983215332,
+      "competition": 0.23999999463558197,
+      "position": 70,
+      "url": "/hvac/google-ads/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local seo for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/services/local-seo/",
+      "etv": 1.2799999713897705
+    },
+    {
+      "keyword": "online advertising pricing",
+      "search_volume": 50,
+      "cpc": 82.56999969482422,
+      "competition": 0.5699999928474426,
+      "position": 21,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.11500000208616257
+    },
+    {
+      "keyword": "plumber marketing leads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 38,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber near dallas",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.8600000143051147,
+      "position": 64,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing leads for small business",
+      "search_volume": 50,
+      "cpc": 76.76000213623047,
+      "competition": 0.949999988079071,
+      "position": 50,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "premier plumbing and rooter reviews",
+      "search_volume": 50,
+      "cpc": 7.03000020980835,
+      "competition": 0.33000001311302185,
+      "position": 33,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "speakes plumbing reviews",
+      "search_volume": 50,
+      "cpc": 9.579999923706055,
+      "competition": 0.20999999344348907,
+      "position": 46,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "angie's list plumbers dallas",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 47,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "average cost of marketing",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 30,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "average cost of website advertising",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.3100000023841858,
+      "position": 23,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "average marketing costs",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 49,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "average online advertising costs",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.3100000023841858,
+      "position": 76,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "baker brothers llc",
+      "search_volume": 40,
+      "cpc": 5.300000190734863,
+      "competition": 0.28999999165534973,
+      "position": 47,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "benefits of hiring a digital marketing agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 30,
+      "url": "/blog/benefits-of-hiring-digital-marketing-agency/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "content marketing costs",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 60,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "cost of content marketing",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 92,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "digital marketing agency fees",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 62,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "digital marketing services cost",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 78,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "google guaranteed hvac near me",
+      "search_volume": 40,
+      "cpc": 11.119999885559082,
+      "competition": 0.4399999976158142,
+      "position": 15,
+      "url": "/hvac/google-ads/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "marketing company cost",
+      "search_volume": 40,
+      "cpc": 16.25,
+      "competition": 0.41999998688697815,
+      "position": 63,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "marketing my plumbing business",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 82,
+      "url": "/blog/plumber-marketing-tips/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing lead generation services",
+      "search_volume": 40,
+      "cpc": 50.959999084472656,
+      "competition": 0.6600000262260437,
+      "position": 24,
+      "url": "/blog/get-plumbing-leads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "pricing for marketing services",
+      "search_volume": 40,
+      "cpc": 6.639999866485596,
+      "competition": 0.4300000071525574,
+      "position": 86,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "rank me seo",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 3,
+      "url": "/",
+      "etv": 3.8919999599456787
+    },
+    {
+      "keyword": "trophy club plumber",
+      "search_volume": 40,
+      "cpc": 42.83000183105469,
+      "competition": 0.6200000047683716,
+      "position": 45,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "wilson mclain plumbing reviews",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 21,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.09200000017881393
+    },
+    {
+      "keyword": "average cost for digital marketing",
+      "search_volume": 30,
+      "cpc": 6.510000228881836,
+      "competition": 0.28999999165534973,
+      "position": 78,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "average cost of digital marketing",
+      "search_volume": 30,
+      "cpc": 6.510000228881836,
+      "competition": 0.28999999165534973,
+      "position": 83,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "best hvac marketing companies",
+      "search_volume": 30,
+      "cpc": 57.41999816894531,
+      "competition": 0.5,
+      "position": 96,
+      "url": "/hvac/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "digital marketing cost for small business",
+      "search_volume": 30,
+      "cpc": 13.90999984741211,
+      "competition": 0.7099999785423279,
+      "position": 4,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "how much does content marketing cost",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 58,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much does digital advertising cost",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.38999998569488525,
+      "position": 23,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much does it cost to hire a digital marketer",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 93,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much for online advertising",
+      "search_volume": 30,
+      "cpc": 24.440000534057617,
+      "competition": 0.44999998807907104,
+      "position": 62,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much is online advertising",
+      "search_volume": 30,
+      "cpc": 24.440000534057617,
+      "competition": 0.44999998807907104,
+      "position": 59,
+      "url": "/blog/digital-marketing-cost/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to grow a plumbing company",
+      "search_volume": 30,
+      "cpc": 22.860000610351562,
+      "competition": 0.6200000047683716,
+      "position": 53,
+      "url": "/blog/grow-plumbing-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "local plumbers dallas",
+      "search_volume": 30,
+      "cpc": 68.2699966430664,
+      "competition": 0.5600000023841858,
+      "position": 52,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "local seo services for hvac companies",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 17,
+      "url": "/hvac/local-seo/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "mai plumbing reviews",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.23000000417232513,
+      "position": 21,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.0689999982714653
+    },
+    {
+      "keyword": "mr rooter plumbing of dallas reviews",
+      "search_volume": 30,
+      "cpc": 48.529998779296875,
+      "competition": 0.1599999964237213,
+      "position": 42,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing companies in dfw",
+      "search_volume": 30,
+      "cpc": 4.75,
+      "competition": 1,
+      "position": 47,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "roto rooter plano",
+      "search_volume": 30,
+      "cpc": 31.6299991607666,
+      "competition": 0.8500000238418579,
+      "position": 31,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "seo audit checklist pdf",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 59,
+      "url": "/checklist/seo-audit/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "texas green plumbing reviews",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 9,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.44999998807907104
+    },
+    {
+      "keyword": "top tier plumbing and rooter",
+      "search_volume": 30,
+      "cpc": 30.969999313354492,
+      "competition": 0.4399999976158142,
+      "position": 46,
+      "url": "/best-companies/plumber-dallas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "digital marketing cost per month",
+      "search_volume": 20,
+      "cpc": 19.889999389648438,
+      "competition": 0.6600000262260437,
+      "position": 47,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "grow my plumbing business",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 1,
+      "position": 43,
+      "url": "/blog/grow-plumbing-business/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "how much is digital marketing",
+      "search_volume": 20,
+      "cpc": 11.180000305175781,
+      "competition": 0.6700000166893005,
+      "position": 62,
+      "url": "/digital-marketing-cost/",
+      "etv": 0.041999999433755875
+    }
+  ]
+}

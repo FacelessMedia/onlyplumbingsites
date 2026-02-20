@@ -1,8 +1,10 @@
 {
   "domain": "plumberseo.net",
+  "label": "PlumberSEO",
   "total_keywords": 866,
-  "top10_keywords": 149,
-  "top3_keywords": 55,
+  "top3": 55,
+  "top10": 149,
+  "top20": 357,
   "estimated_traffic": 5874,
   "keywords": [
     {

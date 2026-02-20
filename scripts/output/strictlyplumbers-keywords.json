@@ -1,8 +1,10 @@
 {
   "domain": "strictlyplumbers.com",
+  "label": "StrictlyPlumbers",
   "total_keywords": 227,
-  "top10_keywords": 57,
-  "top3_keywords": 21,
+  "top3": 21,
+  "top10": 57,
+  "top20": 99,
   "estimated_traffic": 1036,
   "keywords": [
     {

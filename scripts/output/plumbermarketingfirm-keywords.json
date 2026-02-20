@@ -1,0 +1,866 @@
+{
+  "domain": "plumbermarketingfirm.com",
+  "label": "PlumberMarketingFirm",
+  "total_keywords": 95,
+  "top3": 13,
+  "top10": 22,
+  "top20": 34,
+  "estimated_traffic": 706,
+  "keywords": [
+    {
+      "keyword": "plumber seo",
+      "search_volume": 1000,
+      "cpc": 54.220001220703125,
+      "competition": 0.18000000715255737,
+      "position": 43,
+      "url": "/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbing marketing agency",
+      "search_volume": 1000,
+      "cpc": 77.44999694824219,
+      "competition": 0.05999999865889549,
+      "position": 3,
+      "url": "/",
+      "etv": 97.30000305175781
+    },
+    {
+      "keyword": "plumbing seo",
+      "search_volume": 1000,
+      "cpc": 54.220001220703125,
+      "competition": 0.18000000715255737,
+      "position": 69,
+      "url": "/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "seo plumber",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 38,
+      "url": "/seo-for-plumbers/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "local seo for plumbing",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 59,
+      "url": "/seo-for-plumbers/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumber marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 3,
+      "url": "/",
+      "etv": 85.6240005493164
+    },
+    {
+      "keyword": "plumbers marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 6,
+      "url": "/",
+      "etv": 29.743999481201172
+    },
+    {
+      "keyword": "plumber advertisement",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 40,
+      "url": "/plumbing-advertising/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "plumber advertising",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 11,
+      "url": "/",
+      "etv": 6.552000045776367
+    },
+    {
+      "keyword": "seo company for plumbers",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 36,
+      "url": "/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "plumbing lead generation",
+      "search_volume": 590,
+      "cpc": 48.16999816894531,
+      "competition": 0.6100000143051147,
+      "position": 31,
+      "url": "/plumber-lead-generation/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "plumbing leads",
+      "search_volume": 590,
+      "cpc": 48.16999816894531,
+      "competition": 0.6100000143051147,
+      "position": 85,
+      "url": "/plumber-lead-generation/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "internet marketing for plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 90,
+      "url": "/",
+      "etv": 0.9475200176239014
+    },
+    {
+      "keyword": "internet marketing for plumbing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 72,
+      "url": "/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "internet marketing plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 24,
+      "url": "/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumber internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 12,
+      "url": "/",
+      "etv": 3.5999999046325684
+    },
+    {
+      "keyword": "plumbing internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 62,
+      "url": "/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "digital marketing for plumber",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 42,
+      "url": "/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "digital marketing for plumbers",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 77,
+      "url": "/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "digital marketing for plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 35,
+      "url": "/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumber seo companies",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 19,
+      "url": "/",
+      "etv": 1.0529999732971191
+    },
+    {
+      "keyword": "plumber seo company",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 37,
+      "url": "/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumbing seo companies",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 61,
+      "url": "/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "leads plumber",
+      "search_volume": 320,
+      "cpc": 3.6100001335144043,
+      "competition": 0.10000000149011612,
+      "position": 36,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "marketing a plumbing business",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 31,
+      "url": "/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "marketing companies for plumbers",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 1,
+      "url": "/",
+      "etv": 73.93280029296875
+    },
+    {
+      "keyword": "marketing for plumbing companies",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 8,
+      "url": "/",
+      "etv": 6.303999900817871
+    },
+    {
+      "keyword": "plumber lead",
+      "search_volume": 320,
+      "cpc": 17.780000686645508,
+      "competition": 0.23999999463558197,
+      "position": 10,
+      "url": "/plumber-lead-generation/",
+      "etv": 3.615999937057495
+    },
+    {
+      "keyword": "plumber marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "plumbers leads",
+      "search_volume": 320,
+      "cpc": 17.780000686645508,
+      "competition": 0.23999999463558197,
+      "position": 47,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "plumbing business marketing",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 25,
+      "url": "/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "plumbing marketing companies",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 9,
+      "url": "/",
+      "etv": 4.800000190734863
+    },
+    {
+      "keyword": "plumbing marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 3,
+      "url": "/",
+      "etv": 31.13599967956543
+    },
+    {
+      "keyword": "google ads for plumber",
+      "search_volume": 260,
+      "cpc": 53.61000061035156,
+      "competition": 0.019999999552965164,
+      "position": 97,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "marketing for plumbers",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 30,
+      "url": "/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "marketing plumbing",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 16,
+      "url": "/",
+      "etv": 1.1180000305175781
+    },
+    {
+      "keyword": "plumber marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 1,
+      "url": "/",
+      "etv": 60.07040023803711
+    },
+    {
+      "keyword": "plumbers market",
+      "search_volume": 260,
+      "cpc": 2.7799999713897705,
+      "competition": 0.07999999821186066,
+      "position": 23,
+      "url": "/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbing marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 3,
+      "url": "/",
+      "etv": 25.29800033569336
+    },
+    {
+      "keyword": "plumber digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 46,
+      "url": "/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumbing digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 71,
+      "url": "/",
+      "etv": 0.41453999280929565
+    },
+    {
+      "keyword": "hydro jetting san antonio",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 6,
+      "url": "/san-antonio-plumbing-company-provides-expert-hydro-jetting-and-pipe-repairs-services-homeowners/",
+      "etv": 5.745999813079834
+    },
+    {
+      "keyword": "marketing agency for plumbers",
+      "search_volume": 170,
+      "cpc": 64.1500015258789,
+      "competition": 0.029999999329447746,
+      "position": 6,
+      "url": "/",
+      "etv": 5.745999813079834
+    },
+    {
+      "keyword": "plumber digital marketing agency",
+      "search_volume": 170,
+      "cpc": 32.54999923706055,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/",
+      "etv": 27.540000915527344
+    },
+    {
+      "keyword": "plumbing digital marketing agency",
+      "search_volume": 170,
+      "cpc": 32.54999923706055,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/",
+      "etv": 27.540000915527344
+    },
+    {
+      "keyword": "plumber keywords",
+      "search_volume": 140,
+      "cpc": 11.989999771118164,
+      "competition": 0.23999999463558197,
+      "position": 39,
+      "url": "/keyword-ranking/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumber marketing usa",
+      "search_volume": 140,
+      "cpc": 55.45000076293945,
+      "competition": 0.2800000011920929,
+      "position": 29,
+      "url": "/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "ppc for plumber",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 43,
+      "url": "/plumbing-advertising/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "ppc for plumbers",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 35,
+      "url": "/plumbing-advertising/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "local plumber seo agency",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 44,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "online marketing for plumbers",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 22,
+      "url": "/",
+      "etv": 0.24199999868869781
+    },
+    {
+      "keyword": "plumber digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/",
+      "etv": 17.81999969482422
+    },
+    {
+      "keyword": "plumber ppc company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 17,
+      "url": "/plumbing-advertising/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "plumbing contractor marketing",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 5,
+      "url": "/",
+      "etv": 5.158999919891357
+    },
+    {
+      "keyword": "plumbing digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/",
+      "etv": 33.439998626708984
+    },
+    {
+      "keyword": "plumbing webmasters",
+      "search_volume": 110,
+      "cpc": 45.52000045776367,
+      "competition": 0.2199999988079071,
+      "position": 58,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "best way to advertise plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 45,
+      "url": "/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "digital marketing services for plumbers",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 3,
+      "url": "/",
+      "etv": 8.756999969482422
+    },
+    {
+      "keyword": "plumber map",
+      "search_volume": 90,
+      "cpc": 6.260000228881836,
+      "competition": 0.1899999976158142,
+      "position": 45,
+      "url": "/seo-google-map/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumbing ppc marketing",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 18,
+      "url": "/plumbing-advertising/",
+      "etv": 0.296999990940094
+    },
+    {
+      "keyword": "agencies for plumbers",
+      "search_volume": 70,
+      "cpc": 16.1200008392334,
+      "competition": 0.8399999737739563,
+      "position": 29,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "content marketing for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 36,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how to market a plumbing business",
+      "search_volume": 70,
+      "cpc": 81.9000015258789,
+      "competition": 0.07000000029802322,
+      "position": 43,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "lead generation for plumbers",
+      "search_volume": 70,
+      "cpc": 76.94999694824219,
+      "competition": 0.36000001430511475,
+      "position": 17,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.3009999990463257
+    },
+    {
+      "keyword": "local marketing for plumbers",
+      "search_volume": 70,
+      "cpc": 88.7699966430664,
+      "competition": 0.03999999910593033,
+      "position": 18,
+      "url": "/",
+      "etv": 0.21714000403881073
+    },
+    {
+      "keyword": "plumber marketing strategies",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 14,
+      "url": "/",
+      "etv": 0.36847999691963196
+    },
+    {
+      "keyword": "plumber marketing strategy",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 50,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 2,
+      "url": "/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumber social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 43,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber social media marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 32,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber web design company",
+      "search_volume": 70,
+      "cpc": 52.66999816894531,
+      "competition": 0.05000000074505806,
+      "position": 57,
+      "url": "/web-design/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing company advertising",
+      "search_volume": 70,
+      "cpc": 111.5999984741211,
+      "competition": 0.10000000149011612,
+      "position": 12,
+      "url": "/",
+      "etv": 0.5249999761581421
+    },
+    {
+      "keyword": "plumbing marketing strategies",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 55,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 22,
+      "url": "/",
+      "etv": 0.15399999916553497
+    },
+    {
+      "keyword": "plumbing ppc services",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 51,
+      "url": "/plumbing-advertising/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing seo keywords",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 72,
+      "url": "/keyword-ranking/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "agency plumbers",
+      "search_volume": 50,
+      "cpc": 2.2300000190734863,
+      "competition": 0.699999988079071,
+      "position": 18,
+      "url": "/",
+      "etv": 0.16500000655651093
+    },
+    {
+      "keyword": "best way to get plumbing leads",
+      "search_volume": 50,
+      "cpc": 55.41999816894531,
+      "competition": 0.5400000214576721,
+      "position": 62,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "internet marketing for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 40,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local plumber seo",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 63,
+      "url": "/seo-for-plumbers/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local seo for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 57,
+      "url": "/seo-for-plumbers/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber agency",
+      "search_volume": 50,
+      "cpc": 2.2300000190734863,
+      "competition": 0.699999988079071,
+      "position": 9,
+      "url": "/",
+      "etv": 0.75
+    },
+    {
+      "keyword": "plumber web design agency",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.1899999976158142,
+      "position": 39,
+      "url": "/web-design/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing web design agency",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.1899999976158142,
+      "position": 21,
+      "url": "/",
+      "etv": 0.11500000208616257
+    },
+    {
+      "keyword": "digital marketing for plumbing companies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 35,
+      "url": "/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "exclusive plumbing leads",
+      "search_volume": 40,
+      "cpc": 19.229999542236328,
+      "competition": 0.6499999761581421,
+      "position": 57,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "marketing my plumbing business",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 31,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber marketing plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 69,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing lead generation services",
+      "search_volume": 40,
+      "cpc": 50.959999084472656,
+      "competition": 0.6600000262260437,
+      "position": 19,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.1080000028014183
+    },
+    {
+      "keyword": "best plumbing leads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 62,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "hvac plumber seo webmasters",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.3799999952316284,
+      "position": 77,
+      "url": "/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "mammoth for plumbers",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 75,
+      "url": "/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing job leads",
+      "search_volume": 30,
+      "cpc": 13.1899995803833,
+      "competition": 0.6200000047683716,
+      "position": 94,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing marketing experts",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.46000000834465027,
+      "position": 9,
+      "url": "/",
+      "etv": 0.44999998807907104
+    },
+    {
+      "keyword": "plumbing leads for plumbers",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.6000000238418579,
+      "position": 40,
+      "url": "/plumber-lead-generation/",
+      "etv": 0.041999999433755875
+    }
+  ]
+}

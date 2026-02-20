@@ -1,0 +1,6761 @@
+{
+  "domain": "plumbingwebmasters.com",
+  "label": "PlumbingWebmasters",
+  "total_keywords": 750,
+  "top3": 177,
+  "top10": 317,
+  "top20": 437,
+  "estimated_traffic": 11397,
+  "keywords": [
+    {
+      "keyword": "plumbing companies usa",
+      "search_volume": 5400,
+      "cpc": 12.119999885559082,
+      "competition": 0,
+      "position": 80,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumbers quotes",
+      "search_volume": 2900,
+      "cpc": 36.709999084472656,
+      "competition": 0.1899999976158142,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 469.79998779296875
+    },
+    {
+      "keyword": "plumbing quotes",
+      "search_volume": 2900,
+      "cpc": 36.709999084472656,
+      "competition": 0.1899999976158142,
+      "position": 3,
+      "url": "/plumber-slogans/",
+      "etv": 282.1700134277344
+    },
+    {
+      "keyword": "internet advertising companies",
+      "search_volume": 2400,
+      "cpc": 44,
+      "competition": 0.11999999731779099,
+      "position": 50,
+      "url": "/digital-marketing-agency/",
+      "etv": 5.039999961853027
+    },
+    {
+      "keyword": "plumbing business",
+      "search_volume": 1600,
+      "cpc": 9.5600004196167,
+      "competition": 0.4399999976158142,
+      "position": 18,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 5.28000020980835
+    },
+    {
+      "keyword": "drain memes",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 37,
+      "url": "/plumber-memes/",
+      "etv": 2.7300000190734863
+    },
+    {
+      "keyword": "drainage meme",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 57,
+      "url": "/plumber-memes/",
+      "etv": 2.7300000190734863
+    },
+    {
+      "keyword": "heating memes",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/plumber-memes/",
+      "etv": 2.7300000190734863
+    },
+    {
+      "keyword": "plumber meme",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 395.20001220703125
+    },
+    {
+      "keyword": "plumber memes",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 6,
+      "url": "/plumber-memes/",
+      "etv": 43.939998626708984
+    },
+    {
+      "keyword": "plumbers meme",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 3,
+      "url": "/plumber-memes/",
+      "etv": 126.48999786376953
+    },
+    {
+      "keyword": "plumbers memes",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 85.66999816894531
+    },
+    {
+      "keyword": "plumbing meme",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 395.20001220703125
+    },
+    {
+      "keyword": "plumbing memes",
+      "search_volume": 1300,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 395.20001220703125
+    },
+    {
+      "keyword": "hvac marketing agencies",
+      "search_volume": 1000,
+      "cpc": 117.61000061035156,
+      "competition": 0.05000000074505806,
+      "position": 73,
+      "url": "/digital-marketing-agency/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "hvac seo service",
+      "search_volume": 1000,
+      "cpc": 52.689998626708984,
+      "competition": 0.029999999329447746,
+      "position": 55,
+      "url": "/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "jokes about plumbers",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 40,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "jokes for plumbers",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 42,
+      "url": "/plumber-slogans/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumber joke",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 58,
+      "url": "/plumber-slogans/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumber jokes",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 50,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumber seo",
+      "search_volume": 1000,
+      "cpc": 54.220001220703125,
+      "competition": 0.18000000715255737,
+      "position": 4,
+      "url": "/",
+      "etv": 65.9000015258789
+    },
+    {
+      "keyword": "plumbers joke",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 44,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbers jokes",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 61,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbing joke",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 45,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbing jokes",
+      "search_volume": 1000,
+      "cpc": 0,
+      "competition": 0,
+      "position": 58,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbing marketing agency",
+      "search_volume": 1000,
+      "cpc": 77.44999694824219,
+      "competition": 0.05999999865889549,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 304
+    },
+    {
+      "keyword": "plumbing seo",
+      "search_volume": 1000,
+      "cpc": 54.220001220703125,
+      "competition": 0.18000000715255737,
+      "position": 2,
+      "url": "/",
+      "etv": 162
+    },
+    {
+      "keyword": "seo for plumbers",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 3,
+      "url": "/",
+      "etv": 97.30000305175781
+    },
+    {
+      "keyword": "seo for plumbing",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 6,
+      "url": "/resources/50-keywords/",
+      "etv": 33.79999923706055
+    },
+    {
+      "keyword": "seo plumber",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 2,
+      "url": "/",
+      "etv": 162
+    },
+    {
+      "keyword": "seo plumbing",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 2,
+      "url": "/",
+      "etv": 162
+    },
+    {
+      "keyword": "hvac seo",
+      "search_volume": 880,
+      "cpc": 49.04999923706055,
+      "competition": 0.1599999964237213,
+      "position": 33,
+      "url": "/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "local seo for plumber",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/seo-services/local-seo/",
+      "etv": 85.6240005493164
+    },
+    {
+      "keyword": "local seo for plumbers",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/seo-services/local-seo/",
+      "etv": 85.6240005493164
+    },
+    {
+      "keyword": "local seo for plumbing",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/",
+      "etv": 85.6240005493164
+    },
+    {
+      "keyword": "plumber marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 34,
+      "url": "/digital-marketing-agency/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumber website design",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumbing-websites/",
+      "etv": 111.1968002319336
+    },
+    {
+      "keyword": "plumbers marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 65,
+      "url": "/plumbing-marketing/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumbing marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 16,
+      "url": "/plumbing-marketing/",
+      "etv": 3.7839999198913574
+    },
+    {
+      "keyword": "plumbing outfits",
+      "search_volume": 880,
+      "cpc": 35.310001373291016,
+      "competition": 0.09000000357627869,
+      "position": 60,
+      "url": "/digital-marketing-agency/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumbing web design",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumbing-websites/",
+      "etv": 142.55999755859375
+    },
+    {
+      "keyword": "plumbing website designs",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumbing-websites/",
+      "etv": 142.55999755859375
+    },
+    {
+      "keyword": "web design for plumbers",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 1,
+      "url": "/plumbing-websites/",
+      "etv": 267.5199890136719
+    },
+    {
+      "keyword": "web design plumber",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 3,
+      "url": "/plumbing-websites/",
+      "etv": 85.6240005493164
+    },
+    {
+      "keyword": "website design for plumbers",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 1,
+      "url": "/plumbing-websites/",
+      "etv": 267.5199890136719
+    },
+    {
+      "keyword": "plumber ad",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 7,
+      "url": "/plumber-advertising/",
+      "etv": 18.43199920654297
+    },
+    {
+      "keyword": "plumber advertisement",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 1,
+      "url": "/plumber-advertising/",
+      "etv": 218.8800048828125
+    },
+    {
+      "keyword": "plumber website",
+      "search_volume": 720,
+      "cpc": 30.989999771118164,
+      "competition": 0.5099999904632568,
+      "position": 5,
+      "url": "/plumbing-websites/",
+      "etv": 33.768001556396484
+    },
+    {
+      "keyword": "plumbing ads",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 10,
+      "url": "/plumber-advertising/",
+      "etv": 8.13599967956543
+    },
+    {
+      "keyword": "plumbing advert",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 4,
+      "url": "/plumber-advertising/",
+      "etv": 47.448001861572266
+    },
+    {
+      "keyword": "plumbing advertisements",
+      "search_volume": 720,
+      "cpc": 30.56999969482422,
+      "competition": 0.2800000011920929,
+      "position": 5,
+      "url": "/plumber-advertising/",
+      "etv": 33.768001556396484
+    },
+    {
+      "keyword": "plumbing company seo",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 1,
+      "url": "/",
+      "etv": 218.8800048828125
+    },
+    {
+      "keyword": "plumbing web",
+      "search_volume": 720,
+      "cpc": 30.989999771118164,
+      "competition": 0.5099999904632568,
+      "position": 4,
+      "url": "/plumbing-websites/",
+      "etv": 47.448001861572266
+    },
+    {
+      "keyword": "seo company for plumbers",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/",
+      "etv": 116.63999938964844
+    },
+    {
+      "keyword": "seo for plumbing companies",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/",
+      "etv": 90.97920227050781
+    },
+    {
+      "keyword": "seo for plumbing company",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/",
+      "etv": 116.63999938964844
+    },
+    {
+      "keyword": "water pipe meme",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0,
+      "position": 39,
+      "url": "/plumber-memes/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "websites for plumbers",
+      "search_volume": 720,
+      "cpc": 30.989999771118164,
+      "competition": 0.5099999904632568,
+      "position": 1,
+      "url": "/plumbing-websites/",
+      "etv": 218.8800048828125
+    },
+    {
+      "keyword": "business plan for plumbing",
+      "search_volume": 590,
+      "cpc": 8.8100004196167,
+      "competition": 0.05999999865889549,
+      "position": 47,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "hvac seo companies",
+      "search_volume": 590,
+      "cpc": 321.6300048828125,
+      "competition": 0.15000000596046448,
+      "position": 17,
+      "url": "/",
+      "etv": 2.384779930114746
+    },
+    {
+      "keyword": "plumber seo services",
+      "search_volume": 590,
+      "cpc": 62.2599983215332,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/",
+      "etv": 95.58000183105469
+    },
+    {
+      "keyword": "plumbing and hvac seo",
+      "search_volume": 590,
+      "cpc": 25.979999542236328,
+      "competition": 0.11999999731779099,
+      "position": 8,
+      "url": "/",
+      "etv": 11.623000144958496
+    },
+    {
+      "keyword": "plumbing business plan",
+      "search_volume": 590,
+      "cpc": 8.8100004196167,
+      "competition": 0.05999999865889549,
+      "position": 4,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 38.88100051879883
+    },
+    {
+      "keyword": "plumbing hvac seo",
+      "search_volume": 590,
+      "cpc": 25.979999542236328,
+      "competition": 0.11999999731779099,
+      "position": 4,
+      "url": "/",
+      "etv": 38.88100051879883
+    },
+    {
+      "keyword": "plumbing lead generation",
+      "search_volume": 590,
+      "cpc": 48.16999816894531,
+      "competition": 0.6100000143051147,
+      "position": 6,
+      "url": "/plumbing-leads/",
+      "etv": 19.941999435424805
+    },
+    {
+      "keyword": "plumbing leads",
+      "search_volume": 590,
+      "cpc": 48.16999816894531,
+      "competition": 0.6100000143051147,
+      "position": 28,
+      "url": "/plumbing-leads/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "plumbing seo services",
+      "search_volume": 590,
+      "cpc": 62.2599983215332,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/",
+      "etv": 179.36000061035156
+    },
+    {
+      "keyword": "seo hvac",
+      "search_volume": 590,
+      "cpc": 114.52999877929688,
+      "competition": 0.11999999731779099,
+      "position": 15,
+      "url": "/",
+      "etv": 2.8284599781036377
+    },
+    {
+      "keyword": "seo moz competitor analysis",
+      "search_volume": 590,
+      "cpc": 5.480000019073486,
+      "competition": 0.27000001072883606,
+      "position": 67,
+      "url": "/competitor-analysis/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "seo service experts",
+      "search_volume": 590,
+      "cpc": 0,
+      "competition": 0,
+      "position": 25,
+      "url": "/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "best plumber tools",
+      "search_volume": 480,
+      "cpc": 0.6200000047683716,
+      "competition": 1,
+      "position": 92,
+      "url": "/plumbing-tools/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "best plumbers tools",
+      "search_volume": 480,
+      "cpc": 0.6200000047683716,
+      "competition": 1,
+      "position": 78,
+      "url": "/plumbing-tools/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "best tools for plumbers",
+      "search_volume": 480,
+      "cpc": 0.6200000047683716,
+      "competition": 1,
+      "position": 79,
+      "url": "/plumbing-tools/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "funny plumber meme",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "funny plumber memes",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "funny plumbing memes",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "gif plumber",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 21,
+      "url": "/plumber-memes/",
+      "etv": 1.1039999723434448
+    },
+    {
+      "keyword": "hot water not working meme",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 37,
+      "url": "/plumber-memes/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "how to start a plumbing business",
+      "search_volume": 480,
+      "cpc": 13.149999618530273,
+      "competition": 0.36000001430511475,
+      "position": 45,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "internet marketing for plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 1,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 110.89920043945312
+    },
+    {
+      "keyword": "internet marketing for plumbing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 77.76000213623047
+    },
+    {
+      "keyword": "internet marketing plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 65,
+      "url": "/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumber internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/digital-marketing-agency/",
+      "etv": 46.70399856567383
+    },
+    {
+      "keyword": "plumber meme funny",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "plumber memes funny",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "plumbers gif",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 30,
+      "url": "/plumber-memes/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumbers videos",
+      "search_volume": 480,
+      "cpc": 5.440000057220459,
+      "competition": 0.10999999940395355,
+      "position": 86,
+      "url": "/social-media-guide/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumbing gif",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 19,
+      "url": "/plumber-memes/",
+      "etv": 1.2960000038146973
+    },
+    {
+      "keyword": "plumbing gifs",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 81,
+      "url": "/plumber-memes/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumbing internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/digital-marketing-agency/",
+      "etv": 46.70399856567383
+    },
+    {
+      "keyword": "plumbing meme funny",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "plumbing memes funny",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 145.9199981689453
+    },
+    {
+      "keyword": "service keywords",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 13,
+      "url": "/resources/50-keywords/",
+      "etv": 2.8320000171661377
+    },
+    {
+      "keyword": "services keywords",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 17,
+      "url": "/resources/50-keywords/",
+      "etv": 2.063999891281128
+    },
+    {
+      "keyword": "business software for plumbers",
+      "search_volume": 390,
+      "cpc": 141.3300018310547,
+      "competition": 0.36000001430511475,
+      "position": 26,
+      "url": "/plumbing-crm/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "digital marketing for plumber",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 20,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 0.8798400163650513
+    },
+    {
+      "keyword": "digital marketing for plumbers",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 1,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 118.55999755859375
+    },
+    {
+      "keyword": "digital marketing for plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 14,
+      "url": "/digital-marketing-agency/",
+      "etv": 2.184000015258789
+    },
+    {
+      "keyword": "digital marketing plumbers",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 63.18000030517578
+    },
+    {
+      "keyword": "digital marketing plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 63.18000030517578
+    },
+    {
+      "keyword": "plumber crack memes",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0,
+      "position": 76,
+      "url": "/plumber-memes/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumber seo companies",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 1,
+      "url": "/",
+      "etv": 118.55999755859375
+    },
+    {
+      "keyword": "plumber seo company",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 2,
+      "url": "/",
+      "etv": 63.18000030517578
+    },
+    {
+      "keyword": "plumbers crack memes",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0,
+      "position": 87,
+      "url": "/plumber-memes/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumbing business software",
+      "search_volume": 390,
+      "cpc": 141.3300018310547,
+      "competition": 0.36000001430511475,
+      "position": 77,
+      "url": "/plumbing-crm/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumbing management software",
+      "search_volume": 390,
+      "cpc": 259.4200134277344,
+      "competition": 0.09000000357627869,
+      "position": 82,
+      "url": "/plumbing-crm/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "plumbing seo companies",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 2,
+      "url": "/",
+      "etv": 63.18000030517578
+    },
+    {
+      "keyword": "plumbing seo company",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 1,
+      "url": "/",
+      "etv": 118.55999755859375
+    },
+    {
+      "keyword": "plumbing tool sets",
+      "search_volume": 390,
+      "cpc": 0.5799999833106995,
+      "competition": 1,
+      "position": 91,
+      "url": "/plumbing-tools/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "set of plumbing tools",
+      "search_volume": 390,
+      "cpc": 0.5799999833106995,
+      "competition": 1,
+      "position": 65,
+      "url": "/plumbing-tools/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "crm for plumbers",
+      "search_volume": 320,
+      "cpc": 102.93000030517578,
+      "competition": 0.6499999761581421,
+      "position": 17,
+      "url": "/plumbing-crm/",
+      "etv": 1.2934399843215942
+    },
+    {
+      "keyword": "funny company mottos",
+      "search_volume": 320,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 21,
+      "url": "/plumber-slogans/",
+      "etv": 0.7360000014305115
+    },
+    {
+      "keyword": "funny plumber",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 15.008000373840332
+    },
+    {
+      "keyword": "funny plumbers",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/plumber-memes/",
+      "etv": 51.84000015258789
+    },
+    {
+      "keyword": "funny plumbing",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "how many plumbers are in the us",
+      "search_volume": 320,
+      "cpc": 4.949999809265137,
+      "competition": 0.029999999329447746,
+      "position": 4,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 21.08799934387207
+    },
+    {
+      "keyword": "how many plumbers in the us",
+      "search_volume": 320,
+      "cpc": 4.949999809265137,
+      "competition": 0.029999999329447746,
+      "position": 4,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 21.08799934387207
+    },
+    {
+      "keyword": "how many plumbers in usa",
+      "search_volume": 320,
+      "cpc": 4.949999809265137,
+      "competition": 0.029999999329447746,
+      "position": 4,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 21.08799934387207
+    },
+    {
+      "keyword": "hvac advertising agency",
+      "search_volume": 320,
+      "cpc": 36.7599983215332,
+      "competition": 0.2199999988079071,
+      "position": 32,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.6316800117492676
+    },
+    {
+      "keyword": "leads plumber",
+      "search_volume": 320,
+      "cpc": 3.6100001335144043,
+      "competition": 0.10000000149011612,
+      "position": 2,
+      "url": "/plumbing-leads/",
+      "etv": 51.84000015258789
+    },
+    {
+      "keyword": "marketing a plumbing business",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 5,
+      "url": "/digital-marketing-agency/",
+      "etv": 15.008000373840332
+    },
+    {
+      "keyword": "marketing companies for plumbers",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 9,
+      "url": "/digital-marketing-agency/",
+      "etv": 4.656000137329102
+    },
+    {
+      "keyword": "marketing for plumbing companies",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 6,
+      "url": "/digital-marketing-agency/",
+      "etv": 10.815999984741211
+    },
+    {
+      "keyword": "new plumber tools",
+      "search_volume": 320,
+      "cpc": 0.7099999785423279,
+      "competition": 1,
+      "position": 8,
+      "url": "/plumbing-tools/",
+      "etv": 6.303999900817871
+    },
+    {
+      "keyword": "new plumbing tool",
+      "search_volume": 320,
+      "cpc": 0.7099999785423279,
+      "competition": 1,
+      "position": 24,
+      "url": "/plumbing-tools/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "new plumbing tools",
+      "search_volume": 320,
+      "cpc": 0.7099999785423279,
+      "competition": 1,
+      "position": 7,
+      "url": "/plumbing-tools/",
+      "etv": 8.192000389099121
+    },
+    {
+      "keyword": "plumber crm",
+      "search_volume": 320,
+      "cpc": 102.93000030517578,
+      "competition": 0.6499999761581421,
+      "position": 38,
+      "url": "/plumbing-crm/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "plumber funny",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 21.08799934387207
+    },
+    {
+      "keyword": "plumber lead",
+      "search_volume": 320,
+      "cpc": 17.780000686645508,
+      "competition": 0.23999999463558197,
+      "position": 1,
+      "url": "/plumbing-leads/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "plumber marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 51.84000015258789
+    },
+    {
+      "keyword": "plumbers funny",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "plumbers leads",
+      "search_volume": 320,
+      "cpc": 17.780000686645508,
+      "competition": 0.23999999463558197,
+      "position": 12,
+      "url": "/plumbing-leads/",
+      "etv": 2.4000000953674316
+    },
+    {
+      "keyword": "plumbing business marketing",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 4,
+      "url": "/plumber-advertising/",
+      "etv": 21.08799934387207
+    },
+    {
+      "keyword": "plumbing funnies",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/plumber-memes/",
+      "etv": 51.84000015258789
+    },
+    {
+      "keyword": "plumbing funny",
+      "search_volume": 320,
+      "cpc": 26.239999771118164,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "plumbing marketing companies",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 97.27999877929688
+    },
+    {
+      "keyword": "plumbing marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 51.84000015258789
+    },
+    {
+      "keyword": "dirty plumber jokes",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/plumber-slogans/",
+      "etv": 1.3259999752044678
+    },
+    {
+      "keyword": "dirty plumbing jokes",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 18,
+      "url": "/plumber-slogans/",
+      "etv": 0.8579999804496765
+    },
+    {
+      "keyword": "funny customer service slogans",
+      "search_volume": 260,
+      "cpc": 0.029999999329447746,
+      "competition": 0,
+      "position": 88,
+      "url": "/plumber-slogans/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "google ads for plumbers",
+      "search_volume": 260,
+      "cpc": 53.61000061035156,
+      "competition": 0.019999999552965164,
+      "position": 3,
+      "url": "/google-ads/",
+      "etv": 25.29800033569336
+    },
+    {
+      "keyword": "marketing for plumbers",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 9,
+      "url": "/digital-marketing-agency/",
+      "etv": 3.9000000953674316
+    },
+    {
+      "keyword": "marketing plumbing",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 5,
+      "url": "/digital-marketing-agency/",
+      "etv": 12.194000244140625
+    },
+    {
+      "keyword": "plumber blogs",
+      "search_volume": 260,
+      "cpc": 35.61000061035156,
+      "competition": 0.10999999940395355,
+      "position": 82,
+      "url": "/blog-topics/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumber consultant",
+      "search_volume": 260,
+      "cpc": 31.6299991607666,
+      "competition": 0.6899999976158142,
+      "position": 14,
+      "url": "/",
+      "etv": 1.4559999704360962
+    },
+    {
+      "keyword": "plumber jokes dirty",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/plumber-slogans/",
+      "etv": 1.1180000305175781
+    },
+    {
+      "keyword": "plumber marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 4,
+      "url": "/digital-marketing-agency/",
+      "etv": 14.73523998260498
+    },
+    {
+      "keyword": "plumber pun",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 5.122000217437744
+    },
+    {
+      "keyword": "plumber puns",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/plumber-slogans/",
+      "etv": 12.194000244140625
+    },
+    {
+      "keyword": "plumber west los angeles",
+      "search_volume": 260,
+      "cpc": 77.69999694824219,
+      "competition": 0.33000001311302185,
+      "position": 69,
+      "url": "/case-studies/sunset-west-plumbing-rooter/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbers names",
+      "search_volume": 260,
+      "cpc": 11.880000114440918,
+      "competition": 0.2199999988079071,
+      "position": 76,
+      "url": "/domain-names/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbing blog",
+      "search_volume": 260,
+      "cpc": 35.61000061035156,
+      "competition": 0.10999999940395355,
+      "position": 25,
+      "url": "/blog-topics/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbing blogs",
+      "search_volume": 260,
+      "cpc": 35.61000061035156,
+      "competition": 0.10999999940395355,
+      "position": 39,
+      "url": "/blog-topics/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbing industry",
+      "search_volume": 260,
+      "cpc": 0.6700000166893005,
+      "competition": 0.3700000047683716,
+      "position": 6,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 8.788000106811523
+    },
+    {
+      "keyword": "plumbing jokes dirty",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/plumber-slogans/",
+      "etv": 1.3259999752044678
+    },
+    {
+      "keyword": "plumbing marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 42.119998931884766
+    },
+    {
+      "keyword": "plumbing pun",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 5.122000217437744
+    },
+    {
+      "keyword": "puns about plumbing",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 5.122000217437744
+    },
+    {
+      "keyword": "service plumbing software",
+      "search_volume": 260,
+      "cpc": 103.80999755859375,
+      "competition": 0.3700000047683716,
+      "position": 39,
+      "url": "/best-plumbing-software/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "special plumbing tools",
+      "search_volume": 260,
+      "cpc": 0.6899999976158142,
+      "competition": 1,
+      "position": 44,
+      "url": "/plumbing-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "start a plumbing company",
+      "search_volume": 260,
+      "cpc": 12.75,
+      "competition": 0.5099999904632568,
+      "position": 13,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.5339999198913574
+    },
+    {
+      "keyword": "starting a plumbing business",
+      "search_volume": 260,
+      "cpc": 12.75,
+      "competition": 0.5099999904632568,
+      "position": 15,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.3259999752044678
+    },
+    {
+      "keyword": "starting a plumbing company",
+      "search_volume": 260,
+      "cpc": 12.75,
+      "competition": 0.5099999904632568,
+      "position": 30,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "water damage seo",
+      "search_volume": 260,
+      "cpc": 22.469999313354492,
+      "competition": 0.10999999940395355,
+      "position": 90,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "amazing plumbing",
+      "search_volume": 210,
+      "cpc": 44.68000030517578,
+      "competition": 0.47999998927116394,
+      "position": 22,
+      "url": "/plumbing-websites/",
+      "etv": 0.4620000123977661
+    },
+    {
+      "keyword": "bad plumbers",
+      "search_volume": 210,
+      "cpc": 33.599998474121094,
+      "competition": 0.20999999344348907,
+      "position": 24,
+      "url": "/plumber-memes/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "funny plumber images",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 13.83899974822998
+    },
+    {
+      "keyword": "funny plumber pics",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 26,
+      "url": "/plumber-memes/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "funny plumber pictures",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 23,
+      "url": "/plumber-memes/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "funny plumbing images",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 13.83899974822998
+    },
+    {
+      "keyword": "funny plumbing pics",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 7,
+      "url": "/plumber-memes/",
+      "etv": 5.375999927520752
+    },
+    {
+      "keyword": "funny plumbing pictures",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 9.848999977111816
+    },
+    {
+      "keyword": "laying pipe meme",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0,
+      "position": 41,
+      "url": "/plumber-memes/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumber digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 34.02000045776367
+    },
+    {
+      "keyword": "plumber on the way",
+      "search_volume": 210,
+      "cpc": 10.430000305175781,
+      "competition": 0.46000000834465027,
+      "position": 18,
+      "url": "/plumber-slogans/",
+      "etv": 0.6930000185966492
+    },
+    {
+      "keyword": "plumber presents",
+      "search_volume": 210,
+      "cpc": 1.1299999952316284,
+      "competition": 1,
+      "position": 15,
+      "url": "/plumber-advertising/",
+      "etv": 1.0709999799728394
+    },
+    {
+      "keyword": "plumber seo agency",
+      "search_volume": 210,
+      "cpc": 36.619998931884766,
+      "competition": 0.05000000074505806,
+      "position": 2,
+      "url": "/",
+      "etv": 26.535600662231445
+    },
+    {
+      "keyword": "plumbing digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 26.535600662231445
+    },
+    {
+      "keyword": "plumbing seo agency",
+      "search_volume": 210,
+      "cpc": 36.619998931884766,
+      "competition": 0.05000000074505806,
+      "position": 2,
+      "url": "/",
+      "etv": 34.02000045776367
+    },
+    {
+      "keyword": "plumbing slogans",
+      "search_volume": 210,
+      "cpc": 2.8600001335144043,
+      "competition": 0.18000000715255737,
+      "position": 4,
+      "url": "/plumber-slogans/",
+      "etv": 13.83899974822998
+    },
+    {
+      "keyword": "plumbing tools toilet",
+      "search_volume": 210,
+      "cpc": 0.23000000417232513,
+      "competition": 0.9700000286102295,
+      "position": 69,
+      "url": "/plumbing-tools/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "seo for plumbing services",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 3,
+      "url": "/",
+      "etv": 20.433000564575195
+    },
+    {
+      "keyword": "seo services for plumber",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/",
+      "etv": 63.84000015258789
+    },
+    {
+      "keyword": "seo services for plumbers",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/",
+      "etv": 63.84000015258789
+    },
+    {
+      "keyword": "steve's waterworks plumbing",
+      "search_volume": 210,
+      "cpc": 8.010000228881836,
+      "competition": 0.18000000715255737,
+      "position": 4,
+      "url": "/case-studies/steves-waterworks-plumbing/",
+      "etv": 13.83899974822998
+    },
+    {
+      "keyword": "toilet plumber tools",
+      "search_volume": 210,
+      "cpc": 0.23000000417232513,
+      "competition": 0.9700000286102295,
+      "position": 57,
+      "url": "/plumbing-tools/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "water damage leads",
+      "search_volume": 210,
+      "cpc": 32.810001373291016,
+      "competition": 0.4399999976158142,
+      "position": 8,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 4.13700008392334
+    },
+    {
+      "keyword": "what industry is plumbing",
+      "search_volume": 210,
+      "cpc": 3.6600000858306885,
+      "competition": 0.1899999976158142,
+      "position": 10,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 2.372999906539917
+    },
+    {
+      "keyword": "best plumbing software",
+      "search_volume": 170,
+      "cpc": 108.27999877929688,
+      "competition": 0.4000000059604645,
+      "position": 87,
+      "url": "/plumbing-crm/",
+      "etv": 0.3355799913406372
+    },
+    {
+      "keyword": "best software for plumbers",
+      "search_volume": 170,
+      "cpc": 108.27999877929688,
+      "competition": 0.4000000059604645,
+      "position": 36,
+      "url": "/plumbing-crm/",
+      "etv": 0.3355799913406372
+    },
+    {
+      "keyword": "chattanooga water heater",
+      "search_volume": 170,
+      "cpc": 21.3799991607666,
+      "competition": 0.6600000262260437,
+      "position": 7,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 4.3520002365112305
+    },
+    {
+      "keyword": "datapins",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 4,
+      "url": "/seo-services/local-seo/",
+      "etv": 11.20300006866455
+    },
+    {
+      "keyword": "funny names for a plumber",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 11,
+      "url": "/plumber-slogans/",
+      "etv": 1.5469999313354492
+    },
+    {
+      "keyword": "funny nicknames for plumbers",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 25,
+      "url": "/plumber-slogans/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "funny plumber names",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 14,
+      "url": "/plumber-slogans/",
+      "etv": 0.9520000219345093
+    },
+    {
+      "keyword": "funny plumbers names",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 1.274999976158142
+    },
+    {
+      "keyword": "funny plumbing names",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 1.274999976158142
+    },
+    {
+      "keyword": "how to start a plumbing company",
+      "search_volume": 170,
+      "cpc": 14.9399995803833,
+      "competition": 0.3799999952316284,
+      "position": 14,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.9520000219345093
+    },
+    {
+      "keyword": "how to start plumbing company",
+      "search_volume": 170,
+      "cpc": 14.9399995803833,
+      "competition": 0.3799999952316284,
+      "position": 13,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.003000020980835
+    },
+    {
+      "keyword": "marketing agency for plumbers",
+      "search_volume": 170,
+      "cpc": 64.1500015258789,
+      "competition": 0.029999999329447746,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 51.68000030517578
+    },
+    {
+      "keyword": "marketing ideas for plumbers",
+      "search_volume": 170,
+      "cpc": 86.0999984741211,
+      "competition": 0.09000000357627869,
+      "position": 6,
+      "url": "/plumber-advertising/",
+      "etv": 5.745999813079834
+    },
+    {
+      "keyword": "pipe bursting gif",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0,
+      "position": 24,
+      "url": "/plumber-memes/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "pipes gif",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0,
+      "position": 36,
+      "url": "/plumber-memes/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber digital marketing agency",
+      "search_volume": 170,
+      "cpc": 32.54999923706055,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 51.68000030517578
+    },
+    {
+      "keyword": "plumber ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 1,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 51.68000030517578
+    },
+    {
+      "keyword": "plumber ppc agency",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 70,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber website templates",
+      "search_volume": 170,
+      "cpc": 36.97999954223633,
+      "competition": 0.9700000286102295,
+      "position": 64,
+      "url": "/plumbing-websites/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumbing digital marketing agency",
+      "search_volume": 170,
+      "cpc": 32.54999923706055,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 51.68000030517578
+    },
+    {
+      "keyword": "plumbing marketing ideas",
+      "search_volume": 170,
+      "cpc": 86.0999984741211,
+      "competition": 0.09000000357627869,
+      "position": 7,
+      "url": "/plumber-advertising/",
+      "etv": 4.3520002365112305
+    },
+    {
+      "keyword": "plumbing ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 1,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 51.68000030517578
+    },
+    {
+      "keyword": "plumbing websites templates",
+      "search_volume": 170,
+      "cpc": 36.97999954223633,
+      "competition": 0.9700000286102295,
+      "position": 12,
+      "url": "/plumbing-websites/",
+      "etv": 1.274999976158142
+    },
+    {
+      "keyword": "roto-rooter videos",
+      "search_volume": 170,
+      "cpc": 2.3399999141693115,
+      "competition": 0.28999999165534973,
+      "position": 72,
+      "url": "/video-marketing/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "septic memes",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0,
+      "position": 48,
+      "url": "/plumber-memes/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "slogans for customer service",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 81,
+      "url": "/plumber-slogans/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "social media marketing for plumbers",
+      "search_volume": 170,
+      "cpc": 158.89999389648438,
+      "competition": 0.019999999552965164,
+      "position": 3,
+      "url": "/social-media-guide/",
+      "etv": 16.541000366210938
+    },
+    {
+      "keyword": "water heater chattanooga",
+      "search_volume": 170,
+      "cpc": 21.3799991607666,
+      "competition": 0.6600000262260437,
+      "position": 17,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 0.7310000061988831
+    },
+    {
+      "keyword": "a plumbing company",
+      "search_volume": 140,
+      "cpc": 55.41999816894531,
+      "competition": 0.20000000298023224,
+      "position": 9,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "bad plumbing photos",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 59,
+      "url": "/plumber-memes/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "bad plumbing pics",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 64,
+      "url": "/plumber-memes/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "best hvac seo company",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 55,
+      "url": "/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "best plumber website",
+      "search_volume": 140,
+      "cpc": 32.099998474121094,
+      "competition": 0.5600000023841858,
+      "position": 68,
+      "url": "/plumbing-websites/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "best plumbers website",
+      "search_volume": 140,
+      "cpc": 8.819999694824219,
+      "competition": 0.44999998807907104,
+      "position": 6,
+      "url": "/plumbing-websites/",
+      "etv": 4.73199987411499
+    },
+    {
+      "keyword": "best plumbing websites",
+      "search_volume": 140,
+      "cpc": 32.099998474121094,
+      "competition": 0.5600000023841858,
+      "position": 7,
+      "url": "/plumbing-websites/",
+      "etv": 3.5840001106262207
+    },
+    {
+      "keyword": "best seo for plumbers",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/",
+      "etv": 3.5840001106262207
+    },
+    {
+      "keyword": "data pins",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 16,
+      "url": "/seo-services/local-seo/",
+      "etv": 0.6019999980926514
+    },
+    {
+      "keyword": "facebook ads for plumbers",
+      "search_volume": 140,
+      "cpc": 20.709999084472656,
+      "competition": 0.029999999329447746,
+      "position": 4,
+      "url": "/facebook-ads/",
+      "etv": 9.22599983215332
+    },
+    {
+      "keyword": "facebook ads for plumbing",
+      "search_volume": 140,
+      "cpc": 20.709999084472656,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/facebook-ads/",
+      "etv": 13.621999740600586
+    },
+    {
+      "keyword": "funny plumber jokes",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 21,
+      "url": "/plumber-slogans/",
+      "etv": 0.32199999690055847
+    },
+    {
+      "keyword": "funny plumber logos",
+      "search_volume": 140,
+      "cpc": 0.800000011920929,
+      "competition": 0.49000000953674316,
+      "position": 38,
+      "url": "/plumber-slogans/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "funny plumbing jokes",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 30,
+      "url": "/plumber-slogans/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "funny plumbing quotes",
+      "search_volume": 140,
+      "cpc": 0.27000001072883606,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "funny plumbing slogans",
+      "search_volume": 140,
+      "cpc": 0.36000001430511475,
+      "competition": 0.05000000074505806,
+      "position": 4,
+      "url": "/plumber-slogans/",
+      "etv": 9.22599983215332
+    },
+    {
+      "keyword": "funny quotes about plumbers",
+      "search_volume": 140,
+      "cpc": 0.27000001072883606,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "hilarious plumber jokes",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 18,
+      "url": "/plumber-slogans/",
+      "etv": 0.4620000123977661
+    },
+    {
+      "keyword": "keywords for plumbing",
+      "search_volume": 140,
+      "cpc": 11.989999771118164,
+      "competition": 0.23999999463558197,
+      "position": 1,
+      "url": "/resources/50-keywords/",
+      "etv": 42.560001373291016
+    },
+    {
+      "keyword": "pick up lines for plumbers",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 14,
+      "url": "/plumber-slogans/",
+      "etv": 0.7839999794960022
+    },
+    {
+      "keyword": "pipefitter meme",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/plumber-memes/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "pipefitter memes",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 57,
+      "url": "/plumber-memes/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumber chat up lines",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 10,
+      "url": "/plumber-slogans/",
+      "etv": 1.5820000171661377
+    },
+    {
+      "keyword": "plumber funny quotes",
+      "search_volume": 140,
+      "cpc": 0.27000001072883606,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "plumber jokes funny",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 44,
+      "url": "/plumber-memes/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumber keywords",
+      "search_volume": 140,
+      "cpc": 11.989999771118164,
+      "competition": 0.23999999463558197,
+      "position": 1,
+      "url": "/resources/50-keywords/",
+      "etv": 42.560001373291016
+    },
+    {
+      "keyword": "plumber local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 2,
+      "url": "/seo-services/local-seo/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "plumber marketing usa",
+      "search_volume": 140,
+      "cpc": 55.45000076293945,
+      "competition": 0.2800000011920929,
+      "position": 36,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumber pick up lines",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/plumber-slogans/",
+      "etv": 0.6019999980926514
+    },
+    {
+      "keyword": "plumber quotes funny",
+      "search_volume": 140,
+      "cpc": 0.27000001072883606,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "plumber web design services",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/seo-services/website-design/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "plumbing devices",
+      "search_volume": 140,
+      "cpc": 0.28999999165534973,
+      "competition": 0.23999999463558197,
+      "position": 50,
+      "url": "/plumbing-tools/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumbing local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 3,
+      "url": "/",
+      "etv": 13.621999740600586
+    },
+    {
+      "keyword": "plumbing pick up lines",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/plumber-slogans/",
+      "etv": 0.7139999866485596
+    },
+    {
+      "keyword": "plumbing quotes funny",
+      "search_volume": 140,
+      "cpc": 0.27000001072883606,
+      "competition": 0.12999999523162842,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "plumbing slogans funny",
+      "search_volume": 140,
+      "cpc": 0.36000001430511475,
+      "competition": 0.05000000074505806,
+      "position": 4,
+      "url": "/plumber-slogans/",
+      "etv": 9.22599983215332
+    },
+    {
+      "keyword": "plumbing specialty tools",
+      "search_volume": 140,
+      "cpc": 0.5600000023841858,
+      "competition": 1,
+      "position": 49,
+      "url": "/plumbing-tools/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumbing web design services",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/seo-services/website-design/",
+      "etv": 22.68000030517578
+    },
+    {
+      "keyword": "ppc for plumber",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 42.560001373291016
+    },
+    {
+      "keyword": "ppc for plumbers",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 1,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 42.560001373291016
+    },
+    {
+      "keyword": "ppc plumbing",
+      "search_volume": 140,
+      "cpc": 93.30999755859375,
+      "competition": 0.36000001430511475,
+      "position": 19,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 0.3779999911785126
+    },
+    {
+      "keyword": "the plumbing genius",
+      "search_volume": 140,
+      "cpc": 1.940000057220459,
+      "competition": 0.10000000149011612,
+      "position": 22,
+      "url": "/plumber-advertising/",
+      "etv": 0.30799999833106995
+    },
+    {
+      "keyword": "water damage marketing",
+      "search_volume": 140,
+      "cpc": 41.2599983215332,
+      "competition": 0.3400000035762787,
+      "position": 22,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.30799999833106995
+    },
+    {
+      "keyword": "water damage restoration marketing",
+      "search_volume": 140,
+      "cpc": 25.600000381469727,
+      "competition": 0.25,
+      "position": 34,
+      "url": "/web-services/water-restoration-marketing/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "water restoration marketing",
+      "search_volume": 140,
+      "cpc": 31.079999923706055,
+      "competition": 0.49000000953674316,
+      "position": 45,
+      "url": "/web-services/water-restoration-marketing/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "advertise plumbing business",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 6,
+      "url": "/plumber-advertising/",
+      "etv": 3.7179999351501465
+    },
+    {
+      "keyword": "advertising for plumbing business",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 3,
+      "url": "/plumber-advertising/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "advertising geniuses",
+      "search_volume": 110,
+      "cpc": 6.510000228881836,
+      "competition": 0.28999999165534973,
+      "position": 49,
+      "url": "/plumber-advertising/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "advertising plumbing business",
+      "search_volume": 110,
+      "cpc": 77.19999694824219,
+      "competition": 0.09000000357627869,
+      "position": 3,
+      "url": "/plumber-advertising/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "call the plumber these pipes are about to burst",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 5.158999919891357
+    },
+    {
+      "keyword": "chattanooga marketing agencies",
+      "search_volume": 110,
+      "cpc": 5.619999885559082,
+      "competition": 0.47999998927116394,
+      "position": 90,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "cool plumbing tools",
+      "search_volume": 110,
+      "cpc": 0.5699999928474426,
+      "competition": 1,
+      "position": 15,
+      "url": "/plumbing-tools/",
+      "etv": 0.5609999895095825
+    },
+    {
+      "keyword": "directory of plumbers",
+      "search_volume": 110,
+      "cpc": 5.989999771118164,
+      "competition": 0.44999998807907104,
+      "position": 6,
+      "url": "/resources/directory-listings/",
+      "etv": 3.7179999351501465
+    },
+    {
+      "keyword": "funny names for plumbing companies",
+      "search_volume": 110,
+      "cpc": 0.28999999165534973,
+      "competition": 0.09000000357627869,
+      "position": 17,
+      "url": "/plumber-slogans/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "funny plumber gif",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/plumber-memes/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "funny plumbing company names",
+      "search_volume": 110,
+      "cpc": 0.28999999165534973,
+      "competition": 0.09000000357627869,
+      "position": 38,
+      "url": "/plumber-slogans/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "funny plumbing gif",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/plumber-memes/",
+      "etv": 1.0010000467300415
+    },
+    {
+      "keyword": "how to get more plumbing leads",
+      "search_volume": 110,
+      "cpc": 56.43000030517578,
+      "competition": 0.09000000357627869,
+      "position": 17,
+      "url": "/plumbing-leads/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "hvac key words",
+      "search_volume": 110,
+      "cpc": 7.03000020980835,
+      "competition": 0.3400000035762787,
+      "position": 73,
+      "url": "/hvac-seo/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac seo expert",
+      "search_volume": 110,
+      "cpc": 303.2799987792969,
+      "competition": 0.1599999964237213,
+      "position": 40,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac seo experts",
+      "search_volume": 110,
+      "cpc": 303.2799987792969,
+      "competition": 0.1599999964237213,
+      "position": 14,
+      "url": "/",
+      "etv": 0.6159999966621399
+    },
+    {
+      "keyword": "local plumber seo agency",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 3,
+      "url": "/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "new plumbing technologies",
+      "search_volume": 110,
+      "cpc": 1.3799999952316284,
+      "competition": 0.25,
+      "position": 96,
+      "url": "/plumbing-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "new plumbing technology",
+      "search_volume": 110,
+      "cpc": 1.3799999952316284,
+      "competition": 0.25,
+      "position": 19,
+      "url": "/plumbing-tools/",
+      "etv": 0.296999990940094
+    },
+    {
+      "keyword": "new technology in plumbing",
+      "search_volume": 110,
+      "cpc": 1.3799999952316284,
+      "competition": 0.25,
+      "position": 13,
+      "url": "/plumbing-tools/",
+      "etv": 0.6489999890327454
+    },
+    {
+      "keyword": "new technology in plumbing system",
+      "search_volume": 110,
+      "cpc": 1.3799999952316284,
+      "competition": 0.25,
+      "position": 88,
+      "url": "/plumbing-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "online marketing for plumbers",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 24,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumber advertising ideas",
+      "search_volume": 110,
+      "cpc": 18.239999771118164,
+      "competition": 0.38999998569488525,
+      "position": 2,
+      "url": "/plumber-advertising/",
+      "etv": 17.81999969482422
+    },
+    {
+      "keyword": "plumber digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 33.439998626708984
+    },
+    {
+      "keyword": "plumber directory",
+      "search_volume": 110,
+      "cpc": 5.989999771118164,
+      "competition": 0.44999998807907104,
+      "position": 7,
+      "url": "/resources/directory-listings/",
+      "etv": 2.815999984741211
+    },
+    {
+      "keyword": "plumber ppc company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 66,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumber slang",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.824999988079071
+    },
+    {
+      "keyword": "plumbers directory",
+      "search_volume": 110,
+      "cpc": 5.989999771118164,
+      "competition": 0.44999998807907104,
+      "position": 3,
+      "url": "/resources/directory-listings/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "plumbers slang",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 2.1670000553131104
+    },
+    {
+      "keyword": "plumbing ad ideas",
+      "search_volume": 110,
+      "cpc": 18.239999771118164,
+      "competition": 0.38999998569488525,
+      "position": 15,
+      "url": "/plumber-advertising/",
+      "etv": 0.5609999895095825
+    },
+    {
+      "keyword": "plumbing ads ideas",
+      "search_volume": 110,
+      "cpc": 18.239999771118164,
+      "competition": 0.38999998569488525,
+      "position": 2,
+      "url": "/plumber-advertising/",
+      "etv": 17.81999969482422
+    },
+    {
+      "keyword": "plumbing advertising ideas",
+      "search_volume": 110,
+      "cpc": 18.239999771118164,
+      "competition": 0.38999998569488525,
+      "position": 2,
+      "url": "/plumber-advertising/",
+      "etv": 17.81999969482422
+    },
+    {
+      "keyword": "plumbing business advertising",
+      "search_volume": 110,
+      "cpc": 77.19999694824219,
+      "competition": 0.09000000357627869,
+      "position": 3,
+      "url": "/plumber-advertising/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "plumbing company names funny",
+      "search_volume": 110,
+      "cpc": 0.28999999165534973,
+      "competition": 0.09000000357627869,
+      "position": 11,
+      "url": "/plumber-slogans/",
+      "etv": 1.0010000467300415
+    },
+    {
+      "keyword": "plumbing contractor marketing",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 62,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 10,
+      "url": "/digital-marketing-agency/",
+      "etv": 1.2430000305175781
+    },
+    {
+      "keyword": "plumbing directory",
+      "search_volume": 110,
+      "cpc": 5.989999771118164,
+      "competition": 0.44999998807907104,
+      "position": 3,
+      "url": "/resources/directory-listings/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "plumbing slang",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 16,
+      "url": "/plumber-slogans/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "plumbing webmaster",
+      "search_volume": 110,
+      "cpc": 45.52000045776367,
+      "competition": 0.2199999988079071,
+      "position": 1,
+      "url": "/",
+      "etv": 33.439998626708984
+    },
+    {
+      "keyword": "plumbing webmasters",
+      "search_volume": 110,
+      "cpc": 45.52000045776367,
+      "competition": 0.2199999988079071,
+      "position": 1,
+      "url": "/",
+      "etv": 33.439998626708984
+    },
+    {
+      "keyword": "slang for plumbers",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 89,
+      "url": "/plumber-slogans/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "water damage restoration leads",
+      "search_volume": 110,
+      "cpc": 21.690000534057617,
+      "competition": 0.6800000071525574,
+      "position": 16,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "water leak memes",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 54,
+      "url": "/plumber-memes/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "water restoration leads",
+      "search_volume": 110,
+      "cpc": 26.190000534057617,
+      "competition": 0.6100000143051147,
+      "position": 5,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 5.158999919891357
+    },
+    {
+      "keyword": "accounting software for plumbers",
+      "search_volume": 90,
+      "cpc": 144.22999572753906,
+      "competition": 0.38999998569488525,
+      "position": 87,
+      "url": "/plumbing-crm/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "best seo for hvac companies",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 72,
+      "url": "/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "best way to advertise a plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 7,
+      "url": "/plumber-advertising/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "best way to advertise plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 12,
+      "url": "/plumber-advertising/",
+      "etv": 0.675000011920929
+    },
+    {
+      "keyword": "chattanooga water heater company",
+      "search_volume": 90,
+      "cpc": 7.639999866485596,
+      "competition": 0.44999998807907104,
+      "position": 4,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 5.930999755859375
+    },
+    {
+      "keyword": "clean up sayings",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 44,
+      "url": "/plumber-slogans/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "cta coupon",
+      "search_volume": 90,
+      "cpc": 27.510000228881836,
+      "competition": 0.07999999821186066,
+      "position": 98,
+      "url": "/3-call-to-action-ideas/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "digital marketing services for plumbers",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 27.360000610351562
+    },
+    {
+      "keyword": "electrical keywords",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 97,
+      "url": "/site/wp-content/uploads/the-top-50-most-searched-keywords-for-plumbing-companies.pdf",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "funny handyman sayings",
+      "search_volume": 90,
+      "cpc": 0.1899999976158142,
+      "competition": 0.6399999856948853,
+      "position": 58,
+      "url": "/plumber-slogans/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "gay plumber meme",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 41,
+      "url": "/plumber-memes/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "how to grow a plumbing business",
+      "search_volume": 90,
+      "cpc": 8.880000114440918,
+      "competition": 0.44999998807907104,
+      "position": 7,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "how to start a plumbing career",
+      "search_volume": 90,
+      "cpc": 11.90999984741211,
+      "competition": 0.36000001430511475,
+      "position": 62,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "how to start your own plumbing business",
+      "search_volume": 90,
+      "cpc": 17.399999618530273,
+      "competition": 0.38999998569488525,
+      "position": 39,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "humor plumbing memes",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 27.360000610351562
+    },
+    {
+      "keyword": "pipe plumbing tools",
+      "search_volume": 90,
+      "cpc": 0.7599999904632568,
+      "competition": 1,
+      "position": 80,
+      "url": "/plumbing-tools/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "pipe water meme",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 37,
+      "url": "/plumber-memes/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumber thing",
+      "search_volume": 90,
+      "cpc": 0.8700000047683716,
+      "competition": 0.20999999344348907,
+      "position": 16,
+      "url": "/plumber-slogans/",
+      "etv": 0.3869999945163727
+    },
+    {
+      "keyword": "plumbers screen",
+      "search_volume": 90,
+      "cpc": 0.6100000143051147,
+      "competition": 0.3199999928474426,
+      "position": 70,
+      "url": "/google-ads/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumbing advertising slogans",
+      "search_volume": 90,
+      "cpc": 4.900000095367432,
+      "competition": 0.5099999904632568,
+      "position": 18,
+      "url": "/plumber-slogans/",
+      "etv": 0.296999990940094
+    },
+    {
+      "keyword": "plumbing business plan sample",
+      "search_volume": 90,
+      "cpc": 6.099999904632568,
+      "competition": 0.1899999976158142,
+      "position": 23,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumbing fail gif",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 13,
+      "url": "/plumber-memes/",
+      "etv": 0.531000018119812
+    },
+    {
+      "keyword": "plumbing keywords list",
+      "search_volume": 90,
+      "cpc": 2.0399999618530273,
+      "competition": 0.14000000059604645,
+      "position": 1,
+      "url": "/resources/50-keywords/",
+      "etv": 27.360000610351562
+    },
+    {
+      "keyword": "plumbing landing page",
+      "search_volume": 90,
+      "cpc": 15.979999542236328,
+      "competition": 0.3400000035762787,
+      "position": 3,
+      "url": "/landing-page-optimization/",
+      "etv": 8.756999969482422
+    },
+    {
+      "keyword": "plumbing ppc marketing",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 2,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 14.579999923706055
+    },
+    {
+      "keyword": "plumbing tools pipe",
+      "search_volume": 90,
+      "cpc": 0.7599999904632568,
+      "competition": 1,
+      "position": 81,
+      "url": "/plumbing-tools/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "ppc for home services",
+      "search_volume": 90,
+      "cpc": 17.520000457763672,
+      "competition": 0.07999999821186066,
+      "position": 68,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "real estate webmasters review",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 36,
+      "url": "/reviews/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "real estate webmasters reviews",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 31,
+      "url": "/reviews/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "restoration leads",
+      "search_volume": 90,
+      "cpc": 15.609999656677246,
+      "competition": 0.44999998807907104,
+      "position": 5,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 4.2210001945495605
+    },
+    {
+      "keyword": "seo company for hvac",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 48,
+      "url": "/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "seo webmasters",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 3,
+      "url": "/",
+      "etv": 8.756999969482422
+    },
+    {
+      "keyword": "seos limited",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 78,
+      "url": "/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "sunset west plumbing",
+      "search_volume": 90,
+      "cpc": 37.5,
+      "competition": 0.20999999344348907,
+      "position": 3,
+      "url": "/case-studies/sunset-west-plumbing-rooter/",
+      "etv": 8.756999969482422
+    },
+    {
+      "keyword": "top plumbing keywords",
+      "search_volume": 90,
+      "cpc": 6.199999809265137,
+      "competition": 0.20999999344348907,
+      "position": 2,
+      "url": "/resources/50-keywords/",
+      "etv": 14.579999923706055
+    },
+    {
+      "keyword": "water damage lead generation",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 16,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.3869999945163727
+    },
+    {
+      "keyword": "webmasters near me",
+      "search_volume": 90,
+      "cpc": 31.229999542236328,
+      "competition": 0.5799999833106995,
+      "position": 26,
+      "url": "/seo-services/local-seo/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "words from p l u m b e r",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 22,
+      "url": "/plumber-slogans/",
+      "etv": 0.1979999989271164
+    },
+    {
+      "keyword": "words from plumber",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 22,
+      "url": "/plumber-slogans/",
+      "etv": 0.1979999989271164
+    },
+    {
+      "keyword": "agencies for plumbers",
+      "search_volume": 70,
+      "cpc": 16.1200008392334,
+      "competition": 0.8399999737739563,
+      "position": 8,
+      "url": "/digital-marketing-agency/",
+      "etv": 1.378999948501587
+    },
+    {
+      "keyword": "ai for plumbers",
+      "search_volume": 70,
+      "cpc": 26.190000534057617,
+      "competition": 0.7400000095367432,
+      "position": 21,
+      "url": "/ai-seo-for-plumbers/",
+      "etv": 0.16099999845027924
+    },
+    {
+      "keyword": "best advertising for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/plumber-advertising/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "best software for plumbing business",
+      "search_volume": 70,
+      "cpc": 94.44000244140625,
+      "competition": 0.6600000262260437,
+      "position": 28,
+      "url": "/plumbing-crm/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "biggest plumbing companies in the us",
+      "search_volume": 70,
+      "cpc": 0.23000000417232513,
+      "competition": 0.25999999046325684,
+      "position": 31,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "cbo facebook ad",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 54,
+      "url": "/facebook-ads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "content marketing for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 3,
+      "url": "/seo-services/content-marketing/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "data plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 22,
+      "url": "/seo-services/local-seo/",
+      "etv": 0.15399999916553497
+    },
+    {
+      "keyword": "dripping pipe meme",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 8,
+      "url": "/plumber-memes/",
+      "etv": 1.378999948501587
+    },
+    {
+      "keyword": "facebook plumber",
+      "search_volume": 70,
+      "cpc": 27.920000076293945,
+      "competition": 0.4099999964237213,
+      "position": 99,
+      "url": "/facebook-ads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "facebook plumbing",
+      "search_volume": 70,
+      "cpc": 27.920000076293945,
+      "competition": 0.4099999964237213,
+      "position": 21,
+      "url": "/facebook-ads/",
+      "etv": 0.16099999845027924
+    },
+    {
+      "keyword": "free plumbing leads",
+      "search_volume": 70,
+      "cpc": 50.709999084472656,
+      "competition": 0.7699999809265137,
+      "position": 15,
+      "url": "/plumbing-leads/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "funny pictures of plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "funny plumber photos",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 28,
+      "url": "/plumber-memes/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "funny plumbing photos",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 6,
+      "url": "/plumber-memes/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "good plumbing review",
+      "search_volume": 70,
+      "cpc": 9.199999809265137,
+      "competition": 0.6600000262260437,
+      "position": 58,
+      "url": "/google-reviews/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "google adwords for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 3,
+      "url": "/google-ads/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "how much does a plumbing company make",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 54,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how to generate plumbing leads",
+      "search_volume": 70,
+      "cpc": 48.91999816894531,
+      "competition": 0.8500000238418579,
+      "position": 9,
+      "url": "/plumbing-leads/",
+      "etv": 1.0499999523162842
+    },
+    {
+      "keyword": "how to get plumbing leads",
+      "search_volume": 70,
+      "cpc": 48.91999816894531,
+      "competition": 0.8500000238418579,
+      "position": 5,
+      "url": "/plumbing-leads/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "how to market a plumbing business",
+      "search_volume": 70,
+      "cpc": 81.9000015258789,
+      "competition": 0.07000000029802322,
+      "position": 14,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.3919999897480011
+    },
+    {
+      "keyword": "hvac website seo",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 76,
+      "url": "/hvac-seo/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "keywords 50",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/resources/50-keywords/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "keywords for water",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 45,
+      "url": "/resources/50-keywords/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "largest plumbing companies in the us",
+      "search_volume": 70,
+      "cpc": 0.23000000417232513,
+      "competition": 0.25999999046325684,
+      "position": 45,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "largest plumbing companies in usa",
+      "search_volume": 70,
+      "cpc": 0.23000000417232513,
+      "competition": 0.25999999046325684,
+      "position": 64,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "lead generation for plumbers",
+      "search_volume": 70,
+      "cpc": 76.94999694824219,
+      "competition": 0.36000001430511475,
+      "position": 20,
+      "url": "/plumbing-leads/",
+      "etv": 0.1679999977350235
+    },
+    {
+      "keyword": "marketing firms chattanooga",
+      "search_volume": 70,
+      "cpc": 4.150000095367432,
+      "competition": 0.5,
+      "position": 73,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "new plumbing tools 2025",
+      "search_volume": 70,
+      "cpc": 0.800000011920929,
+      "competition": 0.9200000166893005,
+      "position": 1,
+      "url": "/plumbing-tools/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "pipes meme",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "plumber funny pictures",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "plumber jokes one-liners",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.5249999761581421
+    },
+    {
+      "keyword": "plumber marketing strategy",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 53,
+      "url": "/plumbing-marketing/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 5,
+      "url": "/digital-marketing-agency/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "plumber pictures funny",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 6,
+      "url": "/plumber-memes/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "plumber ranks",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 32,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber referral program",
+      "search_volume": 70,
+      "cpc": 32.04999923706055,
+      "competition": 0.18000000715255737,
+      "position": 3,
+      "url": "/referral-program/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "plumber sentence",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 55,
+      "url": "/plumber-slogans/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber seo experts",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "plumber slogans",
+      "search_volume": 70,
+      "cpc": 4.800000190734863,
+      "competition": 0.3100000023841858,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumber social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 2,
+      "url": "/social-media-guide/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumber social media marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 2,
+      "url": "/social-media-guide/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumber talk",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.2800000011920929,
+      "position": 25,
+      "url": "/plumber-slogans/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber web design company",
+      "search_volume": 70,
+      "cpc": 52.66999816894531,
+      "competition": 0.05000000074505806,
+      "position": 10,
+      "url": "/seo-services/website-design/",
+      "etv": 0.7910000085830688
+    },
+    {
+      "keyword": "plumber work tools",
+      "search_volume": 70,
+      "cpc": 0.49000000953674316,
+      "competition": 0.9100000262260437,
+      "position": 62,
+      "url": "/plumbing-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbers jokes one liners",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 6,
+      "url": "/plumber-slogans/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "plumbers social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 1,
+      "url": "/social-media-guide/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "plumbing company advertising",
+      "search_volume": 70,
+      "cpc": 111.5999984741211,
+      "competition": 0.10000000149011612,
+      "position": 16,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.3009999990463257
+    },
+    {
+      "keyword": "plumbing crm software",
+      "search_volume": 70,
+      "cpc": 126.16000366210938,
+      "competition": 0.5400000214576721,
+      "position": 12,
+      "url": "/plumbing-crm/",
+      "etv": 0.4934999942779541
+    },
+    {
+      "keyword": "plumbing demand",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 46,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing design service",
+      "search_volume": 70,
+      "cpc": 23.889999389648438,
+      "competition": 0.27000001072883606,
+      "position": 76,
+      "url": "/plumbing-websites/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing funny pics",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 9,
+      "url": "/plumber-memes/",
+      "etv": 1.0499999523162842
+    },
+    {
+      "keyword": "plumbing funny pictures",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 4.61299991607666
+    },
+    {
+      "keyword": "plumbing industry statistics",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 3,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "plumbing industry trends",
+      "search_volume": 70,
+      "cpc": 5.369999885559082,
+      "competition": 0.07000000029802322,
+      "position": 2,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumbing jokes one liners",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.5249999761581421
+    },
+    {
+      "keyword": "plumbing jokes one-liners",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/plumber-slogans/",
+      "etv": 0.6370000243186951
+    },
+    {
+      "keyword": "plumbing leads free",
+      "search_volume": 70,
+      "cpc": 50.709999084472656,
+      "competition": 0.7699999809265137,
+      "position": 1,
+      "url": "/plumbing-leads/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "plumbing marketing strategies",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 51,
+      "url": "/plumbing-marketing/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 6,
+      "url": "/digital-marketing-agency/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "plumbing photos funny",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 11,
+      "url": "/plumber-memes/",
+      "etv": 0.6370000243186951
+    },
+    {
+      "keyword": "plumbing pictures funny",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.36000001430511475,
+      "position": 11,
+      "url": "/plumber-memes/",
+      "etv": 0.6370000243186951
+    },
+    {
+      "keyword": "plumbing podcast",
+      "search_volume": 70,
+      "cpc": 0.5799999833106995,
+      "competition": 0.03999999910593033,
+      "position": 1,
+      "url": "/plumbing-podcasts/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "plumbing ppc services",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 3,
+      "url": "/plumbing-ppc-marketing/",
+      "etv": 6.810999870300293
+    },
+    {
+      "keyword": "plumbing referral program",
+      "search_volume": 70,
+      "cpc": 32.04999923706055,
+      "competition": 0.18000000715255737,
+      "position": 18,
+      "url": "/referral-program/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing referral programs",
+      "search_volume": 70,
+      "cpc": 32.04999923706055,
+      "competition": 0.18000000715255737,
+      "position": 4,
+      "url": "/referral-program/",
+      "etv": 4.61299991607666
+    },
+    {
+      "keyword": "plumbing sentence",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/plumber-slogans/",
+      "etv": 0.6370000243186951
+    },
+    {
+      "keyword": "plumbing seo keywords",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 2,
+      "url": "/resources/50-keywords/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumbing service leads",
+      "search_volume": 70,
+      "cpc": 78.52999877929688,
+      "competition": 0.5099999904632568,
+      "position": 2,
+      "url": "/plumbing-leads/",
+      "etv": 11.34000015258789
+    },
+    {
+      "keyword": "plumbing slogan",
+      "search_volume": 70,
+      "cpc": 4.800000190734863,
+      "competition": 0.3100000023841858,
+      "position": 7,
+      "url": "/plumber-slogans/",
+      "etv": 1.7920000553131104
+    },
+    {
+      "keyword": "plumbing social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 1,
+      "url": "/social-media-guide/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "plumbing trends",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 5,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "plumbing work tools",
+      "search_volume": 70,
+      "cpc": 0.49000000953674316,
+      "competition": 0.9100000262260437,
+      "position": 89,
+      "url": "/plumbing-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing working tools",
+      "search_volume": 70,
+      "cpc": 0.49000000953674316,
+      "competition": 0.9100000262260437,
+      "position": 93,
+      "url": "/plumbing-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "sentences with plumber",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 48,
+      "url": "/plumber-slogans/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "slogans about service",
+      "search_volume": 70,
+      "cpc": 16.229999542236328,
+      "competition": 0.029999999329447746,
+      "position": 22,
+      "url": "/plumber-slogans/",
+      "etv": 0.15399999916553497
+    },
+    {
+      "keyword": "social media for plumbers",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 1,
+      "url": "/social-media-guide/",
+      "etv": 21.280000686645508
+    },
+    {
+      "keyword": "software for plumbing business",
+      "search_volume": 70,
+      "cpc": 169.3300018310547,
+      "competition": 0.41999998688697815,
+      "position": 81,
+      "url": "/plumbing-crm/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "software for plumbing company",
+      "search_volume": 70,
+      "cpc": 109.69999694824219,
+      "competition": 0.17000000178813934,
+      "position": 50,
+      "url": "/plumbing-crm/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "steve's waterworks plumbing reviews",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 6,
+      "url": "/case-studies/steves-waterworks-plumbing/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "team plumbing west los angeles",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 20,
+      "url": "/case-studies/sunset-west-plumbing-rooter/",
+      "etv": 0.1679999977350235
+    },
+    {
+      "keyword": "tools and equipments used in plumbing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 44,
+      "url": "/plumbing-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "trends in plumbing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 10,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.7910000085830688
+    },
+    {
+      "keyword": "trends in plumbing industry",
+      "search_volume": 70,
+      "cpc": 5.369999885559082,
+      "competition": 0.07000000029802322,
+      "position": 4,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 4.61299991607666
+    },
+    {
+      "keyword": "water keywords",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 46,
+      "url": "/resources/50-keywords/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "agency plumbers",
+      "search_volume": 50,
+      "cpc": 2.2300000190734863,
+      "competition": 0.699999988079071,
+      "position": 5,
+      "url": "/digital-marketing-agency/",
+      "etv": 2.3450000286102295
+    },
+    {
+      "keyword": "apps for plumbing business",
+      "search_volume": 50,
+      "cpc": 24.81999969482422,
+      "competition": 0.3400000035762787,
+      "position": 65,
+      "url": "/plumbing-crm/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "bad plumber meme",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 15.199999809265137
+    },
+    {
+      "keyword": "bad plumbing meme",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 15.199999809265137
+    },
+    {
+      "keyword": "best software for small plumbing business",
+      "search_volume": 50,
+      "cpc": 64.2699966430664,
+      "competition": 0.7099999785423279,
+      "position": 71,
+      "url": "/plumbing-crm/",
+      "etv": 0.09870000183582306
+    },
+    {
+      "keyword": "best way to get plumbing leads",
+      "search_volume": 50,
+      "cpc": 55.41999816894531,
+      "competition": 0.5400000214576721,
+      "position": 19,
+      "url": "/plumbing-leads/",
+      "etv": 0.13500000536441803
+    },
+    {
+      "keyword": "burst water pipe gif",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "catchy plumbing slogans",
+      "search_volume": 50,
+      "cpc": 1.149999976158142,
+      "competition": 0.20000000298023224,
+      "position": 6,
+      "url": "/plumber-slogans/",
+      "etv": 1.690000057220459
+    },
+    {
+      "keyword": "cleaning service keywords",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 64,
+      "url": "/resources/50-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "cleaning services keywords",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 66,
+      "url": "/resources/50-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "contractor referral program",
+      "search_volume": 50,
+      "cpc": 19.530000686645508,
+      "competition": 0.20999999344348907,
+      "position": 74,
+      "url": "/referral-program/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital marketing for plumbers by online advantages",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 45,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "dirty plumber memes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 24,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "drainmen plumbing inc",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 46,
+      "url": "/plumbing-websites/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "funny handyman slogans",
+      "search_volume": 50,
+      "cpc": 0.5400000214576721,
+      "competition": 0.550000011920929,
+      "position": 33,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "funny plumber ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 51,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "funny plumber advertising",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 0.9850000143051147
+    },
+    {
+      "keyword": "funny plumber cartoons",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.23000000417232513,
+      "position": 83,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "funny plumbing ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 10,
+      "url": "/plumber-memes/",
+      "etv": 0.5649999976158142
+    },
+    {
+      "keyword": "funny plumbing cartoons",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.23000000417232513,
+      "position": 63,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "funny rhyming slogans",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 17,
+      "url": "/plumber-slogans/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "good names for a plumbing company",
+      "search_volume": 50,
+      "cpc": 1.940000057220459,
+      "competition": 0.6399999856948853,
+      "position": 77,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "great plumbing company names",
+      "search_volume": 50,
+      "cpc": 1.940000057220459,
+      "competition": 0.6399999856948853,
+      "position": 86,
+      "url": "/plumbing-websites/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "grow plumbing business",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 17,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "growing a plumbing business",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 13,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.29499998688697815
+    },
+    {
+      "keyword": "home repair memes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 59,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "horrible day meme",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 25,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "horrible plumbing pictures",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 19,
+      "url": "/plumber-memes/",
+      "etv": 0.13500000536441803
+    },
+    {
+      "keyword": "how many plumbing companies in the us",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 2,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "how much does it cost to start a plumbing business",
+      "search_volume": 50,
+      "cpc": 16.809999465942383,
+      "competition": 0.15000000596046448,
+      "position": 13,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.29499998688697815
+    },
+    {
+      "keyword": "how to expand plumbing business",
+      "search_volume": 50,
+      "cpc": 28.25,
+      "competition": 0.1599999964237213,
+      "position": 15,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.2549999952316284
+    },
+    {
+      "keyword": "how to start plumbing",
+      "search_volume": 50,
+      "cpc": 5.309999942779541,
+      "competition": 0.27000001072883606,
+      "position": 2,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "hvac webmaster",
+      "search_volume": 50,
+      "cpc": 44.0099983215332,
+      "competition": 0.41999998688697815,
+      "position": 6,
+      "url": "/",
+      "etv": 1.690000057220459
+    },
+    {
+      "keyword": "hvac webmasters",
+      "search_volume": 50,
+      "cpc": 44.0099983215332,
+      "competition": 0.41999998688697815,
+      "position": 2,
+      "url": "/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "internet marketing for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 3,
+      "url": "/digital-marketing-agency/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "jokes about pipefitters",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 55,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "keywords for cleaning service",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 29,
+      "url": "/resources/50-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "keywords for cleaning services",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 78,
+      "url": "/resources/50-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "keywords services",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 90,
+      "url": "/resources/50-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local plumber seo",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 2,
+      "url": "/seo-services/local-seo/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "local seo for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/",
+      "etv": 2.3450000286102295
+    },
+    {
+      "keyword": "number of plumbers in the us",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 3,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "number of plumbers in us",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 2,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "owning a plumbing business",
+      "search_volume": 50,
+      "cpc": 19.639999389648438,
+      "competition": 0.30000001192092896,
+      "position": 10,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.5367500185966492
+    },
+    {
+      "keyword": "pipe drip meme",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/plumber-memes/",
+      "etv": 0.75
+    },
+    {
+      "keyword": "pipe dripping meme",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/plumber-memes/",
+      "etv": 1.2799999713897705
+    },
+    {
+      "keyword": "pipe joke",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 61,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "pipe jokes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 42,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber agency",
+      "search_volume": 50,
+      "cpc": 2.2300000190734863,
+      "competition": 0.699999988079071,
+      "position": 10,
+      "url": "/",
+      "etv": 0.5649999976158142
+    },
+    {
+      "keyword": "plumber dad jokes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 36,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber facebook ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 3,
+      "url": "/facebook-ads/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "plumber humor",
+      "search_volume": 50,
+      "cpc": 0.33000001311302185,
+      "competition": 0.009999999776482582,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "plumber marketing leads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 31,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber nicknames",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 39,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber referral",
+      "search_volume": 50,
+      "cpc": 17.34000015258789,
+      "competition": 0.18000000715255737,
+      "position": 3,
+      "url": "/referral-program/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "plumber tiktok",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 61,
+      "url": "/social-media-guide/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber truck sitting on toilet",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 56,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber web design agency",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.1899999976158142,
+      "position": 4,
+      "url": "/seo-services/website-design/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "plumber website builder",
+      "search_volume": 50,
+      "cpc": 31.809999465942383,
+      "competition": 0.5299999713897705,
+      "position": 4,
+      "url": "/plumbing-websites/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "plumbing agency",
+      "search_volume": 50,
+      "cpc": 2.2300000190734863,
+      "competition": 0.699999988079071,
+      "position": 11,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.45500001311302185
+    },
+    {
+      "keyword": "plumbing agent",
+      "search_volume": 50,
+      "cpc": 0.6299999952316284,
+      "competition": 0.6299999952316284,
+      "position": 17,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "plumbing business logo",
+      "search_volume": 50,
+      "cpc": 2.990000009536743,
+      "competition": 0.7099999785423279,
+      "position": 49,
+      "url": "/branding/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing business profitability",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 97,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing company names idea",
+      "search_volume": 50,
+      "cpc": 2.7200000286102295,
+      "competition": 0.699999988079071,
+      "position": 94,
+      "url": "/plumber-advertising/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing dad jokes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 38,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing examples",
+      "search_volume": 50,
+      "cpc": 5.599999904632568,
+      "competition": 0.029999999329447746,
+      "position": 39,
+      "url": "/plumbing-websites/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing facebook ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 1,
+      "url": "/facebook-ads/",
+      "etv": 15.199999809265137
+    },
+    {
+      "keyword": "plumbing humor",
+      "search_volume": 50,
+      "cpc": 0.33000001311302185,
+      "competition": 0.009999999776482582,
+      "position": 3,
+      "url": "/plumber-memes/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "plumbing humour",
+      "search_volume": 50,
+      "cpc": 0.33000001311302185,
+      "competition": 0.009999999776482582,
+      "position": 4,
+      "url": "/plumber-memes/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "plumbing leads for small business",
+      "search_volume": 50,
+      "cpc": 76.76000213623047,
+      "competition": 0.949999988079071,
+      "position": 10,
+      "url": "/plumbing-leads/",
+      "etv": 0.5649999976158142
+    },
+    {
+      "keyword": "plumbing leads near me",
+      "search_volume": 50,
+      "cpc": 73.98999786376953,
+      "competition": 0.8399999737739563,
+      "position": 10,
+      "url": "/free-plumbing-leads/",
+      "etv": 0.5367500185966492
+    },
+    {
+      "keyword": "plumbing referrals",
+      "search_volume": 50,
+      "cpc": 17.34000015258789,
+      "competition": 0.18000000715255737,
+      "position": 14,
+      "url": "/referral-program/",
+      "etv": 0.2800000011920929
+    },
+    {
+      "keyword": "plumbing slogans catchy",
+      "search_volume": 50,
+      "cpc": 1.149999976158142,
+      "competition": 0.20000000298023224,
+      "position": 8,
+      "url": "/plumber-slogans/",
+      "etv": 0.9850000143051147
+    },
+    {
+      "keyword": "plumbing strategies",
+      "search_volume": 50,
+      "cpc": 14.050000190734863,
+      "competition": 0.5099999904632568,
+      "position": 31,
+      "url": "/plumbing-marketing/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing tiktok",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 58,
+      "url": "/social-media-guide/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing web design agency",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.1899999976158142,
+      "position": 3,
+      "url": "/digital-marketing-agency/",
+      "etv": 4.864999771118164
+    },
+    {
+      "keyword": "plumbing website builder",
+      "search_volume": 50,
+      "cpc": 31.809999465942383,
+      "competition": 0.5299999713897705,
+      "position": 16,
+      "url": "/plumbing-websites/",
+      "etv": 0.2020999938249588
+    },
+    {
+      "keyword": "plumbing website examples",
+      "search_volume": 50,
+      "cpc": 37.540000915527344,
+      "competition": 0.3400000035762787,
+      "position": 2,
+      "url": "/plumbing-websites/",
+      "etv": 8.100000381469727
+    },
+    {
+      "keyword": "production plumbing",
+      "search_volume": 50,
+      "cpc": 2.5799999237060547,
+      "competition": 0.4300000071525574,
+      "position": 92,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "professional plumbing & design",
+      "search_volume": 50,
+      "cpc": 25.229999542236328,
+      "competition": 0.5699999928474426,
+      "position": 61,
+      "url": "/plumbing-websites/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "professional plumbing and design",
+      "search_volume": 50,
+      "cpc": 25.229999542236328,
+      "competition": 0.5699999928474426,
+      "position": 16,
+      "url": "/plumbing-websites/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "referral plumbing",
+      "search_volume": 50,
+      "cpc": 17.34000015258789,
+      "competition": 0.18000000715255737,
+      "position": 13,
+      "url": "/referral-program/",
+      "etv": 0.29499998688697815
+    },
+    {
+      "keyword": "repair memes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 68,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "rhyming jingles",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 78,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "sewage explosion gif",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 44,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "sewer jokes",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 54,
+      "url": "/plumber-slogans/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "small plumbing business software",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 49,
+      "url": "/plumbing-crm/",
+      "etv": 0.09870000183582306
+    },
+    {
+      "keyword": "software for small plumbing business",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 64,
+      "url": "/plumbing-crm/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "start a plumbing business",
+      "search_volume": 50,
+      "cpc": 9.020000457763672,
+      "competition": 0.44999998807907104,
+      "position": 17,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "tumya plumbing",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 24,
+      "url": "/landing-page-optimization/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "water damage lead generation companies",
+      "search_volume": 50,
+      "cpc": 29.729999542236328,
+      "competition": 0.17000000178813934,
+      "position": 4,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "water pipe burst gif",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/plumber-memes/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "website for plumbing business",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 4,
+      "url": "/plumbing-websites/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "what industry is plumbing considered",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.375
+    },
+    {
+      "keyword": "creative plumbing ads",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 2,
+      "url": "/plumber-advertising/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "digital marketing for plumbing companies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 2,
+      "url": "/digital-marketing-agency/",
+      "etv": 5.0543999671936035
+    },
+    {
+      "keyword": "digital plumber",
+      "search_volume": 40,
+      "cpc": 15.1899995803833,
+      "competition": 0.46000000834465027,
+      "position": 24,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "digital plumbers",
+      "search_volume": 40,
+      "cpc": 15.1899995803833,
+      "competition": 0.46000000834465027,
+      "position": 20,
+      "url": "/digital-marketing-for-plumbers/",
+      "etv": 0.09600000083446503
+    },
+    {
+      "keyword": "digital plumbing",
+      "search_volume": 40,
+      "cpc": 15.1899995803833,
+      "competition": 0.46000000834465027,
+      "position": 81,
+      "url": "/portfolio/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "dirty plumber jokes one liners",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/plumber-slogans/",
+      "etv": 0.1720000058412552
+    },
+    {
+      "keyword": "dirty plumber jokes one-liners",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 17,
+      "url": "/plumber-slogans/",
+      "etv": 0.1720000058412552
+    },
+    {
+      "keyword": "dirty plumber pick up lines",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 10,
+      "url": "/plumber-slogans/",
+      "etv": 0.4519999921321869
+    },
+    {
+      "keyword": "dirty plumbing pick up lines",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.30000001192092896
+    },
+    {
+      "keyword": "email list of plumbers",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 19,
+      "url": "/email-marketing/",
+      "etv": 0.1080000028014183
+    },
+    {
+      "keyword": "exclusive plumbing leads",
+      "search_volume": 40,
+      "cpc": 19.229999542236328,
+      "competition": 0.6499999761581421,
+      "position": 8,
+      "url": "/plumbing-leads/",
+      "etv": 0.7879999876022339
+    },
+    {
+      "keyword": "expertise.com review",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 88,
+      "url": "/google-reviews-good-bad-and-ugly/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "flexible plumber tool",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.6200000047683716,
+      "position": 81,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "flexible plumbing tools",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.6200000047683716,
+      "position": 79,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "flirty plumber jokes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 49,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "free water damage leads",
+      "search_volume": 40,
+      "cpc": 10.180000305175781,
+      "competition": 0.17000000178813934,
+      "position": 6,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 1.3519999980926514
+    },
+    {
+      "keyword": "funny dirty slogans",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 13,
+      "url": "/plumber-slogans/",
+      "etv": 0.23600000143051147
+    },
+    {
+      "keyword": "funny maintenance slogans",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 9,
+      "url": "/plumber-slogans/",
+      "etv": 0.6000000238418579
+    },
+    {
+      "keyword": "funny plumber sayings",
+      "search_volume": 40,
+      "cpc": 0.550000011920929,
+      "competition": 0.6100000143051147,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 12.15999984741211
+    },
+    {
+      "keyword": "funny plumber truck",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 56,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "funny plumbing fails",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 97,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "funny plumbing videos",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 65,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "funny sayings about plumbers",
+      "search_volume": 40,
+      "cpc": 0.550000011920929,
+      "competition": 0.6100000143051147,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "heating slogans",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 20,
+      "url": "/plumber-slogans/",
+      "etv": 0.09600000083446503
+    },
+    {
+      "keyword": "how to grow my plumbing business",
+      "search_volume": 40,
+      "cpc": 30.56999969482422,
+      "competition": 0.46000000834465027,
+      "position": 15,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "how to grow your plumbing business",
+      "search_volume": 40,
+      "cpc": 40.70000076293945,
+      "competition": 0.6899999976158142,
+      "position": 20,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.09600000083446503
+    },
+    {
+      "keyword": "how to run a plumbing business",
+      "search_volume": 40,
+      "cpc": 12.619999885559082,
+      "competition": 0.4099999964237213,
+      "position": 23,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to start a plumbing business without being a plumber",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 3,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 3.8919999599456787
+    },
+    {
+      "keyword": "hvac facebook ad examples",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 43,
+      "url": "/facebook-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac seo strategy",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 93,
+      "url": "/hvac-seo/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "hvac seo webmasters",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 2,
+      "url": "/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "i think you should leave plumber",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 65,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "laying pipe jokes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 40,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "lead pipe meme",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 32,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "leaking pipe meme",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/plumber-memes/",
+      "etv": 0.6000000238418579
+    },
+    {
+      "keyword": "local memes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 61,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "lsa profile",
+      "search_volume": 40,
+      "cpc": 10.010000228881836,
+      "competition": 0.05999999865889549,
+      "position": 85,
+      "url": "/plumbing-contractor-local-services-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "maintenance slogans funny",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 6,
+      "url": "/plumber-slogans/",
+      "etv": 1.3519999980926514
+    },
+    {
+      "keyword": "marketing my plumbing business",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 11,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.36399999260902405
+    },
+    {
+      "keyword": "most common plumbing tools",
+      "search_volume": 40,
+      "cpc": 0.12999999523162842,
+      "competition": 0.9399999976158142,
+      "position": 70,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "new plumbing products",
+      "search_volume": 40,
+      "cpc": 1.4800000190734863,
+      "competition": 1,
+      "position": 15,
+      "url": "/plumbing-tools/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "nicknames for plumbers",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 43,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "pipe puns",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/plumber-slogans/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "plumber birthday meme",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 50,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber crack jokes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/plumber-slogans/",
+      "etv": 0.36399999260902405
+    },
+    {
+      "keyword": "plumber fitting tools",
+      "search_volume": 40,
+      "cpc": 0.5299999713897705,
+      "competition": 0.9700000286102295,
+      "position": 72,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber gif funny",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/plumber-memes/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "plumber innuendo",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.30000001192092896
+    },
+    {
+      "keyword": "plumber innuendos",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 12,
+      "url": "/plumber-slogans/",
+      "etv": 0.30000001192092896
+    },
+    {
+      "keyword": "plumber jargon",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 14,
+      "url": "/plumber-slogans/",
+      "etv": 0.2240000069141388
+    },
+    {
+      "keyword": "plumber marketing plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 23,
+      "url": "/plumbing-marketing/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber saying",
+      "search_volume": 40,
+      "cpc": 0.009999999776482582,
+      "competition": 0.07999999821186066,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 12.15999984741211
+    },
+    {
+      "keyword": "plumber sayings",
+      "search_volume": 40,
+      "cpc": 0.009999999776482582,
+      "competition": 0.07999999821186066,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 12.15999984741211
+    },
+    {
+      "keyword": "plumber sketch",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 70,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber truck funny",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 61,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber wordpress themes",
+      "search_volume": 40,
+      "cpc": 7.559999942779541,
+      "competition": 1,
+      "position": 56,
+      "url": "/plumber-seo-wordpress-theme/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbers birthday meme",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 15,
+      "url": "/plumber-memes/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "plumbers crack jokes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 38,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbers database",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 5,
+      "url": "/resources/directory-listings/",
+      "etv": 1.875999927520752
+    },
+    {
+      "keyword": "plumbers gadgets",
+      "search_volume": 40,
+      "cpc": 0.5400000214576721,
+      "competition": 1,
+      "position": 18,
+      "url": "/plumbing-tools/",
+      "etv": 0.13199999928474426
+    },
+    {
+      "keyword": "plumbing business profit",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 68,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing business profit margins",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 78,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing business start up costs",
+      "search_volume": 40,
+      "cpc": 8.680000305175781,
+      "competition": 0.27000001072883606,
+      "position": 86,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing business start-up costs",
+      "search_volume": 40,
+      "cpc": 8.680000305175781,
+      "competition": 0.27000001072883606,
+      "position": 80,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing company website",
+      "search_volume": 40,
+      "cpc": 18.350000381469727,
+      "competition": 0.5600000023841858,
+      "position": 71,
+      "url": "/plumbing-websites/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing company websites",
+      "search_volume": 40,
+      "cpc": 18.350000381469727,
+      "competition": 0.5600000023841858,
+      "position": 2,
+      "url": "/plumbing-websites/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "plumbing disaster gif",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 36,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing email marketing",
+      "search_volume": 40,
+      "cpc": 33.189998626708984,
+      "competition": 0.1899999976158142,
+      "position": 13,
+      "url": "/email-marketing/",
+      "etv": 0.23600000143051147
+    },
+    {
+      "keyword": "plumbing gadgets",
+      "search_volume": 40,
+      "cpc": 0.5400000214576721,
+      "competition": 1,
+      "position": 16,
+      "url": "/plumbing-tools/",
+      "etv": 0.1720000058412552
+    },
+    {
+      "keyword": "plumbing innuendo",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 9,
+      "url": "/plumber-slogans/",
+      "etv": 0.6000000238418579
+    },
+    {
+      "keyword": "plumbing innuendos",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 7,
+      "url": "/plumber-slogans/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "plumbing lead generation services",
+      "search_volume": 40,
+      "cpc": 50.959999084472656,
+      "competition": 0.6600000262260437,
+      "position": 11,
+      "url": "/plumbing-leads/",
+      "etv": 0.36399999260902405
+    },
+    {
+      "keyword": "plumbing machine tools",
+      "search_volume": 40,
+      "cpc": 0.44999998807907104,
+      "competition": 1,
+      "position": 59,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing marketing plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 19,
+      "url": "/plumbing-marketing/",
+      "etv": 0.1080000028014183
+    },
+    {
+      "keyword": "plumbing service management software",
+      "search_volume": 40,
+      "cpc": 131.74000549316406,
+      "competition": 0.05999999865889549,
+      "position": 70,
+      "url": "/plumbing-crm/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "plumbing social media posts",
+      "search_volume": 40,
+      "cpc": 28.540000915527344,
+      "competition": 0.5,
+      "position": 3,
+      "url": "/social-media-guide/",
+      "etv": 3.8919999599456787
+    },
+    {
+      "keyword": "plumbing theme wordpress",
+      "search_volume": 40,
+      "cpc": 7.559999942779541,
+      "competition": 1,
+      "position": 75,
+      "url": "/plumber-seo-wordpress-theme/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing wordpress themes",
+      "search_volume": 40,
+      "cpc": 7.559999942779541,
+      "competition": 1,
+      "position": 59,
+      "url": "/plumber-seo-wordpress-theme/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "profitable plumbing business",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 51,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "restoration digital marketing agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 82,
+      "url": "/web-services/water-restoration-marketing/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "standing behind the plumber meme",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 29,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "top plumbing companies in usa",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.5299999713897705,
+      "position": 13,
+      "url": "/digital-marketing-agency/",
+      "etv": 0.23600000143051147
+    },
+    {
+      "keyword": "top plumbing tools",
+      "search_volume": 40,
+      "cpc": 1.2400000095367432,
+      "competition": 0.7599999904632568,
+      "position": 35,
+      "url": "/plumbing-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "unique plumbing tools",
+      "search_volume": 40,
+      "cpc": 0.47999998927116394,
+      "competition": 1,
+      "position": 1,
+      "url": "/plumbing-tools/",
+      "etv": 12.15999984741211
+    },
+    {
+      "keyword": "water heater jokes",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 42,
+      "url": "/plumber-slogans/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "webmasters email",
+      "search_volume": 40,
+      "cpc": 12.119999885559082,
+      "competition": 0.25,
+      "position": 54,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "westside plumbing fort worth",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.5600000023841858,
+      "position": 8,
+      "url": "/case-studies/westside-plumbing/",
+      "etv": 0.7879999876022339
+    },
+    {
+      "keyword": "westside plumbing fort worth tx",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.5600000023841858,
+      "position": 10,
+      "url": "/case-studies/westside-plumbing/",
+      "etv": 0.4519999921321869
+    },
+    {
+      "keyword": "westside plumbing in fort worth",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.5600000023841858,
+      "position": 7,
+      "url": "/case-studies/westside-plumbing/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "what do you need to start a plumbing business",
+      "search_volume": 40,
+      "cpc": 19.010000228881836,
+      "competition": 0.28999999165534973,
+      "position": 12,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.30000001192092896
+    },
+    {
+      "keyword": "wordpress plumber theme",
+      "search_volume": 40,
+      "cpc": 7.559999942779541,
+      "competition": 1,
+      "position": 42,
+      "url": "/plumber-seo-wordpress-theme/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "youtube plumbing repair",
+      "search_volume": 40,
+      "cpc": 2.1500000953674316,
+      "competition": 0.4000000059604645,
+      "position": 64,
+      "url": "/plumber-memes/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "all plumber tools",
+      "search_volume": 30,
+      "cpc": 0.5299999713897705,
+      "competition": 0.8899999856948853,
+      "position": 69,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "bad plumber",
+      "search_volume": 30,
+      "cpc": 160.11000061035156,
+      "competition": 0.2800000011920929,
+      "position": 41,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "best brand for plumbing tools",
+      "search_volume": 30,
+      "cpc": 1.0800000429153442,
+      "competition": 1,
+      "position": 90,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "best plumbing ads",
+      "search_volume": 30,
+      "cpc": 137.4600067138672,
+      "competition": 0.49000000953674316,
+      "position": 1,
+      "url": "/plumber-advertising/",
+      "etv": 6.93120002746582
+    },
+    {
+      "keyword": "best plumbing advertising",
+      "search_volume": 30,
+      "cpc": 137.4600067138672,
+      "competition": 0.49000000953674316,
+      "position": 1,
+      "url": "/plumber-advertising/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "best plumbing leads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 2,
+      "url": "/plumbing-leads/",
+      "etv": 3.790800094604492
+    },
+    {
+      "keyword": "best sales automation for plumbing distributors",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 41,
+      "url": "/plumbing-crm/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "biggest plumbing companies in the world",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 41,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "boiler meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "broken pipe gif",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "business plan for plumbing company",
+      "search_volume": 30,
+      "cpc": 9.6899995803833,
+      "competition": 0.10999999940395355,
+      "position": 7,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "can you start a plumbing business without a license",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 7,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "catchy hvac phrases",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 95,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "commercial webmaster",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 76,
+      "url": "/contact-us/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "company landing page examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 59,
+      "url": "/landing-page-optimization/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "creative plumbing advertising ideas",
+      "search_volume": 30,
+      "cpc": 5.599999904632568,
+      "competition": 0.5699999928474426,
+      "position": 2,
+      "url": "/plumber-advertising/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "damage restoration marketing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 30,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "dirty plumbing slogans",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "electrical contractor taglines",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 86,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "email marketing for plumbers",
+      "search_volume": 30,
+      "cpc": 38.77000045776367,
+      "competition": 0.15000000596046448,
+      "position": 2,
+      "url": "/email-marketing/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "fauceting meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 57,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "free plumbing website templates",
+      "search_volume": 30,
+      "cpc": 9.600000381469727,
+      "competition": 0.8199999928474426,
+      "position": 66,
+      "url": "/plumbing-websites/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "funny emergency management memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 66,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "funny home repair memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 88,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "funny pipefitter memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/plumber-memes/",
+      "etv": 1.4070000648498535
+    },
+    {
+      "keyword": "funny plumbing puns",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 5,
+      "url": "/plumber-slogans/",
+      "etv": 1.4070000648498535
+    },
+    {
+      "keyword": "funny slogan ideas",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 81,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "get plumbing quotes",
+      "search_volume": 30,
+      "cpc": 57.290000915527344,
+      "competition": 0.30000001192092896,
+      "position": 46,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "good plumbing slogans",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.23000000417232513,
+      "position": 6,
+      "url": "/plumber-slogans/",
+      "etv": 1.0140000581741333
+    },
+    {
+      "keyword": "google local service ad login",
+      "search_volume": 30,
+      "cpc": 1.440000057220459,
+      "competition": 0.17000000178813934,
+      "position": 71,
+      "url": "/plumbing-contractor-local-services-ads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "google reviews plumbers",
+      "search_volume": 30,
+      "cpc": 12.880000114440918,
+      "competition": 0.6299999952316284,
+      "position": 2,
+      "url": "/google-reviews/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "happy birthday plumber meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 38,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hot plumber meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumber-memes/",
+      "etv": 0.22499999403953552
+    },
+    {
+      "keyword": "how many licensed plumbers in the us",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 97,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how many plumbers are needed in the us",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 68,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much can a plumbing business make",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 55,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how much does a plumbing business make",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 46,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to find water damage leads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "how to get plumbing customers",
+      "search_volume": 30,
+      "cpc": 48.2400016784668,
+      "competition": 0.5099999904632568,
+      "position": 10,
+      "url": "/plumbing-leads/",
+      "etv": 0.33899998664855957
+    },
+    {
+      "keyword": "how to get started as a plumber",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.27000001072883606,
+      "position": 66,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to get water damage leads",
+      "search_volume": 30,
+      "cpc": 19.700000762939453,
+      "competition": 0.029999999329447746,
+      "position": 9,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.44999998807907104
+    },
+    {
+      "keyword": "how to grow a plumbing company",
+      "search_volume": 30,
+      "cpc": 22.860000610351562,
+      "competition": 0.6200000047683716,
+      "position": 17,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "how to grow plumbing business",
+      "search_volume": 30,
+      "cpc": 22.200000762939453,
+      "competition": 0.5299999713897705,
+      "position": 17,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "how to make my plumbing business grow",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 13,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.1770000010728836
+    },
+    {
+      "keyword": "how to run a successful plumbing business",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.6399999856948853,
+      "position": 21,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.0689999982714653
+    },
+    {
+      "keyword": "how to start a plumbing business with no money",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.3100000023841858,
+      "position": 6,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.0140000581741333
+    },
+    {
+      "keyword": "hvac and plumbing seo",
+      "search_volume": 30,
+      "cpc": 22.770000457763672,
+      "competition": 0.28999999165534973,
+      "position": 3,
+      "url": "/",
+      "etv": 2.9190001487731934
+    },
+    {
+      "keyword": "hvac catch phrases",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 23,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac plumber seo webmasters",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.3799999952316284,
+      "position": 1,
+      "url": "/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "latest plumbing tools",
+      "search_volume": 30,
+      "cpc": 0.36000001430511475,
+      "competition": 0.25999999046325684,
+      "position": 13,
+      "url": "/plumbing-tools/",
+      "etv": 0.1770000010728836
+    },
+    {
+      "keyword": "local plumbers directory",
+      "search_volume": 30,
+      "cpc": 5.199999809265137,
+      "competition": 0.47999998927116394,
+      "position": 10,
+      "url": "/resources/directory-listings/",
+      "etv": 0.33899998664855957
+    },
+    {
+      "keyword": "local plumbing directory",
+      "search_volume": 30,
+      "cpc": 5.199999809265137,
+      "competition": 0.47999998927116394,
+      "position": 7,
+      "url": "/resources/directory-listings/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "local service companies",
+      "search_volume": 30,
+      "cpc": 9.100000381469727,
+      "competition": 0.17000000178813934,
+      "position": 33,
+      "url": "/plumbing-contractor-local-services-ads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "media plumbers",
+      "search_volume": 30,
+      "cpc": 9.930000305175781,
+      "competition": 0.4099999964237213,
+      "position": 34,
+      "url": "/social-media-guide/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "online plumbing quotes",
+      "search_volume": 30,
+      "cpc": 30.65999984741211,
+      "competition": 0.9399999976158142,
+      "position": 53,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "pay per call plumbing leads",
+      "search_volume": 30,
+      "cpc": 24.690000534057617,
+      "competition": 0.6299999952316284,
+      "position": 15,
+      "url": "/water-damage-leads-by-phone/",
+      "etv": 0.14382000267505646
+    },
+    {
+      "keyword": "pipe layer meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 71,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "piping quotes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 58,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber bio",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 84,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber business ideas",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 4,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "plumber crack pants",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 51,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber funny memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumber google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 2,
+      "url": "/google-ads/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "plumber hashtags",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 37,
+      "url": "/social-media-guide/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber ideas",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 14,
+      "url": "/plumber-advertising/",
+      "etv": 0.1679999977350235
+    },
+    {
+      "keyword": "plumber meme gif",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/plumber-memes/",
+      "etv": 0.44999998807907104
+    },
+    {
+      "keyword": "plumber pants commercial",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 81,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber related words",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 80,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber statistics",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 3,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 2.9190001487731934
+    },
+    {
+      "keyword": "plumber website template free",
+      "search_volume": 30,
+      "cpc": 9.600000381469727,
+      "competition": 0.8199999928474426,
+      "position": 75,
+      "url": "/plumbing-websites/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber write for us",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 3,
+      "url": "/resources/perfect-content/",
+      "etv": 2.9190001487731934
+    },
+    {
+      "keyword": "plumbers email list",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 17,
+      "url": "/email-marketing/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "plumbers funny memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbers sayings",
+      "search_volume": 30,
+      "cpc": 0.6499999761581421,
+      "competition": 0.25,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbers-email-list",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 20,
+      "url": "/email-marketing/",
+      "etv": 0.07199999690055847
+    },
+    {
+      "keyword": "plumbing add",
+      "search_volume": 30,
+      "cpc": 39.36000061035156,
+      "competition": 0.17000000178813934,
+      "position": 5,
+      "url": "/plumber-advertising/",
+      "etv": 1.4070000648498535
+    },
+    {
+      "keyword": "plumbing business equipment",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 33,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing business ideas",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 4,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "plumbing company business plan",
+      "search_volume": 30,
+      "cpc": 9.6899995803833,
+      "competition": 0.10999999940395355,
+      "position": 17,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "plumbing contractor local seo services",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/seo-services/local-seo/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbing fails pictures",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/plumber-memes/",
+      "etv": 0.15299999713897705
+    },
+    {
+      "keyword": "plumbing flyer ideas",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 1,
+      "position": 49,
+      "url": "/plumber-advertising/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing funny memes",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbing google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 2,
+      "url": "/google-ads/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "plumbing inventions",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 21,
+      "url": "/plumbing-tools/",
+      "etv": 0.0689999982714653
+    },
+    {
+      "keyword": "plumbing inventory management software",
+      "search_volume": 30,
+      "cpc": 631.3200073242188,
+      "competition": 0.17000000178813934,
+      "position": 38,
+      "url": "/plumbing-crm/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing job leads",
+      "search_volume": 30,
+      "cpc": 13.1899995803833,
+      "competition": 0.6200000047683716,
+      "position": 4,
+      "url": "/plumbing-leads/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "plumbing marketing experts",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.46000000834465027,
+      "position": 1,
+      "url": "/digital-marketing-agency/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbing names not taken",
+      "search_volume": 30,
+      "cpc": 3.5899999141693115,
+      "competition": 0.44999998807907104,
+      "position": 25,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing repair images",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 84,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing sayings",
+      "search_volume": 30,
+      "cpc": 0.6499999761581421,
+      "competition": 0.25,
+      "position": 1,
+      "url": "/plumber-slogans/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbing service software system",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 87,
+      "url": "/plumbing-crm/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "plumbing software for small business",
+      "search_volume": 30,
+      "cpc": 162.97000122070312,
+      "competition": 0.46000000834465027,
+      "position": 58,
+      "url": "/plumbing-crm/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "plumbing statistics",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 7,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "plumbing taglines",
+      "search_volume": 30,
+      "cpc": 5.019999980926514,
+      "competition": 0.25999999046325684,
+      "position": 4,
+      "url": "/plumber-slogans/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "plumbing tool brands",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.7699999809265137,
+      "position": 62,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing tool manufacturers",
+      "search_volume": 30,
+      "cpc": 1.1100000143051147,
+      "competition": 0.4399999976158142,
+      "position": 72,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing tools brands",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.7699999809265137,
+      "position": 61,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing tools manufacturer",
+      "search_volume": 30,
+      "cpc": 1.1100000143051147,
+      "competition": 0.4399999976158142,
+      "position": 91,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing tools manufacturers",
+      "search_volume": 30,
+      "cpc": 1.1100000143051147,
+      "competition": 0.4399999976158142,
+      "position": 79,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing webmasters reviews",
+      "search_volume": 30,
+      "cpc": 71.0999984741211,
+      "competition": 0.3400000035762787,
+      "position": 1,
+      "url": "/reviews/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "plumbing write for us",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 2,
+      "url": "/resources/perfect-content/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "pressure washing keywords",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.20999999344348907,
+      "position": 69,
+      "url": "/resources/50-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "quotes for plumbing work",
+      "search_volume": 30,
+      "cpc": 22.65999984741211,
+      "competition": 0.8999999761581421,
+      "position": 2,
+      "url": "/plumber-slogans/",
+      "etv": 4.860000133514404
+    },
+    {
+      "keyword": "restoration company seo lead generation",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 27,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "restoration marketing companies",
+      "search_volume": 30,
+      "cpc": 113.01000213623047,
+      "competition": 0.1899999976158142,
+      "position": 33,
+      "url": "/web-services/water-restoration-marketing/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "rich plumber meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "sewer pipe explosion gif",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 35,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "short hilarious handyman slogans",
+      "search_volume": 30,
+      "cpc": 0.3499999940395355,
+      "competition": 0.07000000029802322,
+      "position": 27,
+      "url": "/plumber-slogans/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "start your own plumbing business",
+      "search_volume": 30,
+      "cpc": 7.46999979019165,
+      "competition": 0.28999999165534973,
+      "position": 11,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.27300000190734863
+    },
+    {
+      "keyword": "starting your own plumbing business",
+      "search_volume": 30,
+      "cpc": 7.46999979019165,
+      "competition": 0.28999999165534973,
+      "position": 19,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.08100000023841858
+    },
+    {
+      "keyword": "sunset west plumbing & rooter inc",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 7,
+      "url": "/case-studies/sunset-west-plumbing-rooter/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "the webmasters",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 86,
+      "url": "/reviews/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "toilet overflow meme",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 56,
+      "url": "/plumber-memes/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "tools for plumbing work",
+      "search_volume": 30,
+      "cpc": 0.5199999809265137,
+      "competition": 1,
+      "position": 55,
+      "url": "/plumbing-tools/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "water heater repair chattanooga",
+      "search_volume": 30,
+      "cpc": 54.52000045776367,
+      "competition": 0.6299999952316284,
+      "position": 58,
+      "url": "/case-studies/chattanooga-water-heater-co/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "waterworks plumbing company",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.3499999940395355,
+      "position": 50,
+      "url": "/case-studies/steves-waterworks-plumbing/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "what do i need to start a plumbing business",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.5099999904632568,
+      "position": 39,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "what industry is plumbing in",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 59,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "what license do i need to start a plumbing business",
+      "search_volume": 30,
+      "cpc": 19.260000228881836,
+      "competition": 0.3499999940395355,
+      "position": 4,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 1.9769999980926514
+    },
+    {
+      "keyword": "what rhymes with plumber",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 21,
+      "url": "/plumber-slogans/",
+      "etv": 0.0689999982714653
+    },
+    {
+      "keyword": "best new plumbing tools",
+      "search_volume": 20,
+      "cpc": 0.7400000095367432,
+      "competition": 0.9800000190734863,
+      "position": 2,
+      "url": "/plumbing-tools/",
+      "etv": 3.240000009536743
+    },
+    {
+      "keyword": "chris fresh plumbing",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/plumbing-podcasts/",
+      "etv": 0.15000000596046448
+    },
+    {
+      "keyword": "grow my plumbing business",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 1,
+      "position": 36,
+      "url": "/expand-my-plumbing-business/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "how much money to start a plumbing business",
+      "search_volume": 20,
+      "cpc": 19.200000762939453,
+      "competition": 0.07000000029802322,
+      "position": 5,
+      "url": "/how-to-start-a-plumbing-company/",
+      "etv": 0.9380000233650208
+    },
+    {
+      "keyword": "plumber jokes meme",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 1,
+      "url": "/plumber-memes/",
+      "etv": 6.079999923706055
+    },
+    {
+      "keyword": "plumbing business app",
+      "search_volume": 20,
+      "cpc": 38.90999984741211,
+      "competition": 0.6299999952316284,
+      "position": 89,
+      "url": "/best-plumbing-software/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "plumbing business apps",
+      "search_volume": 20,
+      "cpc": 38.90999984741211,
+      "competition": 0.6299999952316284,
+      "position": 45,
+      "url": "/best-plumbing-software/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "plumbing leads for plumbers",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.6000000238418579,
+      "position": 2,
+      "url": "/plumbing-leads/",
+      "etv": 3.240000009536743
+    },
+    {
+      "keyword": "plumbing review example",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 31,
+      "url": "/handle-negative-plumber-reviews/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "plumbing reviews examples",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 48,
+      "url": "/handle-negative-plumber-reviews/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "plumbing slogan generator",
+      "search_volume": 20,
+      "cpc": 2.7300000190734863,
+      "competition": 0.6700000166893005,
+      "position": 20,
+      "url": "/plumber-slogans/",
+      "etv": 0.04800000041723251
+    },
+    {
+      "keyword": "restoration lead generation",
+      "search_volume": 20,
+      "cpc": 15.300000190734863,
+      "competition": 0.09000000357627869,
+      "position": 26,
+      "url": "/web-services/water-restoration-marketing/water-damage-leads/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "what industry does plumbing fall under",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 4,
+      "url": "/plumbing-industry-statistics/",
+      "etv": 1.3179999589920044
+    },
+    {
+      "keyword": "funniest taglines",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "position": 84,
+      "url": "/plumber-slogans/",
+      "etv": 0.020999999716877937
+    }
+  ]
+}

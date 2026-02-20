@@ -1,0 +1,5267 @@
+{
+  "domain": "rivaldigital.com",
+  "label": "RivalDigital",
+  "total_keywords": 584,
+  "top3": 6,
+  "top10": 62,
+  "top20": 134,
+  "estimated_traffic": 677,
+  "keywords": [
+    {
+      "keyword": "contractor commerce",
+      "search_volume": 8100,
+      "cpc": 5,
+      "competition": 0.36000001430511475,
+      "position": 17,
+      "url": "/blog/hvac/hvac-ecommerce-its-time-to-make-the-shift/",
+      "etv": 34.83000183105469
+    },
+    {
+      "keyword": "local seo tool",
+      "search_volume": 2900,
+      "cpc": 15.029999732971191,
+      "competition": 0.10999999940395355,
+      "position": 28,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 6.090000152587891
+    },
+    {
+      "keyword": "local seo tools",
+      "search_volume": 2900,
+      "cpc": 15.029999732971191,
+      "competition": 0.10999999940395355,
+      "position": 50,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 6.090000152587891
+    },
+    {
+      "keyword": "roas calculation",
+      "search_volume": 2400,
+      "cpc": 5.380000114440918,
+      "competition": 0.41999998688697815,
+      "position": 60,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 5.039999961853027
+    },
+    {
+      "keyword": "lsa ads",
+      "search_volume": 1600,
+      "cpc": 14,
+      "competition": 0.41999998688697815,
+      "position": 17,
+      "url": "/services/local-services-ads/",
+      "etv": 6.880000114440918
+    },
+    {
+      "keyword": "seo for electricians",
+      "search_volume": 1600,
+      "cpc": 50.119998931884766,
+      "competition": 0.05999999865889549,
+      "position": 85,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 3.158400058746338
+    },
+    {
+      "keyword": "hvac commercials",
+      "search_volume": 1300,
+      "cpc": 31.579999923706055,
+      "competition": 0.6200000047683716,
+      "position": 91,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 2.7300000190734863
+    },
+    {
+      "keyword": "hvac marketing agency",
+      "search_volume": 1000,
+      "cpc": 117.61000061035156,
+      "competition": 0.05000000074505806,
+      "position": 27,
+      "url": "/",
+      "etv": 1.9739999771118164
+    },
+    {
+      "keyword": "hvac seo service",
+      "search_volume": 1000,
+      "cpc": 52.689998626708984,
+      "competition": 0.029999999329447746,
+      "position": 54,
+      "url": "/services/seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "hvac seo services",
+      "search_volume": 1000,
+      "cpc": 52.689998626708984,
+      "competition": 0.029999999329447746,
+      "position": 26,
+      "url": "/services/seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumber seo",
+      "search_volume": 1000,
+      "cpc": 54.220001220703125,
+      "competition": 0.18000000715255737,
+      "position": 27,
+      "url": "/industries/plumbing/seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "plumbing marketing agency",
+      "search_volume": 1000,
+      "cpc": 77.44999694824219,
+      "competition": 0.05999999865889549,
+      "position": 24,
+      "url": "/industries/plumbing/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "public relations digital",
+      "search_volume": 1000,
+      "cpc": 26.940000534057617,
+      "competition": 0.25999999046325684,
+      "position": 79,
+      "url": "/services/digital-pr/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "seo plumber",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 55,
+      "url": "/industries/plumbing/seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "seo plumbing",
+      "search_volume": 1000,
+      "cpc": 64.76000213623047,
+      "competition": 0.10000000149011612,
+      "position": 25,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 2.0999999046325684
+    },
+    {
+      "keyword": "hvac contractor seo",
+      "search_volume": 880,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 34,
+      "url": "/services/seo/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "hvac marketers",
+      "search_volume": 880,
+      "cpc": 111.79000091552734,
+      "competition": 0.6100000143051147,
+      "position": 42,
+      "url": "/podcast/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "hvac marketing",
+      "search_volume": 880,
+      "cpc": 111.79000091552734,
+      "competition": 0.6100000143051147,
+      "position": 46,
+      "url": "/podcast/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "hvac seo",
+      "search_volume": 880,
+      "cpc": 49.04999923706055,
+      "competition": 0.1599999964237213,
+      "position": 27,
+      "url": "/services/seo/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "local seo for plumber",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 7,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 22.527999877929688
+    },
+    {
+      "keyword": "local seo for plumbers",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 36,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "local seo for plumbing",
+      "search_volume": 880,
+      "cpc": 66.38999938964844,
+      "competition": 0.029999999329447746,
+      "position": 38,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "seo for hvac company",
+      "search_volume": 880,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 23,
+      "url": "/services/seo/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "website design for plumbers",
+      "search_volume": 880,
+      "cpc": 59.86000061035156,
+      "competition": 0.12999999523162842,
+      "position": 56,
+      "url": "/industries/plumbing/website-design/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "best local seo tools",
+      "search_volume": 720,
+      "cpc": 44.61000061035156,
+      "competition": 0.10999999940395355,
+      "position": 6,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 24.336000442504883
+    },
+    {
+      "keyword": "best tools for local seo",
+      "search_volume": 720,
+      "cpc": 44.61000061035156,
+      "competition": 0.10999999940395355,
+      "position": 51,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "citation building",
+      "search_volume": 720,
+      "cpc": 4.529999732971191,
+      "competition": 0.10000000149011612,
+      "position": 28,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "home services marketing agency",
+      "search_volume": 720,
+      "cpc": 12.600000381469727,
+      "competition": 0.28999999165534973,
+      "position": 9,
+      "url": "/",
+      "etv": 10.800000190734863
+    },
+    {
+      "keyword": "hvac a d",
+      "search_volume": 720,
+      "cpc": 79.06999969482422,
+      "competition": 0.30000001192092896,
+      "position": 48,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "hvac ad",
+      "search_volume": 720,
+      "cpc": 79.06999969482422,
+      "competition": 0.30000001192092896,
+      "position": 53,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 1.421280026435852
+    },
+    {
+      "keyword": "hvac marketing companies",
+      "search_volume": 720,
+      "cpc": 129.61000061035156,
+      "competition": 0.3400000035762787,
+      "position": 32,
+      "url": "/",
+      "etv": 1.421280026435852
+    },
+    {
+      "keyword": "hvac marketing company",
+      "search_volume": 720,
+      "cpc": 129.61000061035156,
+      "competition": 0.3400000035762787,
+      "position": 19,
+      "url": "/",
+      "etv": 1.827359914779663
+    },
+    {
+      "keyword": "local seo software",
+      "search_volume": 720,
+      "cpc": 5.130000114440918,
+      "competition": 0.07999999821186066,
+      "position": 4,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 47.448001861572266
+    },
+    {
+      "keyword": "plumbing company seo",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 42,
+      "url": "/industries/plumbing/seo/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "seo company for plumbers",
+      "search_volume": 720,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 87,
+      "url": "/industries/plumbing/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "electrician marketing",
+      "search_volume": 590,
+      "cpc": 22.8700008392334,
+      "competition": 0.14000000059604645,
+      "position": 55,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "electrician web design",
+      "search_volume": 590,
+      "cpc": 44.02000045776367,
+      "competition": 0.12999999523162842,
+      "position": 55,
+      "url": "/industries/electrical/website-design/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "hvac seo companies",
+      "search_volume": 590,
+      "cpc": 321.6300048828125,
+      "competition": 0.15000000596046448,
+      "position": 23,
+      "url": "/services/seo/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "marketing electrician",
+      "search_volume": 590,
+      "cpc": 22.8700008392334,
+      "competition": 0.14000000059604645,
+      "position": 84,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "marketing for electricians",
+      "search_volume": 590,
+      "cpc": 22.8700008392334,
+      "competition": 0.14000000059604645,
+      "position": 49,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "plumber seo services",
+      "search_volume": 590,
+      "cpc": 62.2599983215332,
+      "competition": 0.03999999910593033,
+      "position": 51,
+      "url": "/industries/plumbing/seo/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "plumbing seo services",
+      "search_volume": 590,
+      "cpc": 62.2599983215332,
+      "competition": 0.03999999910593033,
+      "position": 51,
+      "url": "/industries/plumbing/seo/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "rival services",
+      "search_volume": 590,
+      "cpc": 0,
+      "competition": 0,
+      "position": 24,
+      "url": "/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "roofing marketing companies",
+      "search_volume": 590,
+      "cpc": 29.239999771118164,
+      "competition": 0.4699999988079071,
+      "position": 82,
+      "url": "/industries/roofing/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "seo and internet marketing services",
+      "search_volume": 590,
+      "cpc": 0,
+      "competition": 0,
+      "position": 77,
+      "url": "/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "seo for hvac",
+      "search_volume": 590,
+      "cpc": 114.52999877929688,
+      "competition": 0.11999999731779099,
+      "position": 43,
+      "url": "/services/seo/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "seo hvac",
+      "search_volume": 590,
+      "cpc": 114.52999877929688,
+      "competition": 0.11999999731779099,
+      "position": 39,
+      "url": "/services/seo/",
+      "etv": 1.1646599769592285
+    },
+    {
+      "keyword": "website design for electrician",
+      "search_volume": 590,
+      "cpc": 44.02000045776367,
+      "competition": 0.12999999523162842,
+      "position": 30,
+      "url": "/industries/electrical/website-design/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "why is my google reviews not showing",
+      "search_volume": 590,
+      "cpc": 0,
+      "competition": 0,
+      "position": 77,
+      "url": "/blog/why-are-my-google-business-reviews-not-showing-up/",
+      "etv": 1.2389999628067017
+    },
+    {
+      "keyword": "ad for electrician",
+      "search_volume": 480,
+      "cpc": 28.790000915527344,
+      "competition": 0.07000000029802322,
+      "position": 43,
+      "url": "/industries/electrical/ppc/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "advertising electrician",
+      "search_volume": 480,
+      "cpc": 28.790000915527344,
+      "competition": 0.07000000029802322,
+      "position": 27,
+      "url": "/industries/electrical/ppc/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "digital pr service",
+      "search_volume": 480,
+      "cpc": 31.229999542236328,
+      "competition": 0.2199999988079071,
+      "position": 11,
+      "url": "/services/digital-pr/",
+      "etv": 4.368000030517578
+    },
+    {
+      "keyword": "digital pr services",
+      "search_volume": 480,
+      "cpc": 31.229999542236328,
+      "competition": 0.2199999988079071,
+      "position": 14,
+      "url": "/services/digital-pr/",
+      "etv": 2.687999963760376
+    },
+    {
+      "keyword": "electrician ad",
+      "search_volume": 480,
+      "cpc": 28.790000915527344,
+      "competition": 0.07000000029802322,
+      "position": 34,
+      "url": "/industries/electrical/ppc/",
+      "etv": 0.9475200176239014
+    },
+    {
+      "keyword": "internet marketing for plumbing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 85,
+      "url": "/industries/plumbing/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "internet marketing plumbers",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 3,
+      "url": "/industries/plumbing/",
+      "etv": 46.70399856567383
+    },
+    {
+      "keyword": "plumber internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 60,
+      "url": "/industries/plumbing/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "plumbing internet marketing",
+      "search_volume": 480,
+      "cpc": 81.13999938964844,
+      "competition": 0.029999999329447746,
+      "position": 84,
+      "url": "/industries/plumbing/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "seo for hvac contractors",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 29,
+      "url": "/services/seo/",
+      "etv": 0.9475200176239014
+    },
+    {
+      "keyword": "seo services for contractors",
+      "search_volume": 480,
+      "cpc": 74.9800033569336,
+      "competition": 0.03999999910593033,
+      "position": 65,
+      "url": "/services/local-seo/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "services keywords",
+      "search_volume": 480,
+      "cpc": 0,
+      "competition": 0,
+      "position": 95,
+      "url": "/blog/best-keywords-for-hvac-seo/",
+      "etv": 1.0080000162124634
+    },
+    {
+      "keyword": "best local seo software",
+      "search_volume": 390,
+      "cpc": 25.030000686645508,
+      "competition": 0.12999999523162842,
+      "position": 58,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "digital marketing for plumber",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 25,
+      "url": "/industries/plumbing/",
+      "etv": 0.769860029220581
+    },
+    {
+      "keyword": "digital marketing for plumbers",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 61,
+      "url": "/industries/plumbing/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "digital marketing for plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 28,
+      "url": "/industries/plumbing/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "digital marketing plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 66,
+      "url": "/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "hvac digital marketing",
+      "search_volume": 390,
+      "cpc": 156.52000427246094,
+      "competition": 0.36000001430511475,
+      "position": 9,
+      "url": "/",
+      "etv": 5.674499988555908
+    },
+    {
+      "keyword": "local citation builder",
+      "search_volume": 390,
+      "cpc": 19.489999771118164,
+      "competition": 0.33000001311302185,
+      "position": 99,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "local map seo",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 82,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "local maps seo",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 66,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "local pack seo",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.4399999976158142,
+      "position": 90,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "local seo ranking factors",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 69,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "long tail keywords vs short-tail",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 76,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "long tail vs short tail keywords",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 86,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "long-tail keywords vs short tail",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 80,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "long-tail keywords vs short-tail",
+      "search_volume": 390,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 78,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "plumbing seo company",
+      "search_volume": 390,
+      "cpc": 152.24000549316406,
+      "competition": 0.07999999821186066,
+      "position": 23,
+      "url": "/industries/plumbing/seo/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "best local seo",
+      "search_volume": 320,
+      "cpc": 15.4399995803833,
+      "competition": 0.27000001072883606,
+      "position": 80,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "electrical ads",
+      "search_volume": 320,
+      "cpc": 67.19999694824219,
+      "competition": 0.10000000149011612,
+      "position": 37,
+      "url": "/industries/electrical/ppc/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "electrical contractor marketing",
+      "search_volume": 320,
+      "cpc": 35.9900016784668,
+      "competition": 0.03999999910593033,
+      "position": 92,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "home service digital marketing",
+      "search_volume": 320,
+      "cpc": 38.81999969482422,
+      "competition": 0.07999999821186066,
+      "position": 6,
+      "url": "/",
+      "etv": 10.815999984741211
+    },
+    {
+      "keyword": "home services digital marketing",
+      "search_volume": 320,
+      "cpc": 38.81999969482422,
+      "competition": 0.07999999821186066,
+      "position": 21,
+      "url": "/",
+      "etv": 0.7360000014305115
+    },
+    {
+      "keyword": "hvac ad agency",
+      "search_volume": 320,
+      "cpc": 36.7599983215332,
+      "competition": 0.2199999988079071,
+      "position": 25,
+      "url": "/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "hvac advertising agency",
+      "search_volume": 320,
+      "cpc": 36.7599983215332,
+      "competition": 0.2199999988079071,
+      "position": 53,
+      "url": "/industries/hvac/",
+      "etv": 0.6316800117492676
+    },
+    {
+      "keyword": "hvac conferences",
+      "search_volume": 320,
+      "cpc": 1.8899999856948853,
+      "competition": 0.23000000417232513,
+      "position": 3,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 31.13599967956543
+    },
+    {
+      "keyword": "hvac conventions",
+      "search_volume": 320,
+      "cpc": 1.8899999856948853,
+      "competition": 0.23000000417232513,
+      "position": 6,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 10.815999984741211
+    },
+    {
+      "keyword": "hvac trade show",
+      "search_volume": 320,
+      "cpc": 0.8500000238418579,
+      "competition": 0.05999999865889549,
+      "position": 12,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 2.4000000953674316
+    },
+    {
+      "keyword": "hvac trade shows",
+      "search_volume": 320,
+      "cpc": 0.8500000238418579,
+      "competition": 0.05999999865889549,
+      "position": 8,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 6.303999900817871
+    },
+    {
+      "keyword": "local search ranking",
+      "search_volume": 320,
+      "cpc": 8.399999618530273,
+      "competition": 0.03999999910593033,
+      "position": 91,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "local seo for electricians",
+      "search_volume": 320,
+      "cpc": 8.630000114440918,
+      "competition": 0.019999999552965164,
+      "position": 10,
+      "url": "/industries/electrical/local-seo/",
+      "etv": 3.4351999759674072
+    },
+    {
+      "keyword": "local seo software for agencies",
+      "search_volume": 320,
+      "cpc": 36.47999954223633,
+      "competition": 0.009999999776482582,
+      "position": 73,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "lq digital",
+      "search_volume": 320,
+      "cpc": 37.4900016784668,
+      "competition": 0.03999999910593033,
+      "position": 80,
+      "url": "/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "marketing for electrical contractors",
+      "search_volume": 320,
+      "cpc": 35.9900016784668,
+      "competition": 0.03999999910593033,
+      "position": 60,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "near me seo",
+      "search_volume": 320,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 93,
+      "url": "/blog/local-seo/how-to-rank-for-near-me-searches/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "pest control marketing company",
+      "search_volume": 320,
+      "cpc": 66.06999969482422,
+      "competition": 0.23000000417232513,
+      "position": 48,
+      "url": "/industries/pest-control/",
+      "etv": 0.6316800117492676
+    },
+    {
+      "keyword": "return on ad spend formula",
+      "search_volume": 320,
+      "cpc": 2.8299999237060547,
+      "competition": 0.3499999940395355,
+      "position": 80,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "short tail keyword",
+      "search_volume": 320,
+      "cpc": 2.3600001335144043,
+      "competition": 0.05000000074505806,
+      "position": 82,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "short-tail keywords",
+      "search_volume": 320,
+      "cpc": 2.3600001335144043,
+      "competition": 0.05000000074505806,
+      "position": 90,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "tools for local seo",
+      "search_volume": 320,
+      "cpc": 0,
+      "competition": 0,
+      "position": 45,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "best diy website builder",
+      "search_volume": 260,
+      "cpc": 38.33000183105469,
+      "competition": 0.8299999833106995,
+      "position": 57,
+      "url": "/blog/best-diy-website-builders-in-2024/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "best website builder diy",
+      "search_volume": 260,
+      "cpc": 38.33000183105469,
+      "competition": 0.8299999833106995,
+      "position": 93,
+      "url": "/blog/best-diy-website-builders-in-2024/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "brightlocal citation",
+      "search_volume": 260,
+      "cpc": 4.590000152587891,
+      "competition": 0.5199999809265137,
+      "position": 77,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "citation builder seo",
+      "search_volume": 260,
+      "cpc": 25.719999313354492,
+      "competition": 0.4099999964237213,
+      "position": 90,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "citation building service",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 75,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "dan antonelli",
+      "search_volume": 260,
+      "cpc": 9.819999694824219,
+      "competition": 0.05000000074505806,
+      "position": 23,
+      "url": "/episode/fit-in-or-stand-out-with-dan-antonelli/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "digital marketing for pest control",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 47,
+      "url": "/industries/pest-control/",
+      "etv": 0.5132399797439575
+    },
+    {
+      "keyword": "free local seo tool",
+      "search_volume": 260,
+      "cpc": 13.720000267028809,
+      "competition": 0.07999999821186066,
+      "position": 56,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "free local seo tools",
+      "search_volume": 260,
+      "cpc": 13.720000267028809,
+      "competition": 0.07999999821186066,
+      "position": 29,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "free tools for local seo",
+      "search_volume": 260,
+      "cpc": 13.720000267028809,
+      "competition": 0.07999999821186066,
+      "position": 30,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "garage door marketers",
+      "search_volume": 260,
+      "cpc": 10.420000076293945,
+      "competition": 0.4300000071525574,
+      "position": 24,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "garage door marketing",
+      "search_volume": 260,
+      "cpc": 10.420000076293945,
+      "competition": 0.4300000071525574,
+      "position": 42,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "google ads for plumber",
+      "search_volume": 260,
+      "cpc": 53.61000061035156,
+      "competition": 0.019999999552965164,
+      "position": 5,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 12.194000244140625
+    },
+    {
+      "keyword": "home services marketing company",
+      "search_volume": 260,
+      "cpc": 20.479999542236328,
+      "competition": 0.10000000149011612,
+      "position": 26,
+      "url": "/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "hvac marketing services",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 69,
+      "url": "/industries/hvac/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "hvac pay per click",
+      "search_volume": 260,
+      "cpc": 53.34000015258789,
+      "competition": 0.2199999988079071,
+      "position": 13,
+      "url": "/services/pay-per-click/",
+      "etv": 1.5339999198913574
+    },
+    {
+      "keyword": "hvac ppc",
+      "search_volume": 260,
+      "cpc": 53.34000015258789,
+      "competition": 0.2199999988079071,
+      "position": 20,
+      "url": "/services/pay-per-click/",
+      "etv": 0.5865600109100342
+    },
+    {
+      "keyword": "hvac ppc marketing",
+      "search_volume": 260,
+      "cpc": 53.34000015258789,
+      "competition": 0.2199999988079071,
+      "position": 39,
+      "url": "/services/pay-per-click/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "hvac seo agency",
+      "search_volume": 260,
+      "cpc": 42.88999938964844,
+      "competition": 0.1599999964237213,
+      "position": 17,
+      "url": "/services/seo/",
+      "etv": 1.050920009613037
+    },
+    {
+      "keyword": "local seo for hvac",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 37,
+      "url": "/services/local-seo/",
+      "etv": 0.5132399797439575
+    },
+    {
+      "keyword": "local seo platform",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 67,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "local seo platforms",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 39,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "pest control digital marketing",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 78,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.5132399797439575
+    },
+    {
+      "keyword": "plumbing industry",
+      "search_volume": 260,
+      "cpc": 0.6700000166893005,
+      "competition": 0.3700000047683716,
+      "position": 56,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "plumbing marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 62,
+      "url": "/industries/plumbing/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "ppc for hvac",
+      "search_volume": 260,
+      "cpc": 53.34000015258789,
+      "competition": 0.2199999988079071,
+      "position": 25,
+      "url": "/services/pay-per-click/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "ppc hvac",
+      "search_volume": 260,
+      "cpc": 53.34000015258789,
+      "competition": 0.2199999988079071,
+      "position": 13,
+      "url": "/services/pay-per-click/",
+      "etv": 1.4419599771499634
+    },
+    {
+      "keyword": "restoration marketing",
+      "search_volume": 260,
+      "cpc": 39.439998626708984,
+      "competition": 0.2199999988079071,
+      "position": 36,
+      "url": "/industries/restoration/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "rival branding",
+      "search_volume": 260,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 42,
+      "url": "/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "calculate return on ad spend",
+      "search_volume": 210,
+      "cpc": 8.550000190734863,
+      "competition": 0.46000000834465027,
+      "position": 96,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "digital marketing companies in virginia",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 79,
+      "url": "/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "digital marketing company virginia",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 96,
+      "url": "/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "digital marketing for electricians",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 67,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "electrician advertising slogans",
+      "search_volume": 210,
+      "cpc": 2.5399999618530273,
+      "competition": 0.07000000029802322,
+      "position": 71,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "flow expo 2025",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0,
+      "position": 88,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "garage door business plan",
+      "search_volume": 210,
+      "cpc": 0.009999999776482582,
+      "competition": 0.019999999552965164,
+      "position": 8,
+      "url": "/blog/how-profitable-is-a-garage-door-business/",
+      "etv": 4.13700008392334
+    },
+    {
+      "keyword": "home services digital marketing agency",
+      "search_volume": 210,
+      "cpc": 10.59000015258789,
+      "competition": 0.17000000178813934,
+      "position": 6,
+      "url": "/",
+      "etv": 7.0980000495910645
+    },
+    {
+      "keyword": "how to calculate return on ad spend",
+      "search_volume": 210,
+      "cpc": 2.1600000858306885,
+      "competition": 0.41999998688697815,
+      "position": 87,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "hvac convention 2025",
+      "search_volume": 210,
+      "cpc": 0.9800000190734863,
+      "competition": 0.11999999731779099,
+      "position": 5,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 9.848999977111816
+    },
+    {
+      "keyword": "hvac digital marketing agency",
+      "search_volume": 210,
+      "cpc": 137.3699951171875,
+      "competition": 0.44999998807907104,
+      "position": 11,
+      "url": "/",
+      "etv": 1.796339988708496
+    },
+    {
+      "keyword": "hvac internet marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 43,
+      "url": "/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "hvac online marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 86,
+      "url": "/industries/hvac/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "hvac seo marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 39,
+      "url": "/services/seo/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "internet marketing for pest control",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 52,
+      "url": "/industries/pest-control/",
+      "etv": 0.41453999280929565
+    },
+    {
+      "keyword": "local pack rankings",
+      "search_volume": 210,
+      "cpc": 7.679999828338623,
+      "competition": 0.019999999552965164,
+      "position": 83,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "local seo for hvac contractors",
+      "search_volume": 210,
+      "cpc": 266.5799865722656,
+      "competition": 0.03999999910593033,
+      "position": 19,
+      "url": "/services/local-seo/",
+      "etv": 0.5669999718666077
+    },
+    {
+      "keyword": "long tail and short tail keyword",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 50,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "long tail and short tail keywords",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 90,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "long-tail and short tail keyword",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 97,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumbing digital marketing",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 63,
+      "url": "/industries/plumbing/",
+      "etv": 0.41453999280929565
+    },
+    {
+      "keyword": "plumbing seo agency",
+      "search_volume": 210,
+      "cpc": 36.619998931884766,
+      "competition": 0.05000000074505806,
+      "position": 79,
+      "url": "/industries/plumbing/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "rival website",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 18,
+      "url": "/",
+      "etv": 0.6930000185966492
+    },
+    {
+      "keyword": "roas metric",
+      "search_volume": 210,
+      "cpc": 1.6200000047683716,
+      "competition": 0.4099999964237213,
+      "position": 73,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "roas metrics",
+      "search_volume": 210,
+      "cpc": 1.6200000047683716,
+      "competition": 0.4099999964237213,
+      "position": 72,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "service roundtable",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0,
+      "position": 4,
+      "url": "/episode/what-is-service-roundtable-and-what-does-it-mean-for-your-business/",
+      "etv": 13.83899974822998
+    },
+    {
+      "keyword": "short tail and long tail keywords",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 94,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "short tail long tail keywords",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 86,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "short-tail and long-tail keywords",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 88,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "what industry is plumbing",
+      "search_volume": 210,
+      "cpc": 3.6600000858306885,
+      "competition": 0.1899999976158142,
+      "position": 49,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "best local seo company for google",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 98,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "customer on the phone",
+      "search_volume": 170,
+      "cpc": 8.350000381469727,
+      "competition": 0.07000000029802322,
+      "position": 29,
+      "url": "/blog/how-do-i-handle-upset-customers-on-the-phone/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "digital marketing agencies in virginia",
+      "search_volume": 170,
+      "cpc": 6.809999942779541,
+      "competition": 0.029999999329447746,
+      "position": 91,
+      "url": "/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "digital marketing agency in virginia",
+      "search_volume": 170,
+      "cpc": 6.809999942779541,
+      "competition": 0.029999999329447746,
+      "position": 40,
+      "url": "/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "digital marketing for hvac companies",
+      "search_volume": 170,
+      "cpc": 58.52000045776367,
+      "competition": 0.25,
+      "position": 34,
+      "url": "/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "digital marketing home",
+      "search_volume": 170,
+      "cpc": 7.46999979019165,
+      "competition": 0.3499999940395355,
+      "position": 43,
+      "url": "/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "electrical advertising ideas",
+      "search_volume": 170,
+      "cpc": 10,
+      "competition": 0.17000000178813934,
+      "position": 27,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "electrician advertising ideas",
+      "search_volume": 170,
+      "cpc": 10,
+      "competition": 0.17000000178813934,
+      "position": 24,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "hvac conference 2025",
+      "search_volume": 170,
+      "cpc": 7.639999866485596,
+      "competition": 0.12999999523162842,
+      "position": 6,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 5.745999813079834
+    },
+    {
+      "keyword": "hvac expo 2025",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.1599999964237213,
+      "position": 14,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.9520000219345093
+    },
+    {
+      "keyword": "hvac marketing ideas",
+      "search_volume": 170,
+      "cpc": 62.279998779296875,
+      "competition": 0.33000001311302185,
+      "position": 79,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "hvac trade show 2025",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 5,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 7.9730000495910645
+    },
+    {
+      "keyword": "hvac trade shows 2025",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 5,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 7.9730000495910645
+    },
+    {
+      "keyword": "landing page ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 49,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "landing pages for ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 61,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "lennox live 2025",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0,
+      "position": 89,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "map pack seo",
+      "search_volume": 170,
+      "cpc": 5.590000152587891,
+      "competition": 0.30000001192092896,
+      "position": 40,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "marketing ideas for pest control",
+      "search_volume": 170,
+      "cpc": 2.069999933242798,
+      "competition": 0.09000000357627869,
+      "position": 36,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "pay per click landing page",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 49,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "pay-per-click landing page",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 38,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "pest control marketing ideas",
+      "search_volume": 170,
+      "cpc": 2.069999933242798,
+      "competition": 0.09000000357627869,
+      "position": 56,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "pest control marketing services",
+      "search_volume": 170,
+      "cpc": 43.88999938964844,
+      "competition": 0.11999999731779099,
+      "position": 44,
+      "url": "/industries/pest-control/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 9,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 2.549999952316284
+    },
+    {
+      "keyword": "plumber ppc agency",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 5,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 7.9730000495910645
+    },
+    {
+      "keyword": "plumbing ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 29,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "rival well service",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 53,
+      "url": "/services/seo/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "roas equation",
+      "search_volume": 170,
+      "cpc": 1.7899999618530273,
+      "competition": 0.20000000298023224,
+      "position": 85,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "titan rival",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0,
+      "position": 64,
+      "url": "/episode/the-importance-of-knowing-your-why/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "advertising electrical contractor",
+      "search_volume": 140,
+      "cpc": 36.900001525878906,
+      "competition": 0.10999999940395355,
+      "position": 61,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "advertising for electrical contractors",
+      "search_volume": 140,
+      "cpc": 36.900001525878906,
+      "competition": 0.10999999940395355,
+      "position": 55,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "best hvac seo company",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 24,
+      "url": "/services/seo/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrical contractor ads",
+      "search_volume": 140,
+      "cpc": 36.900001525878906,
+      "competition": 0.10999999940395355,
+      "position": 86,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrical contractor advertising",
+      "search_volume": 140,
+      "cpc": 36.900001525878906,
+      "competition": 0.10999999940395355,
+      "position": 73,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrical contractor marketing ideas",
+      "search_volume": 140,
+      "cpc": 10.600000381469727,
+      "competition": 0.05999999865889549,
+      "position": 19,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.3779999911785126
+    },
+    {
+      "keyword": "electrical contractors advertising",
+      "search_volume": 140,
+      "cpc": 36.900001525878906,
+      "competition": 0.10999999940395355,
+      "position": 48,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrical marketers",
+      "search_volume": 140,
+      "cpc": 10.949999809265137,
+      "competition": 0.23000000417232513,
+      "position": 40,
+      "url": "/industries/electrical/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrician digital marketing",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 52,
+      "url": "/industries/electrical/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "electrician local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 17,
+      "url": "/industries/electrical/local-seo/",
+      "etv": 0.6019999980926514
+    },
+    {
+      "keyword": "google local seo software",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 71,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "how do you calculate roas",
+      "search_volume": 140,
+      "cpc": 3.680000066757202,
+      "competition": 0.5299999713897705,
+      "position": 63,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "how to host a podcast",
+      "search_volume": 140,
+      "cpc": 3.2899999618530273,
+      "competition": 0.6000000238418579,
+      "position": 72,
+      "url": "/blog/how-to-be-a-great-podcast-host/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "how to improve local seo ranking",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 85,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "how to optimize for ai search",
+      "search_volume": 140,
+      "cpc": 16.1299991607666,
+      "competition": 0.4399999976158142,
+      "position": 59,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "hvac advertising ideas",
+      "search_volume": 140,
+      "cpc": 44.36000061035156,
+      "competition": 0.4000000059604645,
+      "position": 38,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "hvac digital marketing company",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 15,
+      "url": "/",
+      "etv": 0.7139999866485596
+    },
+    {
+      "keyword": "hvac digital marketing services",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 19,
+      "url": "/",
+      "etv": 0.3779999911785126
+    },
+    {
+      "keyword": "hvac social media ads",
+      "search_volume": 140,
+      "cpc": 28.690000534057617,
+      "competition": 0.5099999904632568,
+      "position": 95,
+      "url": "/blog/do-hvac-companies-really-need-social-media/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "hvac social media marketing",
+      "search_volume": 140,
+      "cpc": 28.690000534057617,
+      "competition": 0.5099999904632568,
+      "position": 89,
+      "url": "/blog/do-hvac-companies-really-need-social-media/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "local search ranking factors",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.23999999463558197,
+      "position": 75,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "local search tools",
+      "search_volume": 140,
+      "cpc": 13.130000114440918,
+      "competition": 0.23999999463558197,
+      "position": 3,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 13.621999740600586
+    },
+    {
+      "keyword": "local seo for hvac companies",
+      "search_volume": 140,
+      "cpc": 136.30999755859375,
+      "competition": 0.03999999910593033,
+      "position": 32,
+      "url": "/services/local-seo/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "marketing ideas for electrical contractors",
+      "search_volume": 140,
+      "cpc": 10.600000381469727,
+      "competition": 0.05999999865889549,
+      "position": 28,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "pest control ppc",
+      "search_volume": 140,
+      "cpc": 84.73999786376953,
+      "competition": 0.3199999928474426,
+      "position": 28,
+      "url": "/industries/pest-control/ppc/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumber local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 16,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 0.6019999980926514
+    },
+    {
+      "keyword": "plumber web design services",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 23,
+      "url": "/industries/plumbing/website-design/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "plumbing local seo",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 19,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 0.3779999911785126
+    },
+    {
+      "keyword": "ppc for plumber",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 8,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 2.757999897003174
+    },
+    {
+      "keyword": "ppc for plumbers",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 20,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 0.335999995470047
+    },
+    {
+      "keyword": "ppc plumbing",
+      "search_volume": 140,
+      "cpc": 93.30999755859375,
+      "competition": 0.36000001430511475,
+      "position": 58,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "seo for garage door companies",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0,
+      "position": 4,
+      "url": "/industries/garage-door/seo/",
+      "etv": 9.22599983215332
+    },
+    {
+      "keyword": "water damage marketing",
+      "search_volume": 140,
+      "cpc": 41.2599983215332,
+      "competition": 0.3400000035762787,
+      "position": 72,
+      "url": "/industries/restoration/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "water damage restoration marketing",
+      "search_volume": 140,
+      "cpc": 25.600000381469727,
+      "competition": 0.25,
+      "position": 20,
+      "url": "/industries/restoration/",
+      "etv": 0.335999995470047
+    },
+    {
+      "keyword": "water restoration marketing",
+      "search_volume": 140,
+      "cpc": 31.079999923706055,
+      "competition": 0.49000000953674316,
+      "position": 20,
+      "url": "/industries/restoration/",
+      "etv": 0.335999995470047
+    },
+    {
+      "keyword": "what is digital pr",
+      "search_volume": 140,
+      "cpc": 9.430000305175781,
+      "competition": 0.14000000059604645,
+      "position": 48,
+      "url": "/blog/public-relations/what-is-digital-pr/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "advertise plumbing business",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 53,
+      "url": "/blog/where-can-i-advertise-my-plumbing-business/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "arch rival agency",
+      "search_volume": 110,
+      "cpc": 2.549999952316284,
+      "competition": 0.09000000357627869,
+      "position": 95,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "best seo for hvac contractors",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 71,
+      "url": "/services/seo/",
+      "etv": 0.21714000403881073
+    },
+    {
+      "keyword": "digital marketing in virginia",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.3100000023841858,
+      "position": 51,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "electrician marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 51,
+      "url": "/industries/electrical/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "formula for roas",
+      "search_volume": 110,
+      "cpc": 4.579999923706055,
+      "competition": 0.25999999046325684,
+      "position": 74,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "garage door installers salary",
+      "search_volume": 110,
+      "cpc": 17.639999389648438,
+      "competition": 0.009999999776482582,
+      "position": 42,
+      "url": "/blog/how-profitable-is-a-garage-door-business/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "garage door seo",
+      "search_volume": 110,
+      "cpc": 5.090000152587891,
+      "competition": 0.20999999344348907,
+      "position": 3,
+      "url": "/industries/garage-door/local-seo/",
+      "etv": 10.70300006866455
+    },
+    {
+      "keyword": "hvac advertising examples",
+      "search_volume": 110,
+      "cpc": 11.829999923706055,
+      "competition": 0.4099999964237213,
+      "position": 25,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac conference las vegas",
+      "search_volume": 110,
+      "cpc": 1.3700000047683716,
+      "competition": 0.23000000417232513,
+      "position": 22,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.24199999868869781
+    },
+    {
+      "keyword": "hvac convention las vegas 2025",
+      "search_volume": 110,
+      "cpc": 1.7799999713897705,
+      "competition": 0.15000000596046448,
+      "position": 8,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 2.1670000553131104
+    },
+    {
+      "keyword": "hvac excellence conference 2025",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 74,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac key words",
+      "search_volume": 110,
+      "cpc": 7.03000020980835,
+      "competition": 0.3400000035762787,
+      "position": 17,
+      "url": "/blog/best-keywords-for-hvac-seo/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "hvac keywords",
+      "search_volume": 110,
+      "cpc": 7.03000020980835,
+      "competition": 0.3400000035762787,
+      "position": 11,
+      "url": "/blog/best-keywords-for-hvac-seo/",
+      "etv": 1.0010000467300415
+    },
+    {
+      "keyword": "hvac marketing agency near me",
+      "search_volume": 110,
+      "cpc": 12.069999694824219,
+      "competition": 0.03999999910593033,
+      "position": 72,
+      "url": "/industries/hvac/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac marketing near me",
+      "search_volume": 110,
+      "cpc": 50.279998779296875,
+      "competition": 0.03999999910593033,
+      "position": 62,
+      "url": "/industries/hvac/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "hvac seo expert",
+      "search_volume": 110,
+      "cpc": 303.2799987792969,
+      "competition": 0.1599999964237213,
+      "position": 12,
+      "url": "/services/seo/",
+      "etv": 0.824999988079071
+    },
+    {
+      "keyword": "hvac seo tips",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 97,
+      "url": "/blog/best-seo-strategies-for-hvac-companies/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "las vegas hvac convention",
+      "search_volume": 110,
+      "cpc": 1.3700000047683716,
+      "competition": 0.23000000417232513,
+      "position": 21,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.2529999911785126
+    },
+    {
+      "keyword": "local business seo tools",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 69,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local plumber seo agency",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 7,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 2.815999984741211
+    },
+    {
+      "keyword": "local ranking factors",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 44,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local search software",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 40,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local seo factors",
+      "search_volume": 110,
+      "cpc": 9.020000457763672,
+      "competition": 0.05000000074505806,
+      "position": 49,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local seo map",
+      "search_volume": 110,
+      "cpc": 5.090000152587891,
+      "competition": 0.11999999731779099,
+      "position": 96,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "local seo websites",
+      "search_volume": 110,
+      "cpc": 7.570000171661377,
+      "competition": 0.44999998807907104,
+      "position": 96,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "long tail keyword and short tail keyword",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 94,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "long tail keywords and short tail keywords",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 53,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "long-tail keywords and short tail keywords",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 52,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "long-tail keywords and short-tail keywords",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 56,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "marketing for restoration companies",
+      "search_volume": 110,
+      "cpc": 41.81999969482422,
+      "competition": 0.09000000357627869,
+      "position": 14,
+      "url": "/industries/restoration/",
+      "etv": 0.6159999966621399
+    },
+    {
+      "keyword": "marketing strategy for pest control",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 12,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.824999988079071
+    },
+    {
+      "keyword": "mastermind summit 2025",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 78,
+      "url": "/mastermind-2025/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "online marketing for plumbers",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/industries/plumbing/",
+      "etv": 0.5609999895095825
+    },
+    {
+      "keyword": "optimizing for ai search",
+      "search_volume": 110,
+      "cpc": 21.540000915527344,
+      "competition": 0.46000000834465027,
+      "position": 66,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "pest control marketing strategies",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 13,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.6489999890327454
+    },
+    {
+      "keyword": "pest control marketing strategy",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 13,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.6489999890327454
+    },
+    {
+      "keyword": "plumber ppc company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 5,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 5.158999919891357
+    },
+    {
+      "keyword": "plumbing business advertising",
+      "search_volume": 110,
+      "cpc": 77.19999694824219,
+      "competition": 0.09000000357627869,
+      "position": 60,
+      "url": "/blog/where-can-i-advertise-my-plumbing-business/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 15,
+      "url": "/industries/plumbing/",
+      "etv": 0.5609999895095825
+    },
+    {
+      "keyword": "pr and digital marketing agency",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0,
+      "position": 91,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "restoration company marketing",
+      "search_volume": 110,
+      "cpc": 41.81999969482422,
+      "competition": 0.09000000357627869,
+      "position": 17,
+      "url": "/industries/restoration/",
+      "etv": 0.4729999899864197
+    },
+    {
+      "keyword": "restoration digital marketing",
+      "search_volume": 110,
+      "cpc": 23.049999237060547,
+      "competition": 0.28999999165534973,
+      "position": 22,
+      "url": "/industries/restoration/",
+      "etv": 0.24199999868869781
+    },
+    {
+      "keyword": "river avenue digital",
+      "search_volume": 110,
+      "cpc": 19.329999923706055,
+      "competition": 0.09000000357627869,
+      "position": 77,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "seo for electrical contractors",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 84,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "top local seo",
+      "search_volume": 110,
+      "cpc": 20.649999618530273,
+      "competition": 0.10999999940395355,
+      "position": 72,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "we are rival",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 6,
+      "url": "/",
+      "etv": 3.7179999351501465
+    },
+    {
+      "keyword": "best ai optimization solutions for visibility",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 74,
+      "url": "/blog/ai/how-to-increase-visibility-in-ai-search-engines-not-just-google/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "best seo for hvac companies",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 60,
+      "url": "/blog/best-seo-strategies-for-hvac-companies/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "best way to advertise a plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 36,
+      "url": "/blog/where-can-i-advertise-my-plumbing-business/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "best way to advertise plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 44,
+      "url": "/blog/where-can-i-advertise-my-plumbing-business/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "brightlocal citation builder",
+      "search_volume": 90,
+      "cpc": 8.710000038146973,
+      "competition": 0.5,
+      "position": 49,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "brightlocal vs whitespark",
+      "search_volume": 90,
+      "cpc": 11.470000267028809,
+      "competition": 0.7400000095367432,
+      "position": 51,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "creative hvac ads",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 49,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "electrical contractor advertising ideas",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.2199999988079071,
+      "position": 25,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "electrical keywords",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 21,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.2070000022649765
+    },
+    {
+      "keyword": "electrician keywords",
+      "search_volume": 90,
+      "cpc": 9.520000457763672,
+      "competition": 0.23000000417232513,
+      "position": 11,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "electrician marketing ideas",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 23,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "electrician ppc agency",
+      "search_volume": 90,
+      "cpc": 19.920000076293945,
+      "competition": 0.1899999976158142,
+      "position": 10,
+      "url": "/industries/electrical/ppc/",
+      "etv": 1.0169999599456787
+    },
+    {
+      "keyword": "garage door marketing agency",
+      "search_volume": 90,
+      "cpc": 2.7699999809265137,
+      "competition": 0.3499999940395355,
+      "position": 22,
+      "url": "/industries/garage-door/",
+      "etv": 0.1979999989271164
+    },
+    {
+      "keyword": "garage door repair seo company",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 8,
+      "url": "/industries/garage-door/local-seo/",
+      "etv": 1.7730000019073486
+    },
+    {
+      "keyword": "google map ranking factors",
+      "search_volume": 90,
+      "cpc": 6.570000171661377,
+      "competition": 0.10000000149011612,
+      "position": 27,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "google maps ranking factors",
+      "search_volume": 90,
+      "cpc": 6.570000171661377,
+      "competition": 0.10000000149011612,
+      "position": 75,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "home service freedom event 2025",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.3869999945163727
+    },
+    {
+      "keyword": "hvac market",
+      "search_volume": 90,
+      "cpc": 2.5,
+      "competition": 0.20999999344348907,
+      "position": 54,
+      "url": "/blog/hvac-market-forecast/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "hvac ppc agency",
+      "search_volume": 90,
+      "cpc": 26.270000457763672,
+      "competition": 0.15000000596046448,
+      "position": 7,
+      "url": "/services/pay-per-click/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "hvac ppc company",
+      "search_volume": 90,
+      "cpc": 61.560001373291016,
+      "competition": 0.1899999976158142,
+      "position": 5,
+      "url": "/services/pay-per-click/",
+      "etv": 4.2210001945495605
+    },
+    {
+      "keyword": "hvac search engine optimization",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 9,
+      "url": "/services/seo/",
+      "etv": 1.350000023841858
+    },
+    {
+      "keyword": "keywords for electrician",
+      "search_volume": 90,
+      "cpc": 9.520000457763672,
+      "competition": 0.23000000417232513,
+      "position": 15,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.45899999141693115
+    },
+    {
+      "keyword": "keywords for electricians",
+      "search_volume": 90,
+      "cpc": 9.520000457763672,
+      "competition": 0.23000000417232513,
+      "position": 11,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "local search results tool",
+      "search_volume": 90,
+      "cpc": 6.090000152587891,
+      "competition": 0.03999999910593033,
+      "position": 7,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "local seo app",
+      "search_volume": 90,
+      "cpc": 14.529999732971191,
+      "competition": 0.03999999910593033,
+      "position": 96,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "marketing ideas for electricians",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 19,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.24300000071525574
+    },
+    {
+      "keyword": "masterminds conference",
+      "search_volume": 90,
+      "cpc": 2.4600000381469727,
+      "competition": 0.05000000074505806,
+      "position": 64,
+      "url": "/mastermind-2025/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "optimizing content for ai search",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 38,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumbing ppc marketing",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 7,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 2.303999900817871
+    },
+    {
+      "keyword": "ppc for home services",
+      "search_volume": 90,
+      "cpc": 17.520000457763672,
+      "competition": 0.07999999821186066,
+      "position": 40,
+      "url": "/services/pay-per-click/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "restoration seo",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 16,
+      "url": "/industries/restoration/seo/",
+      "etv": 0.3869999945163727
+    },
+    {
+      "keyword": "retargeting services",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 78,
+      "url": "/services/retargeting-ads/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "rival careers",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 14,
+      "url": "/careers/",
+      "etv": 0.5040000081062317
+    },
+    {
+      "keyword": "rival jobs",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 14,
+      "url": "/careers/",
+      "etv": 0.5040000081062317
+    },
+    {
+      "keyword": "roas calculation formula",
+      "search_volume": 90,
+      "cpc": 4.400000095367432,
+      "competition": 0.3400000035762787,
+      "position": 38,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "what is hvac search engine optimization",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 19,
+      "url": "/blog/best-keywords-for-hvac-seo/",
+      "etv": 0.24300000071525574
+    },
+    {
+      "keyword": "660 independence parkway",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/",
+      "etv": 1.0499999523162842
+    },
+    {
+      "keyword": "advertising electrical business",
+      "search_volume": 70,
+      "cpc": 200.6199951171875,
+      "competition": 0.07999999821186066,
+      "position": 60,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "ai visibility optimization",
+      "search_volume": 70,
+      "cpc": 46.150001525878906,
+      "competition": 0.18000000715255737,
+      "position": 94,
+      "url": "/blog/ai/how-to-increase-visibility-in-ai-search-engines-not-just-google/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "best electrician marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 95,
+      "url": "/industries/electrical/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "clover growth partners",
+      "search_volume": 70,
+      "cpc": 31.950000762939453,
+      "competition": 0.05999999865889549,
+      "position": 71,
+      "url": "/episode/how-to-grow-your-business-in-2022/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "digital marketing agency for contractors",
+      "search_volume": 70,
+      "cpc": 17.959999084472656,
+      "competition": 0.3400000035762787,
+      "position": 78,
+      "url": "/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "digital marketing agency for home services",
+      "search_volume": 70,
+      "cpc": 10.75,
+      "competition": 0.10999999940395355,
+      "position": 6,
+      "url": "/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "digital marketing agency for hvac contractors",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 30,
+      "url": "/industries/hvac/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "digital marketing for pest control companies",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 55,
+      "url": "/industries/pest-control/",
+      "etv": 0.13818000257015228
+    },
+    {
+      "keyword": "digital pr and seo",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 63,
+      "url": "/blog/public-relations/what-is-digital-pr/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "electrical business advertising",
+      "search_volume": 70,
+      "cpc": 200.6199951171875,
+      "competition": 0.07999999821186066,
+      "position": 50,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "electrician digital marketing agency",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 48,
+      "url": "/industries/electrical/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "free local seo",
+      "search_volume": 70,
+      "cpc": 73.43000030517578,
+      "competition": 0.05999999865889549,
+      "position": 73,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "google ads auto bidding",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 33,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0
+    },
+    {
+      "keyword": "google ads automated bidding",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 34,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "google ads for electricians",
+      "search_volume": 70,
+      "cpc": 25.989999771118164,
+      "competition": 0.05000000074505806,
+      "position": 7,
+      "url": "/industries/electrical/ppc/",
+      "etv": 1.7920000553131104
+    },
+    {
+      "keyword": "google map pack ranking",
+      "search_volume": 70,
+      "cpc": 14.34000015258789,
+      "competition": 0.5299999713897705,
+      "position": 81,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how much do plumbing companies make",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 77,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how much does a plumbing company make",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 46,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how to optimize content for ai search",
+      "search_volume": 70,
+      "cpc": 21.489999771118164,
+      "competition": 0.30000001192092896,
+      "position": 52,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how to rank for near me keywords",
+      "search_volume": 70,
+      "cpc": 6.75,
+      "competition": 0.3799999952316284,
+      "position": 46,
+      "url": "/blog/local-seo/how-to-rank-for-near-me-searches/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "how to rank for near me searches",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 20,
+      "url": "/blog/local-seo/how-to-rank-for-near-me-searches/",
+      "etv": 0.1679999977350235
+    },
+    {
+      "keyword": "how to start a garage door business",
+      "search_volume": 70,
+      "cpc": 4.03000020980835,
+      "competition": 0.25999999046325684,
+      "position": 9,
+      "url": "/blog/how-profitable-is-a-garage-door-business/",
+      "etv": 1.0499999523162842
+    },
+    {
+      "keyword": "hvac email marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 30,
+      "url": "/services/email-marketing/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "hvac show",
+      "search_volume": 70,
+      "cpc": 1.399999976158142,
+      "competition": 0.1599999964237213,
+      "position": 15,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "hvac shows",
+      "search_volume": 70,
+      "cpc": 1.399999976158142,
+      "competition": 0.1599999964237213,
+      "position": 6,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "hvac social media",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 66,
+      "url": "/blog/do-hvac-companies-really-need-social-media/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "hvac social media post",
+      "search_volume": 70,
+      "cpc": 90.61000061035156,
+      "competition": 0.5699999928474426,
+      "position": 21,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.16099999845027924
+    },
+    {
+      "keyword": "hvac social media posts",
+      "search_volume": 70,
+      "cpc": 90.61000061035156,
+      "competition": 0.5699999928474426,
+      "position": 22,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.15399999916553497
+    },
+    {
+      "keyword": "hvac web marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 43,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "local seo agency tools",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 72,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "local services ads support",
+      "search_volume": 70,
+      "cpc": 10.130000114440918,
+      "competition": 0.10000000149011612,
+      "position": 73,
+      "url": "/services/local-services-ads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "marketing an electrical business",
+      "search_volume": 70,
+      "cpc": 63.7599983215332,
+      "competition": 0.03999999910593033,
+      "position": 35,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "marketing electrical business",
+      "search_volume": 70,
+      "cpc": 63.7599983215332,
+      "competition": 0.03999999910593033,
+      "position": 23,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "near me seo strategy",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 45,
+      "url": "/blog/local-seo/how-to-rank-for-near-me-searches/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 31,
+      "url": "/industries/plumbing/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber seo experts",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 46,
+      "url": "/industries/plumbing/seo/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing convention las vegas 2025",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 18,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing demand",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.12999999523162842,
+      "position": 68,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing industry statistics",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 41,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing industry trends",
+      "search_volume": 70,
+      "cpc": 5.369999885559082,
+      "competition": 0.07000000029802322,
+      "position": 62,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing online marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 35,
+      "url": "/industries/plumbing/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing ppc services",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 5,
+      "url": "/services/pay-per-click/",
+      "etv": 3.2829999923706055
+    },
+    {
+      "keyword": "rival customer service",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 22,
+      "url": "/contact/",
+      "etv": 0.15399999916553497
+    },
+    {
+      "keyword": "rival media",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 11,
+      "url": "/",
+      "etv": 0.6370000243186951
+    },
+    {
+      "keyword": "roas acronym marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 6,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 2.365999937057495
+    },
+    {
+      "keyword": "roas formula in digital marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.44999998807907104,
+      "position": 16,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.3009999990463257
+    },
+    {
+      "keyword": "seo company chesapeake",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 79,
+      "url": "/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "trends in plumbing industry",
+      "search_volume": 70,
+      "cpc": 5.369999885559082,
+      "competition": 0.07000000029802322,
+      "position": 91,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "website for builders",
+      "search_volume": 70,
+      "cpc": 24.75,
+      "competition": 0.33000001311302185,
+      "position": 95,
+      "url": "/blog/best-diy-website-builders-in-2024/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "you're considering using automated bidding",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 23,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "660 independence parkway chesapeake va",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 11,
+      "url": "/",
+      "etv": 0.45500001311302185
+    },
+    {
+      "keyword": "air conditioning conferences",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 50,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "best advertising for electricians",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 16,
+      "url": "/industries/electrical/ppc/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "best local search engine",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 69,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "best local search engines",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 31,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "best marketing for electricians",
+      "search_volume": 50,
+      "cpc": 10.210000038146973,
+      "competition": 0.05000000074505806,
+      "position": 79,
+      "url": "/industries/electrical/ppc/",
+      "etv": 0.09870000183582306
+    },
+    {
+      "keyword": "brightlocal local search results checker",
+      "search_volume": 50,
+      "cpc": 13.010000228881836,
+      "competition": 0.2199999988079071,
+      "position": 97,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "call by call",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 11,
+      "url": "/episode/the-importance-of-call-by-call-management/",
+      "etv": 0.45500001311302185
+    },
+    {
+      "keyword": "call by-call",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 12,
+      "url": "/episode/the-importance-of-call-by-call-management/",
+      "etv": 0.375
+    },
+    {
+      "keyword": "call-by-call",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 12,
+      "url": "/episode/the-importance-of-call-by-call-management/",
+      "etv": 0.375
+    },
+    {
+      "keyword": "digital marketing agency for hvac companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 25,
+      "url": "/industries/hvac/",
+      "etv": 0.09870000183582306
+    },
+    {
+      "keyword": "digital marketing for electrical contractors",
+      "search_volume": 50,
+      "cpc": 35.529998779296875,
+      "competition": 0.38999998569488525,
+      "position": 93,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "digital marketing home services",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 22,
+      "url": "/",
+      "etv": 0.10999999940395355
+    },
+    {
+      "keyword": "digital marketing virginia",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.46000000834465027,
+      "position": 48,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "double x digital",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25,
+      "position": 77,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "electrical contractor leads",
+      "search_volume": 50,
+      "cpc": 29.979999542236328,
+      "competition": 0.20000000298023224,
+      "position": 51,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "electrical digital marketing",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 63,
+      "url": "/industries/electrical/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "electrician ppc",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 9,
+      "url": "/industries/electrical/ppc/",
+      "etv": 0.75
+    },
+    {
+      "keyword": "garage door digital marketing",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 33,
+      "url": "/industries/garage-door/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "google local ranking factors",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25,
+      "position": 45,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "how to find roas",
+      "search_volume": 50,
+      "cpc": 1.100000023841858,
+      "competition": 0.44999998807907104,
+      "position": 74,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "hvac event",
+      "search_volume": 50,
+      "cpc": 0.4399999976158142,
+      "competition": 0.12999999523162842,
+      "position": 10,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.5649999976158142
+    },
+    {
+      "keyword": "hvac events",
+      "search_volume": 50,
+      "cpc": 0.4399999976158142,
+      "competition": 0.12999999523162842,
+      "position": 4,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 3.2950000762939453
+    },
+    {
+      "keyword": "hvac landing pages",
+      "search_volume": 50,
+      "cpc": 7.199999809265137,
+      "competition": 0.41999998688697815,
+      "position": 85,
+      "url": "/blog/main-components-of-a-good-hvac-website/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "hvac networking",
+      "search_volume": 50,
+      "cpc": 12.84000015258789,
+      "competition": 0.4000000059604645,
+      "position": 75,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "hvac post",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25,
+      "position": 31,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "hvac posts",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.25,
+      "position": 31,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "hvac symposium 2025",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 46,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "internet marketing for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 30,
+      "url": "/industries/plumbing/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "ironclad restoration marketing",
+      "search_volume": 50,
+      "cpc": 12.920000076293945,
+      "competition": 0.41999998688697815,
+      "position": 74,
+      "url": "/industries/restoration/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "landing page optimization ppc",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 91,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "leads for electrical contractors",
+      "search_volume": 50,
+      "cpc": 29.979999542236328,
+      "competition": 0.20000000298023224,
+      "position": 55,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local pack results",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 66,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "local seo for plumbing companies",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 12,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 0.375
+    },
+    {
+      "keyword": "local seo services for hvac contractors",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 6,
+      "url": "/services/local-seo/",
+      "etv": 1.690000057220459
+    },
+    {
+      "keyword": "longtail strategy",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 91,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "lure digital",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 95,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "pest control digital marketing agency",
+      "search_volume": 50,
+      "cpc": 60.599998474121094,
+      "competition": 0.41999998688697815,
+      "position": 42,
+      "url": "/industries/pest-control/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "ppc landing page optimisation",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 83,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "ppc landing page optimization",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 75,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "restoration company seo",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 15,
+      "url": "/industries/restoration/seo/",
+      "etv": 0.2549999952316284
+    },
+    {
+      "keyword": "restoration seo company",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 25,
+      "url": "/industries/restoration/seo/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "return on ad spend calculation",
+      "search_volume": 50,
+      "cpc": 1.5399999618530273,
+      "competition": 0.4000000059604645,
+      "position": 68,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "rival contact number",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/contact/",
+      "etv": 0.2549999952316284
+    },
+    {
+      "keyword": "rival services llc",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 27,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "roas in business",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 66,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "the rival company",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 35,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "tik tok fad",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 35,
+      "url": "/blog/is-tiktok-just-a-gen-z-fad/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "tiktok fad",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 39,
+      "url": "/blog/is-tiktok-just-a-gen-z-fad/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "water damage restoration seo",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 87,
+      "url": "/industries/restoration/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "what industry is plumbing considered",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 31,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "what is a good roas percentage",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 73,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "what is roas in digital marketing",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.15000000596046448,
+      "position": 93,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "which of the following is not an automated bidding strategy",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0,
+      "position": 29,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "whitespark citation",
+      "search_volume": 50,
+      "cpc": 8.979999542236328,
+      "competition": 0.5099999904632568,
+      "position": 35,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "women in hvac conference 2025",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 15,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.2549999952316284
+    },
+    {
+      "keyword": "ad retargeting services",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 75,
+      "url": "/services/retargeting-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "agensi digital marketing",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 66,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "automated bid strategy",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 91,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "digital agency virginia",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 89,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "digital marketing for plumbing companies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 17,
+      "url": "/industries/plumbing/",
+      "etv": 0.16167999804019928
+    },
+    {
+      "keyword": "disaster restoration marketing ideas",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 33,
+      "url": "/industries/restoration/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "electrical job leads",
+      "search_volume": 40,
+      "cpc": 38.849998474121094,
+      "competition": 0.8299999833106995,
+      "position": 71,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "electrician web design agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 25,
+      "url": "/industries/electrical/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "garage door ads",
+      "search_volume": 40,
+      "cpc": 21.40999984741211,
+      "competition": 0.3199999928474426,
+      "position": 68,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "garage door company marketing",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 15,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "garage door marketing lab",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 36,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "garage door repair business plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/blog/how-profitable-is-a-garage-door-business/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "home services ppc",
+      "search_volume": 40,
+      "cpc": 25.940000534057617,
+      "competition": 0.5699999928474426,
+      "position": 36,
+      "url": "/services/pay-per-click/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to calculate roas in digital marketing",
+      "search_volume": 40,
+      "cpc": 6.760000228881836,
+      "competition": 0.7099999785423279,
+      "position": 26,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to deal with an angry customer on the phone",
+      "search_volume": 40,
+      "cpc": 9.229999542236328,
+      "competition": 0.28999999165534973,
+      "position": 90,
+      "url": "/blog/how-do-i-handle-upset-customers-on-the-phone/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to deal with angry customers on the phone",
+      "search_volume": 40,
+      "cpc": 9.229999542236328,
+      "competition": 0.28999999165534973,
+      "position": 82,
+      "url": "/blog/how-do-i-handle-upset-customers-on-the-phone/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to optimize content for ai search engines",
+      "search_volume": 40,
+      "cpc": 23.530000686645508,
+      "competition": 0.029999999329447746,
+      "position": 65,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "how to recruit hvac technicians",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 18,
+      "url": "/hvac-technician-recruitment-tips/",
+      "etv": 0.13199999928474426
+    },
+    {
+      "keyword": "how to show up in ai search",
+      "search_volume": 40,
+      "cpc": 4.369999885559082,
+      "competition": 0.5899999737739563,
+      "position": 79,
+      "url": "/blog/ai/how-to-increase-visibility-in-ai-search-engines-not-just-google/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "https ads google com local services ads",
+      "search_volume": 40,
+      "cpc": 13.220000267028809,
+      "competition": 0.5799999833106995,
+      "position": 87,
+      "url": "/services/local-services-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac billboard ideas",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 62,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac facebook ad examples",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 88,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac local seo",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.4000000059604645,
+      "position": 54,
+      "url": "/services/local-seo/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "hvac market trends",
+      "search_volume": 40,
+      "cpc": 2.009999990463257,
+      "competition": 0.23999999463558197,
+      "position": 86,
+      "url": "/blog/hvac-market-forecast/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac promotion ideas",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 67,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "hvac seo strategies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 38,
+      "url": "/services/seo/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "hvac seo strategy",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/services/seo/",
+      "etv": 0.07896000146865845
+    },
+    {
+      "keyword": "hvac shows 2025",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 6,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 1.3519999980926514
+    },
+    {
+      "keyword": "hvac social media post ideas",
+      "search_volume": 40,
+      "cpc": 26.889999389648438,
+      "competition": 0.5099999904632568,
+      "position": 16,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.1720000058412552
+    },
+    {
+      "keyword": "is roas a percentage",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 39,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "local seo ranking factors 2018",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 65,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "local services inc",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 13,
+      "url": "/services/local-services-ads/",
+      "etv": 0.23600000143051147
+    },
+    {
+      "keyword": "long tail and short tail",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 92,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "long tail short tail",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 63,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "lsa vs ppc",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 15,
+      "url": "/blog/ppc-vs-lsa-which-is-better-for-home-service-businesses/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "manual bidding",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 21,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.09200000017881393
+    },
+    {
+      "keyword": "marketing my plumbing business",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 97,
+      "url": "/blog/where-can-i-advertise-my-plumbing-business/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "pay per click scams",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 39,
+      "url": "/blog/advertising/how-to-stop-ppc-spam/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "pay-per-click fraud",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 83,
+      "url": "/blog/advertising/how-to-stop-ppc-spam/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing email marketing",
+      "search_volume": 40,
+      "cpc": 33.189998626708984,
+      "competition": 0.1899999976158142,
+      "position": 4,
+      "url": "/blog/email-marketing/email-marketing-best-practices/",
+      "etv": 2.635999917984009
+    },
+    {
+      "keyword": "ppc for hvac companies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 15,
+      "url": "/services/pay-per-click/",
+      "etv": 0.20399999618530273
+    },
+    {
+      "keyword": "ppc landing page best practice",
+      "search_volume": 40,
+      "cpc": 10.359999656677246,
+      "competition": 0.46000000834465027,
+      "position": 75,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "ppc landing page best practices",
+      "search_volume": 40,
+      "cpc": 10.359999656677246,
+      "competition": 0.46000000834465027,
+      "position": 70,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "ppc landing pages best practices",
+      "search_volume": 40,
+      "cpc": 10.359999656677246,
+      "competition": 0.46000000834465027,
+      "position": 80,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "professional electrician website",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 43,
+      "url": "/industries/electrical/website-design/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "restoration digital marketing agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 11,
+      "url": "/industries/restoration/",
+      "etv": 0.36399999260902405
+    },
+    {
+      "keyword": "restoration marketing agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 13,
+      "url": "/industries/restoration/",
+      "etv": 0.2218399941921234
+    },
+    {
+      "keyword": "restoration marketing ideas",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 57,
+      "url": "/blog/how-to-market-a-restoration-business/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "rival agency",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.05999999865889549,
+      "position": 2,
+      "url": "/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "rival company website",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 9,
+      "url": "/",
+      "etv": 0.6000000238418579
+    },
+    {
+      "keyword": "rival marketing",
+      "search_volume": 40,
+      "cpc": 14.680000305175781,
+      "competition": 0.03999999910593033,
+      "position": 2,
+      "url": "/",
+      "etv": 6.480000019073486
+    },
+    {
+      "keyword": "roto aire filter sales & service",
+      "search_volume": 40,
+      "cpc": 13.710000038146973,
+      "competition": 0.25,
+      "position": 80,
+      "url": "/services/ecommerce/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "semrush local seo tools",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 53,
+      "url": "/blog/best-local-seo-tools/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "short tail long tail",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 40,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "social media marketing for hvac companies",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 48,
+      "url": "/industries/hvac/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "starting a garage door business",
+      "search_volume": 40,
+      "cpc": 0.07999999821186066,
+      "competition": 0.3100000023841858,
+      "position": 7,
+      "url": "/blog/how-profitable-is-a-garage-door-business/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "vandalia digital",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 92,
+      "url": "/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "what is auto bidding",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 65,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "what is automated bidding",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 75,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "what is short tail keyword",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 82,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "what is short-tail keyword",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0,
+      "position": 82,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "best hvac marketing",
+      "search_volume": 30,
+      "cpc": 10.430000305175781,
+      "competition": 0.7799999713897705,
+      "position": 72,
+      "url": "/industries/hvac/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "best hvac marketing companies",
+      "search_volume": 30,
+      "cpc": 57.41999816894531,
+      "competition": 0.5,
+      "position": 66,
+      "url": "/industries/hvac/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "best ppc landing page examples",
+      "search_volume": 30,
+      "cpc": 5.059999942779541,
+      "competition": 0.8999999761581421,
+      "position": 38,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "checklist for digital marketing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 32,
+      "url": "/digital-marketing-checklist/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "damage restoration marketing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 15,
+      "url": "/industries/restoration/",
+      "etv": 0.15299999713897705
+    },
+    {
+      "keyword": "digital marketing checklist",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 36,
+      "url": "/digital-marketing-checklist/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electric website design",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 36,
+      "url": "/industries/electrical/website-design/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrical company advertisement",
+      "search_volume": 30,
+      "cpc": 13.789999961853027,
+      "competition": 0.14000000059604645,
+      "position": 87,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrical company advertising",
+      "search_volume": 30,
+      "cpc": 13.789999961853027,
+      "competition": 0.14000000059604645,
+      "position": 71,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrical marketing solutions",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 69,
+      "url": "/industries/electrical/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrical web design",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 67,
+      "url": "/industries/electrical/website-design/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrician marketing strategies",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 60,
+      "url": "/blog/marketing-ideas-for-electricians/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "electrician website design agency",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 24,
+      "url": "/industries/electrical/website-design/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "email marketing for plumbers",
+      "search_volume": 30,
+      "cpc": 38.77000045776367,
+      "competition": 0.15000000596046448,
+      "position": 7,
+      "url": "/blog/email-marketing/email-marketing-best-practices/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "encon companies",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 79,
+      "url": "/episode/how-to-modernize-your-hvac-company-through-marketing-technology/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "erik thomas hyundai",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 39,
+      "url": "/about/meet-the-team/eric-thomas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "garage door marketing company",
+      "search_volume": 30,
+      "cpc": 11.470000267028809,
+      "competition": 0.699999988079071,
+      "position": 74,
+      "url": "/blog/how-to-market-a-garage-door-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "google business profile ranking factors",
+      "search_volume": 30,
+      "cpc": 4.880000114440918,
+      "competition": 0.4300000071525574,
+      "position": 78,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "google business review not showing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/blog/why-are-my-google-business-reviews-not-showing-up/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "google business reviews not showing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 49,
+      "url": "/blog/why-are-my-google-business-reviews-not-showing-up/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "google local service ads number",
+      "search_volume": 30,
+      "cpc": 5.070000171661377,
+      "competition": 0.12999999523162842,
+      "position": 73,
+      "url": "/services/local-services-ads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "heating and cooling ads",
+      "search_volume": 30,
+      "cpc": 47.540000915527344,
+      "competition": 0.25999999046325684,
+      "position": 65,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "heating and cooling advertising",
+      "search_volume": 30,
+      "cpc": 47.540000915527344,
+      "competition": 0.25999999046325684,
+      "position": 67,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "how much do pest control companies make",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 38,
+      "url": "/blog/how-profitable-is-pest-control/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to advertise hvac business",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.8600000143051147,
+      "position": 67,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "how to advertise your hvac business",
+      "search_volume": 30,
+      "cpc": 29.389999389648438,
+      "competition": 0.5400000214576721,
+      "position": 58,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "how to be a good podcast host",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 51,
+      "url": "/blog/how-to-be-a-great-podcast-host/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to deal with difficult customers on the phone",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 80,
+      "url": "/blog/how-do-i-handle-upset-customers-on-the-phone/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to determine roas",
+      "search_volume": 30,
+      "cpc": 4.099999904632568,
+      "competition": 0.6600000262260437,
+      "position": 48,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to get more electrical work",
+      "search_volume": 30,
+      "cpc": 54.90999984741211,
+      "competition": 0.8899999856948853,
+      "position": 57,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to handle a difficult customer on the phone",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 92,
+      "url": "/blog/how-do-i-handle-upset-customers-on-the-phone/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to market your hvac business",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 82,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "how to measure roas",
+      "search_volume": 30,
+      "cpc": 59.33000183105469,
+      "competition": 0.6399999856948853,
+      "position": 62,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "how to optimize website for ai search",
+      "search_volume": 30,
+      "cpc": 18.110000610351562,
+      "competition": 0.6600000262260437,
+      "position": 65,
+      "url": "/blog/seo/how-to-optimize-content-for-ai-search/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac direct mail marketing",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.14000000059604645,
+      "position": 78,
+      "url": "/episode/how-to-use-direct-mail-for-hvac-marketing/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac excellence conference 2025 schedule",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 87,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac facebook post ideas",
+      "search_volume": 30,
+      "cpc": 7.46999979019165,
+      "competition": 0.18000000715255737,
+      "position": 8,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.5910000205039978
+    },
+    {
+      "keyword": "hvac facebook posts",
+      "search_volume": 30,
+      "cpc": 18.31999969482422,
+      "competition": 0.07000000029802322,
+      "position": 12,
+      "url": "/blog/social-media-post-ideas-for-hvac-companies/",
+      "etv": 0.22499999403953552
+    },
+    {
+      "keyword": "hvac property management",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.5,
+      "position": 43,
+      "url": "/episode/working-with-property-management-companies-for-hvac-services/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac sales pitch examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.27000001072883606,
+      "position": 73,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac show las vegas",
+      "search_volume": 30,
+      "cpc": 0.800000011920929,
+      "competition": 0.47999998927116394,
+      "position": 32,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac show vegas",
+      "search_volume": 30,
+      "cpc": 0.800000011920929,
+      "competition": 0.47999998927116394,
+      "position": 29,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "hvac social media agency",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 30,
+      "url": "/industries/hvac/",
+      "etv": 0.059220001101493835
+    },
+    {
+      "keyword": "ihaci trade show 2025",
+      "search_volume": 30,
+      "cpc": 5.880000114440918,
+      "competition": 0.03999999910593033,
+      "position": 37,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "jobs done right",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 92,
+      "url": "/episode/getting-the-job-done-right-the-first-time/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "leverage full episodes youtube",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 71,
+      "url": "/episode/how-to-leverage-video-to-grow-your-business-online/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "local seo map pack",
+      "search_volume": 30,
+      "cpc": 36.630001068115234,
+      "competition": 0.8600000143051147,
+      "position": 41,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "local seo ranking factors 2024",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/blog/local-seo-ranking-factors/",
+      "etv": 0.27300000190734863
+    },
+    {
+      "keyword": "local seo services for hvac companies",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 12,
+      "url": "/services/local-seo/",
+      "etv": 0.22499999403953552
+    },
+    {
+      "keyword": "local services ads lsa",
+      "search_volume": 30,
+      "cpc": 22.219999313354492,
+      "competition": 0.6700000166893005,
+      "position": 78,
+      "url": "/services/local-services-ads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "long tail keywords vs short tail keywords",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 44,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "long tail keywords with low competition",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 64,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "long-tail keywords vs short tail keywords",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 94,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "long-tail keywords vs short-tail keywords",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 96,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "marketing ideas for restoration company",
+      "search_volume": 30,
+      "cpc": 13.8100004196167,
+      "competition": 0.10000000149011612,
+      "position": 27,
+      "url": "/blog/how-to-market-a-restoration-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "marketing my hvac business",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.1599999964237213,
+      "position": 68,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "master minds 2025",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 46,
+      "url": "/mastermind-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "moen advertising",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 78,
+      "url": "/episode/the-best-practices-for-advertising-on-yelp/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "online marketing for restoration companies",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 7,
+      "url": "/industries/restoration/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "pest control marketing materials",
+      "search_volume": 30,
+      "cpc": 13.300000190734863,
+      "competition": 0.20999999344348907,
+      "position": 89,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "pest control web design agency",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 24,
+      "url": "/industries/pest-control/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 7,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "plumber statistics",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 52,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbers email list",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 60,
+      "url": "/blog/email-marketing/email-marketing-best-practices/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing contractor local seo services",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 27,
+      "url": "/industries/plumbing/local-seo/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 6,
+      "url": "/industries/plumbing/ppc/",
+      "etv": 1.0140000581741333
+    },
+    {
+      "keyword": "plumbing statistics",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.09000000357627869,
+      "position": 51,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "ppc landing page design",
+      "search_volume": 30,
+      "cpc": 10.960000038146973,
+      "competition": 0.05999999865889549,
+      "position": 87,
+      "url": "/blog/advertising/what-makes-a-good-ppc-landing-page/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "re digital reviews",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 67,
+      "url": "/about/testimonials/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "restoration company marketing ideas",
+      "search_volume": 30,
+      "cpc": 13.8100004196167,
+      "competition": 0.10000000149011612,
+      "position": 26,
+      "url": "/blog/how-to-market-a-restoration-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "restoration marketing companies",
+      "search_volume": 30,
+      "cpc": 113.01000213623047,
+      "competition": 0.1899999976158142,
+      "position": 7,
+      "url": "/industries/restoration/",
+      "etv": 0.7680000066757202
+    },
+    {
+      "keyword": "restoration marketing company",
+      "search_volume": 30,
+      "cpc": 113.01000213623047,
+      "competition": 0.1899999976158142,
+      "position": 31,
+      "url": "/industries/restoration/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "rival la",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 89,
+      "url": "/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "seo restoration",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 19,
+      "url": "/industries/restoration/seo/",
+      "etv": 0.08100000023841858
+    },
+    {
+      "keyword": "short tail and long tail keywords examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 72,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "short tail and long-tail keywords examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 72,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "short-tail and long tail keywords examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 71,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "short-tail and long-tail keywords examples",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 72,
+      "url": "/blog/how-to-use-long-tail-and-short-tail-keywords/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "spring hvac ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 41,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "summer hvac ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.20999999344348907,
+      "position": 46,
+      "url": "/blog/best-hvac-advertising-ideas-examples-included/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "web agency virginia",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 53,
+      "url": "/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "what industry is plumbing in",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 43,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "why does automating your bid versus",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 34,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "best advertising for hvac business",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.3199999928474426,
+      "position": 89,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "click fraud ppc",
+      "search_volume": 20,
+      "cpc": 10.529999732971191,
+      "competition": 0.8600000143051147,
+      "position": 60,
+      "url": "/blog/advertising/how-to-stop-ppc-spam/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "electrician lead generation",
+      "search_volume": 20,
+      "cpc": 58.75,
+      "competition": 0.5699999928474426,
+      "position": 45,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "home services conferences 2025",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 24,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "how to get electrical leads",
+      "search_volume": 20,
+      "cpc": 35.400001525878906,
+      "competition": 0.7799999713897705,
+      "position": 37,
+      "url": "/blog/how-to-get-more-leads-as-an-electrician/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "how to market my hvac business",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.8100000023841858,
+      "position": 72,
+      "url": "/blog/how-do-i-promote-my-hvac-business/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "hvac marketing packages",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.10999999940395355,
+      "position": 54,
+      "url": "/industries/hvac/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "hvac online marketing company",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 10,
+      "url": "/",
+      "etv": 0.22599999606609344
+    },
+    {
+      "keyword": "hvac social media services",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 27,
+      "url": "/services/social-media/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "pest control business start up costs",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 69,
+      "url": "/blog/how-profitable-is-pest-control/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "pest control business start-up costs",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.11999999731779099,
+      "position": 70,
+      "url": "/blog/how-profitable-is-pest-control/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "pest control marketing tips",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 50,
+      "url": "/blog/pest-control-marketing-strategies/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "ppc click fraud",
+      "search_volume": 20,
+      "cpc": 10.529999732971191,
+      "competition": 0.8600000143051147,
+      "position": 56,
+      "url": "/blog/advertising/how-to-stop-ppc-spam/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "refresh digital strategy",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 52,
+      "url": "/blog/how-often-should-i-refresh-my-website/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "roas formula excel",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 17,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.0860000029206276
+    },
+    {
+      "keyword": "roas formula marketing",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.4300000071525574,
+      "position": 36,
+      "url": "/blog/advertising/how-to-calculate-roas/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "seo for electrician",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.25999999046325684,
+      "position": 85,
+      "url": "/blog/what-are-the-best-keywords-for-electricians/",
+      "etv": 0.039480000734329224
+    },
+    {
+      "keyword": "service titan podcast",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 40,
+      "url": "/episode/the-importance-of-knowing-your-why/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "servicetitan podcast",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 40,
+      "url": "/episode/the-importance-of-knowing-your-why/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "what industry does plumbing fall under",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 77,
+      "url": "/blog/plumbing-industry-market-growth/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "whitespark citation finder",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0.6899999976158142,
+      "position": 41,
+      "url": "/blog/what-are-the-best-tools-for-citation-building/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "why does google review not showing up",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 46,
+      "url": "/blog/why-are-my-google-business-reviews-not-showing-up/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "you are considering using automated bidding",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 0,
+      "position": 31,
+      "url": "/blog/advertising/manual-bidding-vs-automated-bidding-in-google-ads/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "air conditioning conference",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0.10000000149011612,
+      "position": 14,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.0560000017285347
+    },
+    {
+      "keyword": "hvac convention 2024",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "position": 34,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.020999999716877937
+    },
+    {
+      "keyword": "hvac conventions 2024",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "position": 28,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.020999999716877937
+    },
+    {
+      "keyword": "hvac trade shows 2024",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "position": 10,
+      "url": "/blog/hvac-trade-shows-to-attend-in-2025/",
+      "etv": 0.11299999803304672
+    },
+    {
+      "keyword": "seo agency for hvac",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0.5299999713897705,
+      "position": 25,
+      "url": "/services/seo/",
+      "etv": 0.020999999716877937
+    }
+  ]
+}

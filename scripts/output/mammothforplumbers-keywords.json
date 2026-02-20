@@ -1,0 +1,812 @@
+{
+  "domain": "mammothforplumbers.com",
+  "label": "MammothForPlumbers",
+  "total_keywords": 89,
+  "top3": 4,
+  "top10": 18,
+  "top20": 27,
+  "estimated_traffic": 179,
+  "keywords": [
+    {
+      "keyword": "plumber marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 52,
+      "url": "/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumbers marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 24,
+      "url": "/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "plumbing marketing",
+      "search_volume": 880,
+      "cpc": 65.69000244140625,
+      "competition": 0.12999999523162842,
+      "position": 61,
+      "url": "/blog/",
+      "etv": 1.8480000495910645
+    },
+    {
+      "keyword": "websites for plumbers",
+      "search_volume": 720,
+      "cpc": 30.989999771118164,
+      "competition": 0.5099999904632568,
+      "position": 36,
+      "url": "/services/websites-for-plumbers/",
+      "etv": 1.5120000839233398
+    },
+    {
+      "keyword": "digital marketing for plumbing",
+      "search_volume": 390,
+      "cpc": 177.6300048828125,
+      "competition": 0.09000000357627869,
+      "position": 57,
+      "url": "/blog/",
+      "etv": 0.8190000057220459
+    },
+    {
+      "keyword": "ai plumbing",
+      "search_volume": 320,
+      "cpc": 38.88999938964844,
+      "competition": 0.36000001430511475,
+      "position": 40,
+      "url": "/how-ai-is-transforming-plumbing-marketing-and-what-plumbers-must-do-to-stay-ahead/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "marketing companies for plumbers",
+      "search_volume": 320,
+      "cpc": 96.0199966430664,
+      "competition": 0.17000000178813934,
+      "position": 96,
+      "url": "/why-plumbers-need-to-invest-in-branding-not-just-lead-generation/",
+      "etv": 0.6316800117492676
+    },
+    {
+      "keyword": "plumber marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 56,
+      "url": "/packages/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "plumbing marketing company",
+      "search_volume": 320,
+      "cpc": 140.94000244140625,
+      "competition": 0.07000000029802322,
+      "position": 84,
+      "url": "/",
+      "etv": 0.671999990940094
+    },
+    {
+      "keyword": "google ads for plumber",
+      "search_volume": 260,
+      "cpc": 53.61000061035156,
+      "competition": 0.019999999552965164,
+      "position": 33,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "google ads for plumbers",
+      "search_volume": 260,
+      "cpc": 53.61000061035156,
+      "competition": 0.019999999552965164,
+      "position": 23,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "marketing for plumbers",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 10,
+      "url": "/",
+      "etv": 2.937999963760376
+    },
+    {
+      "keyword": "marketing plumbing",
+      "search_volume": 260,
+      "cpc": 41.88999938964844,
+      "competition": 0.3199999928474426,
+      "position": 8,
+      "url": "/",
+      "etv": 5.122000217437744
+    },
+    {
+      "keyword": "plumbers market",
+      "search_volume": 260,
+      "cpc": 2.7799999713897705,
+      "competition": 0.07999999821186066,
+      "position": 20,
+      "url": "/",
+      "etv": 0.6240000128746033
+    },
+    {
+      "keyword": "plumbing marketing services",
+      "search_volume": 260,
+      "cpc": 231.7899932861328,
+      "competition": 0.05000000074505806,
+      "position": 97,
+      "url": "/",
+      "etv": 0.5460000038146973
+    },
+    {
+      "keyword": "mammoth marketing",
+      "search_volume": 210,
+      "cpc": 7.550000190734863,
+      "competition": 0.3400000035762787,
+      "position": 1,
+      "url": "/",
+      "etv": 63.84000015258789
+    },
+    {
+      "keyword": "mammoth plumbing",
+      "search_volume": 210,
+      "cpc": 12.470000267028809,
+      "competition": 0.25999999046325684,
+      "position": 7,
+      "url": "/",
+      "etv": 5.375999927520752
+    },
+    {
+      "keyword": "plumber van wrap",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 31,
+      "url": "/elementor-1168/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumbing van wrap",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 34,
+      "url": "/elementor-1168/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "plumbing van wraps",
+      "search_volume": 210,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 32,
+      "url": "/elementor-1168/",
+      "etv": 0.4410000145435333
+    },
+    {
+      "keyword": "pay per click landing page",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.20000000298023224,
+      "position": 75,
+      "url": "/ppc-landing-page/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber digital marketing agency",
+      "search_volume": 170,
+      "cpc": 32.54999923706055,
+      "competition": 0.03999999910593033,
+      "position": 79,
+      "url": "/packages/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumber ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 4,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 11.20300006866455
+    },
+    {
+      "keyword": "plumber ppc agency",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 33,
+      "url": "/services/ppc-pay-per-click-social-advertising/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "plumbing ppc",
+      "search_volume": 170,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 5,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 7.9730000495910645
+    },
+    {
+      "keyword": "santos bros plumbing",
+      "search_volume": 170,
+      "cpc": 5.639999866485596,
+      "competition": 0.10000000149011612,
+      "position": 18,
+      "url": "/the-courageous-plumber-how-nate-santos-of-santos-bros-plumbing-achieves-remarkable-growth/",
+      "etv": 0.5609999895095825
+    },
+    {
+      "keyword": "social media marketing for plumbers",
+      "search_volume": 170,
+      "cpc": 158.89999389648438,
+      "competition": 0.019999999552965164,
+      "position": 36,
+      "url": "/why-social-media-marketing-important/",
+      "etv": 0.3569999933242798
+    },
+    {
+      "keyword": "facebook ads for plumbers",
+      "search_volume": 140,
+      "cpc": 20.709999084472656,
+      "competition": 0.029999999329447746,
+      "position": 6,
+      "url": "/why-your-facebook-campaigns-arent-working-a-guide-to-improving-your-ads-for-plumbing-businesses/",
+      "etv": 4.73199987411499
+    },
+    {
+      "keyword": "facebook ads for plumbing",
+      "search_volume": 140,
+      "cpc": 20.709999084472656,
+      "competition": 0.029999999329447746,
+      "position": 8,
+      "url": "/why-your-facebook-campaigns-arent-working-a-guide-to-improving-your-ads-for-plumbing-businesses/",
+      "etv": 2.757999897003174
+    },
+    {
+      "keyword": "plumber marketing usa",
+      "search_volume": 140,
+      "cpc": 55.45000076293945,
+      "competition": 0.2800000011920929,
+      "position": 81,
+      "url": "/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "ppc for plumber",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 5,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 6.565999984741211
+    },
+    {
+      "keyword": "ppc for plumbers",
+      "search_volume": 140,
+      "cpc": 59.380001068115234,
+      "competition": 0.009999999776482582,
+      "position": 3,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 13.621999740600586
+    },
+    {
+      "keyword": "wealthy plumbers",
+      "search_volume": 140,
+      "cpc": 0,
+      "competition": 0.07999999821186066,
+      "position": 48,
+      "url": "/the-wealthy-beard-cast-marketing-your-business-in-2025-with-tyler-williams-jered-williams/",
+      "etv": 0.2939999997615814
+    },
+    {
+      "keyword": "advertise plumbing business",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.05000000074505806,
+      "position": 65,
+      "url": "/the-ultimate-guide-to-growing-a-plumbing-business-branding-seo-and-advertising/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "how to get more plumbing leads",
+      "search_volume": 110,
+      "cpc": 56.43000030517578,
+      "competition": 0.09000000357627869,
+      "position": 42,
+      "url": "/how-to-use-priming-to-get-more-plumbing-leads/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "jered williams",
+      "search_volume": 110,
+      "cpc": 47.41999816894531,
+      "competition": 0.009999999776482582,
+      "position": 6,
+      "url": "/the-blueprint-how-jered-williams-transformed-from-plumber-to-multi-millionaire-business-mogul/",
+      "etv": 3.7179999351501465
+    },
+    {
+      "keyword": "plumber ppc company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 25,
+      "url": "/services/ppc-pay-per-click-social-advertising/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing business advertising",
+      "search_volume": 110,
+      "cpc": 77.19999694824219,
+      "competition": 0.09000000357627869,
+      "position": 37,
+      "url": "/boost-your-plumbing-business-a-rocking-marketing-strategy/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing business coach",
+      "search_volume": 110,
+      "cpc": 12.779999732971191,
+      "competition": 0.3799999952316284,
+      "position": 26,
+      "url": "/get-your-plumbing-company-a-business-coach-the-blueprint-for-sustainable-growth/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "plumbing business coaching",
+      "search_volume": 110,
+      "cpc": 12.779999732971191,
+      "competition": 0.3799999952316284,
+      "position": 21,
+      "url": "/get-your-plumbing-company-a-business-coach-the-blueprint-for-sustainable-growth/",
+      "etv": 0.2529999911785126
+    },
+    {
+      "keyword": "plumbing digital marketing company",
+      "search_volume": 110,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 48,
+      "url": "/",
+      "etv": 0.23100000619888306
+    },
+    {
+      "keyword": "best way to advertise plumbing business",
+      "search_volume": 90,
+      "cpc": 210.8300018310547,
+      "competition": 0.07999999821186066,
+      "position": 20,
+      "url": "/boost-your-plumbing-business-a-rocking-marketing-strategy/",
+      "etv": 0.2160000056028366
+    },
+    {
+      "keyword": "creepy toilets",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "position": 43,
+      "url": "/spooky-toilets/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "plumbing ppc marketing",
+      "search_volume": 90,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 8,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 1.7730000019073486
+    },
+    {
+      "keyword": "ai for plumbers",
+      "search_volume": 70,
+      "cpc": 26.190000534057617,
+      "competition": 0.7400000095367432,
+      "position": 19,
+      "url": "/marketing-with-ai-how-plumbers-can-ride-the-wave-instead-of-drown-in-it/",
+      "etv": 0.1889999955892563
+    },
+    {
+      "keyword": "ai for plumbing",
+      "search_volume": 70,
+      "cpc": 26.190000534057617,
+      "competition": 0.7400000095367432,
+      "position": 34,
+      "url": "/how-ai-is-transforming-plumbing-marketing-and-what-plumbers-must-do-to-stay-ahead/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "best advertising for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 40,
+      "url": "/boost-your-plumbing-business-a-rocking-marketing-strategy/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "disappearing google",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 47,
+      "url": "/why-are-your-google-reviews-disappearing-heres-what-you-need-to-know/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "google adwords for plumbers",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 36,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "google disappearing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0,
+      "position": 91,
+      "url": "/why-are-your-google-reviews-disappearing-heres-what-you-need-to-know/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "local service pro",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.5899999737739563,
+      "position": 47,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber marketing strategy",
+      "search_volume": 70,
+      "cpc": 74.88999938964844,
+      "competition": 0.029999999329447746,
+      "position": 78,
+      "url": "/blog/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 31,
+      "url": "/services/social-media-content-plan/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumber social media marketing",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.009999999776482582,
+      "position": 46,
+      "url": "/services/social-media-content-plan/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbers social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 35,
+      "url": "/how-often-business-post-on-social-media/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing billboards",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 76,
+      "url": "/decoding-plumbing-marketing-roi-why-brand-building-with-meta-ads-beats-the-competition-every-time/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing ppc services",
+      "search_volume": 70,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 30,
+      "url": "/services/ppc-pay-per-click-social-advertising/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "plumbing social media",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 31,
+      "url": "/services/social-media-content-plan/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "social media for plumbers",
+      "search_volume": 70,
+      "cpc": 27.639999389648438,
+      "competition": 0.25,
+      "position": 40,
+      "url": "/services/social-media-content-plan/",
+      "etv": 0.1469999998807907
+    },
+    {
+      "keyword": "mammoth ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 16,
+      "url": "/",
+      "etv": 0.2150000035762787
+    },
+    {
+      "keyword": "mammoth advertising",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 8,
+      "url": "/",
+      "etv": 0.9850000143051147
+    },
+    {
+      "keyword": "mammoth advertising nyc",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 74,
+      "url": "/packages/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "mammoth buys",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 98,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "mammoth consulting",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 89,
+      "url": "/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "mammoth lakes plumbing",
+      "search_volume": 50,
+      "cpc": 6.050000190734863,
+      "competition": 0.38999998569488525,
+      "position": 43,
+      "url": "/get-more-plumbing-reviews-fast-proven-strategy-revealed/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumber facebook ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 7,
+      "url": "/why-your-facebook-campaigns-arent-working-a-guide-to-improving-your-ads-for-plumbing-businesses/",
+      "etv": 1.2799999713897705
+    },
+    {
+      "keyword": "plumbing facebook ads",
+      "search_volume": 50,
+      "cpc": 0,
+      "competition": 0.019999999552965164,
+      "position": 9,
+      "url": "/why-your-facebook-campaigns-arent-working-a-guide-to-improving-your-ads-for-plumbing-businesses/",
+      "etv": 0.75
+    },
+    {
+      "keyword": "plumbing slogans catchy",
+      "search_volume": 50,
+      "cpc": 1.149999976158142,
+      "competition": 0.20000000298023224,
+      "position": 52,
+      "url": "/plumbing-captions-instagram/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "plumbing strategies",
+      "search_volume": 50,
+      "cpc": 14.050000190734863,
+      "competition": 0.5099999904632568,
+      "position": 61,
+      "url": "/thriving-in-slow-times-strategic-moves-for-plumbing-businesses/",
+      "etv": 0.10499999672174454
+    },
+    {
+      "keyword": "jered williams plumbing",
+      "search_volume": 40,
+      "cpc": 24.59000015258789,
+      "competition": 0.27000001072883606,
+      "position": 7,
+      "url": "/the-blueprint-how-jered-williams-transformed-from-plumber-to-multi-millionaire-business-mogul/",
+      "etv": 1.0240000486373901
+    },
+    {
+      "keyword": "jered williams plumbing company",
+      "search_volume": 40,
+      "cpc": 14.369999885559082,
+      "competition": 0.25999999046325684,
+      "position": 1,
+      "url": "/the-blueprint-how-jered-williams-transformed-from-plumber-to-multi-millionaire-business-mogul/",
+      "etv": 12.15999984741211
+    },
+    {
+      "keyword": "millionaire plumber",
+      "search_volume": 40,
+      "cpc": 7.829999923706055,
+      "competition": 0.03999999910593033,
+      "position": 55,
+      "url": "/the-blueprint-how-jered-williams-transformed-from-plumber-to-multi-millionaire-business-mogul/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumber marketing plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 60,
+      "url": "/the-stages-of-marketing-for-plumbing-companies-a-blueprint-for-growth/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbers calculator",
+      "search_volume": 40,
+      "cpc": 1.3700000047683716,
+      "competition": 0.4300000071525574,
+      "position": 41,
+      "url": "/calculating-your-ppc-a-guide-for-plumbers/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "plumbing business consultant",
+      "search_volume": 40,
+      "cpc": 9.920000076293945,
+      "competition": 0.3499999940395355,
+      "position": 14,
+      "url": "/how-consulting-can-save-your-plumbing-business/",
+      "etv": 0.2240000069141388
+    },
+    {
+      "keyword": "plumbing email marketing",
+      "search_volume": 40,
+      "cpc": 33.189998626708984,
+      "competition": 0.1899999976158142,
+      "position": 11,
+      "url": "/services/email-marketing/",
+      "etv": 0.36399999260902405
+    },
+    {
+      "keyword": "plumbing marketing plan",
+      "search_volume": 40,
+      "cpc": 0,
+      "competition": 0.03999999910593033,
+      "position": 52,
+      "url": "/the-stages-of-marketing-for-plumbing-companies-a-blueprint-for-growth/",
+      "etv": 0.08399999886751175
+    },
+    {
+      "keyword": "business coach for plumbers",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.07000000029802322,
+      "position": 23,
+      "url": "/get-your-plumbing-company-a-business-coach-the-blueprint-for-sustainable-growth/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "creative plumbing advertising ideas",
+      "search_volume": 30,
+      "cpc": 5.599999904632568,
+      "competition": 0.5699999928474426,
+      "position": 63,
+      "url": "/new-years-creative-ads-for-plumbers-ideas-to-grow-your-business/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "email marketing for plumbers",
+      "search_volume": 30,
+      "cpc": 38.77000045776367,
+      "competition": 0.15000000596046448,
+      "position": 17,
+      "url": "/services/email-marketing/",
+      "etv": 0.1289999932050705
+    },
+    {
+      "keyword": "mammoth for plumbers",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.17000000178813934,
+      "position": 1,
+      "url": "/",
+      "etv": 9.119999885559082
+    },
+    {
+      "keyword": "mammoth marketing group",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 11,
+      "url": "/",
+      "etv": 0.27300000190734863
+    },
+    {
+      "keyword": "plumber google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 61,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumber pants commercial",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0,
+      "position": 68,
+      "url": "/plumbing-captions-instagram/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbers email list",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.18000000715255737,
+      "position": 43,
+      "url": "/build-email-marketing-list/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing google ads",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": 0.28999999165534973,
+      "position": 92,
+      "url": "/a-plumbers-google-problem/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "plumbing webmasters reviews",
+      "search_volume": 30,
+      "cpc": 71.0999984741211,
+      "competition": 0.3400000035762787,
+      "position": 52,
+      "url": "/get-more-plumbing-reviews-fast-proven-strategy-revealed/",
+      "etv": 0.06300000101327896
+    },
+    {
+      "keyword": "grow my plumbing business",
+      "search_volume": 20,
+      "cpc": 0,
+      "competition": 1,
+      "position": 61,
+      "url": "/the-ultimate-guide-to-growing-a-plumbing-business-branding-seo-and-advertising/",
+      "etv": 0.041999999433755875
+    },
+    {
+      "keyword": "seasonal adjustment google ads",
+      "search_volume": 10,
+      "cpc": 0,
+      "competition": 0.029999999329447746,
+      "position": 47,
+      "url": "/the-complete-guide-to-google-local-service-ads-for-plumbing-companies-in-2025/",
+      "etv": 0.020999999716877937
+    }
+  ]
+}

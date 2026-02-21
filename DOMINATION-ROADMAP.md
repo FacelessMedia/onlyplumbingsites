@@ -1,8 +1,41 @@
 # Only Plumbing Sites — 100-Point Niche Domination Roadmap
 
 **Created:** February 20, 2026  
+**Last Updated:** February 21, 2026  
 **Owner:** Ryan Pietrzak  
 **Goal:** Become the undisputed #1 plumbing marketing company in the United States  
+
+## Completion Tracker
+
+| Phase | Items | Done | Status |
+|-------|-------|------|--------|
+| Phase 1: Sales Infrastructure | #1-13 | #1-8, #9, #13 | ✅ Core complete |
+| Phase 2: Book & Content | #14-20 | #14-15, #19-20 | ✅ Landing page live |
+| Phase 3: Website UX | #21-39 | #21-28, #29-34, #35-39 | ✅ Complete |
+| Phase 4: Case Studies | #40-46 | #40-41, #44 | ✅ Page rebuilt |
+| Phase 5: GHL Funnels | #47-57 | Documented | ✅ Guide created |
+| Phase 6: Content Machine | #58-66 | — | ⬜ Pending |
+| Phase 7: Technical SEO | #67-76 | #67-69, #71, #74 | 🟡 Partial |
+| Phase 8: Off-Site SEO | #77-84 | — | ⬜ Pending |
+| Phase 9: Marketing Materials | #85-91 | — | ⬜ Pending |
+| Phase 10: Advanced Growth | #92-100 | — | ⬜ Pending |
+| Bonus: Quick Wins | #101-110 | #101-103, #106 | 🟡 Partial |
+
+**Total items completed: ~45 of 110**
+
+### What's been built:
+- `/pricing` → Free Strategy Session page (no prices anywhere on site)
+- `/book` → Live GHL calendar embed (calendar ID: W1dbJlvrGJ63xPRg9pZV)
+- `/growth-report` → Lead magnet page with form → GHL contact creation
+- `/book-download` → "The Little Plumber That Could" book landing page + GHL API
+- Blog: rebuilt markdown renderer, reading progress bar, related posts, category filter + search
+- Homepage: ResultsCounter (animated stats), ExitIntent popup (book promo)
+- Case studies: rebuilt as results-focused (no fake company names)
+- Layout: AnnouncementBar, StickyMobileCTA, JSON-LD (Organization + Article schemas)
+- Technical: sitemap.xml, robots.txt, custom 404 page
+- Navbar: Services dropdown, Free Resources dropdown (book, growth report, audit)
+- GHL: Calendar created via API, setup guide for pipeline + 8 automations
+- `docs/GHL-SETUP-GUIDE.md` — full manual setup instructions
 
 ---
 

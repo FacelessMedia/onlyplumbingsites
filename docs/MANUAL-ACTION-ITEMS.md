@@ -156,6 +156,51 @@ Check items off as you complete them.
 
 ---
 
+## 🔵 V2 Roadmap — New Manual Tasks
+
+### Content & Assets (V2 Phase 1)
+- [ ] Collect 5+ real client testimonials (written quotes with permission to use name + company)
+- [ ] Take screenshots of 10+ best client websites for portfolio page
+- [ ] Get Ryan's professional headshot — replace all "RP" avatar placeholders site-wide
+
+### SEO & Search (V2 Phase 2)
+- [ ] Submit updated sitemap to Google Search Console (after new pages built)
+- [ ] Set up Google Search Console — verify domain ownership, monitor indexing
+
+### Competitor Research (V2 Phase 4)
+- [ ] Research competitor pricing and features for comparison pages (use publicly available info only)
+
+### Video & Multimedia (V2 Phase 5)
+- [ ] Record 3 "Live Website Audit" videos — screen-record auditing real plumbing websites (with permission)
+- [ ] Record 5 short educational videos — "5 Things Wrong With Your Plumbing Website", "Why SEO Takes 3-6 Months", etc.
+- [ ] Launch "Plumbing Marketing Podcast" — record first 3 episodes
+- [ ] Submit podcast to Apple Podcasts, Spotify, Google Podcasts
+
+### Conversion Optimization (V2 Phase 6)
+- [ ] Set up GA4 custom events for CTA clicks — track strategy session, growth report, book download, audit button clicks
+
+### Email Marketing (V2 Phase 7)
+- [ ] Create 12-email welcome sequence in GHL — triggered on newsletter signup, 6 weeks of value
+- [ ] Create monthly newsletter template — blog roundup + industry news + featured tool
+
+### Scale & Automation (V2 Phase 9)
+- [ ] Plan client portal features — project tracker, invoice history, analytics dashboard, support tickets
+- [ ] Design referral reward structure — payout amounts, tracking method, and terms
+- [ ] Build n8n workflow: New GHL contact → Slack notification
+- [ ] Build n8n workflow: Weekly lead report email
+- [ ] Build n8n workflow: Stripe payment → GHL pipeline stage update
+- [ ] Set up automated monthly SEO report generation
+
+### Market Domination (V2 Phase 10)
+- [ ] Launch Google Ads campaigns — $50-100/day targeting "plumbing marketing company", "plumbing SEO services"
+- [ ] Launch Facebook retargeting campaign — retarget website visitors, $20/day budget
+- [ ] Create private Facebook Group — "Plumbing Business Owners Who Want to Grow"
+- [ ] Launch LinkedIn content strategy — 3 posts/week: insights, case studies, behind-the-scenes
+- [ ] Apply to speak at plumbing trade shows — PHCC Connect, AHR Expo, Service World Expo
+- [ ] Write guest articles for 5 industry publications — Plumbing & Mechanical, PHC News, Contractor Magazine
+
+---
+
 ## Quick Reference: Environment Variables
 
 Your `.env.local` should contain:

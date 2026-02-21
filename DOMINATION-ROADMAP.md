@@ -12,16 +12,16 @@
 | Phase 1: Sales Infrastructure | #1-13 | #1-13 | ✅ Complete |
 | Phase 2: Book & Content | #14-20 | #14-15, #19-20 | ✅ Landing page live |
 | Phase 3: Website UX | #21-39 | #21-39 | ✅ Complete |
-| Phase 4: Case Studies | #40-46 | #40-41, #44 | ✅ Page rebuilt |
+| Phase 4: Case Studies | #40-46 | #40-44 | ✅ Page rebuilt |
 | Phase 5: GHL Funnels | #47-57 | Documented | ✅ Guide created |
-| Phase 6: Content Machine | #58-66 | — | ⬜ Pending (ongoing) |
-| Phase 7: Technical SEO | #67-76 | #67-70, #71, #74 | 🟡 Mostly done |
-| Phase 8: Off-Site SEO | #77-84 | — | ⬜ Pending (manual) |
-| Phase 9: Marketing Materials | #85-91 | — | ⬜ Pending (design) |
-| Phase 10: Advanced Growth | #92-100 | — | ⬜ Pending (scale) |
-| Bonus: Quick Wins | #101-110 | #102-103, #106, #109 | 🟡 Partial |
+| Phase 6: Content Machine | #58-66 | #58, #60-62 | 🟡 Partial |
+| Phase 7: Technical SEO | #67-76 | #67-72, #74 | ✅ Mostly done |
+| Phase 8: Off-Site SEO | #77-84 | Documented | ✅ Strategy created |
+| Phase 9: Marketing Materials | #85-91 | #85-88 | ✅ Templates done |
+| Phase 10: Advanced Growth | #92-100 | #92 | 🟡 Website grader live |
+| Bonus: Quick Wins | #101-110 | #102-104, #106-110 | ✅ Mostly done |
 
-**Total items completed or in progress: ~55 of 110**
+**Total items completed or in progress: ~75 of 110**
 
 ### What's been built (this session):
 
@@ -32,6 +32,10 @@
 - `/book-download` → "The Little Plumber That Could" book landing page with cover mockup + GHL API
 - `/why-us` → "Why Us vs Competitors" comparison page with feature table + competitor breakdowns
 - `/not-found` → Custom 404 page that converts (strategy session + resource CTAs)
+- `/glossary` → 31-term plumbing marketing glossary with internal links to services/blog
+- `/website-grader` → Free website grading tool (10 checks, instant score, CTA to strategy session)
+- `/lp/plumbing-website` → Google Ads landing page for website services
+- `/lp/seo-for-plumbers` → Google Ads landing page for SEO services
 
 **New API Routes:**
 - `/api/growth-report` → Creates GHL contact with tags (growth-report, website-lead) and custom fields
@@ -44,6 +48,8 @@
 - `ExitIntent` — exit-intent popup promoting book download (once per session)
 - `StickyMobileCTA` — fixed bottom bar on mobile with Call + Book buttons
 - `AnnouncementBar` — dismissible orange bar above navbar promoting book
+- `SocialShare` — Facebook, X/Twitter, LinkedIn, copy-link buttons on blog posts
+- `ContentUpgrade` — growth report + strategy session CTA box on blog posts
 
 **Blog Improvements:**
 - Rebuilt `markdownToHtml` renderer (proper headings, lists, tables, inline formatting)
@@ -52,20 +58,22 @@
 - Category filter pills with counts
 - Client-side search across titles/excerpts/categories
 - Article JSON-LD structured data on all 23 blog posts
+- Social sharing buttons (Facebook, X, LinkedIn, copy link)
+- Content upgrade CTA after every article
 
 **Site-Wide Changes:**
 - Pricing removed everywhere — all CTAs now push to strategy session
 - Homepage PricingPreview → Strategy Session CTA with "What to Expect" card
 - All "View Pricing" buttons → "Book Free Strategy Session"
-- Navbar: "Free Resources" dropdown (book, growth report, audit)
+- Navbar: "Free Resources" dropdown (book, growth report, audit, website grader)
 - Navbar: "Case Studies" renamed to "Results"
-- Footer: 5-column layout with new Resources column
-- Footer: added Why Us, Results, and all resource links
+- Footer: 5-column layout with new Resources column (7 links)
 - Case studies page rebuilt (results-focused, no fictional company names)
 - JSON-LD ProfessionalService schema on every page
-- sitemap.xml auto-generated with all 45+ pages
+- sitemap.xml auto-generated with all 50+ pages
 - robots.txt with sitemap link
-- GA4 conditional snippet (loads when measurement ID is set)
+- GA4 conditional snippet (loads when NEXT_PUBLIC_GA_MEASUREMENT_ID is set)
+- Microsoft Clarity conditional snippet (loads when NEXT_PUBLIC_CLARITY_ID is set)
 
 **GHL Integration:**
 - Calendar created via API: "Free Strategy Session - Only Plumbing Sites"
@@ -73,28 +81,16 @@
   - Mon-Fri 8am-5pm, Sat 10am-5pm, 30min slots, 15min buffer
   - Assigned to Ryan Pietrzak
   - Embedded on /book page via iframe
-- `docs/GHL-SETUP-GUIDE.md` with setup instructions for:
-  - Sales pipeline (8 stages)
-  - Confirmation emails + prep checklists
-  - Appointment reminders (24hr, 1hr, 15min)
-  - No-show follow-up (3 touchpoints)
-  - Post-call nurture (4 emails over 14 days)
-  - Long-term nurture (monthly for 12 months)
-  - Missed call text-back
-  - Google review request automation
-  - Zoom + Google Calendar integration
+- `docs/GHL-SETUP-GUIDE.md` — pipeline setup + 8 automation workflows
+
+**Documentation Created:**
+- `docs/MANUAL-ACTION-ITEMS.md` — prioritized checklist of all manual tasks
+- `docs/GHL-SETUP-GUIDE.md` — complete GHL setup with pipeline, automations, integrations
+- `docs/EMAIL-TEMPLATES.md` — 14 copy-paste email templates (full customer lifecycle)
+- `docs/OFF-SITE-SEO-STRATEGY.md` — directory listings, backlinks, HARO, guest posting, podcasts, partnerships
 
 ### What still needs manual action:
-- **GHL Pipeline:** Create manually (API token doesn't have pipeline scope) — see docs/GHL-SETUP-GUIDE.md
-- **GHL Automations:** Build the 8 workflows documented in the setup guide
-- **Zoom Integration:** Connect Zoom to GHL for auto-generated meeting links
-- **Google Calendar:** Connect for two-way sync to prevent double-booking
-- **GA4:** Set `NEXT_PUBLIC_GA_MEASUREMENT_ID` in .env.local
-- **Book PDF:** Write the actual book content (outline + landing page done)
-- **Growth Report PDF:** Design the branded PDF template
-- **Real Testimonials/Case Studies:** Collect from actual clients
-- **Ryan's Photo:** Replace "RP" avatar circles with actual headshot
-- **Google Search Console:** Verify site and submit sitemap
+See `docs/MANUAL-ACTION-ITEMS.md` for the full prioritized checklist.
 
 ---
 

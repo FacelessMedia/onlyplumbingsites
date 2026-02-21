@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, BookOpen, BarChart3, FileSearch } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const serviceLinks = [
@@ -15,22 +15,33 @@ const serviceLinks = [
   { label: "SEO + Social Growth", href: "/services/social-posting" },
 ];
 
+const resourceLinks = [
+  { label: "Free Book Download", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could" },
+  { label: "Free Growth Report", href: "/growth-report", icon: BarChart3, desc: "Your 12-month growth projection" },
+  { label: "Free Website Audit", href: "/audit", icon: FileSearch, desc: "See where your site stands" },
+];
+
 const navLinks = [
   { label: "Free Strategy Session", href: "/pricing" },
   { label: "About", href: "/about" },
-  { label: "Case Studies", href: "/case-studies" },
+  { label: "Results", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
 ];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const resourcesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
         setServicesOpen(false);
+      }
+      if (resourcesRef.current && !resourcesRef.current.contains(e.target as Node)) {
+        setResourcesOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -96,6 +107,35 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+
+          {/* Resources Dropdown */}
+          <div ref={resourcesRef} className="relative">
+            <button
+              onClick={() => setResourcesOpen(!resourcesOpen)}
+              className="flex items-center gap-1 text-sm font-medium text-slate-800 transition-colors hover:text-orange"
+            >
+              Free Resources
+              <ChevronDown className={`h-3.5 w-3.5 transition-transform ${resourcesOpen ? "rotate-180" : ""}`} />
+            </button>
+            {resourcesOpen && (
+              <div className="absolute right-0 top-full mt-2 w-64 rounded-xl border border-slate-200 bg-white py-2 shadow-lg">
+                {resourceLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setResourcesOpen(false)}
+                    className="flex items-start gap-3 px-4 py-2.5 transition-colors hover:bg-orange/5"
+                  >
+                    <link.icon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    <div>
+                      <p className="text-sm font-medium text-navy">{link.label}</p>
+                      <p className="text-xs text-slate-400">{link.desc}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Desktop CTA */}
@@ -160,6 +200,23 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+
+            {/* Mobile Resources */}
+            <p className="mt-2 px-3 text-xs font-semibold uppercase tracking-wider text-slate-400">
+              Free Resources
+            </p>
+            {resourceLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange"
+              >
+                <link.icon className="h-4 w-4 text-orange" />
+                {link.label}
+              </Link>
+            ))}
+
             <div className="mt-3 flex flex-col gap-2 border-t border-slate-200 pt-4">
               <Button asChild variant="outline" className="w-full border-orange text-orange hover:bg-orange hover:text-white">
                 <Link href="/audit" onClick={() => setMobileOpen(false)}>

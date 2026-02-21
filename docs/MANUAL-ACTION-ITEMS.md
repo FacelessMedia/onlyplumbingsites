@@ -185,7 +185,7 @@ Check items off as you complete them.
 
 ### Scale & Automation (V2 Phase 9)
 - [ ] Plan client portal features — project tracker, invoice history, analytics dashboard, support tickets
-- [ ] Design referral reward structure — payout amounts, tracking method, and terms
+- [x] ~~Design referral reward structure — payout amounts, tracking method, and terms~~ ✅ Done — $500/referral, 12-month tracking, T&C published on /referral page
 - [ ] Build n8n workflow: New GHL contact → Slack notification
 - [ ] Build n8n workflow: Weekly lead report email
 - [ ] Build n8n workflow: Stripe payment → GHL pipeline stage update
@@ -198,6 +198,77 @@ Check items off as you complete them.
 - [ ] Launch LinkedIn content strategy — 3 posts/week: insights, case studies, behind-the-scenes
 - [ ] Apply to speak at plumbing trade shows — PHCC Connect, AHR Expo, Service World Expo
 - [ ] Write guest articles for 5 industry publications — Plumbing & Mechanical, PHC News, Contractor Magazine
+
+---
+
+## 🟣 Citation Checker — GBP API Integration (Future Enhancement)
+
+### Google Cloud Console Setup
+- [ ] Create a Google Cloud project for Only Plumbing Sites
+- [ ] Enable the **Google My Business API** (now "Business Profile API") 
+- [ ] Enable the **Google Places API** (for business search/autocomplete)
+- [ ] Create OAuth 2.0 credentials (for GBP read access) OR API key (for Places)
+- [ ] Add API key to `.env.local`: `GOOGLE_PLACES_API_KEY=<your-key>`
+- [ ] Note: Places API allows searching for businesses by name without OAuth
+- [ ] GBP API requires OAuth + business ownership verification for full data access
+
+### How It Will Work
+1. User enters company name → we call Places API autocomplete
+2. User selects their business from dropdown ("Is this you?")
+3. We pull: business name, address, phone, website, hours, categories
+4. If website field is empty → BIG RED FLAG: "Your GBP has no website linked!"
+5. If website IS linked → we auto-fill the citation checker form with GBP data
+6. We also fetch the website and compare NAP: GBP vs Website discrepancies
+7. **Important:** If no website on GBP and we find one via Google search, we ask "Is this your website?" — NEVER assume
+
+### Budget Note
+- Places API: $17/1000 requests (Autocomplete) + $17/1000 (Place Details)
+- At 100 checks/month = ~$3.40/month — very affordable
+- GBP API: Free but requires OAuth flow + Google approval for production access
+
+---
+
+## 🟣 Pillar Content — Guide Pages to Build
+
+See `PILLAR-CONTENT-ROADMAP.md` for the full 35-guide roadmap. Priority order:
+
+- [ ] **Schema Markup for Plumbers** — `/guides/schema-markup-for-plumbers` (Phase 1, Critical)
+- [ ] **Google Business Profile for Plumbers** — `/guides/google-business-profile-for-plumbers` (Phase 1, Critical)
+- [ ] **SEO for Plumbers** — `/guides/seo-for-plumbers` (Phase 1, Critical)
+- [ ] **Plumbing Website Design Guide** — `/guides/plumbing-website-design` (Phase 1, Critical)
+- [ ] **Google LSA for Plumbers** — `/guides/google-lsa-for-plumbers` (Phase 2, High)
+- [ ] **Google Ads for Plumbers** — `/guides/google-ads-for-plumbers` (Phase 2, High)
+- [ ] **Social Media for Plumbers** — `/guides/social-media-for-plumbers` (Phase 3, High)
+- [ ] **Google Reviews for Plumbers** — `/guides/google-reviews-for-plumbers` (Phase 3, High)
+
+---
+
+## 🟣 Referral Program — Operational Setup
+
+- [ ] Set up referral tracking in GHL (tag referrals, track attribution for 12 months)
+- [ ] Set up payment process for referral bonuses (Zelle/Venmo/PayPal/check)
+- [ ] Create W-9 collection process for referrers earning $600+ in a calendar year
+- [ ] Create email templates: referral received confirmation, status update, payment confirmation
+- [ ] Build GHL automation: referral form submission → create contact → tag as referral → notify Ryan
+
+---
+
+## 🟣 Keyword Database — Data Verification
+
+- [ ] Cross-reference keyword volume data with Google Keyword Planner (requires active Google Ads account)
+- [ ] Verify CPC ranges against current Google Ads auction data
+- [ ] Consider adding quarterly update schedule to re-pull keyword data
+- [ ] Note: Current data sourced from Google Keyword Planner, Ahrefs, and Semrush aggregates (Feb 2026)
+
+---
+
+## 🟣 Citation Cleanup Service — Operational Setup
+
+- [ ] Define pricing for one-time citation cleanup service
+- [ ] Create service agreement / contract template for citation cleanup clients
+- [ ] Build process checklist for citation cleanup fulfillment (claim listings, fix NAP, submit to aggregators)
+- [ ] Set up GHL pipeline stage for citation cleanup clients
+- [ ] Create follow-up email: 90-day citation propagation audit report
 
 ---
 

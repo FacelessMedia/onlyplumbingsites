@@ -9,7 +9,7 @@ const footerLinks = {
     { label: "Local SEO", href: "/services/local-seo" },
     { label: "PPC for Plumbers", href: "/services/ppc-for-plumbers" },
     { label: "SEO + Social", href: "/services/social-posting" },
-    { label: "Pricing", href: "/pricing" },
+    { label: "Free Strategy Session", href: "/pricing" },
   ],
   company: [
     { label: "About", href: "/about" },

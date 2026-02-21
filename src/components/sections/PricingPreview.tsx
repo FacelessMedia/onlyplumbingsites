@@ -1,8 +1,6 @@
 import Link from "next/link";
-import { Check, Phone } from "lucide-react";
+import { Phone, CheckCircle, FileSearch, BarChart3, TrendingUp, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { pricingTiers } from "@/data/pricing";
 
 export default function PricingPreview() {
   return (
@@ -17,112 +15,72 @@ export default function PricingPreview() {
       />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-            Simple, Transparent Pricing
-          </h2>
-          <p className="mt-4 text-lg text-slate-300">
-            No hidden fees. No long-term surprises. Pick what fits your plumbing
-            business.
-          </p>
-        </div>
-
-        {/* Cards */}
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
-          {pricingTiers.map((tier) => (
-            <div
-              key={tier.slug}
-              className={`relative flex flex-col rounded-2xl p-8 ${
-                tier.highlighted
-                  ? "border-2 border-orange bg-white shadow-xl shadow-orange/10"
-                  : "border border-slate-700 bg-navy-light"
-              }`}
-            >
-              {tier.badge && (
-                <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange px-4 py-1 text-xs font-semibold text-white hover:bg-orange">
-                  {tier.badge}
-                </Badge>
-              )}
-
-              <h3
-                className={`text-xl font-bold ${
-                  tier.highlighted ? "text-navy" : "text-white"
-                }`}
-              >
-                {tier.name}
-              </h3>
-
-              <div className="mt-4 flex items-baseline gap-1">
-                <span
-                  className={`text-4xl font-extrabold ${
-                    tier.highlighted ? "text-navy" : "text-white"
-                  }`}
-                >
-                  {tier.priceLabel}
-                </span>
-                <span
-                  className={`text-sm ${
-                    tier.highlighted ? "text-slate-500" : "text-slate-400"
-                  }`}
-                >
-                  {tier.priceSuffix}
-                </span>
-              </div>
-
-              <p
-                className={`mt-3 text-sm leading-relaxed ${
-                  tier.highlighted ? "text-slate-500" : "text-slate-400"
-                }`}
-              >
-                {tier.description}
-              </p>
-
-              <ul className="mt-6 flex-1 space-y-3">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-2">
-                    <Check
-                      className={`mt-0.5 h-4 w-4 shrink-0 ${
-                        tier.highlighted ? "text-orange" : "text-orange"
-                      }`}
-                    />
-                    <span
-                      className={`text-sm ${
-                        tier.highlighted ? "text-slate-600" : "text-slate-300"
-                      }`}
-                    >
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-
+        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          {/* Left: Copy */}
+          <div>
+            <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+              Get a Free Custom Growth Plan for Your Plumbing Business
+            </h2>
+            <p className="mt-6 text-lg leading-relaxed text-slate-300">
+              Every plumbing business is different. Instead of generic pricing
+              packages, we build custom strategies based on your market,
+              competition, and goals. Book a free 30-minute strategy session and
+              walk away with a clear action plan.
+            </p>
+            <div className="mt-8 space-y-4">
+              {[
+                { icon: FileSearch, text: "Full audit of your online presence" },
+                { icon: BarChart3, text: "Competitor gap analysis for your market" },
+                { icon: TrendingUp, text: "12-month revenue growth projection" },
+                { icon: Target, text: "Custom action plan you can keep" },
+              ].map((item) => (
+                <div key={item.text} className="flex items-center gap-3">
+                  <item.icon className="h-5 w-5 shrink-0 text-orange" />
+                  <span className="text-slate-300">{item.text}</span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-10">
               <Button
                 asChild
                 size="lg"
-                className={`mt-8 w-full font-semibold ${
-                  tier.highlighted
-                    ? "bg-orange text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
-                    : "border border-slate-600 bg-transparent text-white hover:border-white hover:bg-white/5"
-                }`}
+                className="bg-orange text-base font-semibold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
               >
-                <Link href={tier.ctaHref}>
-                  <Phone className="mr-2 h-4 w-4" />
-                  {tier.cta}
+                <Link href="/book">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Book Free Strategy Session
                 </Link>
               </Button>
             </div>
-          ))}
-        </div>
+          </div>
 
-        {/* Bottom link */}
-        <div className="mt-12 text-center">
-          <Link
-            href="/pricing"
-            className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
-          >
-            View full pricing details & comparison &rarr;
-          </Link>
+          {/* Right: What to Expect Card */}
+          <div className="rounded-2xl border border-slate-700 bg-navy-light p-8 lg:p-10">
+            <h3 className="text-xl font-bold text-white">
+              What to Expect on Your Call
+            </h3>
+            <div className="mt-6 space-y-5">
+              {[
+                "We review your current website, rankings, and Google presence",
+                "We show you what your top local competitors are doing",
+                "We project how many calls a proper strategy could generate",
+                "We give you a step-by-step plan — whether you hire us or not",
+                "No pressure, no obligation — just an honest conversation",
+              ].map((item) => (
+                <div key={item} className="flex items-start gap-3">
+                  <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-orange" />
+                  <span className="text-sm leading-relaxed text-slate-300">
+                    {item}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8 rounded-lg bg-orange/10 px-4 py-3">
+              <p className="text-center text-sm font-medium text-orange">
+                30 minutes &middot; Free &middot; No obligation
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

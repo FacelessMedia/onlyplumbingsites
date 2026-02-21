@@ -16,7 +16,7 @@ const serviceLinks = [
 ];
 
 const navLinks = [
-  { label: "Pricing", href: "/pricing" },
+  { label: "Free Strategy Session", href: "/pricing" },
   { label: "About", href: "/about" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "Blog", href: "/blog" },

@@ -97,7 +97,7 @@ export default function SocialPostingPage() {
                 variant="outline"
                 className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/pricing">View Pricing</Link>
+                <Link href="/pricing">Book Free Strategy Session</Link>
               </Button>
             </div>
           </div>

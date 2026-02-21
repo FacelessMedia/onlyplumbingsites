@@ -1,8 +1,23 @@
-import { Globe, Search, Share2, MessageSquare, Star, Bot } from "lucide-react";
+import { Globe, Search, Share2, MessageSquare, Star, Bot, TrendingUp } from "lucide-react";
 
 export const services = [
   {
-    title: "Plumbing Website Systems",
+    title: "SEO for Plumbers",
+    description:
+      "Dominate Google in your local market. We build the rankings, content, and authority that turn search traffic into booked service calls.",
+    icon: TrendingUp,
+    href: "/services/seo-for-plumbers",
+    features: [
+      "Local SEO & Google Map Pack",
+      "On-page optimization & content",
+      "Technical SEO & site speed",
+      "Link building & authority",
+      "Review generation & management",
+      "Monthly reporting & analytics",
+    ],
+  },
+  {
+    title: "Plumbing Website Design",
     description:
       "Custom websites built specifically for plumbing companies. Mobile-first, emergency CTA optimized, structured for your service area.",
     icon: Globe,

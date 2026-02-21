@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
 
 const footerLinks = {
   services: [
+    { label: "SEO for Plumbers", href: "/services/seo-for-plumbers" },
     { label: "Plumbing Websites", href: "/services/plumbing-websites" },
     { label: "Local SEO", href: "/services/local-seo" },
     { label: "SEO + Social", href: "/services/social-posting" },

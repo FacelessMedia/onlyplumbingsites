@@ -10,7 +10,7 @@ const footerLinks = {
     { label: "Local SEO", href: "/services/local-seo" },
     { label: "PPC for Plumbers", href: "/services/ppc-for-plumbers" },
     { label: "SEO + Social", href: "/services/social-posting" },
-    { label: "Free Strategy Session", href: "/pricing" },
+    { label: "Free Strategy Session", href: "/book" },
   ],
   company: [
     { label: "About", href: "/about" },
@@ -18,7 +18,9 @@ const footerLinks = {
     { label: "Portfolio", href: "/portfolio" },
     { label: "Results", href: "/case-studies" },
     { label: "Blog", href: "/blog" },
+    { label: "Guides", href: "/guides" },
     { label: "Contact", href: "/contact" },
+    { label: "Partners", href: "/partners" },
   ],
   resources: [
     { label: "Free Book Download", href: "/book-download" },
@@ -28,6 +30,8 @@ const footerLinks = {
     { label: "Marketing Glossary", href: "/glossary" },
     { label: "Website Grader", href: "/website-grader" },
     { label: "ROI Calculator", href: "/roi-calculator" },
+    { label: "All Free Tools", href: "/tools" },
+    { label: "Referral Program", href: "/referral" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },

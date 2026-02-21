@@ -14,6 +14,7 @@ const footerLinks = {
   company: [
     { label: "About", href: "/about" },
     { label: "Why Us", href: "/why-us" },
+    { label: "Portfolio", href: "/portfolio" },
     { label: "Results", href: "/case-studies" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
@@ -25,6 +26,7 @@ const footerLinks = {
     { label: "Book Strategy Session", href: "/book" },
     { label: "Marketing Glossary", href: "/glossary" },
     { label: "Website Grader", href: "/website-grader" },
+    { label: "ROI Calculator", href: "/roi-calculator" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },

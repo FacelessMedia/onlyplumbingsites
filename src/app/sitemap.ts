@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { serviceAreas } from "@/data/service-areas";
 
 const BASE_URL = "https://onlyplumbingsites.com";
 
@@ -64,5 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...blogPages];
+  const areaPages = serviceAreas.map((area) => ({
+    url: `${BASE_URL}/areas/${area.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...blogPages, ...areaPages];
 }

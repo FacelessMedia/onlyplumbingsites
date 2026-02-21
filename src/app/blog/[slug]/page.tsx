@@ -7,6 +7,7 @@ import ReadingProgress from "@/components/blog/ReadingProgress";
 import SocialShare from "@/components/blog/SocialShare";
 import ContentUpgrade from "@/components/blog/ContentUpgrade";
 import ScrollCTA from "@/components/blog/ScrollCTA";
+import TableOfContents from "@/components/blog/TableOfContents";
 
 type BlogPost = {
   slug: string;
@@ -2426,6 +2427,10 @@ export default async function BlogPostPage({
       {/* Content */}
       <section className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <TableOfContents
+            headings={extractHeadings(post.content)}
+          />
+
           <article className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-navy prose-h2:text-2xl prose-h3:text-xl prose-a:text-orange prose-a:no-underline hover:prose-a:text-orange-hover prose-strong:text-navy">
             <div dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }} />
           </article>
@@ -2518,6 +2523,17 @@ export default async function BlogPostPage({
   );
 }
 
+function extractHeadings(md: string): { id: string; text: string }[] {
+  return md
+    .split("\n")
+    .filter((line) => line.startsWith("## ") && !line.startsWith("### "))
+    .map((line) => {
+      const text = line.slice(3).replace(/\*\*(.+?)\*\*/g, "$1").replace(/\*(.+?)\*/g, "$1");
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      return { id, text };
+    });
+}
+
 function markdownToHtml(markdown: string): string {
   const lines = markdown.trim().split("\n");
   const html: string[] = [];
@@ -2553,12 +2569,16 @@ function markdownToHtml(markdown: string): string {
     // Headings
     if (line.startsWith("### ")) {
       if (inList) { html.push("</ul>"); inList = false; }
-      html.push(`<h3>${inline(line.slice(4))}</h3>`);
+      const text = line.slice(4);
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      html.push(`<h3 id="${id}">${inline(text)}</h3>`);
       continue;
     }
     if (line.startsWith("## ")) {
       if (inList) { html.push("</ul>"); inList = false; }
-      html.push(`<h2>${inline(line.slice(3))}</h2>`);
+      const text = line.slice(3);
+      const id = text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      html.push(`<h2 id="${id}">${inline(text)}</h2>`);
       continue;
     }
 

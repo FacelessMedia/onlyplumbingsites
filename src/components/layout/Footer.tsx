@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Phone, Mail, MapPin, ExternalLink } from "lucide-react";
+import NewsletterSignup from "@/components/sections/NewsletterSignup";
 
 const footerLinks = {
   services: [
@@ -158,6 +159,9 @@ export default function Footer() {
                 <Phone className="mr-2 h-4 w-4" />
                 Book Strategy Call
               </Link>
+            </div>
+            <div className="mt-6 border-t border-slate-700 pt-6">
+              <NewsletterSignup />
             </div>
           </div>
         </div>

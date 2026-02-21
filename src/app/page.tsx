@@ -1,4 +1,5 @@
 import Hero from "@/components/sections/Hero";
+import TrustBadgeBar from "@/components/sections/TrustBadgeBar";
 import ProblemSection from "@/components/sections/ProblemSection";
 import AuthorityStory from "@/components/sections/AuthorityStory";
 import ServicesGrid from "@/components/sections/ServicesGrid";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <TrustBadgeBar />
       <ProblemSection />
       <AuthorityStory />
       <ResultsCounter />

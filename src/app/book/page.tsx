@@ -112,35 +112,15 @@ export default function BookPage() {
               </div>
             </div>
 
-            {/* Right: Calendar embed placeholder */}
+            {/* Right: GHL Calendar Embed */}
             <div className="lg:col-span-3">
-              <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-navy">
-                  Choose a Time That Works
-                </h3>
-
-                {/* GHL Calendar embed will go here */}
-                <div className="flex min-h-[500px] flex-col items-center justify-center rounded-lg border-2 border-dashed border-slate-200 bg-slate-50 p-8 text-center">
-                  <Phone className="h-12 w-12 text-slate-300" />
-                  <p className="mt-4 text-lg font-semibold text-navy">
-                    Calendar Loading...
-                  </p>
-                  <p className="mt-2 text-sm text-slate-500">
-                    GHL calendar embed will be integrated here.
-                  </p>
-                  <p className="mt-4 text-sm text-slate-400">
-                    In the meantime, email us at{" "}
-                    <a
-                      href="mailto:hello@onlyplumbingsites.com"
-                      className="font-medium text-orange hover:text-orange-hover"
-                    >
-                      hello@onlyplumbingsites.com
-                    </a>
-                  </p>
-
-                  {/* TODO: Replace this div with GHL calendar iframe */}
-                  {/* <iframe src="YOUR_GHL_CALENDAR_URL" width="100%" height="600" frameBorder="0" /> */}
-                </div>
+              <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV"
+                  style={{ width: "100%", height: "700px", border: "none" }}
+                  scrolling="no"
+                  title="Book a Free Strategy Session"
+                />
               </div>
             </div>
           </div>

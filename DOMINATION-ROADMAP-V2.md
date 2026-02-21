@@ -7,7 +7,71 @@
 
 ---
 
-## Audit Summary (What We Have Now)
+## V2 Completion Tracker
+
+| Phase | Items | Done | Status |
+|-------|-------|------|--------|
+| Phase 1: Conversion & Trust | #1-20 | #1-12, #16, #18-19 | ✅ ~75% done |
+| Phase 2: SEO Domination | #21-40 | #22, #26-30 | ✅ Service areas live |
+| Phase 3: Interactive Tools | #41-49 | #45-46, #48-49 | ✅ Tools hub live |
+| Phase 4: Competitor Content | #50-60 | #50-56 | ✅ 4 comparisons live |
+| Phase 5: Video & Multimedia | #61-68 | — | ⬜ Manual (recording) |
+| Phase 6: CRO | #69-80 | #77, #79 | 🟡 Partial |
+| Phase 7: Authority Content | #81-90 | #81 | 🟡 Resources hub live |
+| Phase 8: Technical Excellence | #91-97 | #92, #94-96 | ✅ Security + a11y |
+| Phase 9: Scale & Automation | #98-107 | #100-101 | 🟡 Referral live |
+| Phase 10: Market Domination | #108-120 | — | ⬜ Pending |
+
+**Total V2 items completed: ~45 of 120 code items executed this session**
+
+### What was built this session:
+
+**New Pages (15):**
+- `/thank-you/strategy-session` — post-booking confirmation with prep checklist
+- `/thank-you/growth-report` — post-request confirmation with timeline + upsell
+- `/thank-you/book-download` — post-download with chapter preview + share
+- `/portfolio` — 8-card website portfolio showcase with stats bar
+- `/roi-calculator` — interactive ROI tool (spend × ticket × close rate = revenue)
+- `/areas` — index page listing 20 metro areas by state
+- `/areas/[slug]` — 20 dynamic service area pages with Service JSON-LD
+- `/tools` — free tools hub linking to all 4 tools
+- `/tools/plumbing-keywords` — 50+ keyword database with search/filter
+- `/tools/review-link-generator` — Google review link generator
+- `/compare` — competitor comparison hub
+- `/compare/[slug]` — 4 comparison pages (Scorpion, Plumbing Webmasters, Hook Agency, Strictly Plumbers)
+- `/resources` — central resource hub (tools, lead magnets, learning)
+- `/referral` — referral program with 3-step form
+
+**New API Routes (3):**
+- `/api/contact` — GHL contact creation from contact form with honeypot
+- `/api/newsletter` — GHL contact creation for newsletter signups
+- `/api/referral` — GHL contact creation for referred plumbers with referrer tracking
+
+**New Components (6):**
+- `TestimonialCarousel` — auto-rotating testimonials with nav arrows + dots
+- `NewsletterSignup` — email capture with honeypot + GHL integration
+- `CookieConsent` — GDPR-compliant banner with localStorage persistence
+- `Breadcrumbs` — path navigation with BreadcrumbList JSON-LD on all pages
+- `ScrollCTA` — scroll-triggered growth report CTA on blog posts (60% depth)
+- Skip-to-content link for keyboard accessibility
+
+**New Data Files (2):**
+- `src/data/service-areas.ts` — 20 metro areas with city, state, slug, population
+- `src/data/competitors.ts` — 4 competitors with features, pros, cons
+
+**Infrastructure:**
+- Contact form now submits to `/api/contact` (was console.log only)
+- Honeypot spam protection on contact, newsletter, and referral forms
+- FAQ section now emits FAQPage JSON-LD schema
+- Security headers middleware (X-Content-Type-Options, X-Frame-Options, X-XSS-Protection, Referrer-Policy, Permissions-Policy)
+- /pricing → /book redirect via next.config.ts
+- Homepage: TestimonialCarousel added between ResultsCounter and ServicesGrid
+- Footer: Portfolio + ROI Calculator added to links
+- Sitemap: auto-generates entries for 20 service area pages
+
+---
+
+## Audit Summary (What We Have Now — Post V2)
 
 | Category | Count | Details |
 |----------|-------|---------|

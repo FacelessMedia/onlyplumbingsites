@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Calendar, Clock, ArrowLeft, Phone } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ReadingProgress from "@/components/blog/ReadingProgress";
 
 type BlogPost = {
   slug: string;
@@ -2353,6 +2354,8 @@ export default async function BlogPostPage({
 
   return (
     <>
+      <ReadingProgress />
+
       {/* Hero */}
       <section className="bg-navy py-16 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -2423,6 +2426,54 @@ export default async function BlogPostPage({
           </div>
         </div>
       </section>
+
+      {/* Related Posts */}
+      {(() => {
+        const related = blogPosts
+          .filter((p) => p.slug !== post.slug && p.category === post.category)
+          .slice(0, 3);
+        const fallback =
+          related.length < 3
+            ? blogPosts
+                .filter(
+                  (p) =>
+                    p.slug !== post.slug &&
+                    !related.find((r) => r.slug === p.slug)
+                )
+                .slice(0, 3 - related.length)
+            : [];
+        const posts = [...related, ...fallback];
+        if (posts.length === 0) return null;
+        return (
+          <section className="bg-slate-50 py-16 lg:py-20">
+            <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+              <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
+                Keep Reading
+              </h2>
+              <div className="mt-10 grid gap-6 sm:grid-cols-3">
+                {posts.map((p) => (
+                  <Link
+                    key={p.slug}
+                    href={`/blog/${p.slug}`}
+                    className="group rounded-xl border border-slate-200 bg-white p-5 transition-all hover:border-orange/30 hover:shadow-md"
+                  >
+                    <span className="text-xs font-medium text-orange">
+                      {p.category}
+                    </span>
+                    <h3 className="mt-2 text-sm font-bold leading-snug text-navy line-clamp-2 group-hover:text-orange">
+                      {p.title}
+                    </h3>
+                    <span className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-orange">
+                      Read Article
+                      <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
     </>
   );
 }

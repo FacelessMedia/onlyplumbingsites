@@ -282,7 +282,18 @@ GHL_LOCATION_ID=rU5VfOC451ZI6SPNYmAu
 GHL_CALENDAR_ID=W1dbJlvrGJ63xPRg9pZV
 NEXT_PUBLIC_GA_MEASUREMENT_ID=   # ← Add your GA4 measurement ID here
 NEXT_PUBLIC_CLARITY_ID=          # ← Add your Clarity project ID here (optional)
+GOOGLE_PLACES_API_KEY=           # ← Required for Review Link Generator + Citation Checker GBP search
 ```
+
+### How to get your Google Places API key:
+1. Go to [Google Cloud Console](https://console.cloud.google.com)
+2. Create a new project (or use existing)
+3. Enable the **Places API (New)** 
+4. Go to Credentials → Create Credentials → API Key
+5. Restrict the key to Places API only (recommended)
+6. Add the key to `.env.local` as `GOOGLE_PLACES_API_KEY`
+7. Redeploy — the Review Link Generator will auto-detect the key
+8. Budget: ~$17 per 1,000 searches (at typical usage ~$2-5/month)
 
 ---
 

@@ -1,7 +1,6 @@
 import { Metadata } from "next";
-import Link from "next/link";
-import { Calendar, ArrowRight, Clock } from "lucide-react";
 import FinalCTA from "@/components/sections/FinalCTA";
+import BlogFilters from "@/components/blog/BlogFilters";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -238,61 +237,10 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Blog List */}
+      {/* Blog List with Filters */}
       <section className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="space-y-8">
-            {blogPosts.map((post) => (
-              <article
-                key={post.slug}
-                className="group rounded-xl border border-slate-200 bg-white p-6 transition-all hover:border-orange/30 hover:shadow-md sm:p-8"
-              >
-                <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500">
-                  <span className="rounded-full bg-orange/10 px-3 py-1 text-xs font-medium text-orange">
-                    {post.category}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Calendar className="h-3.5 w-3.5" />
-                    {new Date(post.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="h-3.5 w-3.5" />
-                    {post.readTime}
-                  </span>
-                </div>
-
-                <h2 className="mt-3 text-xl font-bold text-navy sm:text-2xl">
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="transition-colors hover:text-orange"
-                  >
-                    {post.title}
-                  </Link>
-                </h2>
-
-                <p className="mt-3 text-slate-500">{post.excerpt}</p>
-
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-orange transition-colors hover:text-orange-hover"
-                >
-                  Read Article
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              </article>
-            ))}
-          </div>
-
-          {/* More coming */}
-          <div className="mt-12 text-center">
-            <p className="text-slate-500">
-              More articles coming every week. Stay tuned.
-            </p>
-          </div>
+          <BlogFilters posts={blogPosts} />
         </div>
       </section>
 

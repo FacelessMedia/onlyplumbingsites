@@ -145,6 +145,78 @@ const blogPosts = [
     readTime: "7 min read",
     category: "Branding",
   },
+  {
+    slug: "plumber-sales-training",
+    title: "Plumber Sales Training: How to Close More Jobs and Increase Your Average Ticket",
+    excerpt:
+      "Sales training techniques built for plumbers — from the initial phone call to presenting options on-site. Close more jobs at higher ticket prices without being pushy.",
+    date: "2026-02-01",
+    readTime: "10 min read",
+    category: "Business Growth",
+  },
+  {
+    slug: "social-media-for-plumbers",
+    title: "Social Media for Plumbers: The Complete Guide to Building Your Online Presence",
+    excerpt:
+      "Which social platforms matter for plumbers, what to post, how often, and how to turn followers into booked jobs.",
+    date: "2026-01-30",
+    readTime: "9 min read",
+    category: "Social Media",
+  },
+  {
+    slug: "plumber-website-builder",
+    title: "Plumber Website Builder: Best Options for Building a Plumbing Website in 2026",
+    excerpt:
+      "Comparing the top website builders for plumbing companies — from DIY options like Wix and Squarespace to custom-built solutions.",
+    date: "2026-01-28",
+    readTime: "8 min read",
+    category: "Website Strategy",
+  },
+  {
+    slug: "plumbing-social-media-posts",
+    title: "Plumbing Social Media Posts: 30 Ideas Your Followers Will Actually Engage With",
+    excerpt:
+      "Stuck on what to post? Here are 30 ready-to-use social media post ideas for plumbing companies — organized by category with example captions.",
+    date: "2026-01-26",
+    readTime: "7 min read",
+    category: "Social Media",
+  },
+  {
+    slug: "reputation-management-for-plumbers",
+    title: "Reputation Management for Plumbers: How to Build and Protect Your Online Reviews",
+    excerpt:
+      "Your Google reviews directly impact your rankings and whether homeowners call you. Here's how to systematically build and protect your online reputation.",
+    date: "2026-01-24",
+    readTime: "8 min read",
+    category: "Marketing",
+  },
+  {
+    slug: "plumber-chatbot",
+    title: "AI Chatbots for Plumbers: Should Your Plumbing Website Have One?",
+    excerpt:
+      "AI chatbots can capture leads 24/7 on your plumbing website. Here's how they work, what they cost, and whether they're worth the investment.",
+    date: "2026-01-22",
+    readTime: "7 min read",
+    category: "Technology",
+  },
+  {
+    slug: "plumber-branding",
+    title: "Plumber Branding: How to Build a Plumbing Brand That Homeowners Remember",
+    excerpt:
+      "Your brand is more than a logo. Here's how to build a plumbing brand that stands out, builds trust, and makes homeowners choose you over competitors.",
+    date: "2026-01-20",
+    readTime: "8 min read",
+    category: "Branding",
+  },
+  {
+    slug: "plumbing-logo-design",
+    title: "Plumbing Logo Design: How to Create a Logo That Builds Trust and Recognition",
+    excerpt:
+      "Your plumbing logo appears on everything — trucks, uniforms, website, cards. Here's how to design one that looks professional and builds your brand.",
+    date: "2026-01-18",
+    readTime: "6 min read",
+    category: "Branding",
+  },
 ];
 
 export default function BlogPage() {

@@ -1,0 +1,173 @@
+# Manual Action Items — Only Plumbing Sites
+
+**Last Updated:** February 21, 2026  
+**Owner:** Ryan Pietrzak  
+
+Use this checklist to track everything that needs manual setup outside of code.  
+Check items off as you complete them.
+
+---
+
+## 🔴 Priority 1: GHL Setup (Do First)
+
+### GHL Sales Pipeline
+- [ ] Log into GoHighLevel → Opportunities → Pipelines
+- [ ] Create pipeline: "Only Plumbing Sites Sales Pipeline"
+- [ ] Add these 8 stages in order:
+  1. New Lead
+  2. Growth Report Sent
+  3. Strategy Call Booked
+  4. Strategy Call Completed
+  5. Proposal Sent
+  6. Follow-Up
+  7. Won (Closed)
+  8. Lost
+- [ ] Set "Won" and "Lost" as terminal stages
+- [ ] Full details in `docs/GHL-SETUP-GUIDE.md`
+
+### GHL Automation Workflows (Build These 8)
+- [ ] **1. Appointment Confirmation** — Trigger: calendar booking → Send confirmation email with prep checklist + calendar invite
+- [ ] **2. Appointment Reminders** — 24hr before: email + SMS → 1hr before: SMS → 15min before: SMS
+- [ ] **3. No-Show Follow-Up** — Trigger: appointment marked no-show → Day 1: "We missed you" email → Day 3: SMS → Day 7: final email with reschedule link
+- [ ] **4. Post-Call Nurture** — Trigger: appointment completed + no deal → Day 1: recap email → Day 3: case study email → Day 7: growth report offer → Day 14: strategy call re-offer
+- [ ] **5. Long-Term Nurture** — Trigger: Lost stage → Monthly email for 12 months with blog content + seasonal tips + offers
+- [ ] **6. Growth Report Follow-Up** — Trigger: growth report form submitted → Immediate: confirmation email → Day 2: "Here's your report" email → Day 5: strategy call invite
+- [ ] **7. Missed Call Text-Back** — Trigger: inbound call missed → Immediate SMS: "Sorry we missed your call. How can we help?"
+- [ ] **8. Google Review Request** — Trigger: manual (after project completion) → Day 1: email with direct Google review link → Day 3: SMS reminder if no review
+- [ ] Full workflow details and email copy in `docs/GHL-SETUP-GUIDE.md`
+
+### GHL Integrations
+- [ ] **Zoom:** Settings → Integrations → Connect Zoom account → Enable auto-generated meeting links for calendar bookings
+- [ ] **Google Calendar:** Settings → Integrations → Connect Google Calendar → Enable two-way sync to prevent double-booking
+- [ ] **Stripe (optional):** Settings → Integrations → Connect Stripe for future payment collection
+
+---
+
+## 🟡 Priority 2: Analytics & Tracking
+
+### Google Analytics 4
+- [ ] Go to [analytics.google.com](https://analytics.google.com)
+- [ ] Create property for "onlyplumbingsites.com"
+- [ ] Get your Measurement ID (starts with `G-`)
+- [ ] Add to `.env.local`: `NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX`
+- [ ] Redeploy the site (Vercel will pick it up automatically)
+- [ ] Verify data is flowing in GA4 Real-Time reports
+
+### Google Search Console
+- [ ] Go to [search.google.com/search-console](https://search.google.com/search-console)
+- [ ] Add property: `https://onlyplumbingsites.com`
+- [ ] Verify ownership (DNS TXT record or HTML file method)
+- [ ] Submit sitemap: `https://onlyplumbingsites.com/sitemap.xml`
+- [ ] Check for any crawl errors after 24-48 hours
+
+### Microsoft Clarity (Optional — Free Heatmaps)
+- [ ] Go to [clarity.microsoft.com](https://clarity.microsoft.com)
+- [ ] Create project for onlyplumbingsites.com
+- [ ] Add the tracking script to `.env.local` as `NEXT_PUBLIC_CLARITY_ID`
+- [ ] (Note: Clarity snippet support can be added to layout.tsx — ask Cascade)
+
+---
+
+## 🟡 Priority 3: Content & Assets
+
+### Ryan's Photo
+- [ ] Get a professional headshot (or good quality photo)
+- [ ] Add to `/public/ryan.jpg` (or similar)
+- [ ] Update About page to use real photo instead of "RP" avatar
+- [ ] Update book download page author section
+- [ ] Update any other avatar placeholders
+
+### Growth Report PDF Template
+- [ ] Design branded PDF template with Only Plumbing Sites colors (navy + orange)
+- [ ] Sections to include:
+  - Current Online Presence Score
+  - Google Rankings Snapshot
+  - Competitor Gap Analysis
+  - 12-Month Growth Roadmap
+  - Revenue Projection
+  - Recommended Services
+- [ ] Tools: Canva, Figma, or Adobe InDesign
+- [ ] Save as template so you can customize per lead
+
+### Book: "The Little Plumber That Couldn't"
+- [ ] ⚠️ **Being handled in a separate project**
+- [ ] When ready, drop the PDF into `/public/book/` 
+- [ ] Update `/book-download` page download link to point to actual PDF
+- [ ] (Optional) Set up Amazon KDP for physical copies
+
+### Real Testimonials
+- [ ] Collect 3-5 written testimonials from actual clients
+- [ ] Get permission to use their name + company name
+- [ ] (Optional) Record 1-2 short video testimonials (phone is fine)
+- [ ] Add to case studies page and homepage
+
+### Real Case Study Data
+- [ ] Pick 2-3 best client results
+- [ ] Document: before state, what you did, results (rankings, calls, revenue)
+- [ ] Get client permission to share
+- [ ] Add to `/case-studies` page
+
+---
+
+## 🟢 Priority 4: Domain & Hosting
+
+### Email Setup
+- [ ] Set up `hello@onlyplumbingsites.com` (if not already done)
+- [ ] Set up `ryan@onlyplumbingsites.com` (if not already done)
+- [ ] Configure SPF, DKIM, DMARC records for deliverability
+
+### DNS Records (if needed)
+- [ ] Verify domain is pointed to Vercel/hosting provider
+- [ ] Add Google Search Console verification TXT record
+- [ ] Add email SPF/DKIM records
+
+---
+
+## 🟢 Priority 5: Ongoing / Monthly Tasks
+
+### Content Calendar (Weekly)
+- [ ] Publish 1 new blog post per week
+- [ ] Share each post on Facebook, LinkedIn, Instagram
+- [ ] Repurpose blog content into social media snippets
+
+### Review Generation (After Each Project)
+- [ ] Trigger the Google Review Request automation in GHL
+- [ ] Follow up personally if no review after 5 days
+- [ ] Respond to every review (positive and negative) within 24 hours
+
+### Google Business Profile (Monthly)
+- [ ] Post 2-4 Google Business updates per month
+- [ ] Add new photos of projects/team
+- [ ] Respond to all new reviews
+- [ ] Update services/hours if anything changes
+
+### Directory Listings (One-Time Setup)
+- [ ] Claim/update listing on:
+  - [ ] Google Business Profile
+  - [ ] Yelp
+  - [ ] BBB
+  - [ ] Angi (formerly Angie's List)
+  - [ ] HomeAdvisor
+  - [ ] ThePlumbingDirectory.com (you co-own this!)
+  - [ ] Clutch.co
+  - [ ] DesignRush
+  - [ ] UpCity
+- [ ] Ensure NAP (Name, Address, Phone) is consistent across all listings
+
+---
+
+## Quick Reference: Environment Variables
+
+Your `.env.local` should contain:
+
+```
+GHL_API_KEY=pit-6f4303d3-28a7-49be-ac57-1cdd2e9b76a9
+GHL_LOCATION_ID=rU5VfOC451ZI6SPNYmAu
+GHL_CALENDAR_ID=W1dbJlvrGJ63xPRg9pZV
+NEXT_PUBLIC_GA_MEASUREMENT_ID=   # ← Add your GA4 measurement ID here
+NEXT_PUBLIC_CLARITY_ID=          # ← Add your Clarity project ID here (optional)
+```
+
+---
+
+*This document is auto-maintained. Check items off as you complete them.*

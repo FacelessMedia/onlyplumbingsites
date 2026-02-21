@@ -15,6 +15,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://onlyplumbingsites.com"),
+  alternates: {
+    canonical: "./",
+  },
   title: {
     default: "Only Plumbing Sites — Plumbing Websites Built by a Licensed Plumber",
     template: "%s | Only Plumbing Sites",

@@ -7,24 +7,55 @@
 
 ---
 
-## V2 Completion Tracker
+## V2 Completion Tracker (Updated Feb 21, 2026 — Session 2)
 
 | Phase | Items | Done | Status |
 |-------|-------|------|--------|
-| Phase 1: Conversion & Trust | #1-20 | #1-12, #16, #18-19 | ✅ ~75% done |
-| Phase 2: SEO Domination | #21-40 | #22, #26-30 | ✅ Service areas live |
-| Phase 3: Interactive Tools | #41-49 | #45-46, #48-49 | ✅ Tools hub live |
+| Phase 1: Conversion & Trust | #1-20 | #1-12, #16, #18-19, #20 (trust bar) | ✅ ~80% done |
+| Phase 2: SEO Domination | #21-40 | #22-23, #25, #26-30 | ✅ Areas + TOC + OG images |
+| Phase 3: Interactive Tools | #41-49 | #41-44 (grader rebuilt), #45-46, #48-49 | ✅ All tools live |
 | Phase 4: Competitor Content | #50-60 | #50-56 | ✅ 4 comparisons live |
-| Phase 5: Video & Multimedia | #61-68 | — | ⬜ Manual (recording) |
-| Phase 6: CRO | #69-80 | #77, #79 | 🟡 Partial |
-| Phase 7: Authority Content | #81-90 | #81 | 🟡 Resources hub live |
+| Phase 5: Video & Multimedia | #61-68 | #61 (podcast page) | 🟡 Needs recordings |
+| Phase 6: CRO | #69-80 | #73, #77, #79-80 | 🟡 ErrorBoundary + UTM + ScrollCTA |
+| Phase 7: Authority Content | #81-90 | #81, #84 | 🟡 Resources hub live |
 | Phase 8: Technical Excellence | #91-97 | #92, #94-96 | ✅ Security + a11y |
 | Phase 9: Scale & Automation | #98-107 | #100-101 | 🟡 Referral live |
-| Phase 10: Market Domination | #108-120 | — | ⬜ Pending |
+| Phase 10: Market Domination | #108-120 | #108 (local-seo LP) | 🟡 1 new LP |
 
-**Total V2 items completed: ~45 of 120 code items executed this session**
+**Total V2 items completed: ~55 of 120 code items across 2 sessions**
 
-### What was built this session:
+### Session 2 additions (after grader fix):
+
+**Critical Fix:**
+- `/api/website-grader` — **REBUILT FROM SCRATCH.** Old grader was completely fake (Math.random scores, 9/10 checks hardcoded as "warn"). New version fetches actual website HTML server-side and runs 10 deterministic checks: HTTPS, viewport tag, tel: links, title tag, meta description, schema markup, server response time, H1 tag, image alt text, reviews/social proof. Same URL always produces same score.
+
+**New Pages (2):**
+- `/podcast` — coming soon page with 8 episode topics, newsletter signup
+- `/lp/local-seo` — Google Ads landing page for local SEO / Map Pack services
+
+**New API Routes (2):**
+- `/api/website-grader` — real server-side HTML analysis (replaces fake client-side grader)
+- `/api/og` — dynamic Open Graph image generation (edge runtime, branded 1200×630)
+
+**New Components (4):**
+- `TableOfContents` — collapsible TOC on blog posts, extracted from ## headings with anchor links
+- `TrustBadgeBar` — Licensed Plumber, 250+ Sites, You Own Your Site, 24hr Response on homepage
+- `ErrorBoundary` — class component with try-again + go-home fallback UI
+- `NewsletterSignup` — now also in footer CTA column
+
+**New Utilities (1):**
+- `src/lib/utm.ts` — captureUTM(), getUTM(), appendUTM() for Google Ads campaign attribution
+
+**Infrastructure:**
+- Blog posts: heading IDs added to markdown renderer + extractHeadings() for TOC
+- Homepage: TrustBadgeBar added after Hero
+- Footer: NewsletterSignup added to CTA column
+- Navbar: Portfolio link added, "All Free Tools" in resources dropdown, Strategy Session fixed to /book
+- Sitemap: expanded to 90+ URLs (added tools/*, compare/*, areas index, resources, referral, podcast, lp/local-seo, dynamic compare pages)
+
+---
+
+### Session 1 build log:
 
 **New Pages (15):**
 - `/thank-you/strategy-session` — post-booking confirmation with prep checklist

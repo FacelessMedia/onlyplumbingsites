@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import ReadingProgress from "@/components/blog/ReadingProgress";
 import SocialShare from "@/components/blog/SocialShare";
 import ContentUpgrade from "@/components/blog/ContentUpgrade";
+import ScrollCTA from "@/components/blog/ScrollCTA";
 
 type BlogPost = {
   slug: string;
@@ -2385,6 +2386,7 @@ export default async function BlogPostPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
       <ReadingProgress />
+      <ScrollCTA />
 
       {/* Hero */}
       <section className="bg-navy py-16 lg:py-20">

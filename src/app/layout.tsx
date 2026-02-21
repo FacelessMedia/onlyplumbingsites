@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import StickyMobileCTA from "@/components/layout/StickyMobileCTA";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
+import CookieConsent from "@/components/layout/CookieConsent";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -112,6 +113,7 @@ export default function RootLayout({
         <main className="pb-16 lg:pb-0">{children}</main>
         <Footer />
         <StickyMobileCTA />
+        <CookieConsent />
       </body>
     </html>
   );

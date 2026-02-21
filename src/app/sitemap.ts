@@ -49,6 +49,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/why-us`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/glossary`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${BASE_URL}/website-grader`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/portfolio`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/roi-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/lp/plumbing-website`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/lp/seo-for-plumbers`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },

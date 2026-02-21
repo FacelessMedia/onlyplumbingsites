@@ -51,8 +51,13 @@ export default function ContactPage() {
   });
 
   async function onSubmit(data: ContactFormData) {
-    console.log("Contact form submitted:", data);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const honeypot = (document.getElementById("_honeypot") as HTMLInputElement)
+      ?.value;
+    await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...data, _honeypot: honeypot || "" }),
+    });
     setSubmitted(true);
   }
 
@@ -170,6 +175,16 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold text-navy">
                     Send Us a Message
                   </h3>
+
+                  {/* Honeypot - hidden from humans, bots fill it */}
+                  <input
+                    type="text"
+                    id="_honeypot"
+                    name="_honeypot"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    className="absolute -left-[9999px] h-0 w-0 opacity-0"
+                  />
 
                   <div className="mt-6 space-y-5">
                     <div>

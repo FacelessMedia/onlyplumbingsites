@@ -74,7 +74,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "company-2",
     category: "Company & Founder",
     question: "Who is Ryan Pietrzak?",
-    answer: "Ryan Pietrzak is the founder of Only Plumbing Sites. He's been in the plumbing trade since 2009 and became a licensed Illinois plumber in 2014. He's built over 250 plumbing websites and also co-owns ThePlumbingDirectory.com. Ryan understands both plumbing systems AND marketing systems — which is why the websites he builds actually generate service calls, not just look pretty.",
+    answer: "Ryan Pietrzak is the founder of Only Plumbing Sites. He's been in the plumbing trade since 2009, got his apprentice license in 2014, and his official Illinois plumbing license in 2019. He's built over 250 plumbing websites and also created ThePlumbingDirectory.com. This is a one-person operation — Ryan is selective about who he works with and focuses on local plumbing companies. He understands both plumbing systems AND marketing systems — which is why the websites he builds actually generate service calls, not just look pretty.",
     keywords: ["ryan", "founder", "owner", "who built this"]
   },
   {

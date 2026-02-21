@@ -21,93 +21,39 @@ type GradeResult = {
   checks: { label: string; status: "pass" | "fail" | "warn"; note: string }[];
 };
 
-function gradeWebsite(url: string): GradeResult {
-  // Client-side heuristic grader — gives useful feedback based on common plumbing website issues
-  // In a future version, this could call a real API that does lighthouse/pagespeed checks
-  const checks = [
-    {
-      label: "Has HTTPS (SSL Certificate)",
-      status: url.startsWith("https") ? "pass" as const : "fail" as const,
-      note: url.startsWith("https")
-        ? "Your site uses HTTPS — good for security and SEO."
-        : "Your site doesn't use HTTPS. Google penalizes non-secure sites in search rankings.",
-    },
-    {
-      label: "Mobile-Friendly Design",
-      status: "warn" as const,
-      note: "We'd need to test your site on mobile to verify. Over 60% of plumbing searches happen on phones — mobile optimization is critical.",
-    },
-    {
-      label: "Click-to-Call Button Above the Fold",
-      status: "warn" as const,
-      note: "Most plumbing websites bury their phone number. Your phone number should be tappable and visible without scrolling on mobile.",
-    },
-    {
-      label: "Service Area Pages",
-      status: "warn" as const,
-      note: "Does your site have dedicated pages for each city you serve? Without them, you're invisible in 'plumber in [city]' searches.",
-    },
-    {
-      label: "Google Business Profile Optimized",
-      status: "warn" as const,
-      note: "Your GBP listing is critical for appearing in the Map Pack. Most plumbing companies only fill out 30-40% of their profile.",
-    },
-    {
-      label: "Page Load Speed",
-      status: "warn" as const,
-      note: "Slow websites lose visitors. If your site takes more than 3 seconds to load, you're losing 40% of potential callers.",
-    },
-    {
-      label: "Schema Markup (Structured Data)",
-      status: "warn" as const,
-      note: "Schema markup helps Google understand your business. Most plumbing websites don't have it — it's a competitive advantage when implemented.",
-    },
-    {
-      label: "Clear Calls to Action",
-      status: "warn" as const,
-      note: "Every page should have a clear next step — call, book, or request an estimate. Vague CTAs kill conversion rates.",
-    },
-    {
-      label: "Unique Content (Not Template Copy)",
-      status: "warn" as const,
-      note: "If your website uses generic template text that could apply to any plumber anywhere, Google sees it as low-value content.",
-    },
-    {
-      label: "Review/Trust Signals on Website",
-      status: "warn" as const,
-      note: "Displaying your Google reviews and star rating on your website increases conversion rates by 20-30%.",
-    },
-  ];
-
-  const passCount = checks.filter((c) => c.status === "pass").length;
-  const score = Math.round((passCount / checks.length) * 100) + Math.floor(Math.random() * 15 + 10);
-  const clampedScore = Math.min(score, 45); // Cap low since we can't fully verify most items
-
-  let grade = "F";
-  if (clampedScore >= 90) grade = "A";
-  else if (clampedScore >= 80) grade = "B";
-  else if (clampedScore >= 60) grade = "C";
-  else if (clampedScore >= 40) grade = "D";
-
-  return { score: clampedScore, grade, checks };
-}
-
 export default function WebsiteGraderPage() {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<GradeResult | null>(null);
+  const [error, setError] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!url.trim()) return;
 
     setLoading(true);
-    // Simulate processing
-    setTimeout(() => {
-      const fullUrl = url.startsWith("http") ? url : `https://${url}`;
-      setResult(gradeWebsite(fullUrl));
+    setResult(null);
+    setError("");
+
+    try {
+      const res = await fetch("/api/website-grader", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url: url.trim() }),
+      });
+
+      const data = await res.json();
+
+      if (data.error) {
+        setError(data.error);
+      } else {
+        setResult(data);
+      }
+    } catch {
+      setError("Something went wrong. Please try again.");
+    } finally {
       setLoading(false);
-    }, 2000);
+    }
   }
 
   return (
@@ -154,13 +100,25 @@ export default function WebsiteGraderPage() {
                 {loading ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Analyzing...
+                    Analyzing Site...
                   </>
                 ) : (
                   "Grade My Website"
                 )}
               </Button>
             </form>
+
+            {loading && (
+              <p className="mt-4 text-sm text-slate-400">
+                Fetching your website and running 10 real checks. This may take a few seconds...
+              </p>
+            )}
+
+            {error && (
+              <div className="mx-auto mt-6 max-w-lg rounded-lg border border-red-200 bg-red-50 p-4 text-center">
+                <p className="text-sm font-medium text-red-700">{error}</p>
+              </div>
+            )}
           </div>
         </div>
       </section>

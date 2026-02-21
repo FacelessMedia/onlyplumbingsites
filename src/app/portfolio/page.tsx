@@ -82,7 +82,7 @@ export default function PortfolioPage() {
             </h1>
             <p className="mt-4 text-lg text-slate-300">
               Every project is custom-built for the plumbing company it serves.
-              No templates. No shortcuts. Here are some representative results.
+              Built on proven frameworks, customized for each market. Here are some representative results.
             </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function PortfolioPage() {
           </div>
           <div className="text-center">
             <p className="text-3xl font-extrabold text-navy">15+</p>
-            <p className="text-sm text-slate-500">Years in Plumbing</p>
+            <p className="text-sm text-slate-500">Years in the Trade</p>
           </div>
           <div className="text-center">
             <p className="text-3xl font-extrabold text-navy">100%</p>

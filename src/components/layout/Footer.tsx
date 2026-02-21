@@ -75,7 +75,7 @@ export default function Footer() {
             {/* Trust badges */}
             <div className="mt-6 flex flex-wrap gap-3">
               <span className="inline-flex items-center rounded-full border border-slate-700 bg-navy-light px-3 py-1 text-xs font-medium text-slate-300">
-                Licensed Plumber Since 2014
+                Licensed Plumber &middot; In the Trade Since 2009
               </span>
               <a
                 href="https://theplumbingdirectory.com"

@@ -144,7 +144,7 @@ export default async function ServiceAreaPage({
           </div>
           <div className="flex items-center gap-2 text-sm font-medium text-slate-600">
             <Star className="h-5 w-5 text-orange" />
-            Licensed Plumber Since 2014
+            Licensed Plumber &middot; In the Trade Since 2009
           </div>
         </div>
       </section>

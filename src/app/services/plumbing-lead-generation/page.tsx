@@ -366,7 +366,7 @@ export default function PlumbingLeadGenerationPage() {
           </h2>
           <div className="mt-10 space-y-4">
             {[
-              "Licensed plumber since 2014 — we understand your business from the inside",
+              "Licensed plumber, in the trade since 2009 — we understand your business from the inside",
               "250+ plumbing websites built and generating leads nationwide",
               "We only work with plumbing companies — not HVAC, not electrical, just plumbing",
               "Every lead is exclusive to you — we never sell shared leads",

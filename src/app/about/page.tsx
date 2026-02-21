@@ -9,6 +9,9 @@ import {
   Award,
   Users,
   Target,
+  Lock,
+  Headphones,
+  Lightbulb,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FinalCTA from "@/components/sections/FinalCTA";
@@ -16,7 +19,7 @@ import FinalCTA from "@/components/sections/FinalCTA";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Ryan Pietrzak — licensed Illinois plumber since 2014, in the trade since 2009. 250+ plumbing websites built. Co-owner of ThePlumbingDirectory.com.",
+    "Meet Ryan Pietrzak — licensed Illinois plumber, in the trade since 2009. 250+ plumbing websites built. This is a one-man operation, and I'm selective about who I work with.",
 };
 
 const timeline = [
@@ -28,38 +31,45 @@ const timeline = [
     icon: Wrench,
   },
   {
-    year: "2014",
-    title: "Earned My Plumbing License",
+    year: "2009–2019",
+    title: "The Side Hustle Years",
     description:
-      "Got my Illinois plumbing license. By this point, I understood not just how to do the work — but how plumbing businesses actually run. Dispatch, seasonal demand, emergency calls, customer trust.",
+      "Every chance I got — lunch breaks, commutes, whenever the foreman allowed earbuds — I was listening to marketing and business YouTube playlists. I soaked up everything I could about building things online. Tried Amazon FBA, custom t-shirts, coffee mugs, dropshipping, affiliate marketing — you name it, I probably tried it. Some worked, most didn't. But every failure taught me something about marketing, sales, and building online businesses.",
+    icon: Headphones,
+  },
+  {
+    year: "2014",
+    title: "Apprentice Plumbing License",
+    description:
+      "Earned my Illinois apprentice plumbing license. By this point I'd been on job sites for five years and understood how plumbing businesses actually run — dispatch, seasonal demand, emergency calls, customer trust.",
     icon: Shield,
   },
   {
-    year: "2016",
-    title: "Started Building Plumbing Websites",
+    year: "2019",
+    title: "Official Plumbing License",
     description:
-      "Saw how bad most plumbing websites were — built by designers who never held a wrench. Started building sites for other plumbers. The results were immediate because I understood the customer journey.",
-    icon: Globe,
+      "Got my official Illinois plumbing license. A decade in the trade. But I'd also spent those years building a real understanding of digital marketing — and I finally realized something: I know plumbing AND I know websites. Why was I trying to sell random stuff online when I could combine both?",
+    icon: Award,
+  },
+  {
+    year: "2020",
+    title: "The Power of Focus",
+    description:
+      "After years of scattered side projects, I learned the most important business lesson: focus. I stopped trying to build websites for everyone about everything. I picked the one industry I knew inside and out — plumbing — and went all in. That decision changed everything.",
+    icon: Lightbulb,
   },
   {
     year: "2020",
     title: "Launched ThePlumbingDirectory.com",
     description:
-      "Co-founded the largest plumbing business directory online. This gave me data on what homeowners actually search for and how they find plumbers — invaluable insights that inform every site I build.",
-    icon: Award,
-  },
-  {
-    year: "2024",
-    title: "250+ Plumbing Websites Built",
-    description:
-      "Hit 250+ plumbing websites across the country. By now, I know exactly what works: which pages convert, where to place CTAs, how to structure service areas, and what makes the phone ring.",
-    icon: Users,
+      "Created ThePlumbingDirectory.com to be the all-in-one resource for everything plumbing. Want to find a plumber? It's there. Supply houses, faucet reviews, product recommendations, how-to guides, plumbing influencers, marketing help — all in one place. No selling your info to 5 different companies. No getting bombarded with calls from plumbers racing to the bottom on pricing. Just a real directory built by someone who actually knows the industry.",
+    icon: Globe,
   },
   {
     year: "Now",
     title: "Only Plumbing Sites",
     description:
-      "Combining 15+ years of trade experience with SEO, automation, and AI to build complete marketing systems for plumbing companies. Not just websites — systems that generate booked service calls.",
+      "Combining 15+ years of trade experience with SEO, automation, and AI to build marketing systems for plumbing companies. This is a one-person operation — I'm intentionally selective about who I work with because I'd rather do great work for fewer clients than mediocre work for many.",
     icon: Cpu,
   },
 ];
@@ -69,19 +79,31 @@ const values = [
     icon: Target,
     title: "Plumbing Only",
     description:
-      "We don't work with HVAC companies, electricians, or landscapers. Plumbing is all we do. That focus makes us better at it than anyone else.",
+      "I don't work with HVAC companies, electricians, or landscapers. Plumbing is all I do. I still help people from church and friends with side projects, but professionally — it's plumbing or nothing.",
+  },
+  {
+    icon: Lock,
+    title: "Selective by Design",
+    description:
+      "I don't have a big team. I can't take every client, and I won't pretend I can. If your business needs more capacity than I can provide, I'll tell you — and point you in the right direction.",
   },
   {
     icon: Wrench,
     title: "Trade First",
     description:
-      "Every decision we make comes from understanding the plumbing trade — not from marketing textbooks. We build for how plumbing businesses actually work.",
+      "Every decision I make comes from understanding the plumbing trade — not from marketing textbooks. I build for how plumbing businesses actually work because I've lived it.",
+  },
+  {
+    icon: Users,
+    title: "Local Market Focus",
+    description:
+      "I specialize in local plumbing companies. The national market is a different game. I can help national brands, but I'm honest — I wouldn't be the sole marketer on a project that big.",
   },
   {
     icon: Shield,
-    title: "Proof Over Hype",
+    title: "Honesty Over Hype",
     description:
-      "We don't promise '10x your revenue.' We build systems, show you the data, and let results speak. If it's not working, we'll tell you — and fix it.",
+      "I don't promise '10x your revenue.' Sometimes the best thing I can do is give you guidance and let you run with it, rather than take your money for services you don't need.",
   },
 ];
 
@@ -93,13 +115,14 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Built by Someone Who&apos;s{" "}
-              <span className="text-orange">Actually Done the Work</span>
+              One Plumber. One Focus.{" "}
+              <span className="text-orange">No Big Agency.</span>
             </h1>
             <p className="mt-4 text-lg text-slate-300">
               I&apos;m not a marketing agency that took on a plumbing client.
-              I&apos;m a licensed plumber who learned how to build marketing
-              systems — because the industry needed it.
+              I&apos;m a licensed plumber who spent a decade learning marketing
+              on job sites — and now I help plumbing companies grow online.
+              Selectively.
             </p>
           </div>
         </div>
@@ -138,24 +161,28 @@ export default function AboutPage() {
 
               <div className="mt-6 space-y-4 text-slate-600">
                 <p>
-                  I&apos;ve been in the plumbing trade since 2009. I got my Illinois
-                  plumbing license in 2014. I&apos;ve worked on everything from
-                  residential service calls to large commercial projects.
+                  I&apos;ve been in the plumbing trade since 2009. Got my
+                  apprentice license in 2014, my official Illinois plumbing license
+                  in 2019. I&apos;ve worked on everything from residential service
+                  calls to large commercial projects.
                 </p>
                 <p>
-                  Somewhere along the way, I realized that most plumbing companies
-                  were getting screwed by their website and marketing. Designers
-                  who didn&apos;t understand the business were charging thousands
-                  for sites that didn&apos;t generate a single call.
+                  The whole time I was turning wrenches, I was also teaching
+                  myself marketing. Every chance I got — lunch breaks, drive time,
+                  whenever the foreman let me wear earbuds — I was listening to
+                  YouTube playlists about making money online. I tried everything:
+                  Amazon FBA, custom t-shirts, coffee mugs, dropshipping, affiliate
+                  marketing. Most of it didn&apos;t stick. But it taught me how
+                  digital marketing actually works.
                 </p>
                 <p>
-                  So I started building plumbing websites myself. 250+ later, I
-                  know exactly what converts: emergency CTAs that are impossible to
-                  miss, service area pages that actually rank, and systems that
-                  follow up with every lead automatically.
+                  Then it clicked: I know plumbing. I know websites. I&apos;m an
+                  extrovert who loves helping people. Why was I trying to sell
+                  random stuff online when I could combine all of that? I learned
+                  the power of focus — and I chose plumbing.
                 </p>
                 <p>
-                  I also co-founded{" "}
+                  I also created{" "}
                   <a
                     href="https://theplumbingdirectory.com"
                     target="_blank"
@@ -164,12 +191,16 @@ export default function AboutPage() {
                   >
                     ThePlumbingDirectory.com
                   </a>{" "}
-                  — which gives me real data on how homeowners find and choose
-                  plumbing companies.
+                  — an all-in-one resource for everything plumbing. Find a plumber,
+                  supply houses, product reviews, how-to guides, marketing help —
+                  all in one place. No selling your info to 5 companies. No getting
+                  bombarded with calls from plumbers racing to the bottom on pricing.
                 </p>
                 <p className="font-semibold text-navy">
-                  I understand plumbing systems and marketing systems. That&apos;s
-                  what makes this different.
+                  This is a one-person operation. I&apos;m intentionally selective
+                  about who I work with. If I&apos;m not the right fit for your
+                  business, I&apos;ll tell you — and I&apos;ll still try to point
+                  you in the right direction.
                 </p>
               </div>
 
@@ -190,8 +221,28 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Exclusivity callout */}
+      <section className="border-y border-slate-200 bg-slate-50 py-12">
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+          <Lock className="mx-auto h-8 w-8 text-orange" />
+          <h2 className="mt-4 text-xl font-bold text-navy">
+            I Don&apos;t Take Every Client
+          </h2>
+          <p className="mt-3 text-sm leading-relaxed text-slate-500">
+            I&apos;m one person, not a big agency. That means I can only work with
+            a handful of plumbing companies at a time. Depending on your
+            business, it might make more sense for me to give you a game plan and
+            guidance rather than manage everything myself. Some companies are too
+            big for a solo operation — and I&apos;d rather be honest about that
+            upfront than overpromise and underdeliver. I focus on local plumbing
+            companies. National brands are a different game, and while I can
+            contribute to those projects, I wouldn&apos;t be the sole marketer.
+          </p>
+        </div>
+      </section>
+
       {/* Timeline */}
-      <section className="bg-slate-50 py-16 lg:py-20">
+      <section className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
             The Journey
@@ -222,12 +273,12 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="bg-white py-16 lg:py-20">
+      <section className="bg-slate-50 py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
-            What We Stand For
+            How I Operate
           </h2>
-          <div className="mt-12 grid gap-8 sm:grid-cols-3">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {values.map((value) => (
               <div key={value.title} className="text-center">
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-orange/10">

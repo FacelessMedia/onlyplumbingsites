@@ -1,7 +1,7 @@
 import { Shield, Award, Clock, Wrench } from "lucide-react";
 
 const badges = [
-  { icon: Wrench, label: "Licensed Plumber", sub: "Since 2014" },
+  { icon: Wrench, label: "Licensed Plumber", sub: "In the Trade Since 2009" },
   { icon: Shield, label: "250+ Sites Built", sub: "Plumbing Only" },
   { icon: Award, label: "You Own Your Site", sub: "No Hostage Games" },
   { icon: Clock, label: "24hr Response", sub: "On All Inquiries" },

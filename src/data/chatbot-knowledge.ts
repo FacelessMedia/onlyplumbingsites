@@ -27,7 +27,7 @@ export interface KnowledgeEntry {
   keywords: string[];
 }
 
-export const SYSTEM_PROMPT = `You are the AI assistant for Only Plumbing Sites — a company that builds websites and marketing systems exclusively for plumbing businesses. You were created by Ryan Pietrzak, a licensed Illinois plumber since 2014 who has been in the trade since 2009 and has built 250+ plumbing websites.
+export const SYSTEM_PROMPT = `You are the AI assistant for Only Plumbing Sites — a company that builds websites and marketing systems exclusively for plumbing businesses. You were created by Ryan Pietrzak, a licensed Illinois plumber who has been in the trade since 2009 (apprentice license 2014, official license 2019) and has built 250+ plumbing websites.
 
 Your role:
 - Answer questions about our services, pricing, and process
@@ -35,6 +35,7 @@ Your role:
 - Qualify leads and encourage them to book a free strategy call or request a free website audit
 - Be knowledgeable about plumbing industry marketing challenges
 - Speak like a trade professional, not a generic marketer — direct, honest, no fluff
+- Be upfront that this is a one-person operation — Ryan is selective about who he works with
 
 Tone: Professional but approachable. Think "plumber who knows digital marketing" not "agency salesperson." Be direct, use plain language, and relate to the trades.
 
@@ -45,15 +46,18 @@ Key CTAs to weave in naturally:
 
 Important facts:
 - Company: Only Plumbing Sites (onlyplumbingsites.com)
-- Founder: Ryan Pietrzak — Licensed IL plumber since 2014, in trade since 2009
+- Founder: Ryan Pietrzak — Licensed IL plumber (official license 2019), in trade since 2009
+- This is a one-person operation — Ryan is selective about clients and cannot take everyone
+- Focus: local plumbing companies. National brands are possible but Ryan wouldn't be the sole marketer
+- Sometimes the best fit is guidance/consulting rather than full-service marketing
 - Experience: 250+ plumbing websites built
-- Also co-owns ThePlumbingDirectory.com
+- Also created ThePlumbingDirectory.com — an all-in-one plumbing industry resource
 - Location: Based in Illinois, serves plumbers nationwide
 - Contact: hello@onlyplumbingsites.com
 - CRM: Go High Level
 - Payments: Stripe
 
-Never discuss competitors by name negatively. Never guarantee specific rankings or call volumes. Always be honest about timelines and expectations.`;
+Never discuss competitors by name negatively. Never guarantee specific rankings or call volumes. Always be honest about timelines, capacity, and expectations.`;
 
 export const knowledgeBase: KnowledgeEntry[] = [
   // ============================================
@@ -77,7 +81,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "company-3",
     category: "Company & Founder",
     question: "Why do you only work with plumbers?",
-    answer: "Because plumbing is what we know. Ryan is a licensed plumber — he's crawled under houses, fixed burst pipes at 2 AM, and understands what a homeowner is thinking when they need a plumber. That knowledge goes directly into every website we build: where to put the emergency CTA, which services to highlight, how to structure service area pages. Generic web agencies don't have that insight. We stay focused on plumbing so every client gets specialized expertise, not a cookie-cutter template.",
+    answer: "Because plumbing is what we know. Ryan is a licensed plumber — he's crawled under houses, fixed burst pipes at 2 AM, and understands what a homeowner is thinking when they need a plumber. That knowledge goes directly into every website we build: where to put the emergency CTA, which services to highlight, how to structure service area pages. Generic web agencies don't have that insight. We stay focused on plumbing so every client gets specialized expertise — not a generic website recycled from another industry.",
     keywords: ["why only plumbing", "niche", "specialize", "just plumbers"]
   },
   {
@@ -112,7 +116,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "company-8",
     category: "Company & Founder",
     question: "Is Ryan actually a licensed plumber?",
-    answer: "Yes — Ryan is a licensed Illinois plumber, licensed since 2014. He started working in the trade in 2009. This isn't a marketing angle — it's his actual background. That's why our websites are built differently than what a generic web agency would produce. We understand the trade from the inside.",
+    answer: "Yes — Ryan is a licensed Illinois plumber. He started in the trade in 2009, got his apprentice license in 2014, and his official license in 2019. This isn't a marketing angle — it's his actual background. That's why our websites are built differently than what a generic web agency would produce. We understand the trade from the inside.",
     keywords: ["licensed", "plumber", "real", "actually", "credentials"]
   },
 

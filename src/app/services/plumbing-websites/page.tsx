@@ -93,7 +93,7 @@ const stats = [
   { value: "250+", label: "Plumbing websites built" },
   { value: "<2s", label: "Average page load time" },
   { value: "70%+", label: "of plumbing searches are on mobile" },
-  { value: "100%", label: "Custom — no templates" },
+  { value: "100%", label: "Tailored to your business" },
 ];
 
 const websiteElements = [
@@ -179,9 +179,9 @@ export default function PlumbingWebsitesPage() {
               <span className="text-orange">Generates Calls</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
-              Not a template. Not a generic business website. A custom-built
-              plumbing website designed by a licensed plumber who knows exactly what
-              makes homeowners pick up the phone.
+              Not a generic business website. A plumbing website built on proven
+              conversion frameworks, tailored to your market by a licensed plumber
+              who knows exactly what makes homeowners pick up the phone.
             </p>
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <Button
@@ -448,7 +448,7 @@ export default function PlumbingWebsitesPage() {
                   <div>
                     <h3 className="font-bold text-navy">Licensed Plumber</h3>
                     <p className="mt-1 text-sm text-slate-500">
-                      Illinois licensed since 2014. In the trade since 2009. We
+                      Licensed Illinois plumber. In the trade since 2009. We
                       speak your language.
                     </p>
                   </div>

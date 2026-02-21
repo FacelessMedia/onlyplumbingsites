@@ -115,7 +115,7 @@ export async function GET(req: NextRequest) {
           </span>
           <span style={{ color: "#475569", fontSize: "16px" }}>•</span>
           <span style={{ color: "#f97316", fontSize: "16px", fontWeight: 700 }}>
-            Licensed Plumber Since 2014
+            In the Trade Since 2009
           </span>
           <span style={{ color: "#475569", fontSize: "16px" }}>•</span>
           <span style={{ color: "#f97316", fontSize: "16px", fontWeight: 700 }}>

@@ -42,7 +42,7 @@ export default function NewsletterSignup() {
         Get Weekly Plumbing Marketing Tips
       </p>
       <p className="text-xs text-slate-500">
-        Join 500+ plumbing business owners. No spam, unsubscribe anytime.
+        Weekly tips for plumbing business owners. No spam, unsubscribe anytime.
       </p>
       <input
         type="text"

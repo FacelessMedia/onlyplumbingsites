@@ -12,7 +12,7 @@ export const processSteps = [
     step: 2,
     title: "Strategy",
     description:
-      "We build a custom plan based on your market, services, and goals. No cookie-cutter approaches.",
+      "We build a plan based on your market, services, and goals — tailored to what actually works in your area.",
     icon: Target,
   },
   {

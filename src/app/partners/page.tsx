@@ -34,7 +34,7 @@ const partnerTypes = [
     icon: Users,
     title: "Plumbing Franchises & Groups",
     description:
-      "We offer volume discounts for franchise groups. Every location gets a custom website, not a cookie-cutter template.",
+      "We offer volume discounts for franchise groups. Every location gets a website tailored to their market — not a generic page with the city name swapped out.",
     benefits: [
       "Volume pricing for multiple locations",
       "Consistent branding across all sites",

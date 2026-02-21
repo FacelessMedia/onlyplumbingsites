@@ -3,8 +3,8 @@ import { Phone, FileSearch, Shield, Clock, Globe, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const trustStats = [
-  { icon: Shield, label: "Licensed Since 2014" },
-  { icon: Clock, label: "15+ Years in Plumbing" },
+  { icon: Shield, label: "Licensed Illinois Plumber" },
+  { icon: Clock, label: "In the Trade Since 2009" },
   { icon: Globe, label: "250+ Plumbing Websites" },
   { icon: Award, label: "Co-Owner ThePlumbingDirectory.com" },
 ];
@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-navy-light px-4 py-1.5">
             <Shield className="h-4 w-4 text-orange" />
             <span className="text-sm font-medium text-slate-300">
-              Licensed Illinois Plumber Since 2014
+              Licensed Illinois Plumber &middot; Selective Clientele
             </span>
           </div>
 

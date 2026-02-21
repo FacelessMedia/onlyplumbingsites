@@ -149,7 +149,7 @@ export default function LocalSEOPage() {
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-navy-light px-4 py-1.5">
               <Shield className="h-4 w-4 text-orange" />
               <span className="text-sm font-medium text-slate-300">
-                Built by a Licensed Plumber Since 2014
+                Built by a Licensed Plumber &middot; In the Trade Since 2009
               </span>
             </div>
             <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl">

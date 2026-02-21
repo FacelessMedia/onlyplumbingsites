@@ -23,7 +23,7 @@ export const services = [
     icon: Globe,
     href: "/services/plumbing-websites",
     features: [
-      "Custom design — no templates",
+      "Tailored to your plumbing business",
       "Mobile-first & lightning fast",
       "Emergency click-to-call CTAs",
       "Service area page structure",

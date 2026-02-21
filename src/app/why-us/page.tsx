@@ -36,10 +36,10 @@ const comparisonPoints = [
     note: "We know why a homeowner with a burst pipe at 2 AM behaves differently than someone shopping for a water heater.",
   },
   {
-    feature: "Custom-built websites (no templates)",
+    feature: "Website tailored to your plumbing business",
     us: true,
     them: "Varies",
-    note: "Many agencies use the same template for every plumber. We build every site from scratch.",
+    note: "We use proven conversion frameworks built specifically for plumbing companies, then customize everything for your market, services, and brand.",
   },
   {
     feature: "Owns your website (you keep it if you leave)",
@@ -118,7 +118,7 @@ const competitors = [
     pros: ["Big team", "Established brand"],
     cons: [
       "You're a number, not a partner",
-      "Cookie-cutter templates",
+      "Generic websites recycled across industries",
       "12+ month contracts",
       "Account managers who've never held a wrench",
       "$3,000-$10,000/month minimums",

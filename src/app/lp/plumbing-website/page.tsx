@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 const benefits = [
-  "Custom-built for your plumbing company (no templates)",
+  "Built specifically for your plumbing company and market",
   "Designed to convert visitors into phone calls",
   "Mobile-first — looks perfect on every device",
   "Built-in SEO foundation for Google rankings",
@@ -71,7 +71,7 @@ export default function PlumbingWebsiteLandingPage() {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300">
               250+ plumbing websites built. Every one designed to turn Google
-              searches into booked service calls. No templates. No contracts.
+              searches into booked service calls. Tailored to your market. No contracts.
             </p>
             <div className="mt-10">
               <Button
@@ -105,7 +105,7 @@ export default function PlumbingWebsiteLandingPage() {
           </div>
           <div className="flex items-center gap-2 text-sm font-medium text-slate-600">
             <Star className="h-5 w-5 text-orange" />
-            Licensed Since 2014
+            In the Trade Since 2009
           </div>
           <div className="flex items-center gap-2 text-sm font-medium text-slate-600">
             <Clock className="h-5 w-5 text-orange" />

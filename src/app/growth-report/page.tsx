@@ -414,7 +414,7 @@ export default function GrowthReportPage() {
             <div>
               <p className="font-bold text-navy">Built by Ryan Pietrzak</p>
               <p className="mt-1 text-sm text-slate-500">
-                Licensed Illinois plumber since 2014. 250+ plumbing websites built.
+                Licensed Illinois plumber. In the trade since 2009. 250+ plumbing websites built.
                 Co-owner of ThePlumbingDirectory.com. Every Growth Report is
                 researched and built by hand — not auto-generated.
               </p>

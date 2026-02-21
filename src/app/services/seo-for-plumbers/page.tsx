@@ -154,7 +154,7 @@ const faqItems = [
   {
     question: "Why should I hire a plumber-owned SEO company?",
     answer:
-      "Because generic marketing agencies don't understand plumbing. They don't know the difference between a sewer camera inspection and a hydro jetting service. They don't know which keywords actually generate emergency calls vs. tire-kickers. Ryan has been a licensed plumber since 2014 — he builds SEO strategies based on real plumbing business knowledge, not guesswork.",
+      "Because generic marketing agencies don't understand plumbing. They don't know the difference between a sewer camera inspection and a hydro jetting service. They don't know which keywords actually generate emergency calls vs. tire-kickers. Ryan has been in the plumbing trade since 2009 — he builds SEO strategies based on real plumbing business knowledge, not guesswork.",
   },
   {
     question: "What plumbing keywords should I rank for?",
@@ -178,7 +178,7 @@ export default function SEOForPlumbersPage() {
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-navy-light px-4 py-1.5">
               <Shield className="h-4 w-4 text-orange" />
               <span className="text-sm font-medium text-slate-300">
-                Built by a Licensed Plumber Since 2014
+                Built by a Licensed Plumber &middot; In the Trade Since 2009
               </span>
             </div>
             <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl">
@@ -435,7 +435,7 @@ export default function SEOForPlumbersPage() {
               </p>
               <div className="mt-8 space-y-4">
                 {[
-                  "Ryan has been a licensed plumber since 2014 — in the trade since 2009",
+                  "Ryan has been in the plumbing trade since 2009 — licensed Illinois plumber",
                   "We know which services generate the highest margins and should be prioritized",
                   "We understand emergency vs. scheduled service search behavior",
                   "Our content is written in a plumber's voice, not generic marketing speak",
@@ -469,7 +469,7 @@ export default function SEOForPlumbersPage() {
                   <div>
                     <h3 className="font-bold text-navy">Licensed Plumber</h3>
                     <p className="mt-1 text-sm text-slate-500">
-                      Illinois licensed plumber since 2014. In the trade since 2009.
+                      Licensed Illinois plumber. In the trade since 2009.
                     </p>
                   </div>
                 </div>

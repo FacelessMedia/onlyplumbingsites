@@ -36,7 +36,7 @@ const tools = [
   {
     title: "Plumbing Keyword Database",
     description:
-      "Browse 500+ plumbing keywords with search volume estimates and competition levels. Find what homeowners actually search.",
+      "Browse 50+ plumbing keywords with search volume estimates and competition levels. Find what homeowners actually search.",
     href: "/tools/plumbing-keywords",
     icon: Search,
     tag: null,

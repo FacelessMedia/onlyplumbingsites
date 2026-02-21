@@ -111,7 +111,7 @@ export default function AuthorityStory() {
                 Illinois Licensed Plumber
               </p>
               <p className="mt-1 text-xs text-slate-400">
-                License verified &middot; Active since 2014
+                In the trade since 2009 &middot; Licensed 2019
               </p>
             </div>
           </div>

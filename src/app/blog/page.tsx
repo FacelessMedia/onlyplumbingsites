@@ -11,6 +11,24 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: "plumber-answering-service",
+    title: "Plumber Answering Service: Why Missed Calls Are Costing You Thousands",
+    excerpt:
+      "Every missed call is a lost job. Here's how plumber answering services work, what they cost, and whether you need one for your plumbing business.",
+    date: "2026-02-20",
+    readTime: "8 min read",
+    category: "Business Operations",
+  },
+  {
+    slug: "plumber-memes",
+    title: "21 Hilarious Plumber Memes Every Plumbing Company Owner Will Relate To",
+    excerpt:
+      "The funniest plumber memes on the internet — plus how to use humor in your plumbing marketing to stand out on social media.",
+    date: "2026-02-19",
+    readTime: "6 min read",
+    category: "Social Media",
+  },
+  {
     slug: "plumber-advertising",
     title: "Plumber Advertising: 13 Proven Ways to Advertise Your Plumbing Business in 2026",
     excerpt:
@@ -74,6 +92,24 @@ const blogPosts = [
     category: "Local SEO",
   },
   {
+    slug: "plumbing-business-plan",
+    title: "Plumbing Business Plan: How to Write One That Actually Works [2026 Guide]",
+    excerpt:
+      "A step-by-step guide to writing a plumbing business plan — whether you're starting from scratch or scaling an existing plumbing company.",
+    date: "2026-02-08",
+    readTime: "14 min read",
+    category: "Business Growth",
+  },
+  {
+    slug: "how-to-start-a-plumbing-business",
+    title: "How to Start a Plumbing Business: 10 Steps to Launch in 2026",
+    excerpt:
+      "A step-by-step guide to starting your own plumbing business — from getting licensed to getting your first customers.",
+    date: "2026-02-06",
+    readTime: "11 min read",
+    category: "Business Growth",
+  },
+  {
     slug: "real-cost-of-not-having-a-plumbing-website",
     title: "The Real Cost of Not Having a Plumbing Website",
     excerpt:
@@ -81,6 +117,33 @@ const blogPosts = [
     date: "2026-02-05",
     readTime: "4 min read",
     category: "Business Growth",
+  },
+  {
+    slug: "selling-a-plumbing-business",
+    title: "Selling a Plumbing Business: How to Value, Prepare, and Sell for Maximum Price",
+    excerpt:
+      "Thinking about selling your plumbing company? Here's how to value it, prepare it for sale, and negotiate the best deal.",
+    date: "2026-02-04",
+    readTime: "13 min read",
+    category: "Business Growth",
+  },
+  {
+    slug: "facebook-ads-for-plumbers",
+    title: "Facebook Ads for Plumbers: How to Generate Leads Without Wasting Money",
+    excerpt:
+      "A practical guide to running Facebook ads for your plumbing business — targeting, budgets, ad types, and how to avoid the most common money-wasting mistakes.",
+    date: "2026-02-03",
+    readTime: "9 min read",
+    category: "Advertising",
+  },
+  {
+    slug: "plumber-slogans",
+    title: "Best Plumber Slogans & Taglines: 50+ Ideas for Your Plumbing Business",
+    excerpt:
+      "Need a catchy slogan for your plumbing company? Here are 50+ proven plumber slogans and taglines — plus tips on choosing one that actually helps your brand.",
+    date: "2026-02-02",
+    readTime: "7 min read",
+    category: "Branding",
   },
 ];
 

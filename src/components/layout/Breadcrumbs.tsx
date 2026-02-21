@@ -36,6 +36,18 @@ const labelMap: Record<string, string> = {
   guides: "Guides",
   tools: "Tools",
   areas: "Areas We Serve",
+  referral: "Referral Program",
+  "citation-checker": "Citation Audit",
+  "review-link-generator": "Review Link Generator",
+  "plumbing-keywords": "Keyword Database",
+  "budget-calculator": "Budget Calculator",
+  resources: "Resources",
+  partners: "Partners",
+  podcast: "Podcast",
+  portal: "Client Portal",
+  stats: "Industry Stats",
+  "local-citations-for-plumbers": "Local Citations Guide",
+  "best-plumbing-websites": "Best Plumbing Websites",
 };
 
 export default function Breadcrumbs() {

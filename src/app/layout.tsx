@@ -7,6 +7,7 @@ import StickyMobileCTA from "@/components/layout/StickyMobileCTA";
 import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import CookieConsent from "@/components/layout/CookieConsent";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
+import BackToTop from "@/components/layout/BackToTop";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -150,6 +151,7 @@ export default function RootLayout({
         <main id="main-content" className="pb-16 lg:pb-0">{children}</main>
         <Footer />
         <StickyMobileCTA />
+        <BackToTop />
         <CookieConsent />
       </body>
     </html>

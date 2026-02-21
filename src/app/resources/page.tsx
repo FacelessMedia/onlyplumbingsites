@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Wrench,
   BookMarked,
+  DollarSign,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -46,6 +47,12 @@ const sections = [
         description: "Generate a direct link to your Google review page for customers.",
         href: "/tools/review-link-generator",
         icon: Star,
+      },
+      {
+        title: "Budget Calculator",
+        description: "See how to allocate your marketing budget across SEO, PPC, social, and reviews.",
+        href: "/tools/budget-calculator",
+        icon: DollarSign,
       },
     ],
   },
@@ -86,6 +93,12 @@ const sections = [
         description: "23+ articles on plumbing SEO, websites, and marketing strategies.",
         href: "/blog",
         icon: FileText,
+      },
+      {
+        title: "Marketing Guides",
+        description: "In-depth guides on plumbing marketing, SEO, websites, and business growth.",
+        href: "/guides",
+        icon: BookOpen,
       },
       {
         title: "How We Compare",

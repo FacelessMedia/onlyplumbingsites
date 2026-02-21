@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { serviceAreas } from "@/data/service-areas";
+import { competitors } from "@/data/competitors";
 
 const BASE_URL = "https://onlyplumbingsites.com";
 
@@ -52,8 +53,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/website-grader`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/portfolio`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/roi-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/tools`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/tools/plumbing-keywords`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/tools/review-link-generator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BASE_URL}/compare`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/areas`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${BASE_URL}/resources`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BASE_URL}/referral`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${BASE_URL}/podcast`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/lp/plumbing-website`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/lp/seo-for-plumbers`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${BASE_URL}/lp/local-seo`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
     { url: `${BASE_URL}/terms`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.3 },
   ];
@@ -72,5 +82,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...blogPages, ...areaPages];
+  const comparePages = competitors.map((c) => ({
+    url: `${BASE_URL}/compare/${c.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...blogPages, ...areaPages, ...comparePages];
 }

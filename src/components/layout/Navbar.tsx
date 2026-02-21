@@ -1,13 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const serviceLinks = [
+  { label: "SEO for Plumbers", href: "/services/seo-for-plumbers" },
+  { label: "Plumbing Websites", href: "/services/plumbing-websites" },
+  { label: "Local SEO", href: "/services/local-seo" },
+  { label: "PPC for Plumbers", href: "/services/ppc-for-plumbers" },
+  { label: "Lead Generation", href: "/services/plumbing-lead-generation" },
+  { label: "SEO + Social Growth", href: "/services/social-posting" },
+];
+
 const navLinks = [
-  { label: "Services", href: "/services" },
   { label: "Pricing", href: "/pricing" },
   { label: "About", href: "/about" },
   { label: "Case Studies", href: "/case-studies" },
@@ -16,6 +24,18 @@ const navLinks = [
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md">
@@ -34,6 +54,39 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden items-center gap-8 md:flex">
+          {/* Services Dropdown */}
+          <div ref={dropdownRef} className="relative">
+            <button
+              onClick={() => setServicesOpen(!servicesOpen)}
+              className="flex items-center gap-1 text-sm font-medium text-slate-800 transition-colors hover:text-orange"
+            >
+              Services
+              <ChevronDown className={`h-3.5 w-3.5 transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
+            </button>
+            {servicesOpen && (
+              <div className="absolute left-0 top-full mt-2 w-56 rounded-xl border border-slate-200 bg-white py-2 shadow-lg">
+                <Link
+                  href="/services"
+                  onClick={() => setServicesOpen(false)}
+                  className="block px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-orange/5 hover:text-orange"
+                >
+                  All Services
+                </Link>
+                <div className="my-1 border-t border-slate-100" />
+                {serviceLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setServicesOpen(false)}
+                    className="block px-4 py-2 text-sm text-slate-600 transition-colors hover:bg-orange/5 hover:text-orange"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -76,6 +129,27 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="border-t border-slate-200 bg-white md:hidden">
           <div className="flex flex-col gap-1 px-4 py-4">
+            {/* Mobile Services Section */}
+            <Link
+              href="/services"
+              onClick={() => setMobileOpen(false)}
+              className="rounded-lg px-3 py-2.5 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 hover:text-orange"
+            >
+              All Services
+            </Link>
+            <div className="ml-3 flex flex-col gap-0.5 border-l-2 border-orange/20 pl-3">
+              {serviceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="rounded-lg px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+
             {navLinks.map((link) => (
               <Link
                 key={link.href}

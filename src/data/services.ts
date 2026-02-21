@@ -1,4 +1,4 @@
-import { Globe, Search, Share2, MessageSquare, Star, Bot, TrendingUp } from "lucide-react";
+import { Globe, Search, Share2, MessageSquare, Star, Bot, TrendingUp, Target } from "lucide-react";
 
 export const services = [
   {
@@ -44,6 +44,21 @@ export const services = [
       "Monthly SEO content creation",
       "Citation building & cleanup",
       "Monthly performance reports",
+    ],
+  },
+  {
+    title: "PPC for Plumbers",
+    description:
+      "Google Ads and Local Service Ads managed by a licensed plumber. Instant calls from day one while your SEO rankings build.",
+    icon: Target,
+    href: "/services/ppc-for-plumbers",
+    features: [
+      "Google Search Ads management",
+      "Local Service Ads (LSAs)",
+      "Geo-targeted campaigns",
+      "Click-to-call mobile ads",
+      "Call tracking & ROI reporting",
+      "Daily bid optimization",
     ],
   },
   {

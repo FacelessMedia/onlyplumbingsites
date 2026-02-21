@@ -23,6 +23,7 @@ const footerLinks = {
     { label: "Free Growth Report", href: "/growth-report" },
     { label: "Free Website Audit", href: "/audit" },
     { label: "Book Strategy Session", href: "/book" },
+    { label: "Marketing Glossary", href: "/glossary" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },

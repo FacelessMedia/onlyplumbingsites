@@ -2428,18 +2428,99 @@ export default async function BlogPostPage({
 }
 
 function markdownToHtml(markdown: string): string {
-  return markdown
-    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/^\*\*(.+?)\*\*/gm, '<strong>$1</strong>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2">$1</a>')
-    .replace(/^- (.+)$/gm, '<li>$1</li>')
-    .replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>')
-    .replace(/\n\n/g, '</p><p>')
-    .replace(/^(?!<[hulo])/gm, (match) => match ? `<p>${match}` : match)
-    .replace(/^<p><\/p>/gm, '')
-    .replace(/^<p>(<[hulo])/gm, '$1')
-    .replace(/(<\/[hulo][l]?>)<\/p>/gm, '$1');
+  const lines = markdown.trim().split("\n");
+  const html: string[] = [];
+  let inList = false;
+  let inTable = false;
+  let tableRows: string[][] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+
+    // Skip empty lines (they separate blocks)
+    if (line.trim() === "") {
+      if (inList) { html.push("</ul>"); inList = false; }
+      if (inTable) { flushTable(); inTable = false; }
+      continue;
+    }
+
+    // Table rows
+    if (line.trim().startsWith("|") && line.trim().endsWith("|")) {
+      if (!inList) {
+        if (!inTable) inTable = true;
+        const cells = line.trim().slice(1, -1).split("|").map((c) => c.trim());
+        // Skip separator rows (|---|---|)
+        if (cells.every((c) => /^[-:]+$/.test(c))) continue;
+        tableRows.push(cells);
+        continue;
+      }
+    } else if (inTable) {
+      flushTable();
+      inTable = false;
+    }
+
+    // Headings
+    if (line.startsWith("### ")) {
+      if (inList) { html.push("</ul>"); inList = false; }
+      html.push(`<h3>${inline(line.slice(4))}</h3>`);
+      continue;
+    }
+    if (line.startsWith("## ")) {
+      if (inList) { html.push("</ul>"); inList = false; }
+      html.push(`<h2>${inline(line.slice(3))}</h2>`);
+      continue;
+    }
+
+    // List items
+    if (line.startsWith("- ")) {
+      if (!inList) { html.push("<ul>"); inList = true; }
+      html.push(`<li>${inline(line.slice(2))}</li>`);
+      continue;
+    }
+
+    // Numbered list items
+    if (/^\d+\.\s/.test(line)) {
+      if (inList) { html.push("</ul>"); inList = false; }
+      // Render as paragraph with number preserved (prose styles handle it)
+      html.push(`<p>${inline(line)}</p>`);
+      continue;
+    }
+
+    // Regular paragraph
+    if (inList) { html.push("</ul>"); inList = false; }
+    html.push(`<p>${inline(line)}</p>`);
+  }
+
+  if (inList) html.push("</ul>");
+  if (inTable) flushTable();
+
+  return html.join("\n");
+
+  function flushTable() {
+    if (tableRows.length === 0) return;
+    let t = '<div class="overflow-x-auto my-6"><table class="w-full text-sm"><thead><tr>';
+    tableRows[0].forEach((cell) => {
+      t += `<th class="border-b border-slate-200 px-4 py-2 text-left font-semibold text-navy">${inline(cell)}</th>`;
+    });
+    t += "</tr></thead><tbody>";
+    for (let r = 1; r < tableRows.length; r++) {
+      t += `<tr class="${r % 2 === 0 ? "bg-slate-50" : ""}">`;
+      tableRows[r].forEach((cell) => {
+        t += `<td class="border-b border-slate-100 px-4 py-2 text-slate-600">${inline(cell)}</td>`;
+      });
+      t += "</tr>";
+    }
+    t += "</tbody></table></div>";
+    html.push(t);
+    tableRows = [];
+  }
+
+  function inline(text: string): string {
+    return text
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>")
+      .replace(/~~(.+?)~~/g, "<s>$1</s>")
+      .replace(/`(.+?)`/g, '<code class="rounded bg-slate-100 px-1.5 py-0.5 text-sm font-mono text-navy">$1</code>')
+      .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" class="text-orange underline decoration-orange/30 hover:decoration-orange transition-colors">$1</a>');
+  }
 }

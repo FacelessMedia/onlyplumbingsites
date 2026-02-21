@@ -126,6 +126,451 @@ We research what people in each city are actually searching for, what competitor
     `,
   },
   {
+    slug: "plumber-advertising",
+    title: "Plumber Advertising: 13 Proven Ways to Advertise Your Plumbing Business in 2026",
+    excerpt:
+      "From Google Ads to yard signs, here are the 13 most effective advertising channels for plumbing companies — ranked by ROI and ease of implementation.",
+    date: "2026-02-18",
+    readTime: "12 min read",
+    category: "Advertising",
+    content: `
+## Why Plumber Advertising Has Changed
+
+The Yellow Pages are dead. Door hangers alone won't cut it anymore. In 2026, **97% of homeowners search online before hiring a plumber** — and the plumbing companies winning the most jobs are the ones with a strategic advertising mix.
+
+But "advertising" for plumbers isn't just Google Ads. It's a combination of digital and traditional channels that work together to keep your phone ringing.
+
+Here are the 13 most effective plumbing advertising strategies, ranked by ROI.
+
+## 1. Google Local Service Ads (LSAs)
+
+**ROI: Highest** — Pay per lead, not per click. The Google Guaranteed badge appears at the very top of search results and builds instant trust. Most plumbing companies see $15-$40 per lead from LSAs.
+
+## 2. Google Search Ads (PPC)
+
+Pay-per-click ads that appear above organic results for plumbing searches. Target specific services and cities. Typical cost: $25-$75 per lead. [Learn more about PPC for plumbers](/services/ppc-for-plumbers).
+
+## 3. Search Engine Optimization (SEO)
+
+The highest long-term ROI channel. Once you rank on page 1, every lead is essentially free. Takes 3-6 months to build but compounds forever. [See our plumbing SEO services](/services/seo-for-plumbers).
+
+## 4. Google Business Profile Optimization
+
+A fully optimized GBP listing with photos, posts, and reviews drives map pack calls — often more than your website. This is part of [local SEO for plumbers](/services/local-seo).
+
+## 5. Your Plumbing Website
+
+Not traditionally "advertising," but your [plumbing website](/services/plumbing-websites) is the hub everything else feeds into. Without a fast, mobile-first site with emergency CTAs, every other ad dollar is wasted.
+
+## 6. Facebook Ads
+
+Targeted ads to homeowners in your service area. Best for brand awareness, seasonal promotions, and retargeting website visitors. Lower intent than Google but cheaper cost per impression.
+
+## 7. Nextdoor
+
+Homeowner-focused social platform. Claim your business page, collect recommendations, and engage with local conversations. Free organic reach plus paid ad options.
+
+## 8. Yard Signs & Vehicle Wraps
+
+Old school but still effective. Every job site is a billboard. Professional truck wraps generate thousands of impressions daily. Include your phone number and website prominently.
+
+## 9. Email Marketing
+
+Stay top-of-mind with past customers. Seasonal maintenance reminders, service promotions, and referral requests. Low cost, high retention value.
+
+## 10. Referral Programs
+
+Formalize your word-of-mouth. Offer $50 off their next service for every referral that books. Track it, promote it, and make it easy for happy customers to refer you.
+
+## 11. Direct Mail
+
+Postcards to targeted neighborhoods still work — especially for seasonal services (winterization, spring plumbing checks). Best when combined with digital follow-up.
+
+## 12. Social Media Content
+
+Daily posts on Facebook and Google Business Profile showing your work, team, and tips. Builds trust and keeps your business visible between searches.
+
+## 13. Cross Promotions
+
+Partner with other home service providers (HVAC, electricians, realtors) to refer each other. No cost, mutual benefit, warm leads.
+
+## The Bottom Line
+
+The most successful plumbing companies don't rely on a single advertising channel. They combine SEO for long-term growth, PPC for immediate leads, and reputation marketing for social proof.
+
+**Want a custom advertising strategy for your plumbing business?** [Book a free strategy call](/book) — we'll audit your current marketing and build a plan that fits your budget and market.
+    `,
+  },
+  {
+    slug: "plumber-marketing",
+    title: "Plumber Marketing: The Complete Guide to Marketing Your Plumbing Business",
+    excerpt:
+      "Everything you need to know about marketing a plumbing company in 2026 — from websites and SEO to social media and reputation management.",
+    date: "2026-02-17",
+    readTime: "15 min read",
+    category: "Marketing",
+    content: `
+## Part I: The Foundations of Plumber Marketing
+
+Marketing a plumbing business is different from marketing a restaurant or a retail store. Your customers have **urgent, location-specific needs** — a burst pipe at 2 AM, a backed-up sewer before a holiday, a water heater that died on a cold morning.
+
+Effective plumber marketing meets homeowners at the exact moment they need help and makes it dead simple to choose you.
+
+### Your Website Is Your Marketing Hub
+
+Every marketing channel — Google Ads, social media, reviews, referrals — ultimately sends people to your website. If your site is slow, hard to navigate, or doesn't have a prominent phone number, you're losing leads from every channel.
+
+A proper [plumbing website](/services/plumbing-websites) should load in under 3 seconds, have click-to-call buttons on every page, and include dedicated service and service area pages.
+
+### Google Is Your #1 Lead Source
+
+Over 95% of plumbing leads originate from Google — either through organic search results, the Map Pack, or paid ads. Your entire plumber marketing strategy should be built around Google visibility.
+
+This means investing in [SEO for plumbers](/services/seo-for-plumbers) and [local SEO](/services/local-seo) as the backbone of your marketing.
+
+## Part II: Digital Marketing Channels for Plumbers
+
+### Search Engine Optimization (SEO)
+
+SEO is the process of ranking your plumbing website on page 1 of Google for relevant searches. It's the highest-ROI marketing channel because once you rank, the traffic is free.
+
+Key components:
+- **On-page optimization**: Keyword-targeted service and area pages
+- **Google Business Profile**: The #1 local ranking factor
+- **Content creation**: Blog posts that target long-tail keywords
+- **Link building**: Local authority signals from relevant sites
+- **Technical SEO**: Site speed, mobile optimization, schema markup
+
+### Pay-Per-Click Advertising (PPC)
+
+[Google Ads for plumbers](/services/ppc-for-plumbers) provides instant visibility while SEO builds over time. You pay per click (Search Ads) or per lead (Local Service Ads). Best for new businesses or anyone wanting immediate lead flow.
+
+### Social Media Marketing
+
+Facebook and Google Business Profile posts keep your business visible and build trust. It's not about going viral — it's about consistency. Daily posts showing your work, team, and expertise establish you as the local authority.
+
+### Reputation & Review Marketing
+
+Your Google review count and rating directly impact your map pack rankings and click-through rates. A systematic review collection process after every job is one of the highest-impact marketing activities a plumber can do.
+
+## Part III: Building Your Plumber Marketing Plan
+
+### Step 1: Get Your Foundation Right
+- Professional plumbing website with service area pages
+- Claimed and optimized Google Business Profile
+- Review collection process in place
+
+### Step 2: Turn on Paid Traffic
+- Google Local Service Ads for cheapest leads
+- Google Search Ads for specific service targeting
+- Budget: Start at $1,500-$3,000/month
+
+### Step 3: Build Long-Term SEO
+- Monthly content creation (blog posts + area pages)
+- Local link building
+- Technical optimization
+
+### Step 4: Maintain & Grow
+- Daily social media and GBP posts
+- Monthly performance review
+- Scale budget toward what's working
+
+## How We Help
+
+At Only Plumbing Sites, we handle all of this for plumbing companies. We're not a generic marketing agency — we're a [plumber-owned marketing company](/about) that exclusively serves plumbing businesses.
+
+From [websites](/services/plumbing-websites) and [SEO](/services/seo-for-plumbers) to [PPC](/services/ppc-for-plumbers) and [lead generation](/services/plumbing-lead-generation), we build complete marketing systems that generate booked calls.
+
+**Ready to grow your plumbing business?** [Book a free strategy call](/book) with a licensed plumber who understands your business.
+    `,
+  },
+  {
+    slug: "digital-marketing-for-plumbers",
+    title: "Digital Marketing for Plumbers: Top Strategies to Boost Your Leads",
+    excerpt:
+      "13 digital marketing tips for plumbing companies that want to increase their customer base without relying on word-of-mouth alone.",
+    date: "2026-02-16",
+    readTime: "10 min read",
+    category: "Digital Marketing",
+    content: `
+## What Is Digital Marketing for Plumbers?
+
+Digital marketing for plumbers encompasses every online strategy used to attract, engage, and convert homeowners into booked plumbing jobs. It includes your website, SEO, Google Ads, social media, email marketing, and online reputation management.
+
+Unlike traditional advertising (yard signs, direct mail, Yellow Pages), digital marketing is measurable, targetable, and scalable. You can track exactly which channels generate calls and double down on what works.
+
+## Why Plumbers Are Investing in Digital Marketing
+
+- **97%** of consumers search online before hiring local services
+- **70%+** of plumbing searches happen on mobile devices
+- **46%** of all Google searches have local intent
+- **78%** of local mobile searches lead to a purchase within 24 hours
+
+The plumbing companies growing fastest in 2026 are the ones that have shifted their marketing budgets from traditional to digital channels.
+
+## 13 Digital Marketing Tips for Plumbing Companies
+
+### 1. Build a Mobile-First Website
+
+Your [plumbing website](/services/plumbing-websites) must load fast and work perfectly on phones. Click-to-call buttons, emergency CTAs, and easy navigation are non-negotiable.
+
+### 2. Invest in SEO
+
+[Search engine optimization](/services/seo-for-plumbers) is the highest-ROI digital marketing channel for plumbers. Once you rank on page 1, every lead is essentially free.
+
+### 3. Optimize Your Google Business Profile
+
+Your GBP listing drives map pack visibility. Complete every field, add photos weekly, post updates, respond to reviews, and keep your information accurate. [Local SEO](/services/local-seo) is essential.
+
+### 4. Run Google Ads for Immediate Leads
+
+[PPC advertising](/services/ppc-for-plumbers) puts you at the top of Google instantly. Start with Local Service Ads for the cheapest cost per lead.
+
+### 5. Build Service Area Pages
+
+Create dedicated pages for every city you serve. Each page targets '[City] plumber' and related searches, giving you multiple ranking opportunities.
+
+### 6. Collect Google Reviews Systematically
+
+After every job, send a review request. More reviews = higher map pack rankings = more calls. Automate this process.
+
+### 7. Create Blog Content
+
+Blog posts targeting long-tail keywords bring in search traffic and establish your expertise. Topics like 'when to replace a water heater' or 'signs of a sewer line problem' attract homeowners actively researching.
+
+### 8. Post on Social Media Daily
+
+Facebook and Google Business Profile posts keep your business visible. Share job photos, tips, reviews, and seasonal content.
+
+### 9. Use Email Marketing for Retention
+
+Send seasonal maintenance reminders to past customers. A simple email campaign drives repeat business and referrals at almost zero cost.
+
+### 10. Implement Call Tracking
+
+Track which marketing channels generate phone calls. Without call tracking, you're guessing where to spend your budget.
+
+### 11. Set Up Retargeting Ads
+
+Show ads to people who visited your website but didn't call. Retargeting keeps your plumbing company top-of-mind until they're ready.
+
+### 12. Manage Your Online Reputation
+
+Respond to every Google review — positive and negative. Monitor your ratings across Yelp, BBB, and other directories.
+
+### 13. Track Everything and Optimize
+
+Use Google Analytics, call tracking, and monthly reporting to understand what's working. Shift budget toward high-performing channels.
+
+## How to Manage Digital Marketing Without Paying an Agency
+
+You can handle some of this yourself: claim your GBP, respond to reviews, post on social media. But SEO, Google Ads, and website optimization require expertise and consistent time investment.
+
+Most plumbers find that the hours spent learning and managing digital marketing are better spent running their business. That's exactly why we exist — to handle the entire digital marketing strategy while you focus on serving customers.
+
+**Want a custom digital marketing plan?** [Book a free strategy call](/book) with a licensed plumber who builds plumbing marketing systems.
+    `,
+  },
+  {
+    slug: "plumber-keywords",
+    title: "Plumber Keywords: The Complete Plumbing Keywords List for SEO & Ads",
+    excerpt:
+      "The definitive list of plumbing keywords for SEO and Google Ads — organized by service type, search intent, and volume. Plus how to build a keyword strategy.",
+    date: "2026-02-14",
+    readTime: "11 min read",
+    category: "SEO",
+    content: `
+## The Power of Plumbing Keywords
+
+Keywords are the foundation of every plumbing SEO and PPC strategy. They're the exact phrases homeowners type into Google when they need a plumber — and ranking for the right ones is the difference between a busy call board and crickets.
+
+We've analyzed over **16,000 plumbing-related keywords** using data from our competitor research across 17 plumbing marketing companies. Here's everything you need to know.
+
+## Emergency Plumbing Keywords (Highest Intent)
+
+These keywords signal someone who needs a plumber RIGHT NOW. They have the highest conversion rates:
+
+- emergency plumber near me
+- 24 hour plumber
+- plumber near me
+- emergency plumbing service
+- burst pipe repair
+- emergency drain cleaning
+- plumber open now
+- after hours plumber
+
+**Tip:** These should be your top [Google Ads](/services/ppc-for-plumbers) targets and featured prominently on your [plumbing website](/services/plumbing-websites).
+
+## Service-Specific Keywords
+
+### Drain Cleaning Keywords
+- drain cleaning near me
+- clogged drain repair
+- drain cleaning service
+- sewer drain cleaning
+- main drain cleaning
+- drain snake service
+
+### Water Heater Keywords
+- water heater repair near me
+- water heater installation
+- tankless water heater installation
+- water heater replacement cost
+- hot water heater repair
+
+### Sewer Keywords
+- sewer line repair
+- sewer camera inspection
+- sewer line replacement
+- trenchless sewer repair
+- sewer backup
+
+### General Service Keywords
+- leak repair
+- pipe repair
+- toilet repair
+- faucet installation
+- garbage disposal installation
+- sump pump installation
+
+## Location-Based Keywords (Local SEO)
+
+These are the keywords that drive [local SEO](/services/local-seo) results and Google Map Pack rankings:
+
+- plumber in [city]
+- [city] plumber
+- plumbing company [city]
+- [city] drain cleaning
+- [city] water heater repair
+- best plumber in [city]
+- plumber near [neighborhood]
+
+**Strategy:** Build a dedicated service area page for every city you serve, targeting these keyword patterns. This is the single most effective [local SEO strategy](/services/local-seo) for plumbers.
+
+## Keyword Research Tools
+
+- **Google Keyword Planner** — Free with a Google Ads account. Shows search volume and competition.
+- **Google Search Console** — Shows which keywords your site already ranks for.
+- **Google Autocomplete** — Type a keyword and see what Google suggests.
+- **Answer The Public** — Shows questions people ask about plumbing topics.
+
+## Building Your Keyword Strategy
+
+### Step 1: Start with Services × Locations
+Combine every service you offer with every city you serve. This creates your keyword matrix.
+
+### Step 2: Prioritize by Intent
+Emergency and service-specific keywords convert highest. Focus on these first for both [SEO](/services/seo-for-plumbers) and [PPC](/services/ppc-for-plumbers).
+
+### Step 3: Build Pages for Each Keyword Group
+Each service + location combination should have its own page on your website. Don't try to target 20 keywords on one page.
+
+### Step 4: Create Content for Long-Tail Keywords
+Blog posts targeting questions like 'how much does drain cleaning cost in [city]' capture researching homeowners.
+
+## Common Keyword Mistakes Plumbers Make
+
+- **Targeting too broad**: "plumbing" is impossible to rank for. Target "[city] drain cleaning" instead.
+- **Ignoring long-tail**: "signs my sewer line needs replacement" has fewer searches but extremely high conversion.
+- **Same keyword on multiple pages**: This causes keyword cannibalization. One page per keyword target.
+- **Not tracking rankings**: If you're not measuring, you're guessing.
+
+**Want us to build a custom keyword strategy for your market?** [Book a free strategy call](/book) — we'll research your specific service area and show you exactly which keywords to target first.
+    `,
+  },
+  {
+    slug: "plumbing-marketing-ideas",
+    title: "15 Plumbing Marketing Ideas That Actually Generate Calls",
+    excerpt:
+      "Actionable plumbing marketing ideas you can implement this week — from free strategies to paid campaigns that generate real calls.",
+    date: "2026-02-12",
+    readTime: "9 min read",
+    category: "Marketing",
+    content: `
+## Plumbing Marketing Ideas That Work in 2026
+
+Not every marketing idea requires a huge budget. Here are 15 proven strategies ranked from free/easy to paid/advanced — all tested on real plumbing businesses.
+
+## Free / Low-Cost Ideas
+
+### 1. Optimize Your Google Business Profile
+
+This is the single highest-impact free marketing activity. Complete every field, add 10+ photos, post weekly updates, respond to every review, and add all your services. [Learn about local SEO](/services/local-seo).
+
+### 2. Ask Every Customer for a Google Review
+
+After every job, send a text with your Google review link. More reviews = higher rankings = more calls. Aim for 5+ new reviews per month.
+
+### 3. Post Job Photos on Social Media
+
+Before/after photos, team photos, completed projects. Post daily on Facebook and Google Business Profile. Real content > stock photos.
+
+### 4. Claim Every Online Directory Listing
+
+Yelp, BBB, Angi, HomeAdvisor, Yellow Pages, and plumbing-specific directories. Consistent Name/Address/Phone across all of them.
+
+### 5. Start a Referral Program
+
+"$50 off your next service for every friend you refer." Print cards, mention it after every job, and add it to your follow-up emails.
+
+## Website & SEO Ideas
+
+### 6. Add Service Area Pages to Your Website
+
+One page per city you serve. Each one targets '[City] plumber' keywords. This is the most impactful SEO strategy most plumbers miss. [See our plumbing web design](/services/plumbing-websites).
+
+### 7. Write Blog Posts Targeting Customer Questions
+
+"How much does drain cleaning cost?" "When should I replace my water heater?" Each blog post is a new Google ranking opportunity.
+
+### 8. Make Your Phone Number Impossible to Miss
+
+Sticky click-to-call button on mobile. Phone number in the header on desktop. Emergency CTA above the fold on every page.
+
+### 9. Add Schema Markup to Your Website
+
+LocalBusiness schema, Service schema, FAQ schema — these help Google understand your business and can improve your search result appearance.
+
+### 10. Focus on Site Speed
+
+Your site should load in under 3 seconds. Compress images, use modern hosting, and ditch heavy plugins. Every second of delay costs conversions.
+
+## Paid Advertising Ideas
+
+### 11. Run Google Local Service Ads
+
+Pay per lead (not per click). Google Guaranteed badge builds instant trust. Best ROI advertising channel for most plumbers. [Learn about PPC](/services/ppc-for-plumbers).
+
+### 12. Target Emergency Keywords with Google Ads
+
+"Emergency plumber near me" and "24 hour plumber [city]" convert at the highest rates. Bid aggressively on these during nights and weekends.
+
+### 13. Send Seasonal Direct Mail
+
+Postcards before winter (winterization services) and spring (maintenance checkups). Target neighborhoods in your service area.
+
+### 14. Run Facebook Retargeting Ads
+
+Show ads to people who visited your website but didn't call. Low cost, high reminder value. Keeps your company top-of-mind.
+
+### 15. Invest in Professional Photography
+
+Professional photos of your trucks, team, and completed work. Use them everywhere — website, social media, Google Business Profile, ads. Real photos outperform stock every time.
+
+## The Marketing Budget Framework
+
+Most successful plumbing companies spend **5-10% of revenue on marketing**. For a company doing $500K/year, that's $2,000-$4,000/month.
+
+Recommended allocation:
+- **40%** — SEO & website ($800-$1,600)
+- **35%** — Google Ads ($700-$1,400)
+- **15%** — Social media & content ($300-$600)
+- **10%** — Everything else ($200-$400)
+
+**Want a custom marketing plan?** [Book a free strategy call](/book) — we'll build a marketing roadmap based on your budget, market, and goals.
+    `,
+  },
+  {
     slug: "real-cost-of-not-having-a-plumbing-website",
     title: "The Real Cost of Not Having a Plumbing Website",
     excerpt:

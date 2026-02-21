@@ -11,6 +11,33 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: "plumber-advertising",
+    title: "Plumber Advertising: 13 Proven Ways to Advertise Your Plumbing Business in 2026",
+    excerpt:
+      "From Google Ads to yard signs, here are the 13 most effective advertising channels for plumbing companies — ranked by ROI and ease of implementation.",
+    date: "2026-02-18",
+    readTime: "12 min read",
+    category: "Advertising",
+  },
+  {
+    slug: "plumber-marketing",
+    title: "Plumber Marketing: The Complete Guide to Marketing Your Plumbing Business",
+    excerpt:
+      "Everything you need to know about marketing a plumbing company in 2026 — from websites and SEO to social media and reputation management.",
+    date: "2026-02-17",
+    readTime: "15 min read",
+    category: "Marketing",
+  },
+  {
+    slug: "digital-marketing-for-plumbers",
+    title: "Digital Marketing for Plumbers: Top Strategies to Boost Your Leads",
+    excerpt:
+      "13 digital marketing tips for plumbing companies that want to increase their customer base without relying on word-of-mouth alone.",
+    date: "2026-02-16",
+    readTime: "10 min read",
+    category: "Digital Marketing",
+  },
+  {
     slug: "why-your-plumbing-website-isnt-generating-calls",
     title: "Why Your Plumbing Website Isn't Generating Calls",
     excerpt:
@@ -18,6 +45,24 @@ const blogPosts = [
     date: "2026-02-15",
     readTime: "5 min read",
     category: "Website Strategy",
+  },
+  {
+    slug: "plumber-keywords",
+    title: "Plumber Keywords: The Complete Plumbing Keywords List for SEO & Ads",
+    excerpt:
+      "The definitive list of plumbing keywords for SEO and Google Ads — organized by service type, search intent, and volume. Plus how to build a keyword strategy.",
+    date: "2026-02-14",
+    readTime: "11 min read",
+    category: "SEO",
+  },
+  {
+    slug: "plumbing-marketing-ideas",
+    title: "15 Plumbing Marketing Ideas That Actually Generate Calls",
+    excerpt:
+      "Actionable plumbing marketing ideas you can implement this week — from free strategies to paid campaigns that generate real calls.",
+    date: "2026-02-12",
+    readTime: "9 min read",
+    category: "Marketing",
   },
   {
     slug: "service-area-pages-seo-strategy-plumbers",

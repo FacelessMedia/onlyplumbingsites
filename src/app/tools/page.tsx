@@ -7,6 +7,7 @@ import {
   Star,
   ArrowRight,
   Wrench,
+  DollarSign,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -47,6 +48,14 @@ const tools = [
     href: "/tools/review-link-generator",
     icon: Star,
     tag: null,
+  },
+  {
+    title: "Budget Calculator",
+    description:
+      "Enter your monthly marketing budget and see exactly how to allocate it across SEO, PPC, social, and reviews for max ROI.",
+    href: "/tools/budget-calculator",
+    icon: DollarSign,
+    tag: "New",
   },
 ];
 

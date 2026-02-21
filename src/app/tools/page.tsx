@@ -8,6 +8,7 @@ import {
   ArrowRight,
   Wrench,
   DollarSign,
+  Building2,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -55,6 +56,14 @@ const tools = [
       "Enter your monthly marketing budget and see exactly how to allocate it across SEO, PPC, social, and reviews for max ROI.",
     href: "/tools/budget-calculator",
     icon: DollarSign,
+    tag: "New",
+  },
+  {
+    title: "Citation Checker",
+    description:
+      "Check your NAP consistency across 250+ directories. Inconsistent citations kill your local SEO rankings.",
+    href: "/tools/citation-checker",
+    icon: Building2,
     tag: "New",
   },
 ];

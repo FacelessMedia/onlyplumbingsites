@@ -91,6 +91,7 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               name: "Only Plumbing Sites",
               url: "https://onlyplumbingsites.com",
+              logo: "https://onlyplumbingsites.com/logo.jpeg",
               description:
                 "Plumbing websites, local SEO, and marketing systems built by a licensed plumber. 250+ plumbing websites built.",
               founder: {
@@ -108,6 +109,30 @@ export default function RootLayout({
                 "Social Media for Plumbers",
               ],
               sameAs: [],
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "sales",
+                url: "https://onlyplumbingsites.com/book",
+              },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Only Plumbing Sites",
+              url: "https://onlyplumbingsites.com",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: "https://onlyplumbingsites.com/blog?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
             }),
           }}
         />

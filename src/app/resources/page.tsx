@@ -38,15 +38,21 @@ const sections = [
       },
       {
         title: "Plumbing Keyword Database",
-        description: "Browse 50+ plumbing keywords with volume, competition, and CPC data.",
+        description: "Browse 150+ plumbing keywords with volume, competition, and CPC data. Add your city for localized targets.",
         href: "/tools/plumbing-keywords",
         icon: Search,
       },
       {
         title: "Google Review Link Generator",
-        description: "Generate a direct link to your Google review page for customers.",
+        description: "Search for your business, get your direct Google review link + SMS template + QR code.",
         href: "/tools/review-link-generator",
         icon: Star,
+      },
+      {
+        title: "Citation Audit",
+        description: "Scan your website for NAP data and get a prioritized directory checklist with deep links.",
+        href: "/tools/citation-checker",
+        icon: Search,
       },
       {
         title: "Budget Calculator",

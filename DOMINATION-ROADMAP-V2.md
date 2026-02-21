@@ -7,51 +7,66 @@
 
 ---
 
-## V2 Completion Tracker (Updated Feb 21, 2026 — Session 2)
+## V2 Completion Tracker (Updated Feb 21, 2026 — Session 3)
 
 | Phase | Items | Done | Status |
 |-------|-------|------|--------|
-| Phase 1: Conversion & Trust | #1-20 | #1-12, #16, #18-19, #20 (trust bar) | ✅ ~80% done |
-| Phase 2: SEO Domination | #21-40 | #22-23, #25, #26-30 | ✅ Areas + TOC + OG images |
-| Phase 3: Interactive Tools | #41-49 | #41-44 (grader rebuilt), #45-46, #48-49 | ✅ All tools live |
+| Phase 1: Conversion & Trust | #1-20 | #1-12, #16, #18-20 | ✅ ~85% done |
+| Phase 2: SEO Domination | #21-40 | #21-23, #25, #26-30 | ✅ Canonical URLs + Areas + TOC + OG |
+| Phase 3: Interactive Tools | #41-49 | #41-49 (grader rebuilt, budget calc) | ✅ All tools live |
 | Phase 4: Competitor Content | #50-60 | #50-56 | ✅ 4 comparisons live |
 | Phase 5: Video & Multimedia | #61-68 | #61 (podcast page) | 🟡 Needs recordings |
-| Phase 6: CRO | #69-80 | #73, #77, #79-80 | 🟡 ErrorBoundary + UTM + ScrollCTA |
-| Phase 7: Authority Content | #81-90 | #81, #84 | 🟡 Resources hub live |
+| Phase 6: CRO | #69-80 | #70, #73, #77, #79-80 | 🟡 Skeletons + ErrorBoundary + UTM |
+| Phase 7: Authority Content | #81-90 | #81, #83-84, #87 | ✅ Guides + Stats + Budget calc |
 | Phase 8: Technical Excellence | #91-97 | #92, #94-96 | ✅ Security + a11y |
-| Phase 9: Scale & Automation | #98-107 | #100-101 | 🟡 Referral live |
+| Phase 9: Scale & Automation | #98-107 | #98, #100-102 | ✅ Portal + Referral + Partners |
 | Phase 10: Market Domination | #108-120 | #108 (local-seo LP) | 🟡 1 new LP |
 
-**Total V2 items completed: ~55 of 120 code items across 2 sessions**
+**Total V2 items completed: ~65 of 120 code items across 3 sessions**
 
-### Session 2 additions (after grader fix):
+### Session 3 additions (content honesty overhaul + continued V2):
 
-**Critical Fix:**
-- `/api/website-grader` — **REBUILT FROM SCRATCH.** Old grader was completely fake (Math.random scores, 9/10 checks hardcoded as "warn"). New version fetches actual website HTML server-side and runs 10 deterministic checks: HTTPS, viewport tag, tel: links, title tag, meta description, schema markup, server response time, H1 tag, image alt text, reviews/social proof. Same URL always produces same score.
+**MAJOR: Content Honesty Overhaul (22 files changed)**
+- About page: **Complete rewrite** with real backstory — YouTube marketing education while plumbing (2009-2019), Amazon FBA/t-shirts/dropshipping journey, power of focus, ThePlumbingDirectory.com real mission (anti-lead-selling, all-in-one resource)
+- License dates fixed across **19 files**: "Since 2014" removed everywhere → now "In the Trade Since 2009" / "Licensed Illinois Plumber" (apprentice 2014, official 2019)
+- Template claims fixed across **12 instances**: "No templates" → "Tailored to your plumbing business" / "Built on proven frameworks, customized for your market"
+- False numbers removed: Newsletter "500+ members" → no number. Tools "500+ keywords" → "50+"
+- Exclusivity messaging added: "I Don't Take Every Client" section, Hero badge "Selective Clientele", values "Selective by Design" / "Local Market Focus" / "Honesty Over Hype"
+- Chatbot knowledge: correct dates, one-person operation, selective clients, consulting option, local focus
 
-**New Pages (2):**
+**New Pages (5):**
 - `/podcast` — coming soon page with 8 episode topics, newsletter signup
-- `/lp/local-seo` — Google Ads landing page for local SEO / Map Pack services
+- `/lp/local-seo` — Google Ads landing page for local SEO / Map Pack
+- `/partners` — 4 partnership types (suppliers, franchises, SaaS, associations)
+- `/guides` — 8 pillar content guides hub with read times and tags
+- `/tools/budget-calculator` — marketing budget allocation tool (3 tiers, progress bars)
+- `/stats` — 24 plumbing industry statistics across 6 categories with sources
+- `/portal` — client portal placeholder with coming-soon messaging
 
 **New API Routes (2):**
-- `/api/website-grader` — real server-side HTML analysis (replaces fake client-side grader)
+- `/api/website-grader` — **REBUILT FROM SCRATCH.** Real server-side HTML analysis (10 deterministic checks)
 - `/api/og` — dynamic Open Graph image generation (edge runtime, branded 1200×630)
 
-**New Components (4):**
-- `TableOfContents` — collapsible TOC on blog posts, extracted from ## headings with anchor links
-- `TrustBadgeBar` — Licensed Plumber, 250+ Sites, You Own Your Site, 24hr Response on homepage
-- `ErrorBoundary` — class component with try-again + go-home fallback UI
+**New Components (6):**
+- `TableOfContents` — collapsible TOC on blog posts with anchor links
+- `TrustBadgeBar` — 4 trust signals on homepage after Hero
+- `ErrorBoundary` — class component with try-again + go-home fallback
+- `RelatedPosts` — internal linking component for blog sidebar
+- `Skeleton` — loading state UI primitive
 - `NewsletterSignup` — now also in footer CTA column
 
 **New Utilities (1):**
-- `src/lib/utm.ts` — captureUTM(), getUTM(), appendUTM() for Google Ads campaign attribution
+- `src/lib/utm.ts` — captureUTM(), getUTM(), appendUTM() for Google Ads attribution
 
 **Infrastructure:**
-- Blog posts: heading IDs added to markdown renderer + extractHeadings() for TOC
+- Canonical URLs: metadataBase + alternates in root layout (every page gets rel=canonical)
+- Blog posts: heading IDs in markdown renderer + extractHeadings() for TOC
 - Homepage: TrustBadgeBar added after Hero
-- Footer: NewsletterSignup added to CTA column
-- Navbar: Portfolio link added, "All Free Tools" in resources dropdown, Strategy Session fixed to /book
-- Sitemap: expanded to 90+ URLs (added tools/*, compare/*, areas index, resources, referral, podcast, lp/local-seo, dynamic compare pages)
+- Footer: Newsletter + 6 new links (Guides, Partners, All Free Tools, Referral), /pricing→/book fixed
+- Navbar: Portfolio link, "All Free Tools" in resources dropdown, Strategy Session → /book
+- Resources page: added Budget Calculator + Marketing Guides links
+- Tools hub: added Budget Calculator card
+- Sitemap: expanded to **~100 URLs** (tools/budget-calculator, partners, guides, stats, compare pages)
 
 ---
 

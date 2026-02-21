@@ -24,6 +24,7 @@ const footerLinks = {
     { label: "Free Website Audit", href: "/audit" },
     { label: "Book Strategy Session", href: "/book" },
     { label: "Marketing Glossary", href: "/glossary" },
+    { label: "Website Grader", href: "/website-grader" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },

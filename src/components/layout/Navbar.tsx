@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Phone, ChevronDown, BookOpen, BarChart3, FileSearch } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, BookOpen, BarChart3, FileSearch, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const serviceLinks = [
@@ -19,6 +19,7 @@ const resourceLinks = [
   { label: "Free Book Download", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could" },
   { label: "Free Growth Report", href: "/growth-report", icon: BarChart3, desc: "Your 12-month growth projection" },
   { label: "Free Website Audit", href: "/audit", icon: FileSearch, desc: "See where your site stands" },
+  { label: "Website Grader", href: "/website-grader", icon: Globe, desc: "Instant score for your site" },
 ];
 
 const navLinks = [

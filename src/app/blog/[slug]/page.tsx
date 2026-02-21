@@ -5,6 +5,7 @@ import { Calendar, Clock, ArrowLeft, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ReadingProgress from "@/components/blog/ReadingProgress";
 import SocialShare from "@/components/blog/SocialShare";
+import ContentUpgrade from "@/components/blog/ContentUpgrade";
 
 type BlogPost = {
   slug: string;
@@ -2426,6 +2427,9 @@ export default async function BlogPostPage({
           <article className="prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-navy prose-h2:text-2xl prose-h3:text-xl prose-a:text-orange prose-a:no-underline hover:prose-a:text-orange-hover prose-strong:text-navy">
             <div dangerouslySetInnerHTML={{ __html: markdownToHtml(post.content) }} />
           </article>
+
+          {/* Content Upgrade CTA */}
+          <ContentUpgrade />
 
           {/* Social Share */}
           <div className="mt-8 border-t border-slate-200 pt-6">

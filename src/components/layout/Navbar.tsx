@@ -20,11 +20,13 @@ const resourceLinks = [
   { label: "Free Growth Report", href: "/growth-report", icon: BarChart3, desc: "Your 12-month growth projection" },
   { label: "Free Website Audit", href: "/audit", icon: FileSearch, desc: "See where your site stands" },
   { label: "Website Grader", href: "/website-grader", icon: Globe, desc: "Instant score for your site" },
+  { label: "All Free Tools", href: "/tools", icon: Globe, desc: "ROI calculator, keywords & more" },
 ];
 
 const navLinks = [
-  { label: "Free Strategy Session", href: "/pricing" },
+  { label: "Free Strategy Session", href: "/book" },
   { label: "About", href: "/about" },
+  { label: "Portfolio", href: "/portfolio" },
   { label: "Results", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
 ];

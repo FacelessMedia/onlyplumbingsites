@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import StickyMobileCTA from "@/components/layout/StickyMobileCTA";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -54,10 +55,41 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              name: "Only Plumbing Sites",
+              url: "https://onlyplumbingsites.com",
+              description:
+                "Plumbing websites, local SEO, and marketing systems built by a licensed plumber. 250+ plumbing websites built.",
+              founder: {
+                "@type": "Person",
+                name: "Ryan Pietrzak",
+                jobTitle: "Licensed Plumber & Founder",
+              },
+              areaServed: { "@type": "Country", name: "United States" },
+              serviceType: [
+                "Plumbing Website Design",
+                "SEO for Plumbers",
+                "PPC for Plumbers",
+                "Local SEO",
+                "Plumbing Lead Generation",
+                "Social Media for Plumbers",
+              ],
+              sameAs: [],
+            }),
+          }}
+        />
+      </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <Navbar />
-        <main>{children}</main>
+        <main className="pb-16 lg:pb-0">{children}</main>
         <Footer />
+        <StickyMobileCTA />
       </body>
     </html>
   );

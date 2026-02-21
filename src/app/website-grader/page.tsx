@@ -21,6 +21,7 @@ type GradeCheck = {
   note: string;
   recommendation?: string;
   details?: Record<string, string>;
+  category?: string;
 };
 
 type GradeResult = {
@@ -29,28 +30,63 @@ type GradeResult = {
   checks: GradeCheck[];
   domain?: string;
   detectedCity?: string;
+  totalChecks?: number;
+  categoryLabels?: Record<string, string>;
 };
 
-// The staged loading steps
+// Staged loading steps — fast pace, many checks, ~22s total
 const ANALYSIS_STEPS = [
-  { label: "Connecting to your website...", duration: 1500 },
-  { label: "Checking SSL certificate & HTTPS...", duration: 1200 },
-  { label: "Analyzing mobile responsiveness...", duration: 1400 },
-  { label: "Scanning for click-to-call links...", duration: 1000 },
-  { label: "Evaluating SEO title tag...", duration: 1800 },
-  { label: "Analyzing meta description...", duration: 1200 },
-  { label: "Checking schema markup & structured data...", duration: 1500 },
-  { label: "Measuring server response speed...", duration: 2000 },
-  { label: "Analyzing H1 heading for SEO value...", duration: 1400 },
-  { label: "Auditing image alt text...", duration: 1200 },
-  { label: "Checking reviews & social proof...", duration: 1000 },
-  { label: "Evaluating service area strategy...", duration: 1500 },
-  { label: "Analyzing internal linking structure...", duration: 1200 },
-  { label: "Comparing against Google's benchmarks...", duration: 1800 },
-  { label: "Generating your report...", duration: 1200 },
+  { label: "Connecting to your website...", duration: 1200 },
+  { label: "Verifying SSL certificate & HTTPS...", duration: 700 },
+  { label: "Checking for mixed content issues...", duration: 500 },
+  { label: "Scanning security headers...", duration: 500 },
+  { label: "Analyzing mobile viewport tag...", duration: 600 },
+  { label: "Testing responsive design framework...", duration: 600 },
+  { label: "Checking touch-friendly tap targets...", duration: 500 },
+  { label: "Evaluating mobile font readability...", duration: 500 },
+  { label: "Scanning for horizontal scroll issues...", duration: 400 },
+  { label: "Analyzing SEO title tag...", duration: 800 },
+  { label: "Evaluating meta description...", duration: 600 },
+  { label: "Checking H1 heading structure...", duration: 600 },
+  { label: "Verifying heading hierarchy (H2/H3)...", duration: 500 },
+  { label: "Checking canonical URL tag...", duration: 400 },
+  { label: "Scanning Open Graph tags...", duration: 400 },
+  { label: "Checking search engine indexing...", duration: 500 },
+  { label: "Analyzing primary keyword usage...", duration: 600 },
+  { label: "Detecting LocalBusiness schema...", duration: 700 },
+  { label: "Scanning for click-to-call links...", duration: 500 },
+  { label: "Checking NAP (address) on site...", duration: 500 },
+  { label: "Evaluating service area pages...", duration: 600 },
+  { label: "Checking multi-location strategy...", duration: 500 },
+  { label: "Scanning service+location combos...", duration: 500 },
+  { label: "Detecting Google Maps embed...", duration: 400 },
+  { label: "Checking GBP link...", duration: 400 },
+  { label: "Analyzing dedicated service pages...", duration: 700 },
+  { label: "Checking for blog / content section...", duration: 500 },
+  { label: "Scanning FAQ section & schema...", duration: 500 },
+  { label: "Measuring content depth (word count)...", duration: 500 },
+  { label: "Auditing image alt text coverage...", duration: 600 },
+  { label: "Checking image lazy loading...", duration: 400 },
+  { label: "Detecting next-gen image formats...", duration: 400 },
+  { label: "Analyzing internal linking structure...", duration: 600 },
+  { label: "Checking XML sitemap reference...", duration: 400 },
+  { label: "Scanning CTA buttons & placement...", duration: 500 },
+  { label: "Detecting contact/lead form...", duration: 400 },
+  { label: "Checking for live chat / chatbot...", duration: 500 },
+  { label: "Scanning emergency/24-7 messaging...", duration: 400 },
+  { label: "Checking social media links...", duration: 600 },
+  { label: "Detecting Facebook, Instagram, YouTube...", duration: 500 },
+  { label: "Scanning Nextdoor & LinkedIn presence...", duration: 400 },
+  { label: "Checking for video content...", duration: 400 },
+  { label: "Measuring server response speed (TTFB)...", duration: 800 },
+  { label: "Analyzing render-blocking resources...", duration: 500 },
+  { label: "Counting external script impact...", duration: 400 },
+  { label: "Checking reviews & social proof...", duration: 500 },
+  { label: "Scanning license & insurance info...", duration: 500 },
+  { label: "Detecting trust badges & guarantees...", duration: 400 },
+  { label: "Checking analytics tracking...", duration: 500 },
+  { label: "Compiling your report...", duration: 800 },
 ];
-
-const TOTAL_ANALYSIS_TIME = ANALYSIS_STEPS.reduce((sum, s) => sum + s.duration, 0);
 
 function ExpandableCheck({ check }: { check: GradeCheck }) {
   const [open, setOpen] = useState(false);
@@ -248,8 +284,8 @@ export default function WebsiteGraderPage() {
               <span className="text-orange">Grader</span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-300">
-              Enter your website URL and get a detailed score on how well your
-              plumbing website is set up to generate calls from Google.
+              Enter your website URL and we&apos;ll run a {ANALYSIS_STEPS.length}-point inspection
+              on how well your plumbing website is set up to generate calls from Google.
             </p>
 
             {!loading && (
@@ -371,7 +407,7 @@ export default function WebsiteGraderPage() {
                     {result.grade}
                   </p>
                   <p className="text-sm font-medium text-slate-500">
-                    {result.score}/95
+                    {result.score}/100
                   </p>
                 </div>
               </div>
@@ -379,7 +415,7 @@ export default function WebsiteGraderPage() {
               <h2 className="mt-4 text-2xl font-bold text-navy">
                 {result.domain
                   ? `Score for ${result.domain}`
-                  : `Your Website Score: ${result.score}/95`}
+                  : `Your Website Score: ${result.score}/100`}
               </h2>
               <p className="mt-2 text-slate-500">
                 {result.score < 35
@@ -476,24 +512,23 @@ export default function WebsiteGraderPage() {
               What We Analyze
             </h2>
             <p className="mt-4 text-center text-slate-500">
-              Our grader evaluates your plumbing website against 12 critical
-              factors that determine whether your site generates calls or just
-              takes up space on the internet.
+              Our grader runs a comprehensive {ANALYSIS_STEPS.length}-point inspection across 11 categories — security, mobile,
+              on-page SEO, local SEO, content, technical, conversion, social media,
+              performance, trust, and advanced optimization.
             </p>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {[
-                "HTTPS Security",
-                "Mobile Responsiveness",
-                "Click-to-Call Links",
-                "SEO Title Tag Analysis",
-                "Meta Description Quality",
-                "Schema Markup / Structured Data",
-                "Server Response Speed (TTFB)",
-                "H1 Heading SEO Value",
-                "Image Alt Text Coverage",
-                "Reviews & Social Proof",
-                "Service Area Page Strategy",
-                "Internal Linking Structure",
+                "Security & SSL (3 checks)",
+                "Mobile & Responsiveness (5 checks)",
+                "On-Page SEO (10 checks)",
+                "Local SEO (8 checks)",
+                "Content & Structure (8 checks)",
+                "Technical SEO (6 checks)",
+                "Conversion Elements (7 checks)",
+                "Social Media Presence (6 checks)",
+                "Performance & Speed (4 checks)",
+                "Trust & Credibility (7 checks)",
+                "Advanced Optimization (4 checks)",
               ].map((item) => (
                 <div
                   key={item}

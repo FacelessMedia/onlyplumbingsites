@@ -13,9 +13,16 @@ const footerLinks = {
   ],
   company: [
     { label: "About", href: "/about" },
-    { label: "Case Studies", href: "/case-studies" },
+    { label: "Why Us", href: "/why-us" },
+    { label: "Results", href: "/case-studies" },
     { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
+  ],
+  resources: [
+    { label: "Free Book Download", href: "/book-download" },
+    { label: "Free Growth Report", href: "/growth-report" },
+    { label: "Free Website Audit", href: "/audit" },
+    { label: "Book Strategy Session", href: "/book" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },
@@ -27,7 +34,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-navy">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block">
@@ -111,14 +118,33 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Free Resources */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
+              Free Resources
+            </h3>
+            <ul className="mt-4 space-y-3">
+              {footerLinks.resources.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-slate-400 transition-colors hover:text-white"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* CTA Column */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
               Ready to Grow?
             </h3>
             <p className="mt-4 text-sm text-slate-400">
-              Get a free website audit or book a strategy call with a licensed
-              plumber who builds plumbing websites.
+              Book a free strategy call with a licensed plumber who builds
+              plumbing websites.
             </p>
             <div className="mt-6 flex flex-col gap-3">
               <Link
@@ -127,12 +153,6 @@ export default function Footer() {
               >
                 <Phone className="mr-2 h-4 w-4" />
                 Book Strategy Call
-              </Link>
-              <Link
-                href="/audit"
-                className="inline-flex items-center justify-center rounded-lg border border-slate-600 px-4 py-2.5 text-sm font-semibold text-slate-300 transition-colors hover:border-white hover:text-white"
-              >
-                Get Free Audit
               </Link>
             </div>
           </div>

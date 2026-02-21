@@ -2352,8 +2352,36 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: "Ryan Pietrzak",
+      jobTitle: "Licensed Plumber & Founder",
+      url: "https://onlyplumbingsites.com/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Only Plumbing Sites",
+      url: "https://onlyplumbingsites.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://onlyplumbingsites.com/blog/${post.slug}`,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <ReadingProgress />
 
       {/* Hero */}

@@ -18,20 +18,14 @@ type NAPData = {
 
 type CitationResult = {
   source: CitationSource;
-  found: boolean;
-  napMatch: "consistent" | "inconsistent" | "partial" | "not_found";
-  details?: string;
+  searchUrl: string;
+  claimUrl: string;
 };
 
 type CategorySummary = {
   category: CitationCategory;
   label: string;
   total: number;
-  found: number;
-  consistent: number;
-  inconsistent: number;
-  partial: number;
-  notFound: number;
   results: CitationResult[];
 };
 
@@ -90,68 +84,19 @@ function extractNAPFromHTML(html: string): Partial<NAPData> {
   return result;
 }
 
-// Simulate checking a citation source
-// In a real implementation, this would use a search API or web scraping
-// For now, we use a deterministic algorithm based on the business info
-// to produce realistic results that are consistent for the same input
-function checkCitation(
-  source: CitationSource,
-  websiteNAP: NAPData,
-  gbpNAP: NAPData | null,
-  hash: number
-): CitationResult {
-  // Use a deterministic hash to simulate found/not-found
-  // Critical/high importance sources are more likely to have listings
-  const importanceMultiplier =
-    source.importance === "critical" ? 0.85
-    : source.importance === "high" ? 0.65
-    : source.importance === "medium" ? 0.40
-    : 0.20;
-
-  // Hash the source name + business name for deterministic results
-  const sourceHash = (hash + source.name.length * 31 + source.url.length * 17) % 100;
-  const found = sourceHash < importanceMultiplier * 100;
-
-  if (!found) {
-    return {
-      source,
-      found: false,
-      napMatch: "not_found",
-      details: `Not listed on ${source.name}. Claiming this listing could improve your local SEO.`,
-    };
-  }
-
-  // If found, check NAP consistency (simulated based on hash)
-  const consistencyHash = (sourceHash * 7 + hash) % 100;
-
-  if (consistencyHash < 60) {
-    return {
-      source,
-      found: true,
-      napMatch: "consistent",
-      details: `Listed with consistent NAP information.`,
-    };
-  } else if (consistencyHash < 85) {
-    return {
-      source,
-      found: true,
-      napMatch: "partial",
-      details: `Listed but some information may be outdated or incomplete. Verify and update your listing.`,
-    };
-  } else {
-    return {
-      source,
-      found: true,
-      napMatch: "inconsistent",
-      details: `Listed but NAP information appears inconsistent. This can hurt your local SEO rankings. Update this listing immediately.`,
-    };
-  }
+// Build search URL for a citation source using business info
+function buildSearchUrl(source: CitationSource, nap: NAPData): string {
+  return source.searchUrl
+    .replace(/{name}/g, encodeURIComponent(nap.name))
+    .replace(/{city}/g, encodeURIComponent(nap.city))
+    .replace(/{state}/g, encodeURIComponent(nap.state))
+    .replace(/{phone}/g, encodeURIComponent(nap.phone));
 }
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { websiteUrl, businessName, phone, address, city, state, zip, gbpName, gbpPhone, gbpAddress, gbpCity, gbpState, gbpZip } = body;
+    const { websiteUrl, businessName, phone, address, city, state, zip } = body;
 
     if (!businessName || !phone) {
       return NextResponse.json(
@@ -160,7 +105,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const websiteNAP: NAPData = {
+    const userNAP: NAPData = {
       name: businessName.trim(),
       phone: phone.trim(),
       address: (address || "").trim(),
@@ -169,37 +114,11 @@ export async function POST(req: NextRequest) {
       zip: (zip || "").trim(),
     };
 
-    const gbpNAP: NAPData | null = gbpName ? {
-      name: (gbpName || "").trim(),
-      phone: (gbpPhone || "").trim(),
-      address: (gbpAddress || "").trim(),
-      city: (gbpCity || "").trim(),
-      state: (gbpState || "").trim(),
-      zip: (gbpZip || "").trim(),
-    } : null;
-
-    // Check NAP consistency between website and GBP
+    // ─── REAL CHECK: Extract NAP from website ───
     const napIssues: string[] = [];
-    if (gbpNAP) {
-      if (normalizeName(websiteNAP.name) !== normalizeName(gbpNAP.name)) {
-        napIssues.push(`Business name mismatch: Website says "${websiteNAP.name}" but GBP says "${gbpNAP.name}". Google sees these as potentially different businesses.`);
-      }
-      if (normalizePhone(websiteNAP.phone) !== normalizePhone(gbpNAP.phone)) {
-        napIssues.push(`Phone number mismatch: Website shows ${websiteNAP.phone} but GBP shows ${gbpNAP.phone}. This is a critical inconsistency for local SEO.`);
-      }
-      if (websiteNAP.address && gbpNAP.address && websiteNAP.address.toLowerCase() !== gbpNAP.address.toLowerCase()) {
-        napIssues.push(`Address mismatch: Website shows "${websiteNAP.address}" but GBP shows "${gbpNAP.address}". Even small differences (St vs Street, Ste vs Suite) confuse Google.`);
-      }
-      if (websiteNAP.city && gbpNAP.city && websiteNAP.city.toLowerCase() !== gbpNAP.city.toLowerCase()) {
-        napIssues.push(`City mismatch: Website says "${websiteNAP.city}" but GBP says "${gbpNAP.city}".`);
-      }
-      if (websiteNAP.zip && gbpNAP.zip && websiteNAP.zip !== gbpNAP.zip) {
-        napIssues.push(`ZIP code mismatch: Website shows ${websiteNAP.zip} but GBP shows ${gbpNAP.zip}.`);
-      }
-    }
+    let websiteNAP: Partial<NAPData> = {};
+    let websiteFetched = false;
 
-    // If website URL provided, try to fetch and extract NAP
-    let extractedNAP: Partial<NAPData> = {};
     if (websiteUrl) {
       try {
         const fullUrl = websiteUrl.startsWith("http") ? websiteUrl : `https://${websiteUrl}`;
@@ -213,94 +132,81 @@ export async function POST(req: NextRequest) {
         clearTimeout(timeout);
         if (res.ok) {
           const html = await res.text();
-          extractedNAP = extractNAPFromHTML(html);
+          websiteNAP = extractNAPFromHTML(html);
+          websiteFetched = true;
 
-          // Check extracted NAP vs user-provided NAP
-          if (extractedNAP.phone && normalizePhone(extractedNAP.phone) !== normalizePhone(websiteNAP.phone)) {
-            napIssues.push(`Website HTML phone (${extractedNAP.phone}) doesn't match the phone you entered (${websiteNAP.phone}). Make sure your website displays the correct phone number.`);
+          // Compare extracted NAP vs what user entered
+          if (websiteNAP.phone && normalizePhone(websiteNAP.phone) !== normalizePhone(userNAP.phone)) {
+            napIssues.push({
+              field: "phone",
+              entered: userNAP.phone,
+              website: websiteNAP.phone,
+              message: `Your website shows "${websiteNAP.phone}" but you entered "${userNAP.phone}". Make sure these match exactly.`,
+            } as unknown as string);
           }
-          if (extractedNAP.name && normalizeName(extractedNAP.name) !== normalizeName(websiteNAP.name)) {
-            napIssues.push(`Website appears to use the name "${extractedNAP.name}" which differs from "${websiteNAP.name}". Ensure consistency.`);
+          if (websiteNAP.name && normalizeName(websiteNAP.name) !== normalizeName(userNAP.name)) {
+            napIssues.push({
+              field: "name",
+              entered: userNAP.name,
+              website: websiteNAP.name,
+              message: `Your website uses the name "${websiteNAP.name}" but you entered "${userNAP.name}". These should be identical everywhere.`,
+            } as unknown as string);
+          }
+          if (websiteNAP.address && userNAP.address && websiteNAP.address.toLowerCase() !== userNAP.address.toLowerCase()) {
+            napIssues.push({
+              field: "address",
+              entered: userNAP.address,
+              website: websiteNAP.address,
+              message: `Address on website: "${websiteNAP.address}" vs entered: "${userNAP.address}". Even "St" vs "Street" matters.`,
+            } as unknown as string);
+          }
+          if (websiteNAP.city && userNAP.city && websiteNAP.city.toLowerCase() !== userNAP.city.toLowerCase()) {
+            napIssues.push({
+              field: "city",
+              entered: userNAP.city,
+              website: websiteNAP.city,
+              message: `City on website: "${websiteNAP.city}" vs entered: "${userNAP.city}".`,
+            } as unknown as string);
           }
         }
       } catch {
-        // Couldn't fetch website — that's okay, continue with provided info
+        // Couldn't fetch website — that's okay
       }
     }
 
-    // Generate deterministic hash from business info
-    let hash = 0;
-    const hashStr = `${normalizeName(websiteNAP.name)}${normalizePhone(websiteNAP.phone)}`;
-    for (let i = 0; i < hashStr.length; i++) {
-      hash = ((hash << 5) - hash + hashStr.charCodeAt(i)) | 0;
-    }
-    hash = Math.abs(hash);
-
-    // Check all citation sources
-    const results: CitationResult[] = citationSources.map((source) =>
-      checkCitation(source, websiteNAP, gbpNAP, hash)
-    );
+    // ─── BUILD DIRECTORY CHECKLIST ───
+    // We don't fake-check directories. We build a prioritized checklist
+    // with real search URLs so users can verify each one themselves.
+    const results: CitationResult[] = citationSources.map((source) => ({
+      source,
+      searchUrl: buildSearchUrl(source, userNAP),
+      claimUrl: source.claimUrl,
+    }));
 
     // Group by category
-    const categorySummaries: CategorySummary[] = CATEGORY_ORDER.map((cat) => {
-      const catResults = results.filter((r) => r.source.category === cat);
-      return {
-        category: cat,
-        label: CATEGORY_LABELS[cat],
-        total: catResults.length,
-        found: catResults.filter((r) => r.found).length,
-        consistent: catResults.filter((r) => r.napMatch === "consistent").length,
-        inconsistent: catResults.filter((r) => r.napMatch === "inconsistent").length,
-        partial: catResults.filter((r) => r.napMatch === "partial").length,
-        notFound: catResults.filter((r) => r.napMatch === "not_found").length,
-        results: catResults.sort((a, b) => {
-          const impOrder = { critical: 0, high: 1, medium: 2, low: 3 };
-          return impOrder[a.source.importance] - impOrder[b.source.importance];
-        }),
-      };
-    });
-
-    // Overall scores
-    const totalSources = citationSources.length;
-    const totalFound = results.filter((r) => r.found).length;
-    const totalConsistent = results.filter((r) => r.napMatch === "consistent").length;
-    const totalInconsistent = results.filter((r) => r.napMatch === "inconsistent").length;
-    const totalPartial = results.filter((r) => r.napMatch === "partial").length;
-
-    // Presence score: what % of directories have a listing
-    const presenceScore = Math.round((totalFound / totalSources) * 100);
-
-    // Consistency score: of found listings, what % are fully consistent
-    const consistencyScore = totalFound > 0
-      ? Math.round((totalConsistent / totalFound) * 100)
-      : 0;
-
-    // Overall score: weighted combination
-    const overallScore = Math.min(95, Math.round(presenceScore * 0.4 + consistencyScore * 0.6));
-
-    let grade = "F";
-    if (overallScore >= 90) grade = "A";
-    else if (overallScore >= 80) grade = "B+";
-    else if (overallScore >= 70) grade = "B";
-    else if (overallScore >= 60) grade = "C+";
-    else if (overallScore >= 50) grade = "C";
-    else if (overallScore >= 40) grade = "D";
+    const categories: CategorySummary[] = CATEGORY_ORDER
+      .map((cat) => {
+        const catResults = results.filter((r) => r.source.category === cat);
+        if (catResults.length === 0) return null;
+        return {
+          category: cat,
+          label: CATEGORY_LABELS[cat],
+          total: catResults.length,
+          results: catResults.sort((a, b) => {
+            const impOrder = { critical: 0, high: 1, medium: 2, low: 3 };
+            return impOrder[a.source.importance] - impOrder[b.source.importance];
+          }),
+        };
+      })
+      .filter(Boolean) as CategorySummary[];
 
     return NextResponse.json({
-      overallScore,
-      grade,
-      presenceScore,
-      consistencyScore,
-      totalSources,
-      totalFound,
-      totalConsistent,
-      totalInconsistent,
-      totalPartial,
+      userNAP,
+      websiteNAP: websiteFetched ? websiteNAP : null,
+      websiteFetched,
       napIssues,
-      categories: categorySummaries,
-      extractedNAP,
-      websiteNAP,
-      gbpNAP,
+      totalSources: citationSources.length,
+      categories,
     });
   } catch (error) {
     console.error("Citation checker error:", error);

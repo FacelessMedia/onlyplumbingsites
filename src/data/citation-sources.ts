@@ -1,268 +1,489 @@
 /**
  * Citation sources for the Citation Checker tool.
- * 250+ directories organized by category.
- * Each source has a name, URL, and category for segmentation.
+ * Curated list of directories that actually matter for plumbing businesses.
+ * Each source has search URL patterns and claim/signup URLs for deep linking.
+ *
+ * Removed: United Association (union-only), ZocDoc (medical), ProfileCanada,
+ * dozens of dead/irrelevant micro-directories, and duplicates.
  */
 
 export type CitationCategory =
-  | "plumbing_specific"
-  | "general_directory"
-  | "social_media"
+  | "critical"
   | "review_site"
   | "mapping"
+  | "social_media"
   | "home_services"
-  | "business_data"
-  | "local_directory"
-  | "government_bbb";
+  | "general_directory"
+  | "data_aggregator"
+  | "plumbing_specific";
 
 export type CitationSource = {
   name: string;
   url: string;
   category: CitationCategory;
   importance: "critical" | "high" | "medium" | "low";
+  /** URL pattern to search for a business. Use {name}, {city}, {state}, {phone} placeholders. */
+  searchUrl: string;
+  /** URL to claim or sign up for a new listing. */
+  claimUrl: string;
+  /** Notes about this directory (eligibility, cost, etc.) */
+  note?: string;
 };
 
 export const CATEGORY_LABELS: Record<CitationCategory, string> = {
-  plumbing_specific: "Plumbing-Specific Directories",
-  general_directory: "General Business Directories",
-  social_media: "Social Media Profiles",
+  critical: "Critical — Fix These First",
   review_site: "Review Sites",
   mapping: "Maps & Navigation",
+  social_media: "Social Media Profiles",
   home_services: "Home Services Directories",
-  business_data: "Business Data Aggregators",
-  local_directory: "Local & Regional Directories",
-  government_bbb: "Government & BBB",
+  general_directory: "General Business Directories",
+  data_aggregator: "Data Aggregators",
+  plumbing_specific: "Plumbing & Trade Directories",
 };
 
 export const CATEGORY_ORDER: CitationCategory[] = [
-  "plumbing_specific",
+  "critical",
   "review_site",
   "mapping",
   "social_media",
   "home_services",
+  "plumbing_specific",
   "general_directory",
-  "business_data",
-  "local_directory",
-  "government_bbb",
+  "data_aggregator",
 ];
 
 export const citationSources: CitationSource[] = [
-  // =============================================
-  // PLUMBING-SPECIFIC DIRECTORIES
-  // =============================================
-  { name: "ThePlumbingDirectory.com", url: "theplumbingdirectory.com", category: "plumbing_specific", importance: "critical" },
-  { name: "Plumber Magazine Directory", url: "plumbermag.com", category: "plumbing_specific", importance: "high" },
-  { name: "Plumbing-Heating-Cooling Contractors Association", url: "phccweb.org", category: "plumbing_specific", importance: "high" },
-  { name: "Master Plumbers Association", url: "masterplumbers.com", category: "plumbing_specific", importance: "medium" },
-  { name: "United Association of Plumbers", url: "ua.org", category: "plumbing_specific", importance: "medium" },
-  { name: "Plumbing Contractors of America", url: "plumbingcontractors.com", category: "plumbing_specific", importance: "medium" },
-  { name: "International Association of Plumbing & Mechanical Officials", url: "iapmo.org", category: "plumbing_specific", importance: "medium" },
-  { name: "American Society of Plumbing Engineers", url: "aspe.org", category: "plumbing_specific", importance: "medium" },
-  { name: "Plumbing-Heating-Cooling Information Bureau", url: "phcib.org", category: "plumbing_specific", importance: "low" },
-  { name: "National Plumbing Contractors Association", url: "nationalplumbingcontractors.com", category: "plumbing_specific", importance: "low" },
-  { name: "FindAPlumber.com", url: "findaplumber.com", category: "plumbing_specific", importance: "medium" },
-  { name: "PlumberSearch.com", url: "plumbersearch.com", category: "plumbing_specific", importance: "low" },
+  // ═══════════════════════════════════════════
+  // CRITICAL — These directly impact rankings
+  // ═══════════════════════════════════════════
+  {
+    name: "Google Business Profile",
+    url: "google.com/business",
+    category: "critical",
+    importance: "critical",
+    searchUrl: "https://www.google.com/maps/search/{name}+{city}+{state}",
+    claimUrl: "https://business.google.com/create",
+    note: "THE most important listing. Controls your Map Pack ranking.",
+  },
+  {
+    name: "Yelp",
+    url: "yelp.com",
+    category: "critical",
+    importance: "critical",
+    searchUrl: "https://www.yelp.com/search?find_desc={name}&find_loc={city}+{state}",
+    claimUrl: "https://biz.yelp.com/signup/new",
+    note: "2nd most used review site. Apple Maps pulls data from Yelp.",
+  },
+  {
+    name: "Facebook Business Page",
+    url: "facebook.com",
+    category: "critical",
+    importance: "critical",
+    searchUrl: "https://www.facebook.com/search/pages/?q={name}+{city}+{state}",
+    claimUrl: "https://www.facebook.com/pages/create",
+    note: "3rd largest review platform. Also used for social proof.",
+  },
+  {
+    name: "Apple Maps (via Apple Business Connect)",
+    url: "maps.apple.com",
+    category: "critical",
+    importance: "critical",
+    searchUrl: "https://maps.apple.com/?q={name}+{city}+{state}",
+    claimUrl: "https://businessconnect.apple.com",
+    note: "Default maps on all iPhones. Pulls from Yelp if unclaimed.",
+  },
+  {
+    name: "Bing Places",
+    url: "bingplaces.com",
+    category: "critical",
+    importance: "critical",
+    searchUrl: "https://www.bing.com/maps?q={name}+{city}+{state}",
+    claimUrl: "https://www.bingplaces.com",
+    note: "Powers Bing, Cortana, and many voice search results.",
+  },
 
-  // =============================================
+  // ═══════════════════════════════════════════
   // REVIEW SITES
-  // =============================================
-  { name: "Google Business Profile", url: "google.com/business", category: "review_site", importance: "critical" },
-  { name: "Yelp", url: "yelp.com", category: "review_site", importance: "critical" },
-  { name: "Facebook", url: "facebook.com", category: "review_site", importance: "critical" },
-  { name: "Better Business Bureau", url: "bbb.org", category: "review_site", importance: "high" },
-  { name: "Trustpilot", url: "trustpilot.com", category: "review_site", importance: "high" },
-  { name: "ConsumerAffairs", url: "consumeraffairs.com", category: "review_site", importance: "medium" },
-  { name: "Sitejabber", url: "sitejabber.com", category: "review_site", importance: "low" },
-  { name: "TrustRadius", url: "trustradius.com", category: "review_site", importance: "low" },
-  { name: "Judy's Book", url: "judysbook.com", category: "review_site", importance: "low" },
-  { name: "Kudzu", url: "kudzu.com", category: "review_site", importance: "low" },
+  // ═══════════════════════════════════════════
+  {
+    name: "Better Business Bureau (BBB)",
+    url: "bbb.org",
+    category: "review_site",
+    importance: "high",
+    searchUrl: "https://www.bbb.org/search?find_text={name}&find_loc={city}+{state}",
+    claimUrl: "https://www.bbb.org/get-accredited",
+    note: "Strong trust signal. Accreditation costs ~$400-500/yr but listing is free.",
+  },
+  {
+    name: "Trustpilot",
+    url: "trustpilot.com",
+    category: "review_site",
+    importance: "medium",
+    searchUrl: "https://www.trustpilot.com/search?query={name}",
+    claimUrl: "https://business.trustpilot.com/signup",
+  },
+  {
+    name: "Google Customer Reviews",
+    url: "google.com",
+    category: "review_site",
+    importance: "high",
+    searchUrl: "https://www.google.com/search?q={name}+{city}+{state}+reviews",
+    claimUrl: "https://business.google.com",
+    note: "Your reviews on GBP. Respond to every review within 24 hours.",
+  },
 
-  // =============================================
+  // ═══════════════════════════════════════════
   // MAPS & NAVIGATION
-  // =============================================
-  { name: "Google Maps", url: "google.com/maps", category: "mapping", importance: "critical" },
-  { name: "Apple Maps", url: "maps.apple.com", category: "mapping", importance: "critical" },
-  { name: "Bing Places", url: "bingplaces.com", category: "mapping", importance: "high" },
-  { name: "MapQuest", url: "mapquest.com", category: "mapping", importance: "medium" },
-  { name: "Waze", url: "waze.com", category: "mapping", importance: "medium" },
-  { name: "HERE Maps", url: "here.com", category: "mapping", importance: "low" },
-  { name: "TomTom", url: "tomtom.com", category: "mapping", importance: "low" },
+  // ═══════════════════════════════════════════
+  {
+    name: "MapQuest",
+    url: "mapquest.com",
+    category: "mapping",
+    importance: "medium",
+    searchUrl: "https://www.mapquest.com/search/{name}+{city}+{state}",
+    claimUrl: "https://www.mapquest.com/add-a-business",
+  },
+  {
+    name: "Waze",
+    url: "waze.com",
+    category: "mapping",
+    importance: "medium",
+    searchUrl: "https://www.waze.com/live-map",
+    claimUrl: "https://biz.waze.com",
+    note: "Owned by Google. Managed via Waze for Brands.",
+  },
 
-  // =============================================
+  // ═══════════════════════════════════════════
   // SOCIAL MEDIA
-  // =============================================
-  { name: "Facebook Business Page", url: "facebook.com", category: "social_media", importance: "critical" },
-  { name: "Instagram Business", url: "instagram.com", category: "social_media", importance: "high" },
-  { name: "LinkedIn Company Page", url: "linkedin.com", category: "social_media", importance: "high" },
-  { name: "X (Twitter)", url: "x.com", category: "social_media", importance: "medium" },
-  { name: "YouTube Channel", url: "youtube.com", category: "social_media", importance: "high" },
-  { name: "TikTok Business", url: "tiktok.com", category: "social_media", importance: "medium" },
-  { name: "Pinterest Business", url: "pinterest.com", category: "social_media", importance: "low" },
-  { name: "Nextdoor Business", url: "nextdoor.com", category: "social_media", importance: "high" },
-  { name: "Reddit (community)", url: "reddit.com", category: "social_media", importance: "low" },
+  // ═══════════════════════════════════════════
+  {
+    name: "Instagram Business",
+    url: "instagram.com",
+    category: "social_media",
+    importance: "high",
+    searchUrl: "https://www.instagram.com/explore/search/keyword/?q={name}",
+    claimUrl: "https://www.instagram.com/accounts/emailsignup/",
+    note: "Before/after photos perform extremely well for plumbers.",
+  },
+  {
+    name: "LinkedIn Company Page",
+    url: "linkedin.com",
+    category: "social_media",
+    importance: "medium",
+    searchUrl: "https://www.linkedin.com/search/results/companies/?keywords={name}",
+    claimUrl: "https://www.linkedin.com/company/setup/new/",
+    note: "Good for commercial plumbing leads and B2B credibility.",
+  },
+  {
+    name: "YouTube Channel",
+    url: "youtube.com",
+    category: "social_media",
+    importance: "high",
+    searchUrl: "https://www.youtube.com/results?search_query={name}+{city}+plumber",
+    claimUrl: "https://www.youtube.com/account",
+    note: "Video content ranks well. Before/after, tips, and explainers.",
+  },
+  {
+    name: "Nextdoor Business",
+    url: "nextdoor.com",
+    category: "social_media",
+    importance: "high",
+    searchUrl: "https://nextdoor.com/find-business/{name}/",
+    claimUrl: "https://nextdoor.com/create-business-page/",
+    note: "Neighborhood-level trust. Recommendations are powerful.",
+  },
+  {
+    name: "TikTok Business",
+    url: "tiktok.com",
+    category: "social_media",
+    importance: "low",
+    searchUrl: "https://www.tiktok.com/search?q={name}+plumber",
+    claimUrl: "https://www.tiktok.com/signup",
+    note: "Growing platform. Short plumbing tip videos can go viral.",
+  },
+  {
+    name: "X (Twitter)",
+    url: "x.com",
+    category: "social_media",
+    importance: "low",
+    searchUrl: "https://x.com/search?q={name}+plumber",
+    claimUrl: "https://x.com/i/flow/signup",
+  },
 
-  // =============================================
+  // ═══════════════════════════════════════════
   // HOME SERVICES DIRECTORIES
-  // =============================================
-  { name: "HomeAdvisor", url: "homeadvisor.com", category: "home_services", importance: "high" },
-  { name: "Angi (Angie's List)", url: "angi.com", category: "home_services", importance: "high" },
-  { name: "Thumbtack", url: "thumbtack.com", category: "home_services", importance: "high" },
-  { name: "Houzz", url: "houzz.com", category: "home_services", importance: "high" },
-  { name: "Porch", url: "porch.com", category: "home_services", importance: "medium" },
-  { name: "Fixr", url: "fixr.com", category: "home_services", importance: "medium" },
-  { name: "Bark", url: "bark.com", category: "home_services", importance: "medium" },
-  { name: "TaskRabbit", url: "taskrabbit.com", category: "home_services", importance: "low" },
-  { name: "Networx", url: "networx.com", category: "home_services", importance: "medium" },
-  { name: "ServiceMagic", url: "servicemagic.com", category: "home_services", importance: "low" },
-  { name: "BuildZoom", url: "buildzoom.com", category: "home_services", importance: "medium" },
-  { name: "Contractor Connection", url: "contractorconnection.com", category: "home_services", importance: "medium" },
-  { name: "Home Improvement Pages", url: "homeimprovementpages.com", category: "home_services", importance: "low" },
-  { name: "ServiceWhale", url: "servicewhale.com", category: "home_services", importance: "low" },
-  { name: "CraftJack", url: "craftjack.com", category: "home_services", importance: "medium" },
-  { name: "MyHammer", url: "myhammer.com", category: "home_services", importance: "low" },
-  { name: "QualitySmith", url: "qualitysmith.com", category: "home_services", importance: "low" },
-  { name: "ProMatcher", url: "promatcher.com", category: "home_services", importance: "low" },
+  // ═══════════════════════════════════════════
+  {
+    name: "Angi (Angie's List)",
+    url: "angi.com",
+    category: "home_services",
+    importance: "high",
+    searchUrl: "https://www.angi.com/companylist/{city}/{state}/plumbing.htm",
+    claimUrl: "https://www.angi.com/pro/registration",
+    note: "Major home services marketplace. Free to list, paid for leads.",
+  },
+  {
+    name: "HomeAdvisor",
+    url: "homeadvisor.com",
+    category: "home_services",
+    importance: "high",
+    searchUrl: "https://www.homeadvisor.com/rated.{city}.{state}.Plumbing.html",
+    claimUrl: "https://pro.homeadvisor.com/registration/",
+    note: "Now merged with Angi. Still has its own listings.",
+  },
+  {
+    name: "Thumbtack",
+    url: "thumbtack.com",
+    category: "home_services",
+    importance: "high",
+    searchUrl: "https://www.thumbtack.com/search/{name}+plumber+{city}+{state}",
+    claimUrl: "https://www.thumbtack.com/pro/signup",
+    note: "Lead-gen platform. You pay per lead, but listing is free.",
+  },
+  {
+    name: "Houzz",
+    url: "houzz.com",
+    category: "home_services",
+    importance: "medium",
+    searchUrl: "https://www.houzz.com/professionals/plumber/{city}-{state}",
+    claimUrl: "https://www.houzz.com/professionals/signup",
+    note: "Good for remodel/renovation plumbing. Free pro listing.",
+  },
+  {
+    name: "Porch",
+    url: "porch.com",
+    category: "home_services",
+    importance: "medium",
+    searchUrl: "https://porch.com/search/{city}-{state}/plumber",
+    claimUrl: "https://porch.com/pro/registration",
+  },
+  {
+    name: "BuildZoom",
+    url: "buildzoom.com",
+    category: "home_services",
+    importance: "medium",
+    searchUrl: "https://www.buildzoom.com/search?q={name}&loc={city}+{state}",
+    claimUrl: "https://www.buildzoom.com/contractor/claim",
+    note: "Pulls from state licensing data. Verify your license info is correct.",
+  },
+  {
+    name: "Bark",
+    url: "bark.com",
+    category: "home_services",
+    importance: "low",
+    searchUrl: "https://www.bark.com/en/us/plumber/{city}/",
+    claimUrl: "https://www.bark.com/en/us/pro-signup/",
+  },
+  {
+    name: "Networx",
+    url: "networx.com",
+    category: "home_services",
+    importance: "low",
+    searchUrl: "https://www.networx.com/plumbing-contractors/{city}-{state}",
+    claimUrl: "https://www.networx.com/contractor-signup",
+  },
+  {
+    name: "CraftJack",
+    url: "craftjack.com",
+    category: "home_services",
+    importance: "low",
+    searchUrl: "https://www.craftjack.com",
+    claimUrl: "https://www.craftjack.com/contractor-signup",
+    note: "Lead-gen service. Pay per lead.",
+  },
 
-  // =============================================
+  // ═══════════════════════════════════════════
+  // PLUMBING & TRADE DIRECTORIES
+  // ═══════════════════════════════════════════
+  {
+    name: "ThePlumbingDirectory.com",
+    url: "theplumbingdirectory.com",
+    category: "plumbing_specific",
+    importance: "high",
+    searchUrl: "https://theplumbingdirectory.com/?s={name}",
+    claimUrl: "https://theplumbingdirectory.com/add-listing/",
+    note: "Plumbing-specific directory. High relevance for plumbing SEO.",
+  },
+  {
+    name: "PHCC (Plumbing-Heating-Cooling Contractors Association)",
+    url: "phccweb.org",
+    category: "plumbing_specific",
+    importance: "medium",
+    searchUrl: "https://www.phccweb.org/find-a-contractor/",
+    claimUrl: "https://www.phccweb.org/join/",
+    note: "Industry association. Membership required (~$500+/yr). Strong trust signal.",
+  },
+  {
+    name: "Plumber Magazine Directory",
+    url: "plumbermag.com",
+    category: "plumbing_specific",
+    importance: "low",
+    searchUrl: "https://www.plumbermag.com/directory",
+    claimUrl: "https://www.plumbermag.com/directory/add-listing",
+    note: "Trade publication directory. Free listing.",
+  },
+  {
+    name: "IAPMO (Intl. Assoc. of Plumbing & Mechanical Officials)",
+    url: "iapmo.org",
+    category: "plumbing_specific",
+    importance: "low",
+    searchUrl: "https://www.iapmo.org",
+    claimUrl: "https://www.iapmo.org/membership",
+    note: "Standards body. Membership available for plumbing contractors.",
+  },
+
+  // ═══════════════════════════════════════════
   // GENERAL BUSINESS DIRECTORIES
-  // =============================================
-  { name: "Yellow Pages (YP.com)", url: "yellowpages.com", category: "general_directory", importance: "high" },
-  { name: "White Pages", url: "whitepages.com", category: "general_directory", importance: "medium" },
-  { name: "Superpages", url: "superpages.com", category: "general_directory", importance: "medium" },
-  { name: "DexKnows", url: "dexknows.com", category: "general_directory", importance: "medium" },
-  { name: "CitySearch", url: "citysearch.com", category: "general_directory", importance: "medium" },
-  { name: "MerchantCircle", url: "merchantcircle.com", category: "general_directory", importance: "medium" },
-  { name: "Manta", url: "manta.com", category: "general_directory", importance: "high" },
-  { name: "Hotfrog", url: "hotfrog.com", category: "general_directory", importance: "medium" },
-  { name: "Chamber of Commerce", url: "chamberofcommerce.com", category: "general_directory", importance: "high" },
-  { name: "Local.com", url: "local.com", category: "general_directory", importance: "medium" },
-  { name: "EZLocal", url: "ezlocal.com", category: "general_directory", importance: "medium" },
-  { name: "Cylex", url: "cylex.us.com", category: "general_directory", importance: "low" },
-  { name: "US City Network", url: "uscity.net", category: "general_directory", importance: "low" },
-  { name: "Yellowbot", url: "yellowbot.com", category: "general_directory", importance: "low" },
-  { name: "ShowMeLocal", url: "showmelocal.com", category: "general_directory", importance: "low" },
-  { name: "BrownBook", url: "brownbook.net", category: "general_directory", importance: "low" },
-  { name: "Hub.biz", url: "hub.biz", category: "general_directory", importance: "low" },
-  { name: "iBegin", url: "ibegin.com", category: "general_directory", importance: "low" },
-  { name: "TuuGo", url: "tuugo.us", category: "general_directory", importance: "low" },
-  { name: "eLocal", url: "elocal.com", category: "general_directory", importance: "medium" },
-  { name: "n49", url: "n49.com", category: "general_directory", importance: "low" },
-  { name: "Bizwiki", url: "bizwiki.com", category: "general_directory", importance: "low" },
-  { name: "Opendi", url: "opendi.us", category: "general_directory", importance: "low" },
-  { name: "Where To?", url: "whereto.com", category: "general_directory", importance: "low" },
-  { name: "ZipLocal", url: "ziplocal.com", category: "general_directory", importance: "low" },
-  { name: "YellowPageCity", url: "yellowpagecity.com", category: "general_directory", importance: "low" },
-  { name: "Yalwa", url: "yalwa.com", category: "general_directory", importance: "low" },
-  { name: "My Local Services", url: "mylocalservices.com", category: "general_directory", importance: "low" },
-  { name: "Fyple", url: "fyple.com", category: "general_directory", importance: "low" },
-  { name: "2FindLocal", url: "2findlocal.com", category: "general_directory", importance: "low" },
-  { name: "GoLocal247", url: "golocal247.com", category: "general_directory", importance: "low" },
-  { name: "USDirectory", url: "usdirectory.com", category: "general_directory", importance: "low" },
-  { name: "Find-Us-Here", url: "find-us-here.com", category: "general_directory", importance: "low" },
-  { name: "DirectoryAC", url: "directoryac.com", category: "general_directory", importance: "low" },
-  { name: "LocalDatabase", url: "localdatabase.com", category: "general_directory", importance: "low" },
-  { name: "CitySquares", url: "citysquares.com", category: "general_directory", importance: "low" },
-  { name: "AmericanTowns", url: "americantowns.com", category: "general_directory", importance: "low" },
-  { name: "DiscoverOurTown", url: "discoverourtown.com", category: "general_directory", importance: "low" },
-  { name: "LocalStack", url: "localstack.com", category: "general_directory", importance: "low" },
-  { name: "B2BYellowPages", url: "b2byellowpages.com", category: "general_directory", importance: "low" },
-  { name: "Lacartes", url: "lacartes.com", category: "general_directory", importance: "low" },
-  { name: "CompaniesInTheUSA", url: "companiesintheusa.com", category: "general_directory", importance: "low" },
-  { name: "AnyWho", url: "anywho.com", category: "general_directory", importance: "low" },
-  { name: "InfoUSA", url: "infousa.com", category: "general_directory", importance: "low" },
-  { name: "YellowMoxie", url: "yellowmoxie.com", category: "general_directory", importance: "low" },
-  { name: "MagicYellow", url: "magicyellow.com", category: "general_directory", importance: "low" },
-  { name: "Switchboard", url: "switchboard.com", category: "general_directory", importance: "low" },
-  { name: "411.com", url: "411.com", category: "general_directory", importance: "low" },
-  { name: "USYellowPages", url: "usyellowpages.com", category: "general_directory", importance: "low" },
-  { name: "ABLocal", url: "ablocal.com", category: "general_directory", importance: "low" },
-  { name: "Spoke", url: "spoke.com", category: "general_directory", importance: "low" },
-  { name: "ProfileCanada (US section)", url: "profilecanada.com", category: "general_directory", importance: "low" },
-  { name: "JustLanded", url: "justlanded.com", category: "general_directory", importance: "low" },
-  { name: "ChamberRating", url: "chamberrating.com", category: "general_directory", importance: "low" },
-  { name: "TopRatedLocal", url: "topratedlocal.com", category: "general_directory", importance: "medium" },
-  { name: "HomeStars", url: "homestars.com", category: "general_directory", importance: "low" },
-  { name: "Bizrate", url: "bizrate.com", category: "general_directory", importance: "low" },
+  // ═══════════════════════════════════════════
+  {
+    name: "Yellow Pages (YP.com)",
+    url: "yellowpages.com",
+    category: "general_directory",
+    importance: "high",
+    searchUrl: "https://www.yellowpages.com/search?search_terms={name}&geo_location_terms={city}+{state}",
+    claimUrl: "https://adsolutions.yp.com/free-listing",
+  },
+  {
+    name: "Superpages",
+    url: "superpages.com",
+    category: "general_directory",
+    importance: "medium",
+    searchUrl: "https://www.superpages.com/search?q={name}&loc={city}+{state}",
+    claimUrl: "https://www.superpages.com/add-a-business",
+  },
+  {
+    name: "Manta",
+    url: "manta.com",
+    category: "general_directory",
+    importance: "medium",
+    searchUrl: "https://www.manta.com/search?search_source=nav&search={name}&search_location={city}+{state}",
+    claimUrl: "https://www.manta.com/claim",
+  },
+  {
+    name: "Chamber of Commerce Directory",
+    url: "chamberofcommerce.com",
+    category: "general_directory",
+    importance: "high",
+    searchUrl: "https://www.chamberofcommerce.com/search?q={name}&l={city}+{state}",
+    claimUrl: "https://www.chamberofcommerce.com/add-your-business",
+    note: "Free online directory. Joining your local chamber is separate.",
+  },
+  {
+    name: "Hotfrog",
+    url: "hotfrog.com",
+    category: "general_directory",
+    importance: "low",
+    searchUrl: "https://www.hotfrog.com/search/{city}/{state}/{name}",
+    claimUrl: "https://www.hotfrog.com/add-your-business",
+  },
+  {
+    name: "EZLocal",
+    url: "ezlocal.com",
+    category: "general_directory",
+    importance: "low",
+    searchUrl: "https://ezlocal.com/search?q={name}&loc={city}+{state}",
+    claimUrl: "https://ezlocal.com/add-listing",
+  },
+  {
+    name: "ShowMeLocal",
+    url: "showmelocal.com",
+    category: "general_directory",
+    importance: "low",
+    searchUrl: "https://www.showmelocal.com/search?q={name}&l={city}+{state}",
+    claimUrl: "https://www.showmelocal.com/add-business",
+  },
+  {
+    name: "TopRatedLocal",
+    url: "topratedlocal.com",
+    category: "general_directory",
+    importance: "medium",
+    searchUrl: "https://www.topratedlocal.com/search?q={name}&l={city}+{state}",
+    claimUrl: "https://www.topratedlocal.com/sign-up",
+    note: "Aggregates reviews from multiple sites. Good trust signal.",
+  },
+  {
+    name: "Expertise.com",
+    url: "expertise.com",
+    category: "general_directory",
+    importance: "medium",
+    searchUrl: "https://www.expertise.com/plumbing/{city}",
+    claimUrl: "https://www.expertise.com",
+    note: "Curated 'Best of' lists. Listing is earned, not claimed.",
+  },
+  {
+    name: "ThreeBestRated",
+    url: "threebestrated.com",
+    category: "general_directory",
+    importance: "medium",
+    searchUrl: "https://threebestrated.com/plumbers-in-{city}-{state}",
+    claimUrl: "https://threebestrated.com/submit",
+    note: "Hand-picked top 3 in each city. Strong trust signal if selected.",
+  },
+  {
+    name: "Glassdoor",
+    url: "glassdoor.com",
+    category: "general_directory",
+    importance: "low",
+    searchUrl: "https://www.glassdoor.com/Search/results.htm?keyword={name}",
+    claimUrl: "https://www.glassdoor.com/employers/claim-your-free-employer-account/",
+    note: "Employee reviews. Matters if you're hiring plumbers.",
+  },
+  {
+    name: "Alignable",
+    url: "alignable.com",
+    category: "general_directory",
+    importance: "low",
+    searchUrl: "https://www.alignable.com/search?q={name}&loc={city}+{state}",
+    claimUrl: "https://www.alignable.com/signup",
+    note: "B2B networking. Good for referral partnerships.",
+  },
 
-  // =============================================
-  // BUSINESS DATA AGGREGATORS
-  // =============================================
-  { name: "Data Axle (InfoGroup)", url: "dataaxle.com", category: "business_data", importance: "critical" },
-  { name: "Localeze (Neustar)", url: "neustar.biz", category: "business_data", importance: "critical" },
-  { name: "Foursquare / Factual", url: "foursquare.com", category: "business_data", importance: "high" },
-  { name: "Acxiom", url: "acxiom.com", category: "business_data", importance: "high" },
-  { name: "Dun & Bradstreet", url: "dnb.com", category: "business_data", importance: "high" },
-  { name: "Yext PowerListings", url: "yext.com", category: "business_data", importance: "high" },
-  { name: "BrightLocal", url: "brightlocal.com", category: "business_data", importance: "medium" },
-  { name: "Moz Local", url: "moz.com/local", category: "business_data", importance: "medium" },
-  { name: "Whitespark", url: "whitespark.ca", category: "business_data", importance: "medium" },
-  { name: "Synup", url: "synup.com", category: "business_data", importance: "low" },
-  { name: "Semrush Listing Management", url: "semrush.com", category: "business_data", importance: "medium" },
-  { name: "Vendasta", url: "vendasta.com", category: "business_data", importance: "low" },
-  { name: "RIO SEO", url: "rioseo.com", category: "business_data", importance: "low" },
-  { name: "Chatmeter", url: "chatmeter.com", category: "business_data", importance: "low" },
-  { name: "SOCi", url: "soci.ai", category: "business_data", importance: "low" },
-  { name: "Uberall", url: "uberall.com", category: "business_data", importance: "low" },
-
-  // =============================================
-  // LOCAL & REGIONAL DIRECTORIES
-  // =============================================
-  { name: "Patch.com", url: "patch.com", category: "local_directory", importance: "medium" },
-  { name: "Alignable", url: "alignable.com", category: "local_directory", importance: "medium" },
-  { name: "Nextdoor", url: "nextdoor.com", category: "local_directory", importance: "high" },
-  { name: "Foursquare City Guide", url: "foursquare.com", category: "local_directory", importance: "medium" },
-  { name: "MapMyCustomers", url: "mapmycustomers.me", category: "local_directory", importance: "low" },
-  { name: "Insider Pages", url: "insiderpages.com", category: "local_directory", importance: "low" },
-  { name: "YellowPages.ca (if Canadian)", url: "yellowpages.ca", category: "local_directory", importance: "low" },
-  { name: "Locality", url: "locality.com", category: "local_directory", importance: "low" },
-  { name: "Tupalo", url: "tupalo.com", category: "local_directory", importance: "low" },
-  { name: "Brownbook", url: "brownbook.net", category: "local_directory", importance: "low" },
-  { name: "LocalPages", url: "localpages.com", category: "local_directory", importance: "low" },
-  { name: "eBusinessPages", url: "ebusinesspages.com", category: "local_directory", importance: "low" },
-  { name: "BizHwy", url: "bizhwy.com", category: "local_directory", importance: "low" },
-  { name: "GetFave", url: "getfave.com", category: "local_directory", importance: "low" },
-  { name: "Wand.com", url: "wand.com", category: "local_directory", importance: "low" },
-  { name: "ExpressBusinessDirectory", url: "expressbusinessdirectory.com", category: "local_directory", importance: "low" },
-  { name: "City-Data", url: "city-data.com", category: "local_directory", importance: "low" },
-  { name: "LocalStore", url: "localstore.com", category: "local_directory", importance: "low" },
-  { name: "AreaConnect", url: "areaconnect.com", category: "local_directory", importance: "low" },
-  { name: "BizVotes", url: "bizvotes.com", category: "local_directory", importance: "low" },
-  { name: "Cybo", url: "cybo.com", category: "local_directory", importance: "low" },
-  { name: "Yext Network Sites", url: "yext.com", category: "local_directory", importance: "medium" },
-
-  // =============================================
-  // GOVERNMENT & BBB
-  // =============================================
-  { name: "Better Business Bureau (BBB)", url: "bbb.org", category: "government_bbb", importance: "high" },
-  { name: "State Licensing Board", url: "varies-by-state", category: "government_bbb", importance: "high" },
-  { name: "Local Chamber of Commerce", url: "varies-by-city", category: "government_bbb", importance: "high" },
-  { name: "SAM.gov (Federal Registrations)", url: "sam.gov", category: "government_bbb", importance: "low" },
-  { name: "State Secretary of State Registry", url: "varies-by-state", category: "government_bbb", importance: "medium" },
-  { name: "County Business Registry", url: "varies-by-county", category: "government_bbb", importance: "low" },
-  { name: "City Business License Directory", url: "varies-by-city", category: "government_bbb", importance: "low" },
-
-  // =============================================
-  // ADDITIONAL GENERAL DIRECTORIES (to reach 250+)
-  // =============================================
-  { name: "ZocDoc (if applicable)", url: "zocdoc.com", category: "general_directory", importance: "low" },
-  { name: "Glassdoor", url: "glassdoor.com", category: "general_directory", importance: "medium" },
-  { name: "Indeed Business", url: "indeed.com", category: "general_directory", importance: "low" },
-  { name: "Crunchbase", url: "crunchbase.com", category: "general_directory", importance: "low" },
-  { name: "DandB (Hoovers)", url: "hoovers.com", category: "general_directory", importance: "low" },
-  { name: "Mapillary", url: "mapillary.com", category: "general_directory", importance: "low" },
-  { name: "Navmii", url: "navmii.com", category: "general_directory", importance: "low" },
-  { name: "CityOf.com", url: "cityof.com", category: "general_directory", importance: "low" },
-  { name: "BizJournals", url: "bizjournals.com", category: "general_directory", importance: "low" },
-  { name: "FindOpen", url: "findopen.com", category: "general_directory", importance: "low" },
-  { name: "UsaOnly", url: "usaonly.us", category: "general_directory", importance: "low" },
-  { name: "AllBiz", url: "allbiz.com", category: "general_directory", importance: "low" },
-  { name: "Infobel", url: "infobel.com", category: "general_directory", importance: "low" },
-  { name: "CallUpContact", url: "callupcontact.com", category: "general_directory", importance: "low" },
-  { name: "AddBusiness", url: "addbusiness.net", category: "general_directory", importance: "low" },
-  { name: "PointCom", url: "pointcom.com", category: "general_directory", importance: "low" },
-  { name: "WhoDoYou", url: "whodoyou.com", category: "general_directory", importance: "medium" },
-  { name: "Alignable Business Network", url: "alignable.com", category: "general_directory", importance: "medium" },
-  { name: "ThreeBestRated", url: "threebestrated.com", category: "general_directory", importance: "medium" },
-  { name: "Expertise.com", url: "expertise.com", category: "general_directory", importance: "medium" },
-  { name: "GuildQuality", url: "guildquality.com", category: "general_directory", importance: "medium" },
+  // ═══════════════════════════════════════════
+  // DATA AGGREGATORS — These feed hundreds of directories
+  // ═══════════════════════════════════════════
+  {
+    name: "Data Axle (InfoGroup)",
+    url: "dataaxle.com",
+    category: "data_aggregator",
+    importance: "critical",
+    searchUrl: "https://www.dataaxle.com",
+    claimUrl: "https://www.dataaxle.com/business-listings/",
+    note: "Major data aggregator. Feeds Yellow Pages, Superpages, CitySearch, and 100+ directories. Submit here first.",
+  },
+  {
+    name: "Localeze (Neustar)",
+    url: "neustarlocaleze.biz",
+    category: "data_aggregator",
+    importance: "critical",
+    searchUrl: "https://www.neustarlocaleze.biz/directory",
+    claimUrl: "https://www.neustarlocaleze.biz/directory/claim",
+    note: "Major aggregator. Feeds Bing, Apple Maps, Yahoo, and 100+ directories.",
+  },
+  {
+    name: "Foursquare / Factual",
+    url: "foursquare.com",
+    category: "data_aggregator",
+    importance: "high",
+    searchUrl: "https://foursquare.com/explore?q={name}&near={city}+{state}",
+    claimUrl: "https://foursquare.com/manage",
+    note: "Feeds Uber, Snapchat, Samsung, and many apps. Claim your listing.",
+  },
+  {
+    name: "Acxiom",
+    url: "acxiom.com",
+    category: "data_aggregator",
+    importance: "high",
+    searchUrl: "https://www.acxiom.com",
+    claimUrl: "https://www.acxiom.com/about-us/contact/",
+    note: "Major data broker. Contact to verify your business data.",
+  },
+  {
+    name: "Yext PowerListings",
+    url: "yext.com",
+    category: "data_aggregator",
+    importance: "medium",
+    searchUrl: "https://www.yext.com/s/{name}/scan",
+    claimUrl: "https://www.yext.com",
+    note: "Paid service ($500+/yr) that pushes your NAP to 100+ directories. Optional but effective.",
+  },
 ];

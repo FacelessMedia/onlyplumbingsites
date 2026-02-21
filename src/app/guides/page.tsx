@@ -57,6 +57,15 @@ const guides = [
     tag: null,
   },
   {
+    title: "Local Citations for Plumbers: The Complete Guide",
+    description:
+      "The definitive guide to local citations for plumbing businesses. 18 priority citations, step-by-step fix instructions, Yext comparison, and free citation checker.",
+    href: "/guides/local-citations-for-plumbers",
+    readTime: "25 min",
+    icon: Globe,
+    tag: "Pillar Content",
+  },
+  {
     title: "How to Start a Plumbing Business",
     description:
       "Step-by-step guide to starting a plumbing company. Licensing, insurance, marketing, and getting your first customers.",

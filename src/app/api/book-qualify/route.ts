@@ -45,14 +45,14 @@ export async function POST(req: NextRequest) {
 
     // Build custom fields
     const customFields: { key: string; field_value: string }[] = [];
-    if (website) customFields.push({ key: "company_website", field_value: website });
-    if (serviceArea) customFields.push({ key: "service_area", field_value: serviceArea });
-    if (truckCount) customFields.push({ key: "truck_count", field_value: truckCount });
-    if (annualRevenue) customFields.push({ key: "annual_revenue", field_value: annualRevenue });
-    if (currentSpend) customFields.push({ key: "current_marketing_spend", field_value: currentSpend });
-    if (willingToInvest) customFields.push({ key: "willing_to_invest", field_value: willingToInvest });
-    if (biggestChallenge) customFields.push({ key: "biggest_challenge", field_value: biggestChallenge });
-    if (howDidYouHear) customFields.push({ key: "lead_source", field_value: howDidYouHear });
+    if (website) customFields.push({ key: "contact.company_website", field_value: website });
+    if (serviceArea) customFields.push({ key: "contact.service_area", field_value: serviceArea });
+    if (truckCount) customFields.push({ key: "contact.truck_count", field_value: truckCount });
+    if (annualRevenue) customFields.push({ key: "contact.annual_revenue", field_value: annualRevenue });
+    if (currentSpend) customFields.push({ key: "contact.current_marketing_spend", field_value: currentSpend });
+    if (willingToInvest) customFields.push({ key: "contact.willing_to_invest", field_value: willingToInvest });
+    if (biggestChallenge) customFields.push({ key: "contact.biggest_challenge", field_value: biggestChallenge });
+    if (howDidYouHear) customFields.push({ key: "contact.lead_source", field_value: howDidYouHear });
 
     // Create or update contact in GHL
     const contactRes = await fetch(

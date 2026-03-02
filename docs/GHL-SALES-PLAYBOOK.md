@@ -24,34 +24,24 @@
 
 Do these in order. Everything else depends on this being done first.
 
-### A. Create Your User Profile
-- [ ] Log into GHL → Settings → My Staff → Add/Edit yourself
-- [ ] Name: Ryan Pietrzak
-- [ ] Email: ryan@faceless.media (or whatever you want calendar invites sent to)
-- [ ] Role: Admin
-- [ ] Profile photo: Add your headshot (shows on calendar booking page)
+### A. Create Your User Profile ✅ DONE
+- [x] Log into GHL → Settings → My Staff → Add/Edit yourself
+- [x] Name: Ryan Pietrzak
+- [x] Email: ryan@faceless.media
+- [x] Role: Admin
+- [x] Profile photo: Added
 
-### B. Set Your Availability
-- [ ] Go to **Calendars** → Find "Free Strategy Session" (ID: `W1dbJlvrGJ63xPRg9pZV`)
-- [ ] Or create a new calendar if starting fresh:
-  - Name: **Free Strategy Call — Only Plumbing Sites**
-  - Duration: **30 minutes**
-  - Buffer between appointments: **15 minutes** (gives you time to prep)
-  - Minimum scheduling notice: **2 hours** (so nobody books 5 minutes from now)
-  - Maximum days in advance: **14 days**
-  - Assigned team member: **Ryan Pietrzak**
-- [ ] Set your availability hours:
-  - **Monday–Friday:** 9:00 AM – 4:00 PM (Central)
-  - **Saturday:** OFF (or 10 AM – 1 PM if you want)
-  - **Sunday:** OFF
-- [ ] Max appointments per day: **4-6** (leaves time for actual work)
-- [ ] Connect Google Calendar for conflict checking (prevents double-booking)
-- [ ] Connect Zoom for auto-generated meeting links
+### B. Set Your Availability ✅ DONE
+- [x] Calendar configured (ID: `W1dbJlvrGJ63xPRg9pZV`)
+- [x] Duration, buffer, availability hours set
+- [x] Assigned to Ryan Pietrzak
+- [x] Google Calendar connected for conflict checking
+- [ ] Connect Zoom for auto-generated meeting links (if not done yet)
 
-### C. Create the Sales Pipeline
-- [ ] Go to **Opportunities** → **Pipelines** → **+ Create Pipeline**
-- [ ] Name: **Plumbing Client Pipeline**
-- [ ] Stages (in order):
+### C. Create the Sales Pipeline ✅ DONE
+- [x] Pipeline created: **OnlyPlumbingSites.com/call**
+- [x] Pipeline ID: `Sz4ygw9yiobnhZhXeBpc` (added to `.env.local`)
+- [x] Stages created:
 
 | Stage | What It Means | Who Moves It |
 |-------|---------------|--------------|
@@ -65,44 +55,40 @@ Do these in order. Everything else depends on this being done first.
 | **Won** | Signed + first payment received. | Ryan |
 | **Lost** | Didn't close. Add a loss reason. | Ryan |
 
-- [ ] After creating, copy the Pipeline ID and add to `.env.local` as `GHL_PIPELINE_ID`
+### D. Create Custom Fields in GHL ✅ DONE (Created via API)
+All 10 custom fields created automatically:
 
-### D. Create Custom Fields in GHL
-These fields capture data from the pre-qualification form:
+| Field Name | GHL Key | Type |
+|-----------|---------|------|
+| Company Website | `contact.company_website` | Text |
+| Service Area | `contact.service_area` | Text |
+| Truck Count | `contact.truck_count` | Text |
+| Annual Revenue | `contact.annual_revenue` | Text |
+| Current Marketing Spend | `contact.current_marketing_spend` | Text |
+| Willing To Invest | `contact.willing_to_invest` | Text |
+| Biggest Challenge | `contact.biggest_challenge` | Large Text |
+| Lead Source | `contact.lead_source` | Text |
+| Caller Name | `contact.caller_name` | Text |
+| Pre-Qual Score | `contact.prequal_score` | Number |
 
-- [ ] Go to **Settings** → **Custom Fields** → **+ Add Field**
-- [ ] Create these fields:
+### E. Create Tags ✅ DONE (Created via API)
+All 15 tags created automatically:
 
-| Field Name | Type | Purpose |
-|-----------|------|---------|
-| `company_website` | Text | Their website URL |
-| `service_area` | Text | Cities/areas they serve |
-| `truck_count` | Dropdown: 1, 2-5, 6-10, 10+ | Size of their operation |
-| `annual_revenue` | Dropdown: <$250K, $250K-$500K, $500K-$1M, $1M-$3M, $3M+ | Revenue bracket |
-| `current_marketing_spend` | Dropdown: $0, <$500/mo, $500-$1500/mo, $1500-$3000/mo, $3000+/mo | Current spend |
-| `willing_to_invest` | Dropdown: <$500/mo, $500-$1500/mo, $1500-$3000/mo, $3000-$5000/mo, $5000+/mo | Budget willingness |
-| `biggest_challenge` | Text Area | Their biggest marketing pain point |
-| `lead_source` | Dropdown: Website Form, Cold Call, Referral, Google, Social Media | How they found us |
-| `caller_name` | Text | Which caller brought them in |
-| `pre_qual_score` | Number | Calculated qualification score |
-
-### E. Create Tags
-Tags help you segment and trigger automations:
-
-- [ ] `website-lead` — came from the website
-- [ ] `cold-call-lead` — came from outbound calling
-- [ ] `referral` — came from referral program
-- [ ] `qualified` — passed pre-qualification
-- [ ] `disqualified` — didn't meet criteria
-- [ ] `call-booked` — has a strategy call scheduled
-- [ ] `call-completed` — strategy call happened
-- [ ] `proposal-sent` — received a proposal
-- [ ] `won` — became a client
-- [ ] `lost` — didn't close
-- [ ] `no-budget` — wants to grow but has no budget
-- [ ] `not-ready` — not interested right now
-- [ ] `follow-up-30` — follow up in 30 days
-- [ ] `follow-up-90` — follow up in 90 days
+- [x] `website-lead` — came from the website
+- [x] `cold-call-lead` — came from outbound calling
+- [x] `referral` — came from referral program
+- [x] `qualified` — passed pre-qualification
+- [x] `disqualified` — didn't meet criteria
+- [x] `call-booked` — has a strategy call scheduled
+- [x] `call-completed` — strategy call happened
+- [x] `proposal-sent` — received a proposal
+- [x] `won` — became a client
+- [x] `lost` — didn't close
+- [x] `no-budget` — wants to grow but has no budget
+- [x] `not-ready` — not interested right now
+- [x] `follow-up-30` — follow up in 30 days
+- [x] `follow-up-90` — follow up in 90 days
+- [x] `book-form` — submitted the pre-qualification booking form
 
 ---
 
@@ -169,53 +155,206 @@ Cold Call / Website Visit / Referral
 
 Build these in **Automations** → **+ Create Workflow**:
 
-### Automation 1: New Website Lead → Notify Ryan
-- **Trigger:** Contact tag added = `website-lead`
-- **Action 1:** Send internal notification (email or SMS) to Ryan
-  - Subject: "New Lead: {contact.firstName} {contact.lastName} — {contact.companyName}"
-  - Body: Include all form data, qualification status, and link to contact in GHL
-- **Action 2:** Wait 2 minutes → Send internal Slack/SMS to callers if you want them to follow up
+### Automation 1: New Website Lead → Notify Ryan ⬜ BUILD THIS
+- **Trigger:** Contact tag added = `book-form`
+- **Action 1:** Internal Notification → Send SMS to Ryan's phone
+  - Message: `🔔 New lead: {{contact.name}} from {{contact.company_name}} — Willing to invest: {{contact.willing_to_invest}} — {{contact.phone}}`
+- **Action 2:** Internal Notification → Send Email to ryan@faceless.media
+  - Subject: `New Lead: {{contact.name}} — {{contact.company_name}}`
+  - Body:
+```
+New pre-qualification form submitted:
 
-### Automation 2: Call Booked → Confirmation + Prep
-- **Trigger:** Calendar event created
-- **Action 1:** Send email to the plumber:
-  - Subject: "Your Strategy Call is Confirmed — {appointment.date}"
-  - Body: What to expect, Zoom link, "Have your website URL ready"
-- **Action 2:** Send SMS to the plumber:
-  - "Hey {contact.firstName}, your strategy call with Ryan is confirmed for {appointment.date}. Check your email for details."
-- **Action 3:** Move opportunity to "Call Booked" stage
-- **Action 4:** Send internal email to Ryan with all contact data for prep
+Name: {{contact.name}}
+Company: {{contact.company_name}}
+Phone: {{contact.phone}}
+Email: {{contact.email}}
+Website: {{contact.company_website}}
+Service Area: {{contact.service_area}}
+Trucks: {{contact.truck_count}}
+Revenue: {{contact.annual_revenue}}
+Current Spend: {{contact.current_marketing_spend}}
+Willing to Invest: {{contact.willing_to_invest}}
+Biggest Challenge: {{contact.biggest_challenge}}
+Source: {{contact.lead_source}}
 
-### Automation 3: Appointment Reminders
-- **Trigger:** Calendar event approaching
-- **Action 1:** 24 hours before → Email reminder
-- **Action 2:** 1 hour before → SMS reminder
-- **Action 3:** 15 minutes before → SMS: "Starting in 15 min. Zoom link: {zoom_link}"
+Qualification: Check tags (qualified or disqualified)
+View in GHL: https://app.gohighlevel.com/v2/location/rU5VfOC451ZI6SPNYmAu/contacts/{{contact.id}}
+```
 
-### Automation 4: No-Show Follow-Up
-- **Trigger:** Appointment status = no-show (mark manually in GHL after 10 min)
-- **Action 1:** Wait 30 minutes → SMS: "Hey {firstName}, looks like we missed each other. Want to reschedule? {calendar_link}"
-- **Action 2:** Wait 1 day → Email: "We had a strategy call scheduled..." with reschedule link
-- **Action 3:** Wait 3 days → Final SMS with reschedule link
-- **Action 4:** If no response → Tag `follow-up-30`, move to Lost
+### Automation 2: Call Booked → Confirmation ⬜ BUILD THIS
+- **Trigger:** Appointment status = `confirmed` (calendar event created)
+- **Action 1:** Send Email to contact
+  - Subject: `Your Free Strategy Call is Confirmed ✅`
+  - Body:
+```
+Hey {{contact.first_name}},
 
-### Automation 5: Post-Call Nurture (didn't close immediately)
-- **Trigger:** Tag added = `call-completed` AND NOT tagged `won`
-- **Action 1:** Wait 1 day → Email: "Great talking with you. Here's a recap..."
-- **Action 2:** Wait 3 days → Email: Case study of a similar plumbing company
-- **Action 3:** Wait 7 days → Email: "Still thinking about it? Here's what plumbers who wait typically miss..."
-- **Action 4:** Wait 14 days → Final offer or check-in
+Your strategy call with Ryan is confirmed for:
+📅 {{appointment.start_date}} at {{appointment.start_time}}
 
-### Automation 6: Disqualified Lead → Long-Term Nurture
-- **Trigger:** Tag added = `disqualified` or `no-budget`
-- **Action 1:** Immediately → Email: "Thanks for your interest. We're focused on plumbers who are ready to invest in growth. In the meantime, here are free resources..."
-- **Action 2:** Add to monthly newsletter list
-- **Action 3:** Wait 90 days → Re-engagement email: "Has anything changed?"
+Here's what will happen on the call:
+1. Ryan will pull up your Google rankings LIVE and show you where you stand
+2. He'll review your website and compare it to your top competitors
+3. You'll get 3 specific action items you can implement immediately
 
-### Automation 7: Cold Call Lead → Caller Logged
+🔗 Zoom Link: {{appointment.meeting_location}}
+
+To make the most of your 30 minutes, have these ready:
+• Your website URL (if you have one)
+• The cities/areas you serve
+• Your biggest marketing frustration
+
+Need to reschedule? No problem: https://onlyplumbingsites.com/book
+
+Talk soon,
+Ryan Pietrzak
+Licensed Plumber & Founder, Only Plumbing Sites
+```
+- **Action 2:** Send SMS to contact
+  - Message: `Hey {{contact.first_name}}, your strategy call with Ryan is confirmed for {{appointment.start_date}} at {{appointment.start_time}}. Check your email for the Zoom link and prep tips. Talk soon! - Only Plumbing Sites`
+- **Action 3:** Add tag `call-booked`
+- **Action 4:** Move opportunity to "Call Booked" stage in pipeline
+- **Action 5:** Internal notification → SMS to Ryan
+  - Message: `📅 Call booked: {{contact.name}} — {{contact.company_name}} — {{appointment.start_date}} {{appointment.start_time}}`
+
+### Automation 3: Appointment Reminders ⬜ BUILD THIS
+- **Trigger:** Appointment starts in X time
+
+**24 hours before → Email:**
+  - Subject: `Reminder: Your Strategy Call is Tomorrow`
+  - Body:
+```
+Hey {{contact.first_name}},
+
+Just a reminder — your free strategy call with Ryan is tomorrow:
+📅 {{appointment.start_date}} at {{appointment.start_time}}
+🔗 Zoom: {{appointment.meeting_location}}
+
+Have your website URL and service areas ready. Ryan will already have researched your market before the call.
+
+See you tomorrow!
+Ryan Pietrzak
+```
+
+**1 hour before → SMS:**
+  - Message: `Hey {{contact.first_name}}, just a heads up — your strategy call with Ryan starts in 1 hour. Zoom link: {{appointment.meeting_location}}`
+
+**15 minutes before → SMS:**
+  - Message: `Starting in 15 min! Join here: {{appointment.meeting_location}} — Ryan`
+
+### Automation 4: No-Show Follow-Up ⬜ BUILD THIS
+- **Trigger:** Appointment status = `no-show` (you mark this manually in GHL after waiting 10 min)
+
+**Wait 30 min → SMS:**
+  - Message: `Hey {{contact.first_name}}, looks like we missed each other for our strategy call. No worries! Want to reschedule? Pick a new time here: https://onlyplumbingsites.com/book`
+
+**Wait 1 day → Email:**
+  - Subject: `We Missed You — Want to Reschedule?`
+  - Body:
+```
+Hey {{contact.first_name}},
+
+We had a strategy call scheduled but it looks like we missed each other. Totally understand — things come up.
+
+I'd still love to show you where your plumbing business stands online. The call is free and only takes 20-30 minutes.
+
+Reschedule here: https://onlyplumbingsites.com/book
+
+If you're no longer interested, no hard feelings at all.
+
+Ryan Pietrzak
+Only Plumbing Sites
+```
+
+**Wait 3 days → SMS (final):**
+  - Message: `Hey {{contact.first_name}}, last message from me — still happy to do a free strategy call if you're interested. Book here: https://onlyplumbingsites.com/book — Ryan`
+
+**Wait 7 days → If no reschedule:**
+  - Add tag `follow-up-30`
+  - Move to Lost stage
+
+### Automation 5: Post-Call Nurture ⬜ BUILD THIS
+- **Trigger:** Tag added = `call-completed` AND tag `won` is NOT present
+
+**Wait 1 day → Email:**
+  - Subject: `Great Talking With You, {{contact.first_name}}`
+  - Body:
+```
+Hey {{contact.first_name}},
+
+Great talking with you today about {{contact.company_name}}. Here's a quick recap of what we covered:
+
+• Where your website currently ranks on Google
+• Your top competitors in your service area
+• 3 things you can do right now to start getting more calls
+
+If you're ready to move forward, just reply to this email or book a follow-up: https://onlyplumbingsites.com/book
+
+No rush — I'm here when you're ready.
+
+Ryan Pietrzak
+Only Plumbing Sites
+```
+
+**Wait 3 days → Email:**
+  - Subject: `How [Similar Plumber] Went From 20 to 150+ Calls/Month`
+  - Body: A case study email showing results from a similar plumbing company.
+
+**Wait 7 days → Email:**
+  - Subject: `The Cost of Waiting`
+  - Body:
+```
+Hey {{contact.first_name}},
+
+I talk to a lot of plumbing companies and the #1 regret I hear is: "I wish I'd started this sooner."
+
+Every month without a proper online presence is 20-50 calls going to your competitors.
+
+At your average ticket of $300-500, that's $6,000-$25,000/month walking away.
+
+I don't say this to pressure you — I say it because it's true. When you're ready, I'm here: https://onlyplumbingsites.com/book
+
+Ryan
+```
+
+**Wait 14 days → Email (final):**
+  - Subject: `Checking In`
+  - Body: Short check-in. "Hey {{contact.first_name}}, just checking in. Still thinking about growing {{contact.company_name}} online? Happy to chat anytime. — Ryan"
+
+### Automation 6: Disqualified Lead → Long-Term Nurture ⬜ BUILD THIS
+- **Trigger:** Tag added = `disqualified`
+
+**Immediately → Email:**
+  - Subject: `Thanks for Your Interest, {{contact.first_name}}`
+  - Body:
+```
+Hey {{contact.first_name}},
+
+Thanks for taking the time to fill out our form. We're currently focused on working with plumbing companies that are ready to invest in online growth, but that doesn't mean we can't help.
+
+Here are some free resources you can use right now:
+
+🔧 Website Grader — See how your site stacks up: https://onlyplumbingsites.com/website-grader
+📋 Citation Audit — Check your directory listings: https://onlyplumbingsites.com/tools/citation-checker
+📖 Free Book — Marketing guide for plumbers: https://onlyplumbingsites.com/book-download
+🔑 Keyword Database — 150+ keywords to target: https://onlyplumbingsites.com/tools/plumbing-keywords
+
+When you're ready to invest in growth, we'd love to chat.
+
+Ryan Pietrzak
+Only Plumbing Sites
+```
+
+**Wait 90 days → Email:**
+  - Subject: `Has Anything Changed, {{contact.first_name}}?`
+  - Body: "It's been a few months since we last connected. Has anything changed with {{contact.company_name}}? If you're ready to talk about getting more calls from Google, I'm here: https://onlyplumbingsites.com/book"
+
+### Automation 7: Cold Call Lead → Caller Logged ⬜ BUILD THIS
 - **Trigger:** Tag added = `cold-call-lead`
-- **Action 1:** Move to "Contacted" pipeline stage
-- **Action 2:** Notify Ryan of new cold call lead
+- **Action 1:** Move to "Contacted" stage in pipeline
+- **Action 2:** Internal notification → SMS to Ryan
+  - Message: `📞 New cold call lead: {{contact.name}} — {{contact.company_name}} — {{contact.phone}}`
 
 ---
 
@@ -423,7 +562,8 @@ Notable: "ABC Plumbing in Houston — 8 trucks, no website, very interested. Boo
 | **GHL Login** | `https://app.gohighlevel.com` |
 | **Calendar ID** | `W1dbJlvrGJ63xPRg9pZV` |
 | **Location ID** | `rU5VfOC451ZI6SPNYmAu` |
-| **Pipeline** | Create in GHL (see section 1C) |
+| **Pipeline Name** | `OnlyPlumbingSites.com/call` |
+| **Pipeline ID** | `Sz4ygw9yiobnhZhXeBpc` |
 
 ---
 

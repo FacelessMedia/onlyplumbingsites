@@ -27,7 +27,7 @@ Do these in order. Everything else depends on this being done first.
 ### A. Create Your User Profile ✅ DONE
 - [x] Log into GHL → Settings → My Staff → Add/Edit yourself
 - [x] Name: Ryan Pietrzak
-- [x] Email: ryan@faceless.media
+- [x] Email: ryan@onlyplumbingsites.com
 - [x] Role: Admin
 - [x] Profile photo: Added
 
@@ -159,7 +159,7 @@ Build these in **Automations** → **+ Create Workflow**:
 - **Trigger:** Contact tag added = `book-form`
 - **Action 1:** Internal Notification → Send SMS to Ryan's phone
   - Message: `🔔 New lead: {{contact.name}} from {{contact.company_name}} — Willing to invest: {{contact.willing_to_invest}} — {{contact.phone}}`
-- **Action 2:** Internal Notification → Send Email to ryan@faceless.media
+- **Action 2:** Internal Notification → Send Email to ryan@onlyplumbingsites.com
   - Subject: `New Lead: {{contact.name}} — {{contact.company_name}}`
   - Body:
 ```

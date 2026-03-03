@@ -23,8 +23,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@onlyplumbingsites.com",
-    href: "mailto:hello@onlyplumbingsites.com",
+    value: "ryan@onlyplumbingsites.com",
+    href: "mailto:ryan@onlyplumbingsites.com",
   },
   {
     icon: MapPin,

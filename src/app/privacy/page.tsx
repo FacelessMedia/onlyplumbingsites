@@ -88,10 +88,10 @@ export default function PrivacyPage() {
             <p className="mt-3">
               If you have questions about this Privacy Policy, contact us at:{" "}
               <a
-                href="mailto:hello@onlyplumbingsites.com"
+                href="mailto:ryan@onlyplumbingsites.com"
                 className="font-medium text-orange hover:text-orange-hover"
               >
-                hello@onlyplumbingsites.com
+                ryan@onlyplumbingsites.com
               </a>
             </p>
           </div>

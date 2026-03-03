@@ -65,11 +65,11 @@ export default function Footer() {
                 <span>Based in Illinois. Serving plumbers nationwide.</span>
               </div>
               <a
-                href="mailto:hello@onlyplumbingsites.com"
+                href="mailto:ryan@onlyplumbingsites.com"
                 className="flex items-center gap-2 text-sm text-slate-400 transition-colors hover:text-white"
               >
                 <Mail className="h-4 w-4 shrink-0 text-orange" />
-                <span>hello@onlyplumbingsites.com</span>
+                <span>ryan@onlyplumbingsites.com</span>
               </a>
             </div>
             {/* Trust badges */}

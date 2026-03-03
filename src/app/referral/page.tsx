@@ -444,7 +444,7 @@ export default function ReferralPage() {
 
               <div>
                 <p className="font-bold text-navy">13. Contact</p>
-                <p>Questions about the Referral Program? Contact us at <a href="mailto:hello@onlyplumbingsites.com" className="text-orange hover:text-orange-hover">hello@onlyplumbingsites.com</a>.</p>
+                <p>Questions about the Referral Program? Contact us at <a href="mailto:ryan@onlyplumbingsites.com" className="text-orange hover:text-orange-hover">ryan@onlyplumbingsites.com</a>.</p>
               </div>
             </div>
           </div>

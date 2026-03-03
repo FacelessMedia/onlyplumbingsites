@@ -111,10 +111,10 @@ export default function TermsPage() {
             <p className="mt-3">
               Questions about these terms? Contact us at:{" "}
               <a
-                href="mailto:hello@onlyplumbingsites.com"
+                href="mailto:ryan@onlyplumbingsites.com"
                 className="font-medium text-orange hover:text-orange-hover"
               >
-                hello@onlyplumbingsites.com
+                ryan@onlyplumbingsites.com
               </a>
             </p>
           </div>

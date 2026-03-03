@@ -53,7 +53,7 @@ Important facts:
 - Experience: 250+ plumbing websites built
 - Also created ThePlumbingDirectory.com — an all-in-one plumbing industry resource
 - Location: Based in Illinois, serves plumbers nationwide
-- Contact: hello@onlyplumbingsites.com
+- Contact: ryan@onlyplumbingsites.com
 - CRM: Go High Level
 - Payments: Stripe
 
@@ -109,7 +109,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "company-7",
     category: "Company & Founder",
     question: "How can I contact you?",
-    answer: "You can reach us at hello@onlyplumbingsites.com, or you can book a free strategy call directly on our website at onlyplumbingsites.com/book. You can also request a free website audit at onlyplumbingsites.com/audit and we'll send you a personalized breakdown within 24 hours.",
+    answer: "You can reach us at ryan@onlyplumbingsites.com, or you can book a free strategy call directly on our website at onlyplumbingsites.com/book. You can also request a free website audit at onlyplumbingsites.com/audit and we'll send you a personalized breakdown within 24 hours.",
     keywords: ["contact", "email", "phone", "reach", "talk"]
   },
   {
@@ -619,21 +619,21 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "misc-1",
     category: "Miscellaneous",
     question: "Are you a real person or a bot?",
-    answer: "I'm an AI assistant for Only Plumbing Sites. I can answer your questions about our services, pricing, and process. If you'd like to talk to Ryan directly, you can book a free strategy call at onlyplumbingsites.com/book or email us at hello@onlyplumbingsites.com.",
+    answer: "I'm an AI assistant for Only Plumbing Sites. I can answer your questions about our services, pricing, and process. If you'd like to talk to Ryan directly, you can book a free strategy call at onlyplumbingsites.com/book or email us at ryan@onlyplumbingsites.com.",
     keywords: ["real person", "human", "bot", "ai", "robot"]
   },
   {
     id: "misc-2",
     category: "Miscellaneous",
     question: "What are your hours?",
-    answer: "Strategy calls are available Monday through Friday, 9:00 AM to 5:00 PM Central Time. Our AI assistant (that's me) is available 24/7 to answer questions. For urgent matters, email hello@onlyplumbingsites.com and we'll get back to you within 24 hours.",
+    answer: "Strategy calls are available Monday through Friday, 9:00 AM to 5:00 PM Central Time. Our AI assistant (that's me) is available 24/7 to answer questions. For urgent matters, email ryan@onlyplumbingsites.com and we'll get back to you within 24 hours.",
     keywords: ["hours", "open", "available", "when", "schedule"]
   },
   {
     id: "misc-3",
     category: "Miscellaneous",
     question: "Do you have a phone number?",
-    answer: "The best way to reach us is by booking a strategy call at onlyplumbingsites.com/book or emailing hello@onlyplumbingsites.com. On the strategy call, you'll get Ryan's direct attention for a full 30 minutes to discuss your business.",
+    answer: "The best way to reach us is by booking a strategy call at onlyplumbingsites.com/book or emailing ryan@onlyplumbingsites.com. On the strategy call, you'll get Ryan's direct attention for a full 30 minutes to discuss your business.",
     keywords: ["phone number", "call you", "telephone", "phone"]
   }
 ];

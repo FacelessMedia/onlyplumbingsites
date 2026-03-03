@@ -455,7 +455,7 @@ export default function BookPage() {
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
                     <iframe
-                      src="https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV"
+                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}&name=${encodeURIComponent(data.companyName)}`}
                       style={{ width: "100%", height: "700px", border: "none" }}
                       scrolling="no"
                       title="Book a Free Strategy Session"
@@ -523,8 +523,8 @@ export default function BookPage() {
                   <p className="mt-6 text-xs text-slate-400">
                     When you&apos;re ready to invest in growth, we&apos;d love to chat.
                     Reach out anytime at{" "}
-                    <a href="mailto:hello@onlyplumbingsites.com" className="text-orange">
-                      hello@onlyplumbingsites.com
+                    <a href="mailto:ryan@onlyplumbingsites.com" className="text-orange">
+                      ryan@onlyplumbingsites.com
                     </a>
                   </p>
                 </div>

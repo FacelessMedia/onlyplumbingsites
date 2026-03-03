@@ -59,10 +59,10 @@ export default function PortalPage() {
             <p className="text-sm font-medium text-slate-300">
               Already a client? Reach out directly at{" "}
               <a
-                href="mailto:hello@onlyplumbingsites.com"
+                href="mailto:ryan@onlyplumbingsites.com"
                 className="font-semibold text-orange hover:text-orange-hover"
               >
-                hello@onlyplumbingsites.com
+                ryan@onlyplumbingsites.com
               </a>{" "}
               for project updates, report requests, or anything you need.
             </p>

@@ -36,7 +36,7 @@ Do these in order. Everything else depends on this being done first.
 - [x] Duration, buffer, availability hours set
 - [x] Assigned to Ryan Pietrzak
 - [x] Google Calendar connected for conflict checking
-- [ ] Connect Zoom for auto-generated meeting links (if not done yet)
+- [x] Meeting location: Google Meet (auto-generated via Google Calendar connection)
 
 ### C. Create the Sales Pipeline ✅ DONE
 - [x] Pipeline created: **OnlyPlumbingSites.com/call**
@@ -202,7 +202,7 @@ Here's what will happen on the call:
 2. He'll review your website and compare it to your top competitors
 3. You'll get 3 specific action items you can implement immediately
 
-🔗 Zoom Link: {{appointment.meeting_location}}
+🔗 Google Meet Link: {{appointment.meeting_location}}
 
 To make the most of your 45 minutes, have these ready:
 • Your website URL (if you have one)
@@ -224,19 +224,17 @@ Licensed Plumber & Founder, Only Plumbing Sites
   - Action Name: `Move to Call Booked`
   - Leave "Allow opportunity to move to any previous stage in pipeline" toggle **OFF**
   - Leave "Duplicate opportunity" as **Disabled**
-  - Click **+ Add field** → select **Stage** → choose `Call Booked`
-  - Click **+ Add field** → select **Pipeline** → choose `OnlyPlumbingSites.com/call`
+  - Click **+ Add field** → select **Pipeline** → choose `OnlyPlumbingSites.com/call` **(must be first!)**
+  - Click **+ Add field** → select **Pipeline Stage** → choose `Call Booked` **(only works after Pipeline is set)**
   - Save Action
 - **Action 5:** Internal Notification → SMS to Ryan (Particular User → Ryan Pietrzak)
   - Message: `📅 Call booked: {{contact.name}} — {{contact.company_name}} — {{appointment.start_date}} {{appointment.start_time}}`
 
-### Automation 3: Appointment Reminders ⬜ BUILD THIS
-- **Trigger:** Appointment Status
-  - Workflow Trigger Name: `Appointment Reminders`
-  - Filter 1: Event Type → `Normal`
-  - Filter 2 (click + Add filters): Appointment status is → `confirmed`
-  - Filter 3 (click + Add filters): In calendar → `Free Strategy Session - Only Plumbing Sites`
-- **NOTE:** GHL has built-in reminder settings on the calendar itself (Calendars → your calendar → Notifications). You may not need a separate workflow for this. Check your calendar settings first — if reminders are already configured there, skip this automation.
+### Automation 3: Appointment Reminders ✅ USE CALENDAR SETTINGS (not a workflow)
+**Do NOT build this as a workflow.** Use the calendar's built-in notification settings instead — they're more reliable and simpler.
+
+1. Go to **Calendars** → **Free Strategy Session - Only Plumbing Sites** → **Notifications** tab
+2. Set up these reminders:
 
 **24 hours before → Email:**
   - Subject: `Reminder: Your Strategy Call is Tomorrow`
@@ -246,7 +244,7 @@ Hey {{contact.first_name}},
 
 Just a reminder — your free strategy call with Ryan is tomorrow:
 📅 {{appointment.start_date}} at {{appointment.start_time}}
-🔗 Zoom: {{appointment.meeting_location}}
+🔗 Google Meet: {{appointment.meeting_location}}
 
 Have your website URL and service areas ready. Ryan will already have researched your market before the call.
 
@@ -255,10 +253,12 @@ Ryan Pietrzak
 ```
 
 **1 hour before → SMS:**
-  - Message: `Hey {{contact.first_name}}, just a heads up — your strategy call with Ryan starts in 1 hour. Zoom link: {{appointment.meeting_location}}`
+  - Message: `Hey {{contact.first_name}}, your strategy call starts in 1 hour. Google Meet link: {{appointment.meeting_location}}`
 
 **15 minutes before → SMS:**
   - Message: `Starting in 15 min! Join here: {{appointment.meeting_location}} — Ryan`
+
+3. If you already created the "Appointment Reminders" workflow, delete it or leave it as Draft (don't publish).
 
 ### Automation 4: No-Show Follow-Up ⬜ BUILD THIS
 - **Trigger:** Appointment Status

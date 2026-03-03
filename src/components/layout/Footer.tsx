@@ -10,7 +10,7 @@ const footerLinks = {
     { label: "Local SEO", href: "/services/local-seo" },
     { label: "PPC for Plumbers", href: "/services/ppc-for-plumbers" },
     { label: "SEO + Social", href: "/services/social-posting" },
-    { label: "Free Strategy Session", href: "/book" },
+    { label: "Free Strategy Session", href: "/call" },
   ],
   company: [
     { label: "About", href: "/about" },
@@ -26,7 +26,7 @@ const footerLinks = {
     { label: "Free Book Download", href: "/book-download" },
     { label: "Free Growth Report", href: "/growth-report" },
     { label: "Free Website Audit", href: "/audit" },
-    { label: "Book Strategy Session", href: "/book" },
+    { label: "Book Strategy Session", href: "/call" },
     { label: "Marketing Glossary", href: "/glossary" },
     { label: "Website Grader", href: "/website-grader" },
     { label: "ROI Calculator", href: "/roi-calculator" },
@@ -157,7 +157,7 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex flex-col gap-3">
               <Link
-                href="/book"
+                href="/call"
                 className="inline-flex items-center justify-center rounded-lg bg-orange px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-orange-hover"
               >
                 <Phone className="mr-2 h-4 w-4" />

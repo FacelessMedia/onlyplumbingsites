@@ -98,7 +98,7 @@ The website now has a **multi-step qualification form** that gates access to the
 
 ### Flow:
 ```
-User lands on /book
+User lands on /call
   → Step 1: Contact Info (name, email, phone, company, website)
   → Step 2: Business Details (service area, trucks, revenue)
   → Step 3: Budget & Goals (current spend, willing to invest, biggest challenge)
@@ -123,7 +123,7 @@ User lands on /book
 When a caller gets a plumber interested, they should say:
 > "Great, I'm going to send you a link. It takes about 60 seconds to fill out — it just asks a few questions about your business so Ryan can do his research before your call. Once you fill it out, you'll pick a time on his calendar."
 
-The link to send: **https://onlyplumbingsites.com/book**
+The link to send: **https://onlyplumbingsites.com/call**
 
 ---
 
@@ -183,7 +183,11 @@ View in GHL: https://app.gohighlevel.com/v2/location/rU5VfOC451ZI6SPNYmAu/contac
 ```
 
 ### Automation 2: Call Booked → Confirmation ⬜ BUILD THIS
-- **Trigger:** Appointment status = `confirmed` (calendar event created)
+- **Trigger:** Appointment Status
+  - Workflow Trigger Name: `Call Booked`
+  - Filter 1: Event Type → `Normal`
+  - Filter 2 (click + Add filters): Appointment status is → `confirmed`
+  - Filter 3 (click + Add filters): In calendar → `Free Strategy Session - Only Plumbing Sites`
 - **Action 1:** Send Email to contact
   - Subject: `Your Free Strategy Call is Confirmed ✅`
   - Body:
@@ -200,12 +204,12 @@ Here's what will happen on the call:
 
 🔗 Zoom Link: {{appointment.meeting_location}}
 
-To make the most of your 30 minutes, have these ready:
+To make the most of your 45 minutes, have these ready:
 • Your website URL (if you have one)
 • The cities/areas you serve
 • Your biggest marketing frustration
 
-Need to reschedule? No problem: https://onlyplumbingsites.com/book
+Need to reschedule? No problem: https://onlyplumbingsites.com/call
 
 Talk soon,
 Ryan Pietrzak
@@ -219,7 +223,12 @@ Licensed Plumber & Founder, Only Plumbing Sites
   - Message: `📅 Call booked: {{contact.name}} — {{contact.company_name}} — {{appointment.start_date}} {{appointment.start_time}}`
 
 ### Automation 3: Appointment Reminders ⬜ BUILD THIS
-- **Trigger:** Appointment starts in X time
+- **Trigger:** Appointment Status
+  - Workflow Trigger Name: `Appointment Reminders`
+  - Filter 1: Event Type → `Normal`
+  - Filter 2 (click + Add filters): Appointment status is → `confirmed`
+  - Filter 3 (click + Add filters): In calendar → `Free Strategy Session - Only Plumbing Sites`
+- **NOTE:** GHL has built-in reminder settings on the calendar itself (Calendars → your calendar → Notifications). You may not need a separate workflow for this. Check your calendar settings first — if reminders are already configured there, skip this automation.
 
 **24 hours before → Email:**
   - Subject: `Reminder: Your Strategy Call is Tomorrow`
@@ -244,10 +253,15 @@ Ryan Pietrzak
   - Message: `Starting in 15 min! Join here: {{appointment.meeting_location}} — Ryan`
 
 ### Automation 4: No-Show Follow-Up ⬜ BUILD THIS
-- **Trigger:** Appointment status = `no-show` (you mark this manually in GHL after waiting 10 min)
+- **Trigger:** Appointment Status
+  - Workflow Trigger Name: `No-Show Follow-Up`
+  - Filter 1: Event Type → `Normal`
+  - Filter 2 (click + Add filters): Appointment status is → `No-show`
+  - Filter 3 (click + Add filters): In calendar → `Free Strategy Session - Only Plumbing Sites`
+- **NOTE:** You mark a contact as "No-show" manually in GHL after waiting 10 min past the appointment time. That triggers this workflow.
 
 **Wait 30 min → SMS:**
-  - Message: `Hey {{contact.first_name}}, looks like we missed each other for our strategy call. No worries! Want to reschedule? Pick a new time here: https://onlyplumbingsites.com/book`
+  - Message: `Hey {{contact.first_name}}, looks like we missed each other for our strategy call. No worries! Want to reschedule? Pick a new time here: https://onlyplumbingsites.com/call`
 
 **Wait 1 day → Email:**
   - Subject: `We Missed You — Want to Reschedule?`
@@ -257,9 +271,9 @@ Hey {{contact.first_name}},
 
 We had a strategy call scheduled but it looks like we missed each other. Totally understand — things come up.
 
-I'd still love to show you where your plumbing business stands online. The call is free and only takes 20-30 minutes.
+I'd still love to show you where your plumbing business stands online. The call is free and only takes 45 minutes.
 
-Reschedule here: https://onlyplumbingsites.com/book
+Reschedule here: https://onlyplumbingsites.com/call
 
 If you're no longer interested, no hard feelings at all.
 
@@ -268,7 +282,7 @@ Only Plumbing Sites
 ```
 
 **Wait 3 days → SMS (final):**
-  - Message: `Hey {{contact.first_name}}, last message from me — still happy to do a free strategy call if you're interested. Book here: https://onlyplumbingsites.com/book — Ryan`
+  - Message: `Hey {{contact.first_name}}, last message from me — still happy to do a free strategy call if you're interested. Book here: https://onlyplumbingsites.com/call — Ryan`
 
 **Wait 7 days → If no reschedule:**
   - Add tag `follow-up-30`
@@ -289,7 +303,7 @@ Great talking with you today about {{contact.company_name}}. Here's a quick reca
 • Your top competitors in your service area
 • 3 things you can do right now to start getting more calls
 
-If you're ready to move forward, just reply to this email or book a follow-up: https://onlyplumbingsites.com/book
+If you're ready to move forward, just reply to this email or book a follow-up: https://onlyplumbingsites.com/call
 
 No rush — I'm here when you're ready.
 
@@ -313,7 +327,7 @@ Every month without a proper online presence is 20-50 calls going to your compet
 
 At your average ticket of $300-500, that's $6,000-$25,000/month walking away.
 
-I don't say this to pressure you — I say it because it's true. When you're ready, I'm here: https://onlyplumbingsites.com/book
+I don't say this to pressure you — I say it because it's true. When you're ready, I'm here: https://onlyplumbingsites.com/call
 
 Ryan
 ```
@@ -348,7 +362,7 @@ Only Plumbing Sites
 
 **Wait 90 days → Email:**
   - Subject: `Has Anything Changed, {{contact.first_name}}?`
-  - Body: "It's been a few months since we last connected. Has anything changed with {{contact.company_name}}? If you're ready to talk about getting more calls from Google, I'm here: https://onlyplumbingsites.com/book"
+  - Body: "It's been a few months since we last connected. Has anything changed with {{contact.company_name}}? If you're ready to talk about getting more calls from Google, I'm here: https://onlyplumbingsites.com/call"
 
 ### Automation 7: Cold Call Lead → Caller Logged ⬜ BUILD THIS
 - **Trigger:** Tag added = `cold-call-lead`
@@ -371,7 +385,7 @@ Only Plumbing Sites
 
 3. **A Script** — See section 7 below
 
-4. **The Booking Link** — `https://onlyplumbingsites.com/book`
+4. **The Booking Link** — `https://onlyplumbingsites.com/call`
 
 5. **Training on GHL** — 15-minute walkthrough:
    - How to search for a contact
@@ -464,7 +478,7 @@ Only Plumbing Sites
 >
 > **If they're interested:** "Great — I'm going to text you a link right now. It takes about 60 seconds to fill out a few questions about your business, and then you pick a time that works on Ryan's calendar. Sound good?"
 >
-> **Send them:** `https://onlyplumbingsites.com/book`
+> **Send them:** `https://onlyplumbingsites.com/call`
 
 ### Warm Call Script (Website leads who haven't booked):
 
@@ -558,7 +572,7 @@ Notable: "ABC Plumbing in Houston — 8 trucks, no website, very interested. Boo
 
 | Item | Value |
 |------|-------|
-| **Booking URL (send to plumbers)** | `https://onlyplumbingsites.com/book` |
+| **Booking URL (send to plumbers)** | `https://onlyplumbingsites.com/call` |
 | **GHL Login** | `https://app.gohighlevel.com` |
 | **Calendar ID** | `W1dbJlvrGJ63xPRg9pZV` |
 | **Location ID** | `rU5VfOC451ZI6SPNYmAu` |

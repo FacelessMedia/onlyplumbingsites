@@ -24,7 +24,7 @@ const resourceLinks = [
 ];
 
 const navLinks = [
-  { label: "Free Strategy Session", href: "/book" },
+  { label: "Free Strategy Session", href: "/call" },
   { label: "About", href: "/about" },
   { label: "Portfolio", href: "/portfolio" },
   { label: "Results", href: "/case-studies" },
@@ -147,7 +147,7 @@ export default function Navbar() {
             Free Audit
           </Link>
           <Button asChild className="bg-orange text-white hover:bg-orange-hover">
-            <Link href="/book">
+            <Link href="/call">
               <Phone className="mr-2 h-4 w-4" />
               Book Strategy Call
             </Link>
@@ -227,7 +227,7 @@ export default function Navbar() {
                 </Link>
               </Button>
               <Button asChild className="w-full bg-orange text-white hover:bg-orange-hover">
-                <Link href="/book" onClick={() => setMobileOpen(false)}>
+                <Link href="/call" onClick={() => setMobileOpen(false)}>
                   <Phone className="mr-2 h-4 w-4" />
                   Book Strategy Call
                 </Link>

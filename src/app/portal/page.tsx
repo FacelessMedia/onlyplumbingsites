@@ -74,7 +74,7 @@ export default function PortalPage() {
               size="lg"
               className="bg-orange text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
             >
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Become a Client
               </Link>

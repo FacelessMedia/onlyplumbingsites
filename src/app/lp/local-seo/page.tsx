@@ -62,7 +62,7 @@ export default function LocalSEOLandingPage() {
                 size="lg"
                 className="bg-orange px-8 text-lg font-bold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
               >
-                <Link href="/book">
+                <Link href="/call">
                   <Phone className="mr-2 h-5 w-5" />
                   Get Your Free Local SEO Audit
                 </Link>
@@ -104,7 +104,7 @@ export default function LocalSEOLandingPage() {
           </div>
           <div className="mt-10 text-center">
             <Button asChild size="lg" className="bg-orange text-white hover:bg-orange-hover">
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Book Your Free Local SEO Audit
               </Link>
@@ -126,7 +126,7 @@ export default function LocalSEOLandingPage() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button asChild size="lg" className="bg-orange px-8 text-white shadow-lg shadow-orange/25 hover:bg-orange-hover">
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Book Free Strategy Session
               </Link>

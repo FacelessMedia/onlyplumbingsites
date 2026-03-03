@@ -210,7 +210,7 @@ export default function AboutPage() {
                   size="lg"
                   className="bg-orange text-white hover:bg-orange-hover"
                 >
-                  <Link href="/book">
+                  <Link href="/call">
                     <Phone className="mr-2 h-5 w-5" />
                     Book a Call With Ryan
                   </Link>

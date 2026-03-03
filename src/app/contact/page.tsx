@@ -90,7 +90,7 @@ export default function ContactPage() {
               <p className="mt-4 text-slate-500">
                 Prefer to talk? Book a{" "}
                 <a
-                  href="/book"
+                  href="/call"
                   className="font-medium text-orange hover:text-orange-hover"
                 >
                   free strategy call
@@ -129,7 +129,7 @@ export default function ContactPage() {
                 <ul className="mt-3 space-y-2">
                   <li>
                     <a
-                      href="/book"
+                      href="/call"
                       className="text-sm text-orange hover:text-orange-hover"
                     >
                       Book a Free Strategy Call &rarr;

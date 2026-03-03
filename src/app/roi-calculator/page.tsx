@@ -209,7 +209,7 @@ export default function ROICalculatorPage() {
                     className="w-full bg-orange text-white hover:bg-orange-hover"
                     size="lg"
                   >
-                    <Link href="/book">
+                    <Link href="/call">
                       <Phone className="mr-2 h-4 w-4" />
                       Book Strategy Session to Hit These Numbers
                     </Link>
@@ -257,7 +257,7 @@ export default function ROICalculatorPage() {
               size="lg"
               className="bg-orange px-8 text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
             >
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Book Free Strategy Session
               </Link>

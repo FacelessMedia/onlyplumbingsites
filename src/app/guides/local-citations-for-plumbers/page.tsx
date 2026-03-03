@@ -971,7 +971,7 @@ export default function LocalCitationsGuidePage() {
               </div>
               <div className="mt-6 text-center">
                 <Button asChild size="lg" className="bg-orange text-white hover:bg-orange-hover">
-                  <Link href="/book">
+                  <Link href="/call">
                     <Phone className="mr-2 h-5 w-5" />
                     Book a Call to Discuss
                   </Link>
@@ -1013,7 +1013,7 @@ export default function LocalCitationsGuidePage() {
                   </Link>
                 </Button>
                 <Button asChild variant="outline" className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white">
-                  <Link href="/book">
+                  <Link href="/call">
                     <Phone className="mr-2 h-4 w-4" />
                     Book a Strategy Call
                   </Link>

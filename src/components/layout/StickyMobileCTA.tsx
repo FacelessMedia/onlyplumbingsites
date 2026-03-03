@@ -15,7 +15,7 @@ export default function StickyMobileCTA() {
           Call Now
         </Link>
         <Link
-          href="/book"
+          href="/call"
           className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-orange py-3 text-sm font-semibold text-white"
         >
           <Calendar className="h-4 w-4" />

@@ -46,7 +46,7 @@ export default function PricingPreview() {
                 size="lg"
                 className="bg-orange text-base font-semibold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
               >
-                <Link href="/book">
+                <Link href="/call">
                   <Phone className="mr-2 h-5 w-5" />
                   Book Free Strategy Session
                 </Link>

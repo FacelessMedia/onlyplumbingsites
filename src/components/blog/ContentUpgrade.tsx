@@ -28,7 +28,7 @@ export default function ContentUpgrade() {
           variant="outline"
           className="border-orange/30 text-orange hover:bg-orange hover:text-white"
         >
-          <Link href="/book">
+          <Link href="/call">
             <Phone className="mr-2 h-4 w-4" />
             Book Strategy Session
             <ArrowRight className="ml-1 h-3 w-3" />

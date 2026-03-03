@@ -79,7 +79,7 @@ export default function PlumbingWebsiteLandingPage() {
                 size="lg"
                 className="bg-orange px-8 text-lg font-bold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
               >
-                <Link href="/book">
+                <Link href="/call">
                   <Phone className="mr-2 h-5 w-5" />
                   Get Your Free Strategy Session
                 </Link>
@@ -139,7 +139,7 @@ export default function PlumbingWebsiteLandingPage() {
               size="lg"
               className="bg-orange text-white hover:bg-orange-hover"
             >
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Book Your Free Strategy Session
               </Link>
@@ -188,7 +188,7 @@ export default function PlumbingWebsiteLandingPage() {
               size="lg"
               className="bg-orange px-8 text-lg font-bold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
             >
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
                 Book Free Strategy Session
               </Link>

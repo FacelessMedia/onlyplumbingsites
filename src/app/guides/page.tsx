@@ -181,7 +181,7 @@ export default function GuidesPage() {
               asChild
               className="mt-6 bg-orange text-white hover:bg-orange-hover"
             >
-              <Link href="/book">
+              <Link href="/call">
                 <Phone className="mr-2 h-4 w-4" />
                 Book Free Strategy Session
               </Link>

@@ -217,9 +217,17 @@ Licensed Plumber & Founder, Only Plumbing Sites
 ```
 - **Action 2:** Send SMS to contact
   - Message: `Hey {{contact.first_name}}, your strategy call with Ryan is confirmed for {{appointment.start_date}} at {{appointment.start_time}}. Check your email for the Zoom link and prep tips. Talk soon! - Only Plumbing Sites`
-- **Action 3:** Add tag `call-booked`
-- **Action 4:** Move opportunity to "Call Booked" stage in pipeline
-- **Action 5:** Internal notification → SMS to Ryan
+- **Action 3:** Add Contact Tag
+  - Action Name: `Add call-booked tag`
+  - Tag: `call-booked`
+- **Action 4:** Update Opportunity (NOT the deprecated "Create Or Update Opportunity")
+  - Action Name: `Move to Call Booked`
+  - Leave "Allow opportunity to move to any previous stage in pipeline" toggle **OFF**
+  - Leave "Duplicate opportunity" as **Disabled**
+  - Click **+ Add field** → select **Stage** → choose `Call Booked`
+  - Click **+ Add field** → select **Pipeline** → choose `OnlyPlumbingSites.com/call`
+  - Save Action
+- **Action 5:** Internal Notification → SMS to Ryan (Particular User → Ryan Pietrzak)
   - Message: `📅 Call booked: {{contact.name}} — {{contact.company_name}} — {{appointment.start_date}} {{appointment.start_time}}`
 
 ### Automation 3: Appointment Reminders ⬜ BUILD THIS

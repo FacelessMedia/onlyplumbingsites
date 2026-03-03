@@ -249,48 +249,41 @@ export default function BookPage() {
         </div>
       </section>
 
+      {/* What to Expect — above the form */}
+      {step >= 1 && step <= 3 && (
+        <section className="border-b border-slate-100 bg-slate-50 py-10">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-6 sm:grid-cols-3">
+              {[
+                { icon: Target, title: "Audit Your Online Presence", desc: "We'll review your website, Google rankings, and local competition." },
+                { icon: Users, title: "Understand Your Goals", desc: "How many calls you want, what areas matter, where you're struggling." },
+                { icon: CheckCircle, title: "Get a Custom Plan", desc: "Walk away with 3 specific action items — whether you work with us or not." },
+              ].map((item) => (
+                <div key={item.title} className="flex gap-3">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-orange/10">
+                    <item.icon className="h-5 w-5 text-orange" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-bold text-navy">{item.title}</h3>
+                    <p className="mt-0.5 text-xs text-slate-500">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 flex items-center gap-3">
+              <Shield className="h-6 w-6 text-orange" />
+              <p className="text-xs text-slate-500">
+                <strong className="text-navy">Ryan Pietrzak</strong> · Licensed Plumber · 250+ Websites Built
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Form / Calendar / Outcome */}
       <section className="bg-white py-12 lg:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
-
-            {/* Left sidebar */}
-            <div className="hidden lg:col-span-2 lg:block">
-              {step < 4 && (
-                <>
-                  <h2 className="text-xl font-bold text-navy">What to Expect</h2>
-                  <div className="mt-6 space-y-5">
-                    {[
-                      { icon: Target, title: "Audit Your Online Presence", desc: "We'll review your website, Google rankings, and local competition." },
-                      { icon: Users, title: "Understand Your Goals", desc: "How many calls you want, what areas matter, where you're struggling." },
-                      { icon: CheckCircle, title: "Get a Custom Plan", desc: "Walk away with 3 specific things you can do immediately — whether you work with us or not." },
-                    ].map((item) => (
-                      <div key={item.title} className="flex gap-3">
-                        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-orange/10">
-                          <item.icon className="h-5 w-5 text-orange" />
-                        </div>
-                        <div>
-                          <h3 className="text-sm font-bold text-navy">{item.title}</h3>
-                          <p className="mt-0.5 text-xs text-slate-500">{item.desc}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-5">
-                    <div className="flex items-center gap-3">
-                      <Shield className="h-7 w-7 text-orange" />
-                      <div>
-                        <p className="text-sm font-bold text-navy">Ryan Pietrzak</p>
-                        <p className="text-xs text-slate-500">Licensed Plumber · 250+ Websites Built</p>
-                      </div>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-
-            {/* Right: Form / Calendar / Outcome */}
-            <div className="lg:col-span-3">
+        <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
+          <div>
 
               {/* ─── STEP INDICATOR ─── */}
               {step >= 1 && step <= 3 && (
@@ -529,7 +522,6 @@ export default function BookPage() {
                 </div>
               )}
 
-            </div>
           </div>
         </div>
       </section>

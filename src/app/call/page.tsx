@@ -456,69 +456,68 @@ export default function BookPage() {
                 </div>
               )}
 
-              {/* ─── STEP 4: DISQUALIFIED → At Capacity ─── */}
+              {/* ─── STEP 4: DISQUALIFIED → Compassionate redirect ─── */}
               {step === 4 && outcome === "disqualified" && (
-                <div className="rounded-xl border border-slate-200 bg-white p-8 text-center shadow-sm">
-                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-slate-100">
-                    <Briefcase className="h-8 w-8 text-slate-400" />
-                  </div>
-                  <h2 className="mt-6 text-2xl font-bold text-navy">
-                    We&apos;re Currently at Capacity
+                <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+                  <h2 className="text-2xl font-bold text-navy">
+                    Hey {data.firstName || "there"} — I get it.
                   </h2>
-                  <p className="mx-auto mt-3 max-w-md text-slate-500">
-                    Thanks for your interest! We&apos;re currently focused on working with plumbing companies
-                    that are ready to invest in growth. But we&apos;ve got free resources that can help
-                    you right now:
-                  </p>
-                  <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                    <Link
-                      href="/website-grader"
-                      className="flex items-center gap-3 rounded-lg border border-slate-200 p-4 text-left transition-colors hover:border-orange/30 hover:bg-orange/5"
-                    >
-                      <Globe className="h-5 w-5 shrink-0 text-orange" />
-                      <div>
-                        <p className="text-sm font-bold text-navy">Free Website Grader</p>
-                        <p className="text-xs text-slate-500">68-point analysis of your site</p>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/tools/citation-checker"
-                      className="flex items-center gap-3 rounded-lg border border-slate-200 p-4 text-left transition-colors hover:border-orange/30 hover:bg-orange/5"
-                    >
-                      <MapPin className="h-5 w-5 shrink-0 text-orange" />
-                      <div>
-                        <p className="text-sm font-bold text-navy">Citation Audit</p>
-                        <p className="text-xs text-slate-500">Check your directory listings</p>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/book-download"
-                      className="flex items-center gap-3 rounded-lg border border-slate-200 p-4 text-left transition-colors hover:border-orange/30 hover:bg-orange/5"
-                    >
-                      <Briefcase className="h-5 w-5 shrink-0 text-orange" />
-                      <div>
-                        <p className="text-sm font-bold text-navy">Free Book Download</p>
-                        <p className="text-xs text-slate-500">Marketing guide for plumbers</p>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/tools/plumbing-keywords"
-                      className="flex items-center gap-3 rounded-lg border border-slate-200 p-4 text-left transition-colors hover:border-orange/30 hover:bg-orange/5"
-                    >
-                      <DollarSign className="h-5 w-5 shrink-0 text-orange" />
-                      <div>
-                        <p className="text-sm font-bold text-navy">Keyword Database</p>
-                        <p className="text-xs text-slate-500">150+ plumbing keywords</p>
-                      </div>
-                    </Link>
+                  <div className="mt-4 space-y-4 text-sm leading-relaxed text-slate-600">
+                    <p>
+                      I&apos;m Ryan — a licensed plumber, just like you. I&apos;ve been in your shoes.
+                      When I was running my own crew, there were times when I knew I needed to invest
+                      in marketing but the money just wasn&apos;t there yet.
+                    </p>
+                    <p>
+                      It&apos;s kind of like when a buddy calls you and says &ldquo;hey man, my water heater
+                      is leaking, can you come take a look?&rdquo; You&apos;d love to help — but you&apos;ve
+                      got a full schedule of paying customers and you literally can&apos;t squeeze it in
+                      right now. It doesn&apos;t mean you don&apos;t care. It means you have to take care
+                      of the people who are counting on you first.
+                    </p>
+                    <p>
+                      That&apos;s where I am right now. My calendar is focused on plumbing companies that
+                      are ready to invest in growth, and I want to give each of them my full attention.
+                      But that doesn&apos;t mean I&apos;m leaving you empty-handed.
+                    </p>
                   </div>
-                  <p className="mt-6 text-xs text-slate-400">
-                    When you&apos;re ready to invest in growth, we&apos;d love to chat.
-                    Reach out anytime at{" "}
-                    <a href="mailto:ryan@onlyplumbingsites.com" className="text-orange">
-                      ryan@onlyplumbingsites.com
-                    </a>
-                  </p>
+
+                  <div className="mt-6 rounded-xl border border-orange/20 bg-orange/5 p-5">
+                    <p className="text-sm font-bold text-navy">Here&apos;s what I&apos;d recommend right now:</p>
+                    <ol className="mt-3 space-y-2 text-sm text-slate-600">
+                      <li className="flex gap-2">
+                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange text-[10px] font-bold text-white">1</span>
+                        <span><strong>Grade your website for free</strong> — our tool runs a 68-point inspection and tells you exactly what&apos;s holding you back. <Link href="/website-grader" className="text-orange underline">Run it here →</Link></span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange text-[10px] font-bold text-white">2</span>
+                        <span><strong>Download our free book</strong> — it covers the exact marketing playbook I used to grow plumbing companies from 20 calls/month to 150+. <Link href="/book-download" className="text-orange underline">Get it here →</Link></span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange text-[10px] font-bold text-white">3</span>
+                        <span><strong>Check your citation listings</strong> — inconsistent business info across directories is one of the easiest free fixes. <Link href="/tools/citation-checker" className="text-orange underline">Audit yours →</Link></span>
+                      </li>
+                    </ol>
+                  </div>
+
+                  <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-5">
+                    <p className="text-sm text-slate-600">
+                      <strong className="text-navy">I&apos;ll also send you an email</strong> with
+                      some specific things you can do on your own to start getting more calls — no cost,
+                      no catch. And when you&apos;re in a position to invest in real growth, reach out.
+                      I&apos;d love to help {data.companyName ? data.companyName : "your company"} dominate
+                      your market.
+                    </p>
+                    <p className="mt-3 text-sm text-slate-500">
+                      — Ryan Pietrzak, Licensed Plumber &amp; Founder
+                    </p>
+                    <p className="mt-2 text-xs text-slate-400">
+                      <a href="mailto:ryan@onlyplumbingsites.com" className="text-orange">
+                        ryan@onlyplumbingsites.com
+                      </a>{" "}
+                      — I read every email personally.
+                    </p>
+                  </div>
                 </div>
               )}
 

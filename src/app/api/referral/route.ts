@@ -48,9 +48,9 @@ export async function POST(req: NextRequest) {
         source: "Referral Program",
         tags: ["referral", "referred-plumber"],
         customFields: [
-          { key: "referrer_name", field_value: referrerName },
-          { key: "referrer_email", field_value: referrerEmail },
-          ...(notes ? [{ key: "referral_notes", field_value: notes }] : []),
+          { key: "contact.referrer_name", field_value: referrerName },
+          { key: "contact.referrer_email", field_value: referrerEmail },
+          ...(notes ? [{ key: "contact.referral_notes", field_value: notes }] : []),
         ],
       }),
     });

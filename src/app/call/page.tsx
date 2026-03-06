@@ -448,7 +448,7 @@ export default function BookPage() {
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
                     <iframe
-                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}&name=${encodeURIComponent(data.companyName)}`}
+                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}`}
                       style={{ width: "100%", height: "1100px", border: "none" }}
                       title="Book a Free Strategy Session"
                     />

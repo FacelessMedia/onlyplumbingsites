@@ -56,20 +56,24 @@ Do these in order. Everything else depends on this being done first.
 | **Lost** | Didn't close. Add a loss reason. | Ryan |
 
 ### D. Create Custom Fields in GHL ✅ DONE (Created via API)
-All 10 custom fields created automatically:
+All 14 custom fields created automatically:
 
-| Field Name | GHL Key | Type |
-|-----------|---------|------|
-| Company Website | `contact.company_website` | Text |
-| Service Area | `contact.service_area` | Text |
-| Truck Count | `contact.truck_count` | Text |
-| Annual Revenue | `contact.annual_revenue` | Text |
-| Current Marketing Spend | `contact.current_marketing_spend` | Text |
-| Willing To Invest | `contact.willing_to_invest` | Text |
-| Biggest Challenge | `contact.biggest_challenge` | Large Text |
-| Lead Source | `contact.lead_source` | Text |
-| Caller Name | `contact.caller_name` | Text |
-| Pre-Qual Score | `contact.prequal_score` | Number |
+| Field Name | GHL Key | GHL ID | Type |
+|-----------|---------|--------|------|
+| Company Website | `contact.company_website` | `yoTjoLmvtV5dkzSEBHOp` | Text |
+| Service Area | `contact.service_area` | `JP0HUCsQPmK4uPhuNzvI` | Text |
+| Truck Count | `contact.truck_count` | `uGhuHfsI05c1IVaTnopw` | Text |
+| Annual Revenue | `contact.annual_revenue` | `jGZXZK853etB0odDGgx9` | Text |
+| Current Marketing Spend | `contact.current_marketing_spend` | `pdwHjUDaUow9j7HaKUs1` | Text |
+| Willing To Invest | `contact.willing_to_invest` | `38QTfiV45H1OKhO9F7lQ` | Text |
+| Biggest Challenge | `contact.biggest_challenge` | `iVEJdGKGYEnxjubGSrOi` | Large Text |
+| Lead Source | `contact.lead_source` | `FRFhRhfpi5FZPJtt0qPg` | Text |
+| Caller Name | `contact.caller_name` | `ktw31MDLB450iEL89YnP` | Text |
+| Pre-Qual Score | `contact.prequal_score` | `DqUkuVVh5sgy9JUfN2wj` | Number |
+| Contact Message | `contact.contact_message` | `C69bKGWClyEZvt91yfVx` | Large Text |
+| Referrer Name | `contact.referrer_name` | `VZfcgRQlynYb4yfgBV4e` | Text |
+| Referrer Email | `contact.referrer_email` | `QIT7SMRvfO0CHhWK7RSC` | Text |
+| Referral Notes | `contact.referral_notes` | `UMjV5z1ZOET2HoW9tSOE` | Large Text |
 
 ### E. Create Tags ✅ DONE (Created via API)
 All 15 tags created automatically:
@@ -155,7 +159,7 @@ Cold Call / Website Visit / Referral
 
 Build these in **Automations** → **+ Create Workflow**:
 
-### Automation 1: New Website Lead → Notify Ryan ⬜ BUILD THIS
+### Automation 1: New Website Lead → Notify Ryan ✅ DONE
 - **Trigger:** Contact tag added = `book-form`
 - **Action 1:** Internal Notification → Send SMS to Ryan's phone
   - Message: `🔔 New lead: {{contact.name}} from {{contact.company_name}} — Willing to invest: {{contact.willing_to_invest}} — {{contact.phone}}`
@@ -182,7 +186,7 @@ Qualification: Check tags (qualified or disqualified)
 View in GHL: https://app.gohighlevel.com/v2/location/rU5VfOC451ZI6SPNYmAu/contacts/{{contact.id}}
 ```
 
-### Automation 2: Call Booked → Confirmation ⬜ BUILD THIS
+### Automation 2: Call Booked → Confirmation ✅ DONE
 - **Trigger:** Appointment Status
   - Workflow Trigger Name: `Call Booked`
   - Filter 1: Event Type → `Normal`
@@ -216,7 +220,7 @@ Ryan Pietrzak
 Licensed Plumber & Founder, Only Plumbing Sites
 ```
 - **Action 2:** Send SMS to contact
-  - Message: `Hey {{contact.first_name}}, your strategy call with Ryan is confirmed for {{appointment.start_date}} at {{appointment.start_time}}. Check your email for the Zoom link and prep tips. Talk soon! - Only Plumbing Sites`
+  - Message: `Hey {{contact.first_name}}, our strategy call is confirmed for {{appointment.start_time}}. Check your email for the Google Meet link. Talk soon! - Ryan, Only Plumbing Sites`
 - **Action 3:** Add Contact Tag
   - Action Name: `Add call-booked tag`
   - Tag: `call-booked`
@@ -260,7 +264,7 @@ Ryan Pietrzak
 
 3. If you already created the "Appointment Reminders" workflow, delete it or leave it as Draft (don't publish).
 
-### Automation 4: No-Show Follow-Up ⬜ BUILD THIS
+### Automation 4: No-Show Follow-Up ✅ DONE
 - **Trigger:** Appointment Status
   - Workflow Trigger Name: `No-Show Follow-Up`
   - Filter 1: Event Type → `Normal`
@@ -296,7 +300,7 @@ Only Plumbing Sites
   - Add tag `follow-up-30`
   - Move to Lost stage
 
-### Automation 5: Post-Call Nurture ⬜ BUILD THIS
+### Automation 5: Post-Call Nurture ✅ DONE
 - **Trigger:** Tag added = `call-completed` AND tag `won` is NOT present
 
 **Wait 1 day → Email:**
@@ -344,7 +348,7 @@ Ryan
   - Subject: `Checking In`
   - Body: Short check-in. "Hey {{contact.first_name}}, just checking in. Still thinking about growing {{contact.company_name}} online? Happy to chat anytime. — Ryan"
 
-### Automation 6: Disqualified Lead → Long-Term Nurture ⬜ BUILD THIS
+### Automation 6: Disqualified Lead → Long-Term Nurture ✅ DONE
 - **Trigger:** Tag added = `disqualified`
 
 **Immediately → Email:**
@@ -372,7 +376,7 @@ Only Plumbing Sites
   - Subject: `Has Anything Changed, {{contact.first_name}}?`
   - Body: "It's been a few months since we last connected. Has anything changed with {{contact.company_name}}? If you're ready to talk about getting more calls from Google, I'm here: https://onlyplumbingsites.com/call"
 
-### Automation 7: Cold Call Lead → Caller Logged ⬜ BUILD THIS
+### Automation 7: Cold Call Lead → Caller Logged ⬜ OPTIONAL (build when callers are onboarded)
 - **Trigger:** Tag added = `cold-call-lead`
 - **Action 1:** Move to "Contacted" stage in pipeline
 - **Action 2:** Internal notification → SMS to Ryan

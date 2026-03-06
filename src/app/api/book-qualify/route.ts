@@ -84,6 +84,44 @@ export async function POST(req: NextRequest) {
       console.error("GHL contact creation failed:", err);
     }
 
+    // Create pipeline opportunity for qualified leads
+    if (qualified && contactRes.ok) {
+      try {
+        const contactData = await contactRes.json();
+        const contactId = contactData?.contact?.id;
+        const pipelineId = process.env.GHL_PIPELINE_ID;
+
+        if (contactId && pipelineId) {
+          const oppRes = await fetch(
+            "https://services.leadconnectorhq.com/opportunities/",
+            {
+              method: "POST",
+              headers: {
+                Authorization: `Bearer ${apiKey}`,
+                "Content-Type": "application/json",
+                Version: "2021-07-28",
+              },
+              body: JSON.stringify({
+                pipelineId,
+                locationId,
+                name: `${firstName || ""} ${lastName || ""} — ${companyName || "New Lead"}`.trim(),
+                pipelineStageId: "6c3ff175-6518-44a3-a335-e943e6046fc4", // Qualified stage
+                contactId,
+                status: "open",
+              }),
+            }
+          );
+
+          if (!oppRes.ok) {
+            const err = await oppRes.text();
+            console.error("GHL opportunity creation failed:", err);
+          }
+        }
+      } catch (oppError) {
+        console.error("Pipeline opportunity error:", oppError);
+      }
+    }
+
     return NextResponse.json({ success: true, qualified });
   } catch (error) {
     console.error("Book qualify API error:", error);

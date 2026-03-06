@@ -56,6 +56,9 @@ Do these in order. Everything else depends on this being done first.
 | **Lost** | Didn't close. Add a loss reason. | Ryan |
 
 ### D. Create Custom Fields in GHL ✅ DONE (Created via API)
+> **IMPORTANT:** GHL v2 API requires custom fields as `{ id, value }` — NOT `{ key, field_value }`.
+> Always use the **GHL ID** column below when sending custom fields via the API.
+
 All 14 custom fields created automatically:
 
 | Field Name | GHL Key | GHL ID | Type |

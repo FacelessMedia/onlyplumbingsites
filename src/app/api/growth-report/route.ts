@@ -45,8 +45,8 @@ export async function POST(req: NextRequest) {
           source: "Growth Report Request",
           tags: ["growth-report", "website-lead"],
           customFields: [
-            ...(trucks ? [{ key: "contact.truck_count", field_value: trucks }] : []),
-            ...(revenue ? [{ key: "contact.annual_revenue", field_value: revenue }] : []),
+            ...(trucks ? [{ id: "uGhuHfsI05c1IVaTnopw", value: trucks }] : []),
+            ...(revenue ? [{ id: "jGZXZK853etB0odDGgx9", value: revenue }] : []),
           ],
         }),
       }

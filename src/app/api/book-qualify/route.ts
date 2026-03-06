@@ -44,15 +44,15 @@ export async function POST(req: NextRequest) {
     }
 
     // Build custom fields
-    const customFields: { key: string; field_value: string }[] = [];
-    if (website) customFields.push({ key: "contact.company_website", field_value: website });
-    if (serviceArea) customFields.push({ key: "contact.service_area", field_value: serviceArea });
-    if (truckCount) customFields.push({ key: "contact.truck_count", field_value: truckCount });
-    if (annualRevenue) customFields.push({ key: "contact.annual_revenue", field_value: annualRevenue });
-    if (currentSpend) customFields.push({ key: "contact.current_marketing_spend", field_value: currentSpend });
-    if (willingToInvest) customFields.push({ key: "contact.willing_to_invest", field_value: willingToInvest });
-    if (biggestChallenge) customFields.push({ key: "contact.biggest_challenge", field_value: biggestChallenge });
-    if (howDidYouHear) customFields.push({ key: "contact.lead_source", field_value: howDidYouHear });
+    const customFields: { id: string; value: string }[] = [];
+    if (website) customFields.push({ id: "yoTjoLmvtV5dkzSEBHOp", value: website });
+    if (serviceArea) customFields.push({ id: "JP0HUCsQPmK4uPhuNzvI", value: serviceArea });
+    if (truckCount) customFields.push({ id: "uGhuHfsI05c1IVaTnopw", value: truckCount });
+    if (annualRevenue) customFields.push({ id: "jGZXZK853etB0odDGgx9", value: annualRevenue });
+    if (currentSpend) customFields.push({ id: "pdwHjUDaUow9j7HaKUs1", value: currentSpend });
+    if (willingToInvest) customFields.push({ id: "38QTfiV45H1OKhO9F7lQ", value: willingToInvest });
+    if (biggestChallenge) customFields.push({ id: "iVEJdGKGYEnxjubGSrOi", value: biggestChallenge });
+    if (howDidYouHear) customFields.push({ id: "FRFhRhfpi5FZPJtt0qPg", value: howDidYouHear });
 
     // Create or update contact in GHL
     const contactRes = await fetch(

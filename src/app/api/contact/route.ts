@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
           tags: ["contact-form", "website-inquiry"],
           customFields: [
             ...(message
-              ? [{ key: "contact.contact_message", field_value: message }]
+              ? [{ id: "C69bKGWClyEZvt91yfVx", value: message }]
               : []),
           ],
         }),

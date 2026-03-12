@@ -453,7 +453,11 @@ export default function BookPage() {
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
                     <iframe
-                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}&company=${encodeURIComponent(data.companyName)}${contactId ? `&contact_id=${encodeURIComponent(contactId)}` : ""}`}
+                      src={(() => {
+                        const digits = data.phone.replace(/\D/g, "");
+                        const ph = digits.length === 10 ? `+1${digits}` : digits.length === 11 && digits.startsWith("1") ? `+${digits}` : data.phone;
+                        return `https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(ph)}&company=${encodeURIComponent(data.companyName)}${contactId ? `&contact_id=${encodeURIComponent(contactId)}` : ""}`;
+                      })()}
                       style={{ width: "100%", height: "1100px", border: "none" }}
                       title="Book a Free Strategy Session"
                     />

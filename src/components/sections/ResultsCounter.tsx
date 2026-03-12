@@ -80,7 +80,7 @@ export default function ResultsCounter() {
   }, []);
 
   return (
-    <section ref={ref} className="bg-slate-50 py-16 lg:py-20">
+    <section ref={ref} className="bg-white py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
           The Numbers Speak for Themselves

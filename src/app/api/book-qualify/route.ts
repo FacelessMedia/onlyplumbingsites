@@ -1,4 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+  createOrUpdateContact,
+  createOpportunity,
+  resolveCustomFields,
+} from "@/lib/ghl";
 
 export async function POST(req: NextRequest) {
   try {
@@ -20,14 +25,6 @@ export async function POST(req: NextRequest) {
       qualified,
     } = body;
 
-    const apiKey = process.env.GHL_API_KEY;
-    const locationId = process.env.GHL_LOCATION_ID;
-
-    if (!apiKey || !locationId) {
-      console.error("Missing GHL credentials");
-      return NextResponse.json({ success: true });
-    }
-
     // Build tags based on qualification
     const tags: string[] = ["website-lead", "book-form"];
     if (qualified) {
@@ -43,88 +40,57 @@ export async function POST(req: NextRequest) {
       tags.push("referral");
     }
 
-    // Build custom fields
-    const customFields: { id: string; value: string }[] = [];
-    if (website) customFields.push({ id: "yoTjoLmvtV5dkzSEBHOp", value: website });
-    if (serviceArea) customFields.push({ id: "JP0HUCsQPmK4uPhuNzvI", value: serviceArea });
-    if (truckCount) customFields.push({ id: "uGhuHfsI05c1IVaTnopw", value: truckCount });
-    if (annualRevenue) customFields.push({ id: "jGZXZK853etB0odDGgx9", value: annualRevenue });
-    if (currentSpend) customFields.push({ id: "pdwHjUDaUow9j7HaKUs1", value: currentSpend });
-    if (willingToInvest) customFields.push({ id: "38QTfiV45H1OKhO9F7lQ", value: willingToInvest });
-    if (biggestChallenge) customFields.push({ id: "iVEJdGKGYEnxjubGSrOi", value: biggestChallenge });
-    if (howDidYouHear) customFields.push({ id: "FRFhRhfpi5FZPJtt0qPg", value: howDidYouHear });
+    // Resolve custom field names → GHL IDs dynamically (v2 format)
+    const customFields = await resolveCustomFields({
+      "Company Website": website,
+      "Service Area": serviceArea,
+      "Truck Count": truckCount,
+      "Annual Revenue": annualRevenue,
+      "Current Marketing Spend": currentSpend,
+      "Willing To Invest": willingToInvest,
+      "Biggest Challenge": biggestChallenge,
+      "Lead Source": howDidYouHear,
+      "Pre-Qual Score": qualified ? "Qualified" : "Disqualified",
+    });
 
-    // Create or update contact in GHL
-    const contactRes = await fetch(
-      "https://services.leadconnectorhq.com/contacts/",
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-          Version: "2021-07-28",
-        },
-        body: JSON.stringify({
-          locationId,
-          firstName: firstName || undefined,
-          lastName: lastName || undefined,
-          email: email || undefined,
-          phone: phone || undefined,
-          companyName: companyName || undefined,
-          website: website || undefined,
-          source: "Pre-Qualification Form",
-          tags,
-          customFields,
-        }),
-      }
-    );
+    // Create or update contact in GHL (v2 API — deduplicates by email)
+    const contactData = await createOrUpdateContact({
+      firstName: firstName || undefined,
+      lastName: lastName || undefined,
+      email: email || undefined,
+      phone: phone || undefined,
+      companyName: companyName || undefined,
+      source: "Pre-Qualification Form",
+      tags,
+      customFields,
+    });
 
-    if (!contactRes.ok) {
-      const err = await contactRes.text();
-      console.error("GHL contact creation failed:", err);
-    }
+    const contactId = contactData?.contact?.id;
 
     // Create pipeline opportunity for qualified leads
-    if (qualified && contactRes.ok) {
-      try {
-        const contactData = await contactRes.json();
-        const contactId = contactData?.contact?.id;
-        const pipelineId = process.env.GHL_PIPELINE_ID;
-
-        if (contactId && pipelineId) {
-          const oppRes = await fetch(
-            "https://services.leadconnectorhq.com/opportunities/",
-            {
-              method: "POST",
-              headers: {
-                Authorization: `Bearer ${apiKey}`,
-                "Content-Type": "application/json",
-                Version: "2021-07-28",
-              },
-              body: JSON.stringify({
-                pipelineId,
-                locationId,
-                name: `${firstName || ""} ${lastName || ""} — ${companyName || "New Lead"}`.trim(),
-                pipelineStageId: "6c3ff175-6518-44a3-a335-e943e6046fc4", // Qualified stage
-                contactId,
-                status: "open",
-              }),
-            }
-          );
-
-          if (!oppRes.ok) {
-            const err = await oppRes.text();
-            console.error("GHL opportunity creation failed:", err);
-          }
+    if (qualified && contactId) {
+      const pipelineId = process.env.GHL_PIPELINE_ID;
+      if (pipelineId) {
+        try {
+          await createOpportunity({
+            pipelineId,
+            contactId,
+            title: `${firstName || ""} ${lastName || ""} — ${companyName || "New Lead"}`.trim(),
+            status: "open",
+          });
+        } catch (oppError) {
+          console.error("Pipeline opportunity error:", oppError);
+          // Don't fail the whole request for opportunity creation failure
         }
-      } catch (oppError) {
-        console.error("Pipeline opportunity error:", oppError);
       }
     }
 
-    return NextResponse.json({ success: true, qualified });
+    return NextResponse.json({ success: true, qualified, contactId });
   } catch (error) {
     console.error("Book qualify API error:", error);
-    return NextResponse.json({ success: true });
+    return NextResponse.json(
+      { success: false, error: "Failed to process qualification" },
+      { status: 500 }
+    );
   }
 }

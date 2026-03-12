@@ -184,6 +184,7 @@ export default function BookPage() {
   const [data, setData] = useState<FormData>(INITIAL);
   const [submitting, setSubmitting] = useState(false);
   const [outcome, setOutcome] = useState<"qualified" | "disqualified" | null>(null);
+  const [contactId, setContactId] = useState<string | null>(null);
 
   function update(field: keyof FormData, value: string) {
     setData((prev) => ({ ...prev, [field]: value }));
@@ -206,13 +207,17 @@ export default function BookPage() {
 
     const qualified = isQualified(data);
 
-    // Push to GHL
+    // Push to GHL and capture contactId
     try {
-      await fetch("/api/book-qualify", {
+      const res = await fetch("/api/book-qualify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...data, qualified }),
       });
+      const json = await res.json();
+      if (json.contactId) {
+        setContactId(json.contactId);
+      }
     } catch {
       // Don't block the user if GHL fails
     }
@@ -448,7 +453,7 @@ export default function BookPage() {
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
                     <iframe
-                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}`}
+                      src={`https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(data.phone)}&company=${encodeURIComponent(data.companyName)}${contactId ? `&contact_id=${encodeURIComponent(contactId)}` : ""}`}
                       style={{ width: "100%", height: "1100px", border: "none" }}
                       title="Book a Free Strategy Session"
                     />

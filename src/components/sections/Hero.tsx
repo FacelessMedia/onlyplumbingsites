@@ -1,88 +1,61 @@
 import Link from "next/link";
-import { Phone, FileSearch, Shield, Clock, Globe, Award } from "lucide-react";
+import { Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const trustStats = [
-  { icon: Shield, label: "Licensed Illinois Plumber" },
-  { icon: Clock, label: "In the Trade Since 2009" },
-  { icon: Globe, label: "250+ Plumbing Websites" },
-  { icon: Award, label: "Co-Owner ThePlumbingDirectory.com" },
-];
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-navy">
-      {/* Subtle grid pattern */}
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
+      {/* Gradient orb */}
+      <div className="pointer-events-none absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-orange/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8 lg:py-36">
-        <div className="mx-auto max-w-4xl text-center">
-          {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-navy-light px-4 py-1.5">
-            <Shield className="h-4 w-4 text-orange" />
-            <span className="text-sm font-medium text-slate-300">
-              Licensed Illinois Plumber &middot; Selective Clientele
-            </span>
-          </div>
-
-          {/* Headline */}
-          <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Plumbing Websites Built by a{" "}
-            <span className="text-orange">Licensed Plumber.</span>
-          </h1>
-
-          {/* Subheadline */}
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-300 sm:text-xl">
-            250+ plumbing websites built. Systems that generate booked service
-            calls — not just traffic.
+        <div className="mx-auto max-w-3xl text-center">
+          {/* Micro-label */}
+          <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-orange">
+            Plumbing-Only Marketing
           </p>
 
-          {/* CTAs */}
+          {/* Headline — punchy, ServiceScalers-style */}
+          <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">
+            More Calls.{" "}
+            <br className="hidden sm:block" />
+            More Booked Jobs.{" "}
+            <br className="hidden sm:block" />
+            <span className="text-orange">Built by a Plumber.</span>
+          </h1>
+
+          {/* Subheadline — one line, high impact */}
+          <p className="mx-auto mt-6 max-w-xl text-lg text-slate-400 sm:text-xl">
+            250+ plumbing websites. Systems that generate service calls — not
+            just traffic.
+          </p>
+
+          {/* Single primary CTA + text link */}
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button
               asChild
               size="lg"
-              className="w-full bg-orange text-base font-semibold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover sm:w-auto"
+              className="w-full bg-orange px-8 text-base font-semibold text-white shadow-lg shadow-orange/25 transition-all hover:bg-orange-hover hover:shadow-xl hover:shadow-orange/30 sm:w-auto"
             >
               <Link href="/call">
                 <Phone className="mr-2 h-5 w-5" />
-                Book Strategy Call
+                Book Free Strategy Call
               </Link>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="w-full border-slate-600 text-base font-semibold text-slate-300 hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
+            <Link
+              href="/audit"
+              className="group inline-flex items-center gap-1 text-sm font-medium text-slate-400 transition-colors hover:text-white"
             >
-              <Link href="/audit">
-                <FileSearch className="mr-2 h-5 w-5" />
-                Get Free Audit
-              </Link>
-            </Button>
+              or get a free website audit
+              <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+            </Link>
           </div>
-        </div>
 
-        {/* Trust Stats */}
-        <div className="mx-auto mt-16 grid max-w-4xl grid-cols-2 gap-6 sm:mt-20 lg:grid-cols-4">
-          {trustStats.map((stat) => (
-            <div
-              key={stat.label}
-              className="flex flex-col items-center gap-2 rounded-xl border border-slate-700/50 bg-navy-light/50 p-4 text-center"
-            >
-              <stat.icon className="h-5 w-5 text-orange" />
-              <span className="text-sm font-medium leading-tight text-slate-300">
-                {stat.label}
-              </span>
-            </div>
-          ))}
+          {/* Social proof nudge */}
+          <p className="mt-8 text-xs text-slate-500">
+            Licensed IL Plumber &middot; In the Trade Since 2009 &middot;
+            Selective Clientele
+          </p>
         </div>
       </div>
     </section>

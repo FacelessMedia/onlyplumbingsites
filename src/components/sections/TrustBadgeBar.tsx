@@ -1,25 +1,43 @@
-import { Shield, Award, Clock, Wrench } from "lucide-react";
+import { Shield, Zap, BarChart3, Wrench } from "lucide-react";
 
-const badges = [
-  { icon: Wrench, label: "Licensed Plumber", sub: "In the Trade Since 2009" },
-  { icon: Shield, label: "250+ Sites Built", sub: "Plumbing Only" },
-  { icon: Award, label: "You Own Your Site", sub: "No Hostage Games" },
-  { icon: Clock, label: "24hr Response", sub: "On All Inquiries" },
+const pillars = [
+  {
+    icon: Wrench,
+    label: "Built by a Plumber",
+    desc: "Licensed IL plumber since 2014 — I understand your business because I've done the work.",
+  },
+  {
+    icon: Shield,
+    label: "You Own Everything",
+    desc: "Your website, your content, your data. No hostage games, no vendor lock-in. Ever.",
+  },
+  {
+    icon: Zap,
+    label: "Fast Execution",
+    desc: "Sites launch in weeks, not months. SEO campaigns start generating calls within 90 days.",
+  },
+  {
+    icon: BarChart3,
+    label: "Data-Driven Results",
+    desc: "Every dollar tracked. Transparent reporting on calls, rankings, and ROI — no vanity metrics.",
+  },
 ];
 
 export default function TrustBadgeBar() {
   return (
-    <section className="border-y border-slate-200 bg-white py-6">
+    <section className="border-y border-slate-100 bg-white py-10 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
-          {badges.map((b) => (
-            <div key={b.label} className="flex items-center gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange/10">
-                <b.icon className="h-5 w-5 text-orange" />
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {pillars.map((p) => (
+            <div key={p.label} className="flex gap-4">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange/10">
+                <p.icon className="h-5 w-5 text-orange" />
               </div>
               <div>
-                <p className="text-sm font-bold text-navy">{b.label}</p>
-                <p className="text-xs text-slate-400">{b.sub}</p>
+                <p className="text-sm font-bold text-navy">{p.label}</p>
+                <p className="mt-1 text-xs leading-relaxed text-slate-500">
+                  {p.desc}
+                </p>
               </div>
             </div>
           ))}

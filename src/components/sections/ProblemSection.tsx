@@ -66,12 +66,12 @@ export default function ProblemSection() {
           {problems.map((problem) => (
             <div
               key={problem.title}
-              className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:border-orange/30 hover:shadow-md"
+              className="group rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-100 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md hover:ring-orange/20"
             >
-              <div className="mb-4 inline-flex rounded-lg bg-orange/10 p-3">
-                <problem.icon className="h-6 w-6 text-orange" />
+              <div className="mb-4 inline-flex rounded-xl bg-orange/10 p-3">
+                <problem.icon className="h-5 w-5 text-orange" />
               </div>
-              <h3 className="text-lg font-bold text-navy">{problem.title}</h3>
+              <h3 className="text-base font-bold text-navy">{problem.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-500">
                 {problem.description}
               </p>

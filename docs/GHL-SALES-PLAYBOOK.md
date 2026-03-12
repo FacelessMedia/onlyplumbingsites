@@ -458,7 +458,7 @@ Only Plumbing Sites
 ### Option D: Paid Data Providers ($)
 - **Apollo.io** — $49/mo, good B2B data, filter by industry "Plumbing"
 - **ZoomInfo** — Enterprise pricing but best data
-- **D7 Lead Finder** — $49/mo, specifically for local businesses
+- **D7 Lead Finder** — $49/mo, specifically for local businesseshttps://rankmetop.net/
 - **Uplead** — $74/mo, B2B contact database
 - **Lusha** — Free tier available, $29/mo for more
 - **BrightLocal** — Can export lists from competitor analysis

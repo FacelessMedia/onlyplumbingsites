@@ -168,70 +168,60 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — clean, grouped layout */}
       {mobileOpen && (
         <div className="border-t border-slate-200 bg-white md:hidden">
-          <div className="flex flex-col gap-1 px-4 py-4">
-            {/* Mobile Services Section */}
-            <Link
-              href="/services"
-              onClick={() => setMobileOpen(false)}
-              className="rounded-lg px-3 py-2.5 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 hover:text-orange"
-            >
-              All Services
-            </Link>
-            <div className="ml-3 flex flex-col gap-0.5 border-l-2 border-orange/20 pl-3">
-              {serviceLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="rounded-lg px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="rounded-lg px-3 py-2.5 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 hover:text-orange"
-              >
-                {link.label}
-              </Link>
-            ))}
-
-            {/* Mobile Resources */}
-            <p className="mt-2 px-3 text-xs font-semibold uppercase tracking-wider text-slate-400">
-              Free Resources
-            </p>
-            {resourceLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange"
-              >
-                <link.icon className="h-4 w-4 text-orange" />
-                {link.label}
-              </Link>
-            ))}
-
-            <div className="mt-3 flex flex-col gap-2 border-t border-slate-200 pt-4">
-              <Button asChild variant="outline" className="w-full border-orange text-orange hover:bg-orange hover:text-white">
-                <Link href="/audit" onClick={() => setMobileOpen(false)}>
-                  Get Free Audit
-                </Link>
-              </Button>
+          <div className="flex flex-col px-4 py-4">
+            {/* Primary CTA — always first */}
+            <div className="mb-4 flex flex-col gap-2">
               <Button asChild className="w-full bg-orange text-white hover:bg-orange-hover">
                 <Link href="/call" onClick={() => setMobileOpen(false)}>
                   <Phone className="mr-2 h-4 w-4" />
                   Book Strategy Call
                 </Link>
               </Button>
+            </div>
+
+            {/* Main nav links */}
+            <div className="space-y-0.5">
+              <Link
+                href="/services"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center justify-between rounded-lg px-3 py-3 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 hover:text-orange"
+              >
+                Services
+                <ChevronDown className="h-4 w-4 text-slate-400" />
+              </Link>
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="block rounded-lg px-3 py-3 text-base font-medium text-slate-800 transition-colors hover:bg-slate-50 hover:text-orange"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+
+            {/* Resources — compact */}
+            <div className="mt-4 border-t border-slate-100 pt-4">
+              <p className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-slate-400">
+                Free Resources
+              </p>
+              <div className="grid grid-cols-2 gap-1">
+                {resourceLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-orange"
+                  >
+                    <link.icon className="h-3.5 w-3.5 shrink-0 text-orange" />
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>

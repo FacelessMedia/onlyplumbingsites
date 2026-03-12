@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { createOrUpdateContact, resolveCustomFields } from "@/lib/ghl";
 
 export async function POST(req: NextRequest) {
   try {
@@ -18,46 +19,35 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    const apiKey = process.env.GHL_API_KEY;
-    const locationId = process.env.GHL_LOCATION_ID;
-
-    if (!apiKey || !locationId) {
-      console.error("Missing GHL credentials");
-      return NextResponse.json({ success: true });
-    }
-
     // Create referred plumber as a contact
     const parts = (referredName || "").trim().split(" ");
     const firstName = parts[0] || referredName;
     const lastName = parts.slice(1).join(" ") || undefined;
 
-    await fetch("https://services.leadconnectorhq.com/contacts/", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-        Version: "2021-07-28",
-      },
-      body: JSON.stringify({
-        locationId,
-        firstName,
-        lastName,
-        email: referredEmail || undefined,
-        phone: referredPhone || undefined,
-        companyName: referredCompany || undefined,
-        source: "Referral Program",
-        tags: ["referral", "referred-plumber"],
-        customFields: [
-          { id: "VZfcgRQlynYb4yfgBV4e", value: referrerName },
-          { id: "QIT7SMRvfO0CHhWK7RSC", value: referrerEmail },
-          ...(notes ? [{ id: "UMjV5z1ZOET2HoW9tSOE", value: notes }] : []),
-        ],
-      }),
+    // Resolve custom field IDs dynamically (v2 format)
+    const customFields = await resolveCustomFields({
+      "Referrer Name": referrerName,
+      "Referrer Email": referrerEmail,
+      "Referral Notes": notes,
+    });
+
+    await createOrUpdateContact({
+      firstName,
+      lastName,
+      email: referredEmail || undefined,
+      phone: referredPhone || undefined,
+      companyName: referredCompany || undefined,
+      source: "Referral Program",
+      tags: ["referral", "referred-plumber"],
+      customFields,
     });
 
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Referral API error:", error);
-    return NextResponse.json({ success: true });
+    return NextResponse.json(
+      { success: false, error: "Failed to submit referral" },
+      { status: 500 }
+    );
   }
 }

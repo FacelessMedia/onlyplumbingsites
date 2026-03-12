@@ -68,20 +68,23 @@ export default function TestimonialCarousel() {
   const t = testimonials[current];
 
   return (
-    <section className="bg-slate-50 py-16 lg:py-20">
+    <section className="bg-slate-50 py-20 lg:py-28">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
+        <p className="text-center text-sm font-semibold uppercase tracking-widest text-orange">
+          Real Results
+        </p>
+        <h2 className="mt-2 text-center text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
           What Plumbing Companies Say
         </h2>
 
         <div
-          className="relative mt-10"
+          className="relative mt-12"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
           {/* Quote */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
-            <Quote className="h-8 w-8 text-orange/30" />
+          <div className="rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-100 sm:p-10">
+            <Quote className="h-8 w-8 text-orange/20" />
 
             <p className="mt-4 text-lg leading-relaxed text-slate-700 sm:text-xl">
               &ldquo;{t.quote}&rdquo;
@@ -102,7 +105,7 @@ export default function TestimonialCarousel() {
                 </p>
                 <p className="text-xs text-slate-400">{t.location}</p>
               </div>
-              <div className="rounded-lg bg-orange/10 px-4 py-2">
+              <div className="rounded-full bg-orange/10 px-4 py-2">
                 <p className="text-sm font-bold text-orange">{t.result}</p>
               </div>
             </div>
@@ -111,14 +114,14 @@ export default function TestimonialCarousel() {
           {/* Nav arrows */}
           <button
             onClick={prev}
-            className="absolute -left-3 top-1/2 -translate-y-1/2 rounded-full border border-slate-200 bg-white p-2 shadow-sm transition-colors hover:bg-slate-50 sm:-left-5"
+            className="absolute -left-3 top-1/2 -translate-y-1/2 rounded-full bg-white p-2 shadow-md ring-1 ring-slate-100 transition-colors hover:bg-slate-50 sm:-left-5"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="h-4 w-4 text-slate-500" />
           </button>
           <button
             onClick={next}
-            className="absolute -right-3 top-1/2 -translate-y-1/2 rounded-full border border-slate-200 bg-white p-2 shadow-sm transition-colors hover:bg-slate-50 sm:-right-5"
+            className="absolute -right-3 top-1/2 -translate-y-1/2 rounded-full bg-white p-2 shadow-md ring-1 ring-slate-100 transition-colors hover:bg-slate-50 sm:-right-5"
             aria-label="Next testimonial"
           >
             <ChevronRight className="h-4 w-4 text-slate-500" />

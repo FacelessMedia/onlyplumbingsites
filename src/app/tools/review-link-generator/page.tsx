@@ -32,7 +32,8 @@ export default function ReviewLinkGeneratorPage() {
   const [results, setResults] = useState<PlaceResult[]>([]);
   const [searching, setSearching] = useState(false);
   const [selected, setSelected] = useState<PlaceResult | null>(null);
-  const [apiAvailable, setApiAvailable] = useState<boolean | null>(null);
+  const [showManualFallback, setShowManualFallback] = useState(false);
+  const [searchError, setSearchError] = useState("");
   const [manualPlaceId, setManualPlaceId] = useState("");
   const [copiedReview, setCopiedReview] = useState(false);
   const [copiedSMS, setCopiedSMS] = useState(false);
@@ -54,33 +55,22 @@ export default function ReviewLinkGeneratorPage() {
     ? `Hi! Thanks for choosing us. We'd really appreciate a quick Google review: ${reviewLink}`
     : "";
 
-  // Check API availability on mount (prevents flash)
-  useEffect(() => {
-    async function checkApi() {
-      try {
-        const res = await fetch("/api/places-search?q=test");
-        const data = await res.json();
-        setApiAvailable(data.error !== "no_api_key");
-      } catch {
-        setApiAvailable(false);
-      }
-    }
-    checkApi();
-  }, []);
-
   // Search Google Places API
   const searchPlaces = useCallback(async (q: string) => {
     if (q.length < 3) {
       setResults([]);
       setShowDropdown(false);
+      setSearchError("");
       return;
     }
     setSearching(true);
+    setSearchError("");
     try {
       const res = await fetch(`/api/places-search?q=${encodeURIComponent(q)}`);
       const data = await res.json();
       if (data.error === "no_api_key") {
-        setApiAvailable(false);
+        setSearchError("Search is temporarily unavailable. Use the Place ID option below.");
+        setShowManualFallback(true);
         setResults([]);
       } else {
         setResults(data.results || []);
@@ -156,11 +146,6 @@ export default function ReviewLinkGeneratorPage() {
     setEmailSending(false);
   }
 
-  // Don't render the tool section until we know API status (prevents flash)
-  const showSearch = apiAvailable === true;
-  const showManual = apiAvailable === false;
-  const loading = apiAvailable === null;
-
   return (
     <>
       {/* Hero */}
@@ -200,95 +185,100 @@ export default function ReviewLinkGeneratorPage() {
                   Find Your Business on Google
                 </h2>
                 <p className="mt-2 text-sm text-slate-500">
-                  {showManual
-                    ? "Enter your Google Place ID below to generate your review link."
-                    : "Start typing your business name and select it from the dropdown."}
+                  Start typing your business name and select it from the dropdown.
                 </p>
 
-                {loading && (
-                  <div className="mt-6 flex items-center justify-center gap-2 py-8 text-sm text-slate-400">
-                    <Loader2 className="h-4 w-4 animate-spin" />
-                    Loading...
-                  </div>
-                )}
+                <div ref={dropRef} className="relative mt-4">
+                  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                  {searching && (
+                    <Loader2 className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 animate-spin text-orange" />
+                  )}
+                  <input
+                    type="text"
+                    value={query}
+                    onChange={(e) => {
+                      setQuery(e.target.value);
+                      if (selected) setSelected(null);
+                    }}
+                    placeholder='Type your business name (e.g. "ABC Plumbing Chicago")'
+                    className="h-12 w-full rounded-lg border border-slate-300 pl-10 pr-10 text-sm text-navy outline-none focus:border-orange focus:ring-2 focus:ring-orange/20"
+                    autoFocus
+                  />
 
-                {showSearch && (
-                  <div ref={dropRef} className="relative mt-4">
-                    <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
-                    {searching && (
-                      <Loader2 className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 animate-spin text-orange" />
-                    )}
-                    <input
-                      type="text"
-                      value={query}
-                      onChange={(e) => {
-                        setQuery(e.target.value);
-                        if (selected) setSelected(null);
-                      }}
-                      placeholder='Type your business name (e.g. "ABC Plumbing Chicago")'
-                      className="h-12 w-full rounded-lg border border-slate-300 pl-10 pr-10 text-sm text-navy outline-none focus:border-orange focus:ring-2 focus:ring-orange/20"
-                      autoFocus
-                    />
+                  {/* Dropdown results */}
+                  {showDropdown && results.length > 0 && (
+                    <div className="absolute left-0 right-0 top-full z-20 mt-1 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-lg">
+                      {results.map((place) => (
+                        <button
+                          key={place.placeId}
+                          onClick={() => selectPlace(place)}
+                          className="flex w-full items-start gap-3 px-4 py-3 text-left hover:bg-orange/5 transition-colors border-b border-slate-100 last:border-0"
+                        >
+                          <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium text-navy truncate">{place.name}</p>
+                            <p className="text-xs text-slate-500 truncate">{place.address}</p>
+                            {place.phone && (
+                              <p className="text-xs text-slate-400">{place.phone}</p>
+                            )}
+                          </div>
+                          <ArrowRight className="mt-0.5 ml-auto h-4 w-4 shrink-0 text-slate-300" />
+                        </button>
+                      ))}
+                    </div>
+                  )}
 
-                    {/* Dropdown results */}
-                    {showDropdown && results.length > 0 && (
-                      <div className="absolute left-0 right-0 top-full z-20 mt-1 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-lg">
-                        {results.map((place) => (
-                          <button
-                            key={place.placeId}
-                            onClick={() => selectPlace(place)}
-                            className="flex w-full items-start gap-3 px-4 py-3 text-left hover:bg-orange/5 transition-colors border-b border-slate-100 last:border-0"
-                          >
-                            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                            <div className="min-w-0">
-                              <p className="text-sm font-medium text-navy truncate">{place.name}</p>
-                              <p className="text-xs text-slate-500 truncate">{place.address}</p>
-                              {place.phone && (
-                                <p className="text-xs text-slate-400">{place.phone}</p>
-                              )}
-                            </div>
-                            <ArrowRight className="mt-0.5 ml-auto h-4 w-4 shrink-0 text-slate-300" />
-                          </button>
-                        ))}
+                  {/* Search error */}
+                  {searchError && (
+                    <p className="mt-2 text-xs text-red-500">{searchError}</p>
+                  )}
+
+                  {/* No results hint */}
+                  {query.length >= 3 && !searching && !searchError && results.length === 0 && (
+                    <p className="mt-2 text-xs text-slate-400">
+                      No results? Try adding your city (e.g. &ldquo;Smith Plumbing Dallas TX&rdquo;)
+                    </p>
+                  )}
+                </div>
+
+                {/* Manual Place ID fallback */}
+                <div className="mt-4 border-t border-slate-100 pt-4">
+                  <button
+                    type="button"
+                    onClick={() => setShowManualFallback(!showManualFallback)}
+                    className="text-xs font-medium text-slate-400 hover:text-slate-600 transition-colors"
+                  >
+                    {showManualFallback ? "Hide" : "Can\u2019t find your business?"}{" "}
+                    <span className="underline">{showManualFallback ? "Close" : "Enter Place ID manually"}</span>
+                  </button>
+                  {showManualFallback && (
+                    <div className="mt-3 space-y-3">
+                      <div>
+                        <label className="block text-sm font-medium text-navy">Google Place ID</label>
+                        <input
+                          type="text"
+                          value={manualPlaceId}
+                          onChange={(e) => setManualPlaceId(e.target.value)}
+                          placeholder="ChIJ7cv00DwsDogRAMDACa2m4K8"
+                          className="mt-1 h-10 w-full rounded-lg border border-slate-300 px-3 text-sm text-navy outline-none focus:border-orange focus:ring-2 focus:ring-orange/20"
+                        />
                       </div>
-                    )}
-
-                    {/* No results hint */}
-                    {query.length >= 3 && !searching && results.length === 0 && showDropdown === false && (
-                      <p className="mt-2 text-xs text-slate-400">
-                        No results? Try adding your city (e.g. &ldquo;Smith Plumbing Dallas TX&rdquo;)
-                      </p>
-                    )}
-                  </div>
-                )}
-
-                {showManual && (
-                  <div className="mt-4 space-y-3">
-                    <div>
-                      <label className="block text-sm font-medium text-navy">Google Place ID</label>
-                      <input
-                        type="text"
-                        value={manualPlaceId}
-                        onChange={(e) => setManualPlaceId(e.target.value)}
-                        placeholder="ChIJ7cv00DwsDogRAMDACa2m4K8"
-                        className="mt-1 h-10 w-full rounded-lg border border-slate-300 px-3 text-sm text-navy outline-none focus:border-orange focus:ring-2 focus:ring-orange/20"
-                      />
+                      <div className="rounded-lg bg-slate-50 p-4">
+                        <p className="text-xs font-medium text-navy">How to find your Place ID:</p>
+                        <ol className="mt-2 space-y-1 text-xs text-slate-500">
+                          <li>1. Go to{" "}
+                            <a href="https://developers.google.com/maps/documentation/places/web-service/place-id" target="_blank" rel="noopener noreferrer" className="text-orange underline">
+                              Google&apos;s Place ID Finder
+                            </a>
+                          </li>
+                          <li>2. Search for your business name</li>
+                          <li>3. Click on your business in the results</li>
+                          <li>4. Copy the Place ID (starts with &ldquo;ChIJ&rdquo;)</li>
+                        </ol>
+                      </div>
                     </div>
-                    <div className="rounded-lg bg-slate-50 p-4">
-                      <p className="text-xs font-medium text-navy">How to find your Place ID:</p>
-                      <ol className="mt-2 space-y-1 text-xs text-slate-500">
-                        <li>1. Go to{" "}
-                          <a href="https://developers.google.com/maps/documentation/places/web-service/place-id" target="_blank" rel="noopener noreferrer" className="text-orange underline">
-                            Google&apos;s Place ID Finder
-                          </a>
-                        </li>
-                        <li>2. Search for your business name</li>
-                        <li>3. Click on your business in the results</li>
-                        <li>4. Copy the Place ID (starts with &ldquo;ChIJ&rdquo;)</li>
-                      </ol>
-                    </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             )}
 

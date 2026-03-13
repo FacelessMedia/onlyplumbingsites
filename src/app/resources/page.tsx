@@ -9,7 +9,7 @@ import {
   Star,
   FileText,
   ArrowRight,
-  Wrench,
+
   BookMarked,
   DollarSign,
 } from "lucide-react";
@@ -105,12 +105,6 @@ const sections = [
         description: "In-depth guides on plumbing marketing, SEO, websites, and business growth.",
         href: "/guides",
         icon: BookOpen,
-      },
-      {
-        title: "How We Compare",
-        description: "Side-by-side comparisons with other plumbing marketing agencies.",
-        href: "/compare",
-        icon: Wrench,
       },
     ],
   },

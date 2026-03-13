@@ -32,7 +32,7 @@ const labelMap: Record<string, string> = {
   "plumbing-website": "Plumbing Website",
   "thank-you": "Thank You",
   "strategy-session": "Strategy Session",
-  compare: "Compare",
+
   guides: "Guides",
   tools: "Tools",
 

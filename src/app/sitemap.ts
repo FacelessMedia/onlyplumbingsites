@@ -1,5 +1,4 @@
 import { MetadataRoute } from "next";
-import { serviceAreas } from "@/data/service-areas";
 import { competitors } from "@/data/competitors";
 
 const BASE_URL = "https://onlyplumbingsites.com";
@@ -59,7 +58,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tools/review-link-generator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${BASE_URL}/tools/budget-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/compare`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${BASE_URL}/areas`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BASE_URL}/resources`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${BASE_URL}/referral`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE_URL}/podcast`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
@@ -83,13 +81,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const areaPages = serviceAreas.map((area) => ({
-    url: `${BASE_URL}/areas/${area.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
   const comparePages = competitors.map((c) => ({
     url: `${BASE_URL}/compare/${c.slug}`,
     lastModified: new Date(),
@@ -97,5 +88,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...blogPages, ...areaPages, ...comparePages];
+  return [...staticPages, ...blogPages, ...comparePages];
 }

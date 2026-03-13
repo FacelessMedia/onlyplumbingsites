@@ -35,7 +35,7 @@ const labelMap: Record<string, string> = {
   compare: "Compare",
   guides: "Guides",
   tools: "Tools",
-  areas: "Areas We Serve",
+
   referral: "Referral Program",
   "citation-checker": "Citation Audit",
   "review-link-generator": "Review Link Generator",

@@ -168,8 +168,8 @@ export default function StatsPage() {
                 variant="outline"
                 className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/roi-calculator">
-                  Calculate Your ROI
+                <Link href="/tools">
+                  Explore Free Tools
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>

@@ -28,8 +28,6 @@ const footerLinks = {
     { label: "Free Website Audit", href: "/audit" },
     { label: "Book Strategy Session", href: "/call" },
     { label: "Marketing Glossary", href: "/glossary" },
-    { label: "Website Grader", href: "/website-grader" },
-    { label: "ROI Calculator", href: "/roi-calculator" },
     { label: "All Free Tools", href: "/tools" },
     { label: "Referral Program", href: "/referral" },
   ],

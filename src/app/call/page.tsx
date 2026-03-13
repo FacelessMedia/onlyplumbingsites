@@ -496,7 +496,7 @@ export default function BookPage() {
                     <ol className="mt-3 space-y-2 text-sm text-slate-600">
                       <li className="flex gap-2">
                         <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange text-[10px] font-bold text-white">1</span>
-                        <span><strong>Grade your website for free</strong> — our tool runs a 68-point inspection and tells you exactly what&apos;s holding you back. <Link href="/website-grader" className="text-orange underline">Run it here →</Link></span>
+                        <span><strong>Check out our free tools</strong> — keyword database, citation checker, and review link generator to help you grow. <Link href="/tools" className="text-orange underline">See all tools →</Link></span>
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange text-[10px] font-bold text-white">2</span>

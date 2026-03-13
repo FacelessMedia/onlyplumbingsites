@@ -19,7 +19,7 @@ const resourceLinks = [
   { label: "Free Book Download", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could" },
   { label: "Free Growth Report", href: "/growth-report", icon: BarChart3, desc: "Your 12-month growth projection" },
   { label: "Free Website Audit", href: "/audit", icon: FileSearch, desc: "See where your site stands" },
-  { label: "Website Grader", href: "/website-grader", icon: Globe, desc: "Instant score for your site" },
+
   { label: "All Free Tools", href: "/tools", icon: Globe, desc: "ROI calculator, keywords & more" },
 ];
 

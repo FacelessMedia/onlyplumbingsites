@@ -169,12 +169,12 @@ export default function BestPlumbingWebsitesPage() {
               If you&apos;re missing more than 3 of these, your website is
               costing you calls.{" "}
               <Link
-                href="/website-grader"
+                href="/call"
                 className="font-medium text-orange hover:text-orange-hover"
               >
-                Run our free website grader
+                Book a free strategy session
               </Link>{" "}
-              to see exactly where you stand.
+              and we&apos;ll show you exactly where you stand.
             </p>
           </div>
 
@@ -204,8 +204,8 @@ export default function BestPlumbingWebsitesPage() {
                 variant="outline"
                 className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/website-grader">
-                  Grade My Website First
+                <Link href="/tools">
+                  Explore Free Tools
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>

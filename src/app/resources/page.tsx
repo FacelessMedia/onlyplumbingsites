@@ -3,39 +3,24 @@ import Link from "next/link";
 import {
   BookOpen,
   BarChart3,
-  Globe,
-  Calculator,
   Search,
   Star,
   FileText,
   ArrowRight,
 
   BookMarked,
-  DollarSign,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Free Resources for Plumbing Business Owners",
   description:
-    "Free tools, guides, and resources to help plumbing companies grow. Website grader, ROI calculator, keyword database, glossary, and more.",
+    "Free tools, guides, and resources to help plumbing companies grow. Keyword database, citation checker, glossary, and more.",
 };
 
 const sections = [
   {
     title: "Free Tools",
     items: [
-      {
-        title: "Website Grader",
-        description: "Get an instant score on how well your plumbing website generates calls.",
-        href: "/website-grader",
-        icon: Globe,
-      },
-      {
-        title: "ROI Calculator",
-        description: "See projected revenue based on your marketing budget and average ticket.",
-        href: "/roi-calculator",
-        icon: Calculator,
-      },
       {
         title: "Plumbing Keyword Database",
         description: "Browse 150+ plumbing keywords with volume, competition, and CPC data. Add your city for localized targets.",
@@ -53,12 +38,6 @@ const sections = [
         description: "Scan your website for NAP data and get a prioritized directory checklist with deep links.",
         href: "/tools/citation-checker",
         icon: Search,
-      },
-      {
-        title: "Budget Calculator",
-        description: "See how to allocate your marketing budget across SEO, PPC, social, and reviews.",
-        href: "/tools/budget-calculator",
-        icon: DollarSign,
       },
     ],
   },

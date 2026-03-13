@@ -1,39 +1,20 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import {
-  Globe,
-  Calculator,
   Search,
   Star,
   ArrowRight,
   Wrench,
-  DollarSign,
   Building2,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Free Plumbing Marketing Tools",
   description:
-    "Free tools for plumbing business owners — website grader, ROI calculator, keyword database, and Google review link generator. No email required.",
+    "Free tools for plumbing business owners — keyword database, citation checker, and Google review link generator. No email required.",
 };
 
 const tools = [
-  {
-    title: "Website Grader",
-    description:
-      "Enter your website URL and get an instant score on how well your plumbing website is set up to generate calls.",
-    href: "/website-grader",
-    icon: Globe,
-    tag: "Most Popular",
-  },
-  {
-    title: "ROI Calculator",
-    description:
-      "See how much revenue a proper marketing system could generate based on your budget, ticket size, and close rate.",
-    href: "/roi-calculator",
-    icon: Calculator,
-    tag: "New",
-  },
   {
     title: "Plumbing Keyword Database",
     description:
@@ -49,14 +30,6 @@ const tools = [
     href: "/tools/review-link-generator",
     icon: Star,
     tag: null,
-  },
-  {
-    title: "Budget Calculator",
-    description:
-      "Enter your monthly marketing budget and see exactly how to allocate it across SEO, PPC, social, and reviews for max ROI.",
-    href: "/tools/budget-calculator",
-    icon: DollarSign,
-    tag: "New",
   },
   {
     title: "Citation Checker",

@@ -198,9 +198,9 @@ export default function PlumbingWebsitesPage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-slate-600 text-base text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+                className="border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/pricing">Book Free Strategy Session</Link>
+                <Link href="/call">Book Free Strategy Session</Link>
               </Button>
             </div>
           </div>
@@ -650,7 +650,7 @@ export default function PlumbingWebsitesPage() {
               variant="outline"
               className="border-slate-300 text-slate-600 hover:border-orange hover:text-orange"
             >
-              <Link href="/pricing">Book Free Strategy Session</Link>
+              <Link href="/call">Book Free Strategy Session</Link>
             </Button>
           </div>
         </div>

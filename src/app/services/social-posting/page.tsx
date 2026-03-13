@@ -95,9 +95,9 @@ export default function SocialPostingPage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+                className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/pricing">Book Free Strategy Session</Link>
+                <Link href="/call">Book Free Strategy Session</Link>
               </Button>
             </div>
           </div>

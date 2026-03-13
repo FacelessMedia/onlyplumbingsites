@@ -205,7 +205,7 @@ export default function SEOForPlumbersPage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-slate-600 text-base text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+                className="border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
                 <Link href="/audit">Get Free SEO Audit</Link>
               </Button>

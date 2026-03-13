@@ -29,7 +29,7 @@ export default function NotFound() {
             asChild
             size="lg"
             variant="outline"
-            className="w-full border-slate-600 text-base text-slate-300 hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
+            className="w-full border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
           >
             <Link href="/blog">
               <Search className="mr-2 h-5 w-5" />

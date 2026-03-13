@@ -19,7 +19,7 @@ import FinalCTA from "@/components/sections/FinalCTA";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Ryan Pietrzak — licensed Illinois plumber, in the trade since 2009. 250+ plumbing websites built. This is a one-man operation, and I'm selective about who I work with.",
+    "Meet Ryan Pietrzak & Alex Koch — licensed plumbers, in the trade since 2009. 250+ plumbing websites built. We're selective about who we work with.",
 };
 
 const timeline = [
@@ -69,7 +69,7 @@ const timeline = [
     year: "Now",
     title: "Only Plumbing Sites",
     description:
-      "Combining 15+ years of trade experience with SEO, automation, and AI to build marketing systems for plumbing companies. This is a one-person operation — I'm intentionally selective about who I work with because I'd rather do great work for fewer clients than mediocre work for many.",
+      "Combining 15+ years of trade experience with SEO, automation, and AI to build marketing systems for plumbing companies. We're intentionally selective about who we work with because we'd rather do great work for fewer clients than mediocre work for many.",
     icon: Cpu,
   },
 ];
@@ -79,31 +79,31 @@ const values = [
     icon: Target,
     title: "Plumbing Only",
     description:
-      "I don't work with HVAC companies, electricians, or landscapers. Plumbing is all I do. I still help people from church and friends with side projects, but professionally — it's plumbing or nothing.",
+      "We don't work with HVAC companies, electricians, or landscapers. Plumbing is all we do. We still help people from church and friends with side projects, but professionally — it's plumbing or nothing.",
   },
   {
     icon: Lock,
     title: "Selective by Design",
     description:
-      "I don't have a big team. I can't take every client, and I won't pretend I can. If your business needs more capacity than I can provide, I'll tell you — and point you in the right direction.",
+      "We're a two-person operation — not a big agency. We can't take every client, and we won't pretend we can. If your business needs more capacity than we can provide, we'll tell you — and point you in the right direction.",
   },
   {
     icon: Wrench,
     title: "Trade First",
     description:
-      "Every decision I make comes from understanding the plumbing trade — not from marketing textbooks. I build for how plumbing businesses actually work because I've lived it.",
+      "Every decision we make comes from understanding the plumbing trade — not from marketing textbooks. We build for how plumbing businesses actually work because we've lived it.",
   },
   {
     icon: Users,
     title: "Local Market Focus",
     description:
-      "I specialize in local plumbing companies. The national market is a different game. I can help national brands, but I'm honest — I wouldn't be the sole marketer on a project that big.",
+      "We specialize in local plumbing companies. The national market is a different game. We can help national brands, but we're honest — we wouldn't be the sole marketers on a project that big.",
   },
   {
     icon: Shield,
     title: "Honesty Over Hype",
     description:
-      "I don't promise '10x your revenue.' Sometimes the best thing I can do is give you guidance and let you run with it, rather than take your money for services you don't need.",
+      "We don't promise '10x your revenue.' Sometimes the best thing we can do is give you guidance and let you run with it, rather than take your money for services you don't need.",
   },
 ];
 
@@ -115,13 +115,13 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              One Plumber. One Focus.{" "}
-              <span className="text-orange">No Big Agency.</span>
+              Two Licensed Plumbers.{" "}
+              <span className="text-orange">One Mission.</span>
             </h1>
             <p className="mt-4 text-lg text-slate-300">
-              I&apos;m not a marketing agency that took on a plumbing client.
-              I&apos;m a licensed plumber who spent a decade learning marketing
-              on job sites — and now I help plumbing companies grow online.
+              We&apos;re not a marketing agency that took on a plumbing client.
+              We&apos;re two licensed plumbers who spent a decade learning marketing
+              on job sites — and now we help plumbing companies grow online.
               Selectively.
             </p>
           </div>
@@ -132,11 +132,11 @@ export default function AboutPage() {
       <section className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-            {/* Photo placeholder */}
-            <div className="flex items-center justify-center">
-              <div className="relative h-80 w-80 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
-                <div className="flex h-full flex-col items-center justify-center p-8 text-center">
-                  <Shield className="h-16 w-16 text-orange" />
+            {/* Photo placeholders */}
+            <div className="flex items-center justify-center gap-6">
+              <div className="relative h-80 w-56 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
+                <div className="flex h-full flex-col items-center justify-center p-6 text-center">
+                  <Shield className="h-12 w-12 text-orange" />
                   <p className="mt-4 text-lg font-bold text-navy">
                     Ryan Pietrzak
                   </p>
@@ -144,7 +144,21 @@ export default function AboutPage() {
                     Licensed Illinois Plumber
                   </p>
                   <p className="mt-2 text-xs text-slate-400">
-                    Headshot photo coming soon
+                    Photo coming soon
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-80 w-56 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
+                <div className="flex h-full flex-col items-center justify-center p-6 text-center">
+                  <Shield className="h-12 w-12 text-orange" />
+                  <p className="mt-4 text-lg font-bold text-navy">
+                    Alex Koch
+                  </p>
+                  <p className="text-sm text-slate-500">
+                    Licensed Plumber
+                  </p>
+                  <p className="mt-2 text-xs text-slate-400">
+                    Photo coming soon
                   </p>
                 </div>
               </div>
@@ -153,36 +167,35 @@ export default function AboutPage() {
             {/* Bio */}
             <div>
               <h2 className="text-2xl font-bold text-navy sm:text-3xl">
-                Ryan Pietrzak
+                Ryan Pietrzak & Alex Koch
               </h2>
               <p className="mt-1 text-lg font-medium text-orange">
-                Licensed Plumber &middot; Founder of Only Plumbing Sites
+                Licensed Plumbers &middot; Co-Founders of Only Plumbing Sites
               </p>
 
               <div className="mt-6 space-y-4 text-slate-600">
                 <p>
-                  I&apos;ve been in the plumbing trade since 2009. Got my
-                  apprentice license in 2014, my official Illinois plumbing license
-                  in 2019. I&apos;ve worked on everything from residential service
+                  We&apos;ve both been in the plumbing trade since 2009. Ryan earned his
+                  apprentice license in 2014 and his official Illinois plumbing license
+                  in 2019. We&apos;ve worked on everything from residential service
                   calls to large commercial projects.
                 </p>
                 <p>
-                  The whole time I was turning wrenches, I was also teaching
-                  myself marketing. Every chance I got — lunch breaks, drive time,
-                  whenever the foreman let me wear earbuds — I was listening to
-                  YouTube playlists about making money online. I tried everything:
+                  The whole time we were turning wrenches, Ryan was also teaching
+                  himself marketing. Every chance he got — lunch breaks, drive time,
+                  whenever the foreman let him wear earbuds — he was listening to
+                  YouTube playlists about building online businesses. He tried everything:
                   Amazon FBA, custom t-shirts, coffee mugs, dropshipping, affiliate
-                  marketing. Most of it didn&apos;t stick. But it taught me how
+                  marketing. Most of it didn&apos;t stick. But it taught him how
                   digital marketing actually works.
                 </p>
                 <p>
-                  Then it clicked: I know plumbing. I know websites. I&apos;m an
-                  extrovert who loves helping people. Why was I trying to sell
-                  random stuff online when I could combine all of that? I learned
-                  the power of focus — and I chose plumbing.
+                  Then it clicked: we know plumbing. We know websites. Why were we
+                  trying to sell random stuff online when we could combine both?
+                  We learned the power of focus — and we chose plumbing.
                 </p>
                 <p>
-                  I also created{" "}
+                  We also created{" "}
                   <a
                     href="https://theplumbingdirectory.com"
                     target="_blank"
@@ -197,10 +210,10 @@ export default function AboutPage() {
                   bombarded with calls from plumbers racing to the bottom on pricing.
                 </p>
                 <p className="font-semibold text-navy">
-                  This is a one-person operation. I&apos;m intentionally selective
-                  about who I work with. If I&apos;m not the right fit for your
-                  business, I&apos;ll tell you — and I&apos;ll still try to point
-                  you in the right direction.
+                  We&apos;re a two-person operation — both licensed plumbers.
+                  We&apos;re intentionally selective about who we work with. If
+                  we&apos;re not the right fit for your business, we&apos;ll tell
+                  you — and we&apos;ll still try to point you in the right direction.
                 </p>
               </div>
 
@@ -212,7 +225,7 @@ export default function AboutPage() {
                 >
                   <Link href="/call">
                     <Phone className="mr-2 h-5 w-5" />
-                    Book a Call With Ryan
+                    Book a Call With Us
                   </Link>
                 </Button>
               </div>
@@ -226,17 +239,17 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
           <Lock className="mx-auto h-8 w-8 text-orange" />
           <h2 className="mt-4 text-xl font-bold text-navy">
-            I Don&apos;t Take Every Client
+            We Don&apos;t Take Every Client
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-slate-500">
-            I&apos;m one person, not a big agency. That means I can only work with
+            We&apos;re two people, not a big agency. That means we can only work with
             a handful of plumbing companies at a time. Depending on your
-            business, it might make more sense for me to give you a game plan and
-            guidance rather than manage everything myself. Some companies are too
-            big for a solo operation — and I&apos;d rather be honest about that
-            upfront than overpromise and underdeliver. I focus on local plumbing
-            companies. National brands are a different game, and while I can
-            contribute to those projects, I wouldn&apos;t be the sole marketer.
+            business, it might make more sense for us to give you a game plan and
+            guidance rather than manage everything ourselves. Some companies are too
+            big for a small operation — and we&apos;d rather be honest about that
+            upfront than overpromise and underdeliver. We focus on local plumbing
+            companies. National brands are a different game, and while we can
+            contribute to those projects, we wouldn&apos;t be the sole marketers.
           </p>
         </div>
       </section>
@@ -276,7 +289,7 @@ export default function AboutPage() {
       <section className="bg-slate-50 py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center text-2xl font-bold text-navy sm:text-3xl">
-            How I Operate
+            How We Operate
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {values.map((value) => (

@@ -83,7 +83,7 @@ export default function PortalPage() {
               asChild
               size="lg"
               variant="outline"
-              className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+              className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
             >
               <Link href="/about">
                 Learn About Us

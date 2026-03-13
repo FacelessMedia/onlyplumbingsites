@@ -174,7 +174,7 @@ export default function PlumbingLeadGenerationPage() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-slate-600 text-base text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+                className="border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
                 <Link href="/audit">Get Free Lead Audit</Link>
               </Button>

@@ -145,10 +145,10 @@ export default function ContactPage() {
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="/call"
                       className="text-sm text-orange hover:text-orange-hover"
                     >
-                      View Pricing &rarr;
+                      Book a Free Strategy Call &rarr;
                     </a>
                   </li>
                 </ul>

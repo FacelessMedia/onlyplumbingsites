@@ -39,7 +39,7 @@ export default function FinalCTA() {
             asChild
             size="lg"
             variant="outline"
-            className="w-full border-slate-600 text-base font-semibold text-slate-300 hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
+            className="w-full border-slate-600 text-base font-semibold text-navy hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
           >
             <Link href="/audit">
               <FileSearch className="mr-2 h-5 w-5" />

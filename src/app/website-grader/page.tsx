@@ -491,7 +491,7 @@ export default function WebsiteGraderPage() {
                 <Button
                   asChild
                   variant="outline"
-                  className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white"
+                  className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
                 >
                   <Link href="/tools/citation-checker">
                     Check Your Citations

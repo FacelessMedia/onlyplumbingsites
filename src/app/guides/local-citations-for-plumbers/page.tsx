@@ -519,7 +519,7 @@ export default function LocalCitationsGuidePage() {
                   Check My Citations Free
                 </Link>
               </Button>
-              <Button asChild variant="outline" className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white">
+              <Button asChild variant="outline" className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white">
                 <a href="#priority-citations">
                   See Priority List
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -1012,7 +1012,7 @@ export default function LocalCitationsGuidePage() {
                     Check My Citations Free
                   </Link>
                 </Button>
-                <Button asChild variant="outline" className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white">
+                <Button asChild variant="outline" className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white">
                   <Link href="/call">
                     <Phone className="mr-2 h-4 w-4" />
                     Book a Strategy Call

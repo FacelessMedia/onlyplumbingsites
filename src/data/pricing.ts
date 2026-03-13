@@ -94,6 +94,6 @@ export const pricingFaq = [
   {
     question: "What makes you different from other web designers?",
     answer:
-      "I'm a licensed plumber. I've been in the trade since 2009. I understand emergency service dynamics, seasonal demand, dispatch workflow, and what makes a homeowner pick up the phone. Most designers don't.",
+      "We're licensed plumbers. We've been in the trade since 2009. We understand emergency service dynamics, seasonal demand, dispatch workflow, and what makes a homeowner pick up the phone. Most designers don't.",
   },
 ];

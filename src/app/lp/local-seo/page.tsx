@@ -131,7 +131,7 @@ export default function LocalSEOLandingPage() {
                 Book Free Strategy Session
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-slate-600 text-slate-300 hover:border-white hover:bg-transparent hover:text-white">
+            <Button asChild size="lg" variant="outline" className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white">
               <Link href="/growth-report">
                 Get Free Growth Report
                 <ArrowRight className="ml-2 h-4 w-4" />

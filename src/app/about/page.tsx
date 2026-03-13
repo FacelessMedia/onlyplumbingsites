@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Shield,
   Wrench,
@@ -135,16 +136,20 @@ export default function AboutPage() {
             {/* Photo placeholders */}
             <div className="flex items-center justify-center gap-6">
               <div className="relative h-80 w-56 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
-                <div className="flex h-full flex-col items-center justify-center p-6 text-center">
-                  <Shield className="h-12 w-12 text-orange" />
-                  <p className="mt-4 text-lg font-bold text-navy">
+                <Image
+                  src="/ryan-pietrzak.jpg"
+                  alt="Ryan Pietrzak — Licensed Illinois Plumber & Co-Founder of Only Plumbing Sites"
+                  fill
+                  className="object-cover object-top"
+                  sizes="224px"
+                  priority
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-4 pt-10">
+                  <p className="text-sm font-bold text-white">
                     Ryan Pietrzak
                   </p>
-                  <p className="text-sm text-slate-500">
+                  <p className="text-xs text-slate-300">
                     Licensed Illinois Plumber
-                  </p>
-                  <p className="mt-2 text-xs text-slate-400">
-                    Photo coming soon
                   </p>
                 </div>
               </div>

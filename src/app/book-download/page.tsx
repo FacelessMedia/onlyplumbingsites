@@ -150,7 +150,7 @@ export default function BookDownloadPage() {
                 The Little Plumber That{" "}
                 <span className="relative inline-block">
                   <span className="text-orange">Could</span>
-                  <span className="absolute -right-8 top-0 text-lg font-normal text-slate-500 line-through decoration-orange decoration-2">
+                  <span className="absolute -right-10 top-0 text-2xl font-extrabold text-slate-400 line-through decoration-orange decoration-2 sm:text-3xl lg:-right-12 lg:text-4xl">
                     n&apos;t
                   </span>
                 </span>

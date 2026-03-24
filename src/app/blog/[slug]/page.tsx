@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ArrowLeft, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -3313,23 +3314,33 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  const lastUpdated = "2026-03-24";
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: lastUpdated,
+    image: `https://onlyplumbingsites.com/api/og?title=${encodeURIComponent(post.title)}`,
     author: {
       "@type": "Person",
       name: "Ryan Pietrzak",
-      jobTitle: "Licensed Plumber & Founder",
+      jobTitle: "Licensed Illinois Plumber",
       url: "https://onlyplumbingsites.com/about",
+      image: "https://onlyplumbingsites.com/ryan-pietrzak.jpg",
+      sameAs: [
+        "https://onlyplumbingsites.com/about",
+      ],
     },
     publisher: {
       "@type": "Organization",
       name: "Only Plumbing Sites",
       url: "https://onlyplumbingsites.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://onlyplumbingsites.com/logo.jpeg",
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -3378,6 +3389,20 @@ export default async function BlogPostPage({
           <h1 className="mt-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             {post.title}
           </h1>
+
+          <div className="mt-6 flex items-center gap-3">
+            <Image
+              src="/ryan-pietrzak.jpg"
+              alt="Ryan Pietrzak"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-full object-cover"
+            />
+            <div>
+              <p className="text-sm font-medium text-white">Ryan Pietrzak</p>
+              <p className="text-xs text-slate-400">Licensed Illinois Plumber &middot; Last updated March 24, 2026</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -3499,20 +3524,21 @@ function markdownToHtml(markdown: string): string {
   let tableRows: string[][] = [];
 
   for (let i = 0; i < lines.length; i++) {
-    let line = lines[i];
+    const raw = lines[i];
+    const line = raw.trimStart();
 
     // Skip empty lines (they separate blocks)
-    if (line.trim() === "") {
+    if (line === "") {
       if (inList) { html.push("</ul>"); inList = false; }
       if (inTable) { flushTable(); inTable = false; }
       continue;
     }
 
     // Table rows
-    if (line.trim().startsWith("|") && line.trim().endsWith("|")) {
+    if (line.startsWith("|") && line.endsWith("|")) {
       if (!inList) {
         if (!inTable) inTable = true;
-        const cells = line.trim().slice(1, -1).split("|").map((c) => c.trim());
+        const cells = line.slice(1, -1).split("|").map((c) => c.trim());
         // Skip separator rows (|---|---|)
         if (cells.every((c) => /^[-:]+$/.test(c))) continue;
         tableRows.push(cells);
@@ -3549,7 +3575,6 @@ function markdownToHtml(markdown: string): string {
     // Numbered list items
     if (/^\d+\.\s/.test(line)) {
       if (inList) { html.push("</ul>"); inList = false; }
-      // Render as paragraph with number preserved (prose styles handle it)
       html.push(`<p>${inline(line)}</p>`);
       continue;
     }

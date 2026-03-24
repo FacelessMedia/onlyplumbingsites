@@ -26,8 +26,6 @@ const footerLinks = {
     { label: "Book Waitlist", href: "/book-download" },
     { label: "All Free Tools", href: "/tools" },
     { label: "Marketing Glossary", href: "/glossary" },
-    { label: "Guides", href: "/guides" },
-    { label: "Blog", href: "/blog" },
     { label: "Referral Program", href: "/referral" },
   ],
   legal: [

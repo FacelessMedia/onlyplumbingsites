@@ -10,7 +10,6 @@ import {
   Globe,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import FinalCTA from "@/components/sections/FinalCTA";
 
 export const metadata: Metadata = {
   title: "Partner With Us — Plumbing Industry Partnerships",
@@ -158,7 +157,6 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      <FinalCTA />
     </>
   );
 }

@@ -45,9 +45,9 @@ export default function Footer() {
               <Image
                 src="/logo.jpeg"
                 alt="Only Plumbing Sites"
-                width={160}
-                height={42}
-                className="h-8 w-auto"
+                width={320}
+                height={84}
+                className="h-16 w-auto"
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">

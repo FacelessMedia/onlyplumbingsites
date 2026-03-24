@@ -49,16 +49,16 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-md">
-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-[#F3F3F4] backdrop-blur-md">
+      <nav className="mx-auto flex h-24 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center rounded-lg bg-white px-3 py-1.5">
           <Image
             src="/logo.jpeg"
             alt="Only Plumbing Sites"
-            width={180}
-            height={48}
-            className="h-10 w-auto"
+            width={360}
+            height={96}
+            className="h-16 w-auto"
             priority
           />
         </Link>

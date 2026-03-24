@@ -191,14 +191,14 @@ export default function BookDownloadPage() {
             </div>
 
             {/* Right: Book Cover Image */}
-            <div className="flex justify-center">
-              <div className="relative">
-                <div className="relative w-72 overflow-hidden rounded-lg shadow-2xl sm:w-80">
+            <div className="flex items-center justify-center">
+              <div className="relative w-full max-w-2xl">
+                <div className="relative overflow-hidden rounded-lg shadow-2xl">
                   <Image
                     src="/book-cover.jpeg"
                     alt="The Little Plumber That Couldn't — Free Book by Ryan Pietrzak"
-                    width={640}
-                    height={960}
+                    width={1024}
+                    height={576}
                     className="h-auto w-full"
                     priority
                   />

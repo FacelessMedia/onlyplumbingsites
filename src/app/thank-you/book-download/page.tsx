@@ -7,13 +7,14 @@ import {
   Share2,
   ArrowRight,
   Wrench,
+  Download,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "You're on the Waitlist!",
+  title: "Your Free Book Is Ready!",
   description:
-    "You're on the waitlist for 'The Little Plumber That Couldn't.' We'll send you a free copy as soon as it launches.",
+    "Download your free copy of 'The Little Plumber That Couldn't' — the marketing playbook for plumbing business owners.",
 };
 
 const chapters = [
@@ -21,6 +22,10 @@ const chapters = [
   "Ch 2: \"My Nephew Built My Website\"",
   "Ch 3: \"I Tried Google Ads Once\"",
   "Ch 4: \"My Competitor Has 300 Reviews\"",
+  "Ch 5: \"I Don't Need Social Media, I'm a Plumber\"",
+  "Ch 6: \"How Much Does SEO Cost?\"",
+  "Ch 7: \"What Is a Service Page?\"",
+  "Ch 8: \"I Wrote a Blog Post in 2019 and Nothing Happened\"",
 ];
 
 export default function ThankYouBookPage() {
@@ -32,19 +37,31 @@ export default function ThankYouBookPage() {
             <CheckCircle className="h-8 w-8 text-green-600" />
           </div>
           <h1 className="mt-6 text-3xl font-extrabold text-navy sm:text-4xl">
-            You&apos;re on the Waitlist!
+            Your Free Book Is Ready!
           </h1>
           <p className="mt-4 text-lg text-slate-500">
-            We&apos;ll email you a free copy of &ldquo;The Little Plumber
-            That Could<s>n&apos;t</s>&rdquo; the moment it launches.
+            Download your free copy of &ldquo;The Little Plumber
+            That Could<s>n&apos;t</s>&rdquo; below.
           </p>
+          <div className="mt-6">
+            <Button
+              asChild
+              size="lg"
+              className="bg-orange text-white hover:bg-orange-hover"
+            >
+              <a href="/the-little-plumber-that-could.pdf" download>
+                <Download className="mr-2 h-5 w-5" />
+                Download Free PDF
+              </a>
+            </Button>
+          </div>
         </div>
 
         {/* Chapter preview */}
         <div className="mt-12 rounded-xl border border-slate-200 bg-slate-50 p-6 sm:p-8">
           <h2 className="flex items-center gap-2 text-xl font-bold text-navy">
             <BookOpen className="h-5 w-5 text-orange" />
-            Start With These Chapters
+            What&apos;s Inside
           </h2>
           <ul className="mt-4 space-y-3">
             {chapters.map((ch) => (
@@ -58,7 +75,7 @@ export default function ThankYouBookPage() {
             ))}
           </ul>
           <p className="mt-4 text-xs text-slate-400">
-            8 chapters total. Most plumbers finish it in one sitting.
+            248 pages. Most plumbers finish it in one sitting.
           </p>
         </div>
 
@@ -95,7 +112,7 @@ export default function ThankYouBookPage() {
         <div className="mt-8 rounded-xl bg-navy p-6 text-center sm:p-8">
           <Wrench className="mx-auto h-8 w-8 text-orange" />
           <h2 className="mt-4 text-xl font-bold text-white">
-            Can&apos;t Wait? Let&apos;s Talk Now.
+            Want Us to Implement It For You?
           </h2>
           <p className="mt-2 text-sm text-slate-300">
             Book a free strategy session and we&apos;ll review your online

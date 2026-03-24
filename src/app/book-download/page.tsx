@@ -94,7 +94,7 @@ const chapters = [
 
 const bookBenefits = [
   "Why 90% of plumbing websites fail to generate calls (and the 5 things that fix it)",
-  "The exact review strategy that gets 5-10 new Google reviews per month",
+  "The exact review strategy that can get hundreds of new Google reviews per month",
   "How to rank on the first page of Google without spending $5K/month on SEO",
   "The real cost of NOT marketing your plumbing business (with actual math)",
   "A complete 90-day action plan you can implement yourself — no agency needed",

@@ -11,9 +11,9 @@ import {
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Book Download Confirmed!",
+  title: "You're on the Waitlist!",
   description:
-    "Your copy of 'The Little Plumber That Couldn't' is on its way. Here's what to read first.",
+    "You're on the waitlist for 'The Little Plumber That Couldn't.' We'll send you a free copy as soon as it launches.",
 };
 
 const chapters = [
@@ -32,11 +32,11 @@ export default function ThankYouBookPage() {
             <CheckCircle className="h-8 w-8 text-green-600" />
           </div>
           <h1 className="mt-6 text-3xl font-extrabold text-navy sm:text-4xl">
-            Your Book Is on Its Way!
+            You&apos;re on the Waitlist!
           </h1>
           <p className="mt-4 text-lg text-slate-500">
-            Check your email for the download link to &ldquo;The Little Plumber
-            That Could<s>n&apos;t</s>&rdquo;.
+            We&apos;ll email you a free copy of &ldquo;The Little Plumber
+            That Could<s>n&apos;t</s>&rdquo; the moment it launches.
           </p>
         </div>
 
@@ -95,12 +95,12 @@ export default function ThankYouBookPage() {
         <div className="mt-8 rounded-xl bg-navy p-6 text-center sm:p-8">
           <Wrench className="mx-auto h-8 w-8 text-orange" />
           <h2 className="mt-4 text-xl font-bold text-white">
-            Ready to Put the Book Into Action?
+            Can&apos;t Wait? Let&apos;s Talk Now.
           </h2>
           <p className="mt-2 text-sm text-slate-300">
-            Book a free strategy session and we&apos;ll build you a custom plan
-            based on the principles in the book — tailored to your plumbing
-            business.
+            Book a free strategy session and we&apos;ll review your online
+            presence and build you a custom growth plan — tailored to your
+            plumbing business.
           </p>
           <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Button

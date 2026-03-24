@@ -20,7 +20,7 @@ const labelMap: Record<string, string> = {
   glossary: "Glossary",
   portfolio: "Portfolio",
   pricing: "Strategy Session",
-  "book-download": "Free Book",
+  "book-download": "Book Waitlist",
   privacy: "Privacy Policy",
   terms: "Terms of Service",
   lp: "Landing Pages",

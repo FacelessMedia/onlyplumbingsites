@@ -109,7 +109,7 @@ export default function ThankYouStrategyPage() {
             >
               <BookOpen className="mt-0.5 h-5 w-5 shrink-0 text-orange" />
               <div>
-                <p className="font-medium text-navy">Read Our Free Book</p>
+                <p className="font-medium text-navy">Join the Book Waitlist</p>
                 <p className="text-xs text-slate-500">
                   &ldquo;The Little Plumber That Could&rdquo; — marketing
                   insights for plumbing business owners.

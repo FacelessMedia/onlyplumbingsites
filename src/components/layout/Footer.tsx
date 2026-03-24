@@ -23,7 +23,7 @@ const footerLinks = {
     { label: "Partners", href: "/partners" },
   ],
   resources: [
-    { label: "Free Book Download", href: "/book-download" },
+    { label: "Book Waitlist", href: "/book-download" },
     { label: "All Free Tools", href: "/tools" },
     { label: "Marketing Glossary", href: "/glossary" },
     { label: "Guides", href: "/guides" },

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { X, BookOpen, Download } from "lucide-react";
+import { X, BookOpen, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ExitIntent() {
@@ -51,9 +51,9 @@ export default function ExitIntent() {
             Wait — Before You Go!
           </h3>
           <p className="mt-3 text-sm leading-relaxed text-slate-500">
-            Grab a free copy of <strong>&ldquo;The Little Plumber That Could&rdquo;</strong> — 
+            <strong>&ldquo;The Little Plumber That Could&rdquo;</strong> is almost ready — 
             the short, funny book that shows plumbing business owners exactly how
-            to get more calls from the internet.
+            to get more calls from the internet. Join the waitlist and get a free copy when it drops.
           </p>
           <div className="mt-6 space-y-3">
             <Button
@@ -61,8 +61,8 @@ export default function ExitIntent() {
               className="w-full bg-orange text-white hover:bg-orange-hover"
             >
               <Link href="/book-download">
-                <Download className="mr-2 h-4 w-4" />
-                Get the Free Book
+                <Bell className="mr-2 h-4 w-4" />
+                Join the Waitlist
               </Link>
             </Button>
             <button

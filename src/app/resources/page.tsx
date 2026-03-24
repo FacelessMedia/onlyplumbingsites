@@ -50,8 +50,8 @@ const sections = [
         icon: Phone,
       },
       {
-        title: "Free Book: The Little Plumber That Could",
-        description: "Marketing insights and strategies for plumbing business owners.",
+        title: "Book Waitlist: The Little Plumber That Could",
+        description: "Coming soon — join the waitlist and get a free copy when it launches.",
         href: "/book-download",
         icon: BookOpen,
       },

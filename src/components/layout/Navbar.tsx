@@ -16,7 +16,7 @@ const serviceLinks = [
 ];
 
 const resourceLinks = [
-  { label: "Free Book Download", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could" },
+  { label: "Book Waitlist", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could — Coming Soon" },
   { label: "All Free Tools", href: "/tools", icon: Globe, desc: "Keyword database, review links & more" },
 ];
 

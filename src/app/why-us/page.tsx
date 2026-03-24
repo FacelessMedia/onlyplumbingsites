@@ -321,33 +321,33 @@ export default function WhyUsPage() {
               <Shield className="h-10 w-10 text-orange" />
             </div>
             <h2 className="text-2xl font-bold text-navy sm:text-3xl">
-              Why Ryan Pietrzak Is Different
+              Why We&apos;re Different
             </h2>
           </div>
           <div className="mt-8 space-y-4 text-base leading-relaxed text-slate-600">
             <p>
-              I&apos;ve been in the plumbing trade since <strong>2009</strong>.
-              Licensed in Illinois since <strong>2014</strong>. I&apos;ve dispatched
+              We&apos;ve been in the plumbing trade since <strong>2009</strong>.
+              Ryan is licensed in Illinois since <strong>2014</strong>. We&apos;ve dispatched
               trucks, run service calls, dealt with after-hours emergencies, and
               built a plumbing business from the ground up.
             </p>
             <p>
-              When I started building websites for plumbers, the results were
-              immediate — because I understood the customer journey that no
-              agency could. I know why a homeowner with a slab leak searches
-              differently than someone who needs a faucet installed. I know that
+              When we started building websites for plumbers, the results were
+              immediate — because we understood the customer journey that no
+              agency could. We know why a homeowner with a slab leak searches
+              differently than someone who needs a faucet installed. We know that
               &ldquo;emergency plumber&rdquo; traffic converts 10x better than
               &ldquo;plumbing company.&rdquo;
             </p>
             <p>
-              <strong>250+ plumbing websites later</strong>, I can tell you that
+              <strong>250+ plumbing websites later</strong>, we can tell you that
               most plumbing marketing fails for one reason: the person building
               it has never been in the trade. They don&apos;t understand the
               urgency, the seasonality, or the trust signals that make a
               homeowner pick up the phone.
             </p>
             <p>
-              That&apos;s why I built Only Plumbing Sites. One niche. One focus.
+              That&apos;s why we built Only Plumbing Sites. One niche. One focus.
               Plumbing companies that want to grow.
             </p>
           </div>

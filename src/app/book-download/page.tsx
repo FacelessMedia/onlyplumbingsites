@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   BookOpen,
   CheckCircle,
@@ -9,7 +10,7 @@ import {
   Shield,
   Star,
   ArrowRight,
-  Download,
+  Mail,
   Lightbulb,
   TrendingUp,
   MessageCircle,
@@ -18,6 +19,7 @@ import {
   Zap,
   Target,
   BarChart3,
+  Bell,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -170,60 +172,37 @@ export default function BookDownloadPage() {
                   </div>
                 ))}
               </div>
-              <div className="mt-8">
+              <div className="mt-6 inline-flex items-center gap-2 rounded-lg border border-orange/30 bg-orange/10 px-4 py-2">
+                <Bell className="h-4 w-4 text-orange" />
+                <span className="text-sm font-semibold text-orange">Coming Soon — Join the Waitlist</span>
+              </div>
+              <div className="mt-4">
                 <Button
                   asChild
                   size="lg"
                   className="bg-orange text-base font-semibold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover"
                 >
                   <a href="#download">
-                    <Download className="mr-2 h-5 w-5" />
-                    Download Free Book
+                    <Mail className="mr-2 h-5 w-5" />
+                    Get Notified When It Drops
                   </a>
                 </Button>
               </div>
             </div>
 
-            {/* Right: Book Mockup */}
+            {/* Right: Book Cover Image */}
             <div className="flex justify-center">
               <div className="relative">
-                {/* Book cover mockup */}
-                <div className="relative w-72 rounded-lg bg-gradient-to-br from-slate-800 via-slate-900 to-navy shadow-2xl sm:w-80">
-                  {/* Spine effect */}
-                  <div className="absolute left-0 top-0 h-full w-3 rounded-l-lg bg-gradient-to-r from-slate-700 to-slate-800" />
-                  <div className="px-8 py-12 text-center">
-                    <div className="mb-4 inline-flex rounded-full bg-orange/20 px-3 py-1">
-                      <span className="text-xs font-bold uppercase tracking-wider text-orange">
-                        Free Book
-                      </span>
-                    </div>
-                    <p className="text-sm font-medium uppercase tracking-widest text-slate-400">
-                      The Little Plumber That
-                    </p>
-                    <div className="mt-2 relative inline-block">
-                      <span className="text-5xl font-extrabold text-white">
-                        Could
-                      </span>
-                      <span className="absolute -right-10 top-0 text-2xl font-bold text-slate-500 line-through decoration-orange decoration-2">
-                        n&apos;t
-                      </span>
-                    </div>
-                    <div className="mt-8 h-px bg-gradient-to-r from-transparent via-orange to-transparent" />
-                    <p className="mt-4 text-xs italic leading-relaxed text-slate-400">
-                      How Plumbers Who Take Action
-                      <br />
-                      Turn Can&apos;t Into Done
-                    </p>
-                    <div className="mt-8 h-px bg-gradient-to-r from-transparent via-slate-700 to-transparent" />
-                    <p className="mt-4 text-sm font-semibold text-slate-300">
-                      Ryan Pietrzak
-                    </p>
-                    <p className="text-xs text-slate-500">
-                      Licensed Plumber &middot; 250+ Websites Built
-                    </p>
-                  </div>
+                <div className="relative w-72 overflow-hidden rounded-lg shadow-2xl sm:w-80">
+                  <Image
+                    src="/book-cover.jpeg"
+                    alt="The Little Plumber That Couldn't — Free Book by Ryan Pietrzak"
+                    width={640}
+                    height={960}
+                    className="h-auto w-full"
+                    priority
+                  />
                 </div>
-                {/* Shadow/reflection */}
                 <div className="absolute -bottom-4 left-1/2 h-8 w-4/5 -translate-x-1/2 rounded-full bg-black/30 blur-xl" />
               </div>
             </div>
@@ -288,23 +267,22 @@ export default function BookDownloadPage() {
         </div>
       </section>
 
-      {/* Download Form */}
+      {/* Waitlist Form */}
       <section id="download" className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
           {submitted ? (
             <div className="rounded-2xl border border-green-200 bg-green-50 p-8 text-center sm:p-12">
               <CheckCircle className="mx-auto h-16 w-16 text-green-500" />
               <h2 className="mt-6 text-2xl font-bold text-navy">
-                Your Book Is On Its Way!
+                You&apos;re on the List!
               </h2>
               <p className="mt-4 text-slate-600">
-                Check your email — we&apos;re sending you a download link for
-                &ldquo;The Little Plumber That Could.&rdquo; If you don&apos;t see
-                it in a few minutes, check your spam folder.
+                We&apos;ll send you a free copy of &ldquo;The Little Plumber That
+                Could&rdquo; the moment it&apos;s ready. Keep an eye on your inbox.
               </p>
               <div className="mt-8 space-y-4">
                 <p className="text-sm font-medium text-navy">
-                  Want to fast-track your growth?
+                  While you wait — explore these free resources:
                 </p>
                 <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
                   <Button
@@ -328,13 +306,13 @@ export default function BookDownloadPage() {
           ) : (
             <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-lg sm:p-12">
               <div className="text-center">
-                <Download className="mx-auto h-10 w-10 text-orange" />
+                <Bell className="mx-auto h-10 w-10 text-orange" />
                 <h2 className="mt-4 text-2xl font-bold text-navy sm:text-3xl">
-                  Download Your Free Copy
+                  The Book Is Almost Ready
                 </h2>
                 <p className="mt-3 text-slate-500">
-                  Enter your info below and we&apos;ll send the book straight to
-                  your inbox.
+                  Join the waitlist and we&apos;ll email you a free copy the
+                  moment it launches. No spam, no catch.
                 </p>
               </div>
 
@@ -351,11 +329,10 @@ export default function BookDownloadPage() {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="lastName">Last Name *</Label>
+                    <Label htmlFor="lastName">Last Name</Label>
                     <Input
                       id="lastName"
                       name="lastName"
-                      required
                       placeholder="Smith"
                       className="mt-1"
                     />
@@ -402,11 +379,11 @@ export default function BookDownloadPage() {
                   className="w-full bg-orange text-base font-semibold text-white shadow-lg shadow-orange/25 hover:bg-orange-hover disabled:opacity-50"
                 >
                   {loading ? (
-                    "Sending..."
+                    "Joining..."
                   ) : (
                     <>
-                      <Download className="mr-2 h-5 w-5" />
-                      Send Me the Free Book
+                      <Mail className="mr-2 h-5 w-5" />
+                      Join the Waitlist — It&apos;s Free
                     </>
                   )}
                 </Button>

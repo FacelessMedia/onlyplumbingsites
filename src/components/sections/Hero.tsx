@@ -46,7 +46,7 @@ export default function Hero() {
               href="/book-download"
               className="group inline-flex items-center gap-1 text-sm font-medium text-slate-400 transition-colors hover:text-white"
             >
-              or download our free book
+              or join the book waitlist
               <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>

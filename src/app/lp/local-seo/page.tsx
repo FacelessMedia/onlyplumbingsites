@@ -133,7 +133,7 @@ export default function LocalSEOLandingPage() {
             </Button>
             <Button asChild size="lg" variant="outline" className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white">
               <Link href="/book-download">
-                Get Free Book
+                Join Book Waitlist
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

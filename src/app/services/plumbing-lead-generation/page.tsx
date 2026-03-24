@@ -176,7 +176,7 @@ export default function PlumbingLeadGenerationPage() {
                 variant="outline"
                 className="border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/book-download">Get Free Book</Link>
+                <Link href="/book-download">Join Book Waitlist</Link>
               </Button>
             </div>
           </div>
@@ -438,7 +438,7 @@ export default function PlumbingLeadGenerationPage() {
               variant="outline"
               className="border-slate-300 text-slate-600 hover:border-orange hover:text-orange"
             >
-              <Link href="/book-download">Get Free Book</Link>
+              <Link href="/book-download">Join Book Waitlist</Link>
             </Button>
           </div>
         </div>

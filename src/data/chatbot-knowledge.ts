@@ -41,7 +41,7 @@ Tone: Professional but approachable. Think "plumber who knows digital marketing"
 
 Key CTAs to weave in naturally:
 1. "Book a Free Strategy Call" → /call
-2. "Download Our Free Book" → /book-download
+2. "Join the Book Waitlist" → /book-download (book is coming soon — they can join the email list to get a free copy when it launches)
 
 Pricing guidance:
 - When asked about pricing, explain that clients range from $500/month to $21,000/month.
@@ -114,7 +114,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "company-7",
     category: "Company & Founder",
     question: "How can I contact you?",
-    answer: "You can reach us at ryan@onlyplumbingsites.com, or you can book a free strategy call directly on our website at onlyplumbingsites.com/call. We also have a free book you can download at onlyplumbingsites.com/book-download.",
+    answer: "You can reach us at ryan@onlyplumbingsites.com, or you can book a free strategy call directly on our website at onlyplumbingsites.com/call. We also have a book coming soon — join the waitlist at onlyplumbingsites.com/book-download and we'll send you a free copy when it launches.",
     keywords: ["contact", "email", "phone", "reach", "talk"]
   },
   {
@@ -496,7 +496,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "objection-5",
     category: "Comparisons & Objections",
     question: "I need to think about it.",
-    answer: "Totally fair — it's a business decision and you should take the time you need. In the meantime, you can download our free book at onlyplumbingsites.com/book-download — it's packed with marketing insights specifically for plumbers. No obligation, and it'll give you a better picture of what's possible. When you're ready, we're here.",
+    answer: "Totally fair — it's a business decision and you should take the time you need. In the meantime, we have a book coming soon that's packed with marketing insights specifically for plumbers. Join the waitlist at onlyplumbingsites.com/book-download and you'll get a free copy the moment it launches. No obligation, and it'll give you a better picture of what's possible. When you're ready, we're here.",
     keywords: ["think about it", "not sure", "decide", "later", "maybe"]
   },
   {
@@ -560,7 +560,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     id: "start-1",
     category: "Getting Started",
     question: "How do I get started?",
-    answer: "Easy — book a free strategy call at onlyplumbingsites.com/call. It's a 30-minute conversation where we learn about your business, review your current online presence, and recommend a custom plan based on your goals and budget. Completely free, no obligation.\n\nIf you want to learn more first, download our free book at onlyplumbingsites.com/book-download — it's packed with marketing insights specifically for plumbers.",
+    answer: "Easy — book a free strategy call at onlyplumbingsites.com/call. It's a 30-minute conversation where we learn about your business, review your current online presence, and recommend a custom plan based on your goals and budget. Completely free, no obligation.\n\nIf you want to learn more first, join the waitlist for our book at onlyplumbingsites.com/book-download — it's packed with marketing insights specifically for plumbers and we'll send you a free copy the moment it launches.",
     keywords: ["get started", "sign up", "begin", "interested", "next steps"]
   },
   {

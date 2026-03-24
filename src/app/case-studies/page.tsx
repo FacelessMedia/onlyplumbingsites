@@ -246,7 +246,7 @@ export default function CaseStudiesPage() {
               className="border-slate-300 text-slate-600 hover:bg-white"
             >
               <Link href="/book-download">
-                Get Free Book
+                Join Book Waitlist
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

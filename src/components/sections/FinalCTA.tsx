@@ -43,7 +43,7 @@ export default function FinalCTA() {
           >
             <Link href="/book-download">
               <BookOpen className="mr-2 h-5 w-5" />
-              Get Free Book
+              Join Book Waitlist
             </Link>
           </Button>
         </div>

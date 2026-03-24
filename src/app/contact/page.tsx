@@ -140,7 +140,7 @@ export default function ContactPage() {
                       href="/book-download"
                       className="text-sm text-orange hover:text-orange-hover"
                     >
-                      Download Free Book &rarr;
+                      Join Book Waitlist &rarr;
                     </a>
                   </li>
                   <li>

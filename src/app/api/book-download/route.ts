@@ -12,8 +12,8 @@ export async function POST(req: NextRequest) {
       email,
       phone: phone || undefined,
       companyName: businessName || undefined,
-      source: "Book Download - The Little Plumber That Could",
-      tags: ["book-download", "website-lead", "top-of-funnel"],
+      source: "Book Waitlist - The Little Plumber That Could",
+      tags: ["book-waitlist", "website-lead", "top-of-funnel"],
     });
 
     return NextResponse.json({ success: true });

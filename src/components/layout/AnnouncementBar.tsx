@@ -16,7 +16,7 @@ export default function AnnouncementBar() {
         className="inline-flex items-center gap-2 hover:underline"
       >
         <BookOpen className="h-4 w-4" />
-        Free plumbing marketing book — Download your copy now
+        Free plumbing marketing book — Coming soon. Join the waitlist
         <span className="hidden sm:inline">&rarr;</span>
       </Link>
       <button

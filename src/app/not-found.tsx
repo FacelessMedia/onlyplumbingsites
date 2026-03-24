@@ -41,7 +41,7 @@ export default function NotFound() {
         <div className="mt-12 grid gap-4 sm:grid-cols-3">
           {[
             { label: "Free Strategy Call", href: "/call", icon: Phone },
-            { label: "Free Book Download", href: "/book-download", icon: BookOpen },
+            { label: "Book Waitlist", href: "/book-download", icon: BookOpen },
             { label: "Free Tools", href: "/tools", icon: Wrench },
           ].map((item) => (
             <Link

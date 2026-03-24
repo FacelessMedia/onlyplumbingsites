@@ -28,42 +28,42 @@ const timeline = [
     year: "2009",
     title: "Started in the Plumbing Trade",
     description:
-      "Began working on job sites in Illinois. Learned the trade from the ground up — residential, commercial, new construction, service work. Understood the business from the truck seat.",
+      "Ryan and Alex both began working on job sites in Illinois. They learned the trade from the ground up — residential, commercial, new construction, service work. They understood the business from the truck seat.",
     icon: Wrench,
   },
   {
     year: "2009–2019",
     title: "The Side Hustle Years",
     description:
-      "Every chance I got — lunch breaks, commutes, whenever the foreman allowed earbuds — I was listening to marketing and business YouTube playlists. I soaked up everything I could about building things online. Tried Amazon FBA, custom t-shirts, coffee mugs, dropshipping, affiliate marketing — you name it, I probably tried it. Some worked, most didn't. But every failure taught me something about marketing, sales, and building online businesses.",
+      "Every chance Ryan got — lunch breaks, commutes, whenever the foreman allowed earbuds — he was listening to marketing and business YouTube playlists. He soaked up everything he could about building things online. Tried Amazon FBA, custom t-shirts, coffee mugs, dropshipping, affiliate marketing — you name it, he probably tried it. Some worked, most didn't. But every failure taught him something about marketing, sales, and building online businesses.",
     icon: Headphones,
   },
   {
     year: "2014",
     title: "Apprentice Plumbing License",
     description:
-      "Earned my Illinois apprentice plumbing license. By this point I'd been on job sites for five years and understood how plumbing businesses actually run — dispatch, seasonal demand, emergency calls, customer trust.",
+      "Ryan earned his Illinois apprentice plumbing license. By this point he'd been on job sites for five years and understood how plumbing businesses actually run — dispatch, seasonal demand, emergency calls, customer trust.",
     icon: Shield,
   },
   {
     year: "2019",
     title: "Official Plumbing License",
     description:
-      "Got my official Illinois plumbing license. A decade in the trade. But I'd also spent those years building a real understanding of digital marketing — and I finally realized something: I know plumbing AND I know websites. Why was I trying to sell random stuff online when I could combine both?",
+      "Ryan got his official Illinois plumbing license. A decade in the trade. But he'd also spent those years building a real understanding of digital marketing — and he finally realized something: he knows plumbing AND he knows websites. Why was he trying to sell random stuff online when he could combine both?",
     icon: Award,
   },
   {
     year: "2020",
     title: "The Power of Focus",
     description:
-      "After years of scattered side projects, I learned the most important business lesson: focus. I stopped trying to build websites for everyone about everything. I picked the one industry I knew inside and out — plumbing — and went all in. That decision changed everything.",
+      "After years of scattered side projects, Ryan learned the most important business lesson: focus. He stopped trying to build websites for everyone about everything. He picked the one industry he knew inside and out — plumbing — and went all in. That decision changed everything.",
     icon: Lightbulb,
   },
   {
     year: "2020",
     title: "Launched ThePlumbingDirectory.com",
     description:
-      "Created ThePlumbingDirectory.com to be the all-in-one resource for everything plumbing. Want to find a plumber? It's there. Supply houses, faucet reviews, product recommendations, how-to guides, plumbing influencers, marketing help — all in one place. No selling your info to 5 different companies. No getting bombarded with calls from plumbers racing to the bottom on pricing. Just a real directory built by someone who actually knows the industry.",
+      "Ryan created ThePlumbingDirectory.com to be the all-in-one resource for everything plumbing. Want to find a plumber? It's there. Supply houses, faucet reviews, product recommendations, how-to guides, plumbing influencers, marketing help — all in one place. No selling your info to 5 different companies. No getting bombarded with calls from plumbers racing to the bottom on pricing. Just a real directory built by someone who actually knows the industry.",
     icon: Globe,
   },
   {

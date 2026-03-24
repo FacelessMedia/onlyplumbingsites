@@ -207,7 +207,7 @@ export default function SEOForPlumbersPage() {
                 variant="outline"
                 className="border-slate-600 text-base text-navy hover:border-white hover:bg-transparent hover:text-white"
               >
-                <Link href="/audit">Get Free SEO Audit</Link>
+                <Link href="/book-download">Get Free Book</Link>
               </Button>
             </div>
           </div>
@@ -693,7 +693,7 @@ export default function SEOForPlumbersPage() {
               variant="outline"
               className="border-slate-300 text-slate-600 hover:border-orange hover:text-orange"
             >
-              <Link href="/audit">Get Free SEO Audit</Link>
+              <Link href="/book-download">Get Free Book</Link>
             </Button>
           </div>
         </div>

@@ -1,90 +1,23 @@
-export const pricingTiers = [
-  {
-    name: "Website Build",
-    slug: "website-build",
-    price: 2500,
-    priceLabel: "$2,500",
-    priceSuffix: "one-time",
-    description:
-      "Just need a site? We'll build one that actually converts plumbing calls.",
-    highlighted: false,
-    features: [
-      "Custom plumbing website",
-      "Mobile-first design",
-      "Emergency click-to-call CTAs",
-      "Service area pages (up to 10)",
-      "Schema markup & technical SEO",
-      "Basic GBP guidance doc",
-      "30-day post-launch support",
-    ],
-    cta: "Book a Call",
-    ctaHref: "/book",
-  },
-  {
-    name: "12-Month Growth",
-    slug: "12-month-growth",
-    price: 1000,
-    priceLabel: "$1,000",
-    priceSuffix: "/month × 12 months",
-    description:
-      "We build your site AND grow it for a full year. Best value for plumbing companies serious about growth.",
-    highlighted: true,
-    badge: "Most Popular",
-    features: [
-      "Everything in Website Build",
-      "Google Business Profile optimization",
-      "Monthly local SEO content (4 blog posts)",
-      "2 new service area pages/month",
-      "Review integration setup",
-      "Monthly performance reports",
-      "Ongoing technical SEO",
-      "Priority support",
-    ],
-    cta: "Book a Call",
-    ctaHref: "/book",
-  },
-  {
-    name: "SEO + Social",
-    slug: "seo-social",
-    price: 1500,
-    priceLabel: "$1,500",
-    priceSuffix: "/month",
-    description:
-      "We keep your business visible every single day with SEO content and daily social posts.",
-    highlighted: false,
-    features: [
-      "Daily Google Business Profile posts",
-      "Daily Facebook posts",
-      "Local SEO content creation",
-      "Review generation strategy",
-      "Monthly performance tracking",
-      "GBP optimization & management",
-    ],
-    cta: "Book a Call",
-    ctaHref: "/book",
-  },
-];
-
 export const pricingFaq = [
   {
-    question: "What if I just want a website?",
+    question: "How much does it cost?",
     answer:
-      "The one-time Website Build at $2,500 is perfect. You get a fully custom plumbing website with everything you need to start generating calls. If you want ongoing growth, you can always upgrade later.",
+      "Every plumbing business is different — your market, competition, goals, and current online presence all factor in. Our clients range from $500/month to $21,000/month. We don't do cookie-cutter packages because no two plumbers are alike. Book a free strategy call and we'll give you a custom recommendation based on where you are and where you want to go.",
   },
   {
-    question: "Why is the 12-month contract the best value?",
+    question: "Why don't you publish pricing on the website?",
     answer:
-      "A website alone won't rank. It's the ongoing SEO content, service area expansion, and optimization that drives calls month after month. The 12-month plan covers everything — site build plus a full year of growth work — for less than hiring an agency.",
-  },
-  {
-    question: "Can I cancel the 12-month plan?",
-    answer:
-      "After month 6, you can cancel with 60 days notice. We want you to stay because it's working — not because you're locked in. Most clients see strong results by month 3-4.",
+      "Because it wouldn't be honest. A one-truck shop in a small town needs a completely different strategy than a 20-truck fleet in a major metro. Publishing fixed pricing would either overprice the small guys or undersell the big ones. We price based on what's actually needed — and we're upfront about it on every call.",
   },
   {
     question: "What kind of ROI can I expect?",
     answer:
-      "Most plumbing jobs net $300-$500+. You need just 2-3 extra jobs per month to cover the investment — and our clients typically see 15-30+ additional calls per month once their site and SEO are dialed in.",
+      "Most plumbing jobs net $300–$500+, with bigger jobs like water heaters and repiping bringing in $1,000–$5,000+. Our clients typically see 15–30+ additional calls per month once their site and SEO are dialed in. The math almost always works in your favor — we'll walk through the numbers on your strategy call.",
+  },
+  {
+    question: "Do you require a long-term contract?",
+    answer:
+      "Contract terms depend on the scope of work and are discussed during your strategy call. We believe in earning your business every month — not locking you into something you're unhappy with. All terms are outlined clearly in your custom proposal before you sign anything.",
   },
   {
     question: "Do you work with plumbing companies outside Illinois?",

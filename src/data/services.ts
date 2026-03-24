@@ -83,18 +83,15 @@ export const addOns = [
     title: "Missed Call Text-Back",
     description: "Automatically text back missed calls so you never lose a lead.",
     icon: MessageSquare,
-    price: 100,
   },
   {
     title: "Review Automation",
     description: "Automatically request reviews after every job.",
     icon: Star,
-    price: 150,
   },
   {
     title: "AI Chat Assistant",
     description: "24/7 AI chatbot on your site to capture leads while you work.",
     icon: Bot,
-    price: 150,
   },
 ];

@@ -611,7 +611,7 @@ The average plumbing job generates $300–$500 in revenue. Some are more, some a
 - Referrals convert at a higher rate because they can verify you
 - Emergency searches find you at 2 AM
 - Service area pages rank you in multiple cities
-- **Cost: $1,000/month (our 12-month plan) or $2,500 one-time**
+- **Cost: Custom to your business — [book a free strategy call](/call) and we'll give you a clear number**
 
 The ROI isn't even close. You need **2–3 extra jobs per month** to cover the investment — and a properly built plumbing website generates 15–30+ calls per month once it's ranking.
 

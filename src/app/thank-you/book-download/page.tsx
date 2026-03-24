@@ -6,7 +6,7 @@ import {
   Phone,
   Share2,
   ArrowRight,
-  BarChart3,
+  Wrench,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -93,7 +93,7 @@ export default function ThankYouBookPage() {
 
         {/* Next step */}
         <div className="mt-8 rounded-xl bg-navy p-6 text-center sm:p-8">
-          <BarChart3 className="mx-auto h-8 w-8 text-orange" />
+          <Wrench className="mx-auto h-8 w-8 text-orange" />
           <h2 className="mt-4 text-xl font-bold text-white">
             Ready to Put the Book Into Action?
           </h2>
@@ -117,8 +117,8 @@ export default function ThankYouBookPage() {
               variant="outline"
               className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
             >
-              <Link href="/growth-report">
-                Get Free Growth Report
+              <Link href="/tools">
+                Explore Free Tools
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

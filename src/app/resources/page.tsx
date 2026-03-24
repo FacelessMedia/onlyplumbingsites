@@ -2,12 +2,11 @@ import { Metadata } from "next";
 import Link from "next/link";
 import {
   BookOpen,
-  BarChart3,
   Search,
   Star,
   FileText,
   ArrowRight,
-
+  Phone,
   BookMarked,
 } from "lucide-react";
 
@@ -42,25 +41,19 @@ const sections = [
     ],
   },
   {
-    title: "Lead Magnets",
+    title: "Free Offers",
     items: [
       {
-        title: "Free Growth Report",
-        description: "Custom 12-month growth projection for your plumbing business.",
-        href: "/growth-report",
-        icon: BarChart3,
+        title: "Free Strategy Call",
+        description: "I\u2019ll analyze your marketing, show you where you stand, and give you a custom plan to grow.",
+        href: "/call",
+        icon: Phone,
       },
       {
         title: "Free Book: The Little Plumber That Could",
         description: "Marketing insights and strategies for plumbing business owners.",
         href: "/book-download",
         icon: BookOpen,
-      },
-      {
-        title: "Free Website Audit",
-        description: "Get a professional review of your current plumbing website.",
-        href: "/audit",
-        icon: FileText,
       },
     ],
   },

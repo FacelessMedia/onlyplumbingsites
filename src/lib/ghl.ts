@@ -9,9 +9,15 @@
  */
 
 const GHL_BASE_URL =
-  process.env.GHL_BASE_URL || "https://services.leadconnectorhq.com";
-const GHL_API_KEY = process.env.GHL_API_KEY || "";
-const GHL_LOCATION_ID = process.env.GHL_LOCATION_ID || "";
+  (process.env.GHL_BASE_URL || "https://services.leadconnectorhq.com").trim();
+const GHL_API_KEY = (process.env.GHL_API_KEY || "").trim();
+const GHL_LOCATION_ID = (process.env.GHL_LOCATION_ID || "").trim();
+
+/** Quick check — logs a warning if credentials look missing. */
+function assertCredentials() {
+  if (!GHL_API_KEY) console.error("[GHL] ⚠️  GHL_API_KEY is empty — all API calls will fail.");
+  if (!GHL_LOCATION_ID) console.error("[GHL] ⚠️  GHL_LOCATION_ID is empty — all API calls will fail.");
+}
 
 /* ─── Low-level helpers ─── */
 
@@ -141,17 +147,33 @@ export interface CreateContactPayload {
 }
 
 /**
- * Create or update a contact via v2 API.
- * v2 deduplicates by email within the location.
- * Returns the full response including { contact: { id } }.
+ * Create or update a contact via v2 upsert endpoint.
+ * If a contact with the same email already exists in the location,
+ * it UPDATES that contact (merges tags, sets custom fields).
+ * If not, it creates a new one.
+ * Returns { contact: { id, ... }, new: boolean }.
  */
 export async function createOrUpdateContact(
   payload: Omit<CreateContactPayload, "locationId">
 ) {
-  return ghlPost("/contacts/", {
+  assertCredentials();
+  return ghlPost("/contacts/upsert", {
     locationId: GHL_LOCATION_ID,
     ...payload,
   });
+}
+
+/**
+ * Update an existing contact by ID.
+ * Use this when you already have the contactId and want to
+ * add/change fields without risking a duplicate.
+ */
+export async function updateContactById(
+  contactId: string,
+  payload: Partial<Omit<CreateContactPayload, "locationId">>
+) {
+  assertCredentials();
+  return ghlPut(`/contacts/${contactId}`, payload);
 }
 
 /**

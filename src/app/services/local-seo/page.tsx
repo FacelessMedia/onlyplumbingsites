@@ -473,7 +473,7 @@ export default function LocalSEOPage() {
               variant="outline"
               className="border-slate-300 text-slate-600 hover:border-orange hover:text-orange"
             >
-              <Link href="/audit">Get Free Local SEO Audit</Link>
+              <Link href="/book-download">Get Free Book</Link>
             </Button>
           </div>
         </div>

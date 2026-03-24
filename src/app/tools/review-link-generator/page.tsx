@@ -374,30 +374,6 @@ export default function ReviewLinkGeneratorPage() {
                   </p>
                 </form>
 
-                {/* Also show the link directly */}
-                <div className="mt-6 border-t border-orange/20 pt-5">
-                  <p className="text-xs font-medium text-slate-500 mb-2">Or copy it now:</p>
-                  <div className="flex items-center gap-2">
-                    <input
-                      type="text"
-                      readOnly
-                      value={reviewLink}
-                      className="flex-1 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-600"
-                    />
-                    <Button
-                      onClick={() => copyText(reviewLink, setCopiedReview)}
-                      variant="outline"
-                      className="shrink-0"
-                      size="sm"
-                    >
-                      {copiedReview ? (
-                        <><Check className="mr-1 h-4 w-4 text-green-500" /> Copied</>
-                      ) : (
-                        <><Copy className="mr-1 h-4 w-4" /> Copy</>
-                      )}
-                    </Button>
-                  </div>
-                </div>
               </div>
             )}
 
@@ -518,6 +494,9 @@ export default function ReviewLinkGeneratorPage() {
                 </li>
                 <li>
                   <strong>Never offer incentives</strong> — Google prohibits paying for reviews.
+                </li>
+                <li>
+                  <strong>Use NFC tap cards</strong> — program an NFC business card with your review link. Hand it to the customer after a job — they tap their phone, and Google review opens instantly. No typing, no searching.
                 </li>
               </ul>
             </div>

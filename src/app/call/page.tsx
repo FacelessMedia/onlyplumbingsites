@@ -185,6 +185,7 @@ export default function BookPage() {
   const [submitting, setSubmitting] = useState(false);
   const [outcome, setOutcome] = useState<"qualified" | "disqualified" | null>(null);
   const [contactId, setContactId] = useState<string | null>(null);
+  const [ghlError, setGhlError] = useState(false);
 
   function update(field: keyof FormData, value: string) {
     setData((prev) => ({ ...prev, [field]: value }));
@@ -204,10 +205,14 @@ export default function BookPage() {
 
   async function handleSubmit() {
     setSubmitting(true);
+    setGhlError(false);
 
     const qualified = isQualified(data);
 
-    // Push to GHL and capture contactId
+    // Push ALL form data to GHL via the book-qualify API.
+    // This upserts a contact with all custom fields BEFORE the
+    // calendar loads, so the calendar booking merges into the
+    // same contact (linked by contactId).
     try {
       const res = await fetch("/api/book-qualify", {
         method: "POST",
@@ -215,11 +220,18 @@ export default function BookPage() {
         body: JSON.stringify({ ...data, qualified }),
       });
       const json = await res.json();
+      console.log("[call] book-qualify response:", json);
+
       if (json.contactId) {
         setContactId(json.contactId);
+      } else {
+        // API returned but without a contactId — GHL likely failed
+        console.warn("[call] No contactId returned — calendar will create a new contact");
+        setGhlError(true);
       }
-    } catch {
-      // Don't block the user if GHL fails
+    } catch (err) {
+      console.error("[call] book-qualify fetch failed:", err);
+      setGhlError(true);
     }
 
     setSubmitting(false);
@@ -451,12 +463,37 @@ export default function BookPage() {
                       Ryan will research your market, competitors, and website before your call.
                     </p>
                   </div>
+                  {ghlError && (
+                    <div className="mb-4 rounded-lg border border-amber-200 bg-amber-50 p-3 text-center text-xs text-amber-700">
+                      Your info was saved locally. If there was a sync issue, Ryan will match your details when you book below.
+                    </div>
+                  )}
                   <div className="rounded-xl border border-slate-200 bg-white shadow-lg overflow-hidden">
                     <iframe
                       src={(() => {
+                        // Format phone to E.164 for GHL calendar pre-fill
                         const digits = data.phone.replace(/\D/g, "");
-                        const ph = digits.length === 10 ? `+1${digits}` : digits.length === 11 && digits.startsWith("1") ? `+${digits}` : data.phone;
-                        return `https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?first_name=${encodeURIComponent(data.firstName)}&last_name=${encodeURIComponent(data.lastName)}&email=${encodeURIComponent(data.email)}&phone=${encodeURIComponent(ph)}&company=${encodeURIComponent(data.companyName)}${contactId ? `&contact_id=${encodeURIComponent(contactId)}` : ""}`;
+                        const ph = digits.length === 10
+                          ? `+1${digits}`
+                          : digits.length === 11 && digits.startsWith("1")
+                            ? `+${digits}`
+                            : data.phone;
+
+                        // Build calendar URL with all pre-filled fields.
+                        // contact_id is the critical link — it tells the calendar
+                        // widget to UPDATE this existing contact instead of
+                        // creating a new one, preserving all custom fields.
+                        const params = new URLSearchParams({
+                          first_name: data.firstName,
+                          last_name: data.lastName,
+                          email: data.email,
+                          phone: ph,
+                          company: data.companyName,
+                        });
+                        if (contactId) {
+                          params.set("contact_id", contactId);
+                        }
+                        return `https://api.leadconnectorhq.com/widget/booking/W1dbJlvrGJ63xPRg9pZV?${params.toString()}`;
                       })()}
                       style={{ width: "100%", height: "1100px", border: "none" }}
                       title="Book a Free Strategy Session"

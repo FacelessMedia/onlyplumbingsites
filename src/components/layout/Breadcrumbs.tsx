@@ -21,8 +21,6 @@ const labelMap: Record<string, string> = {
   portfolio: "Portfolio",
   pricing: "Strategy Session",
   "book-download": "Free Book",
-  "growth-report": "Growth Report",
-  audit: "Free Audit",
   privacy: "Privacy Policy",
   terms: "Terms of Service",
   lp: "Landing Pages",

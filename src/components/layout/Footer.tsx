@@ -24,11 +24,10 @@ const footerLinks = {
   ],
   resources: [
     { label: "Free Book Download", href: "/book-download" },
-    { label: "Free Growth Report", href: "/growth-report" },
-    { label: "Free Website Audit", href: "/audit" },
-    { label: "Book Strategy Session", href: "/call" },
-    { label: "Marketing Glossary", href: "/glossary" },
     { label: "All Free Tools", href: "/tools" },
+    { label: "Marketing Glossary", href: "/glossary" },
+    { label: "Guides", href: "/guides" },
+    { label: "Blog", href: "/blog" },
     { label: "Referral Program", href: "/referral" },
   ],
   legal: [
@@ -44,13 +43,13 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block">
+            <Link href="/" className="inline-block rounded-lg bg-white px-3 py-1.5">
               <Image
                 src="/logo.jpeg"
                 alt="Only Plumbing Sites"
                 width={160}
                 height={42}
-                className="h-9 w-auto brightness-0 invert"
+                className="h-8 w-auto"
               />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">

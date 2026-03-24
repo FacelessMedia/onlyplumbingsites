@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Phone, ChevronDown, BookOpen, BarChart3, FileSearch, Globe } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, BookOpen, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const serviceLinks = [
@@ -17,10 +17,7 @@ const serviceLinks = [
 
 const resourceLinks = [
   { label: "Free Book Download", href: "/book-download", icon: BookOpen, desc: "The Little Plumber That Could" },
-  { label: "Free Growth Report", href: "/growth-report", icon: BarChart3, desc: "Your 12-month growth projection" },
-  { label: "Free Website Audit", href: "/audit", icon: FileSearch, desc: "See where your site stands" },
-
-  { label: "All Free Tools", href: "/tools", icon: Globe, desc: "ROI calculator, keywords & more" },
+  { label: "All Free Tools", href: "/tools", icon: Globe, desc: "Keyword database, review links & more" },
 ];
 
 const navLinks = [
@@ -143,9 +140,6 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden items-center gap-3 md:flex">
-          <Link href="/audit" className="text-sm font-medium text-slate-500 transition-colors hover:text-orange">
-            Free Audit
-          </Link>
           <Button asChild className="bg-orange text-white hover:bg-orange-hover">
             <Link href="/call">
               <Phone className="mr-2 h-4 w-4" />

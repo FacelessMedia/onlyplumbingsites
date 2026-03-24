@@ -317,8 +317,8 @@ export default function BookDownloadPage() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline">
-                    <Link href="/growth-report">
-                      Get Your Growth Report
+                    <Link href="/tools">
+                      Explore Free Tools
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>

@@ -195,8 +195,8 @@ export default function SEOLandingPage() {
               variant="outline"
               className="border-slate-600 text-navy hover:border-white hover:bg-transparent hover:text-white"
             >
-              <Link href="/growth-report">
-                Get Free Growth Report
+              <Link href="/book-download">
+                Get Free Book
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

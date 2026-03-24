@@ -43,10 +43,10 @@ export default function Hero() {
               </Link>
             </Button>
             <Link
-              href="/audit"
+              href="/book-download"
               className="group inline-flex items-center gap-1 text-sm font-medium text-slate-400 transition-colors hover:text-white"
             >
-              or get a free website audit
+              or download our free book
               <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
             </Link>
           </div>

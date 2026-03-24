@@ -245,8 +245,8 @@ export default function CaseStudiesPage() {
               variant="outline"
               className="border-slate-300 text-slate-600 hover:bg-white"
             >
-              <Link href="/growth-report">
-                Get Your Growth Report
+              <Link href="/book-download">
+                Get Free Book
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

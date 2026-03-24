@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, ArrowRight, Search, BookOpen } from "lucide-react";
+import { Phone, Search, BookOpen, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
@@ -40,9 +40,9 @@ export default function NotFound() {
 
         <div className="mt-12 grid gap-4 sm:grid-cols-3">
           {[
-            { label: "Free Growth Report", href: "/growth-report", icon: ArrowRight },
+            { label: "Free Strategy Call", href: "/call", icon: Phone },
             { label: "Free Book Download", href: "/book-download", icon: BookOpen },
-            { label: "Free Website Audit", href: "/audit", icon: Search },
+            { label: "Free Tools", href: "/tools", icon: Wrench },
           ].map((item) => (
             <Link
               key={item.href}

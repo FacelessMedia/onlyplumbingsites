@@ -137,18 +137,18 @@ export default function ContactPage() {
                   </li>
                   <li>
                     <a
-                      href="/audit"
+                      href="/book-download"
                       className="text-sm text-orange hover:text-orange-hover"
                     >
-                      Request a Free Website Audit &rarr;
+                      Download Free Book &rarr;
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/call"
+                      href="/tools"
                       className="text-sm text-orange hover:text-orange-hover"
                     >
-                      Book a Free Strategy Call &rarr;
+                      Free Marketing Tools &rarr;
                     </a>
                   </li>
                 </ul>

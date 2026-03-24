@@ -113,7 +113,7 @@ export default function RootLayout({
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "sales",
-                url: "https://onlyplumbingsites.com/book",
+                url: "https://onlyplumbingsites.com/call",
               },
             }),
           }}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, BarChart3, ArrowRight } from "lucide-react";
+import { Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ContentUpgrade() {
@@ -9,28 +9,18 @@ export default function ContentUpgrade() {
         Want a Custom Plan for Your Plumbing Business?
       </h3>
       <p className="mt-2 text-sm leading-relaxed text-slate-600">
-        Stop guessing. Get a free growth report that shows your current
-        rankings, competitor gaps, and a 12-month projection of what your
-        marketing could generate.
+        Stop guessing. Book a free strategy call and I&apos;ll analyze your
+        current marketing, show you where the opportunities are, and give
+        you a custom plan to grow — no strings attached.
       </p>
       <div className="mt-5 flex flex-col gap-3 sm:flex-row">
         <Button
           asChild
           className="bg-orange text-white hover:bg-orange-hover"
         >
-          <Link href="/growth-report">
-            <BarChart3 className="mr-2 h-4 w-4" />
-            Get Free Growth Report
-          </Link>
-        </Button>
-        <Button
-          asChild
-          variant="outline"
-          className="border-orange/30 text-orange hover:bg-orange hover:text-white"
-        >
           <Link href="/call">
             <Phone className="mr-2 h-4 w-4" />
-            Book Strategy Session
+            Book Free Strategy Call
             <ArrowRight className="ml-1 h-3 w-3" />
           </Link>
         </Button>

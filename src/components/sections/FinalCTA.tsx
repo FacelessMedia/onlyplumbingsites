@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, FileSearch } from "lucide-react";
+import { Phone, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function FinalCTA() {
@@ -41,9 +41,9 @@ export default function FinalCTA() {
             variant="outline"
             className="w-full border-slate-600 text-base font-semibold text-navy hover:border-white hover:bg-transparent hover:text-white sm:w-auto"
           >
-            <Link href="/audit">
-              <FileSearch className="mr-2 h-5 w-5" />
-              Get Free Audit
+            <Link href="/book-download">
+              <BookOpen className="mr-2 h-5 w-5" />
+              Get Free Book
             </Link>
           </Button>
         </div>

@@ -154,16 +154,19 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="relative h-80 w-56 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
-                <div className="flex h-full flex-col items-center justify-center p-6 text-center">
-                  <Shield className="h-12 w-12 text-orange" />
-                  <p className="mt-4 text-lg font-bold text-navy">
+                <Image
+                  src="/alex-koch.jpg"
+                  alt="Alex Koch — Licensed Plumber & Co-Founder of Only Plumbing Sites"
+                  fill
+                  className="object-cover object-top"
+                  sizes="224px"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-4 pt-10">
+                  <p className="text-sm font-bold text-white">
                     Alex Koch
                   </p>
-                  <p className="text-sm text-slate-500">
+                  <p className="text-xs text-slate-300">
                     Licensed Plumber
-                  </p>
-                  <p className="mt-2 text-xs text-slate-400">
-                    Photo coming soon
                   </p>
                 </div>
               </div>
